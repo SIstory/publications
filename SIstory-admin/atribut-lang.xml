@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item xmlns="http://www.tei-c.org/ns/1.0"><term>xml:lang</term><list type="gloss">
+        <label>Uporaba</label>
+        <item><list>
+                <item>V primeru, da so razmerja podana v poljubni opisni obliki, z različnimi
+                    črkami, številkami ali znaki, je obvezno potrebno izbrati jezik tega
+                    metapodatkovnega zapisa.</item>
+                <item>Če se navede identifikacijko oznako (npr. signaturo, URN, ID, ne velja pa za
+                    URI, ki se ga navede pri spodnjem atributu), se jezik označi kot "brez jezikovne
+                    vsebine".</item>
+            </list></item>
+    </list></item>

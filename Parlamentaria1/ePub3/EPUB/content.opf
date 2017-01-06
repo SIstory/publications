@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0" xml:lang="sl" unique-identifier="ISBN">
+   <metadata>
+      <dc:identifier id="ISBN">ISBN 978-961-6386-49-4 (ePub)</dc:identifier>
+      <dc:identifier id="sistory-uri">http://www.sistory.si/SISTORY:ID:26950</dc:identifier>
+      <dc:title id="title1">Slovenski parlament</dc:title>
+      <meta refines="#title1" property="title-type">main</meta>
+      <meta refines="#title1" property="display-seq">1</meta>
+      <dc:title id="title2">Politično-zgodovinski pregled od začetka prvega do konca šestega mandata (1992 –
+         2014)
+      </dc:title>
+      <meta refines="#title2" property="title-type">subtitle</meta>
+      <meta refines="#title2" property="display-seq">2</meta>
+      <dc:title id="title3">Slovenski parlament : Politično-zgodovinski pregled od začetka prvega do konca šestega
+         mandata (1992 –
+         2014)
+      </dc:title>
+      <meta refines="#title3" property="title-type">extended</meta>
+      <dc:language id="pub-language">slv</dc:language>
+      <dc:creator id="avtor1">Jure Gašparič</dc:creator>
+      <meta refines="#avtor1" property="role" scheme="marc:relators" id="role">aut</meta>
+      <dc:contributor>Mojca Šorn</dc:contributor>
+      <dc:contributor>Andrej Pančur</dc:contributor>
+      <dc:contributor>Zdenko Čepič</dc:contributor>
+      <dc:contributor>Božo Repe</dc:contributor>
+      <dc:contributor>Andrej Pančur</dc:contributor>
+      <dc:date>2014-01-01</dc:date>
+      <meta property="dcterms:modified">2014-07-15T10:26:42.847+02:00</meta>
+   </metadata>
+</package>

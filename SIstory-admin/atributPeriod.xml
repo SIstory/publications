@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item xmlns="http://www.tei-c.org/ns/1.0"><term>Period</term><list type="gloss">
+        <label>Definicija</label>
+        <item>Časovno obdobje.</item>
+        <label>Izvorni atribut</label>
+        <item><ref target="http://dublincore.org/documents/dcmi-terms/#terms-Period"
+                >dcterms:Period</ref></item>
+        <label>Originalna definicija</label>
+        <item>"The set of time intervals defined by their limits according to the DCMI Period
+            Encoding Scheme."</item>
+        <label>Uporaba</label>
+        <item>
+            <list>
+                <item>Časovno obdobje se vpisuje v štiri opcijske elemente:<list>
+                        <item>Start: začetek časovnega obdobja </item>
+                        <item>End: konec časovnega obdobja </item>
+                        <item>Name: ime časovnega obdobja </item>
+                        <item>Schema: naziv kontroliranega vokabularja za časovna obdobja </item>
+                    </list></item>
+                <item>Dodatna <ref target="http://dublincore.org/documents/dcmi-period/"
+                        >navodila</ref> za kodiranje.</item>
+            </list>
+        </item>
+        <label>Primeri</label>
+        <item>
+            <list>
+                <item>Primer zapisa za prvo svetovno vojno:<list>
+                        <label>Start</label>
+                        <item>1914-07-28</item>
+                        <label>End</label>
+                        <item>1918-11-11</item>
+                        <label>Name</label>
+                        <item>Prva svetovna vojna</item>
+                        <label>Schema</label>
+                        <item> </item>
+                    </list></item>
+                <item>Priporočljivo je uporabljati LLLL-MM-DD zapis datuma. Lahko pa se datum zapiše
+                    tudi na drugačne načine kot npr.:<list>
+                        <label>Start</label>
+                        <item>28. julij 1914</item>
+                        <label>End</label>
+                        <item>11. november 1918</item>
+                        <label>Name</label>
+                        <item>Prva svetovna vojna</item>
+                        <label>Schema</label>
+                        <item/>
+                    </list></item>
+                <item>Če ne vemo točnega datuma oziroma letnice, uporabimo samo elementa Start ali
+                    End. Če npr. vemo, da je bilo delo ustvarjeno pred letom 1914, zapišemo:<list>
+                        <label>Start</label>
+                        <item/>
+                        <label>End</label>
+                        <item>1914</item>
+                        <label>Name</label>
+                        <item/>
+                        <label>Schema</label>
+                        <item/>
+                    </list></item>
+            </list>
+        </item>
+    </list></item>

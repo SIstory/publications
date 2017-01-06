@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ojs-86">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" level="a">The 5<hi rend="superscript">th</hi> conference of European
+                    Information and Research Network on Parliamentary History: <hi rend="italic">Parlamentarismuskritik und Antiparlamentarismus in Europa</hi>, Berlin,
+                        7<hi rend="superscript">th</hi>–8<hi rend="superscript">th</hi> May
+                    2015</title>
+            <author>
+               <name>
+                  <forename>Jurij</forename>
+                  <surname>Perovšek</surname>
+               </name>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2015-10-07</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/96</pubPlace>
+            <date>2015</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+            <idno type="PID">sistory.36122</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">55</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2015-10-26</date>
+               <name>Andrej Pančur</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+        <text xml:lang="en" type="article" n="Reviews and Reports">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>The 5<hi rend="superscript">th</hi> conference of European
+                        Information and Research Network on Parliamentary History: <hi rend="italic">Parlamentarismuskritik und Antiparlamentarismus in Europa</hi>, Berlin,
+                            7<hi rend="superscript">th</hi>–8<hi rend="superscript">th</hi> May
+                        2015</titlePart>
+            </docTitle>
+            <docAuthor>Jurij Perovšek</docAuthor>
+         </titlePage>
+         <divGen type="search" xml:id="ojs-86-search">
+              <head>Search</head>
+         </divGen>
+      </front>
+      <body>
+         <div type="chapter" xml:id="ojs-86-article">
+            <head xml:id="ojs-86-head-1">The 5<hi rend="superscript">th</hi> conference of European Information and
+                    Research Network on Parliamentary History: <hi rend="italic">Parlamentarismuskritik und Antiparlamentarismus in Europa</hi>, Berlin,
+                        7<hi rend="superscript">th</hi>–8<hi rend="superscript">th</hi> May
+                    2015</head>
+            <docAuthor xml:id="ojs-86-docAuthor-2">Jurij Perovšek</docAuthor>
+            <p xml:id="ojs-86-p-6">Although important historical ideas can be implemented in a number of different
+                    ways, each is accompanied by criticism. The challenges may have a number of
+                    structural starting points; however, their goal is always the same: to provoke
+                    distrust in the new values or to materially impede the life force of the idea
+                    and the social and political practices based on it. One of the fundamental
+                    European historical developments – rule by elected representatives – proves this
+                    in a number of ways. The topic, which remains relevant even today, has been the
+                    subject of the 5<hi rend="superscript">th</hi> conference of the European
+                    Information and Research Network on Parliamentary History hosted on 7<hi rend="superscript">th</hi> and 8<hi rend="superscript">th</hi> May 2015 in
+                    Berlin. The conference, titled <hi rend="italic">Criticism of Parliamentarism
+                        and Anti-parliamentarism in Europe</hi>, was organized by the Commission of
+                    Parliamentary History and History of Parliamentarian Parties operating under the
+                    German Bundestag. The conference was held at the Representation of Land
+                    Rheinland-Pfalz.</p>
+            <p xml:id="ojs-86-p-7">The discussion was divided into three general topics. The objective of the first
+                    topic – <hi rend="italic">Arguments and Pictures</hi> – was to analyse
+                    discrepancies between an ideal parliament and the actual parliamentary practice.
+                    As pointed out by Marie-Luise Recker (Frankfurt am Main), Chairwoman of the
+                    Council of the Commission of Parliamentary History and History of
+                    Parliamentarian Parties, in her introductory speech to the conference, these
+                    discrepancies are best demonstrated by the endurance and harmonious nature of
+                    the anti-parliamentary discourse in Europe. This was the subject of the main
+                    reflection on the conference (Criticism of Parliamentarism &amp;
+                    Anti-parliamentarism in Europe) given by Jean Garrigues (Orléans) prior to the
+                    opening of the first topic. Anti-parliamentarism began with the French
+                    Revolution and developed as theocratic opposition to democracy and the
+                    republican idea, by refuting the legitimacy of parliamentary representation,
+                    building public distrust of the new social and political elites, and was
+                    expressed as distrust and disregard for elections and their results by the
+                    press, caricature, and various pamphlets. Garrigues focused on French examples,
+                    presenting the Bonapartist, Pétainist and Gaulliest regimes as well as the
+                    Boulangist and Poujadist movements that turned their backs on the parliamentary
+                    system. Their actions questioned the principle of representation, which the
+                    European anti-parliamentarists saw as an imperfect institutional practice of
+                    democracy: they believed the parliamentarism as a form of popular sovereignty
+                    merely substituted the lost Sovereign. This was also the interpretation of the
+                    anti-parliamentary attitudes of the critics of the French revolutionary National
+                    Assembly presented in the first paper of the <hi rend="italic">Arguments and
+                        Pictures</hi> general topic, authored by Paul Friedland (New York) (The
+                    Assembly that Pretends to be National. Anti-Theatricality and
+                    Anti-Parliamentarism in Revolutionary France). Friedland stressed that the
+                    Assembly was seen as a group of political players imagining they were something
+                    that they actually were not.</p>
+            <p xml:id="ojs-86-p-8">The issue of anti-parliamentarism in France was also tackled by Nicolas
+                    Roussellier (Paris) (The impact of a repertoire anti-parliamentarian attitudes
+                    in the French Republican experience). Roussellier pointed out that the
+                    anti-parliamentarian attitudes in France are as old as the French republican
+                    experience. In the Second Republic, from 1848 to 1851, such attitudes were
+                    expressed both by right- and left-wing political groups. Anti-parliamentarism
+                    has been present in the Third Republic from its beginning as well. Despite its
+                    legislative successes (voting to institute the national education system in the
+                    1880s, secularization in the early 20<hi rend="superscript">th</hi> century, and
+                    social insurance in the 1920s), the parliament was target of frequent criticism.
+                    The objections were twofold. On the one hand, they stemmed from the general
+                    anti-parliamentary repertoire of the early 19<hi rend="superscript">th</hi>
+                    century, and on the other hand they developed – in a more subtle but much more
+                    damaging way – within the framework of the existing administration ("a public
+                    servant who dedicates his life to the country is worth more than a politician").
+                    The encounter of both anti-parliamentary stances in the 1930s resulted in the
+                    collapse of French republicanism at the time.</p>
+            <p xml:id="ojs-86-p-9">Within the <hi rend="italic">Arguments and Pictures</hi> topic, Adéla Gjuríčova
+                    (Prague) presented the issue of anti-parliamentarism in Eastern Europe. Her
+                    presentation (Anti-politics and anti-parliamentarism. Václav Havel and the
+                    Czechoslovak parliament in the 1990s) enriched the conference with an overview
+                    of the political dynamics in Eastern Europe following the historical changes
+                    that occurred in the late 1980s and early 90s. In the Czechoslovak socialist
+                    period, Havel based his political stance on the so-called anti-political
+                    politics, i.e. the expression of political views in a non-political manner. For
+                    the dissident movements of the eastern Central Europe, the latter was essential
+                    for social activism as well as for individual spiritual survival in the systems
+                    of political restrictions. However, the "anti-political" efforts to change the
+                    regime were marked by a conspicuous lack of the parliamentary idea. This lack
+                    was also characteristic of Havel's presidency in the post-Communist
+                    Czechoslovakia. Havel systematically criticized the parliament for being too
+                    slow and hesitant, and for mostly upholding the interests of individual
+                    political parties instead of the will of the people. Havel's
+                    anti-parliamentarism was reflected in his mobilization of the public against the
+                    federal parliament and by his attempts to pressure the representatives on how to
+                    vote on various issues. Furthermore, he worked systematically to increase the
+                    presidential powers at the expense of the parliament's. The author pointed out
+                    that Havel's contemporaries, as well as researchers investigating his political
+                    career, tended to overlook the mentioned characteristics of his presidency.</p>
+            <p xml:id="ojs-86-p-10">The presentation of the driving forces, self-perception and forms of
+                    anti-parliamentarism in Europe was followed by the discussion of the sphere of
+                    its manifestation. Within the <hi rend="italic">Media and Arenas</hi> general
+                    topic, the subject was discussed by Theo Jung (Freiburg), Thomas Lindenberger
+                    (Potsdam) and Barbara Wolbring (Frankfurt am Main). Theo Jung (Parliament as a
+                    stage of criticism. Vox populi, vox bovis – Anti-Parliamentarism in the
+                    Reichtag) shed some light on the anti-parliamentary nature of the Reichstag of
+                    the German Empire. Jung's presentation was tied to the current shift in the
+                    research of the Reichstag's role in the German political system at the time.
+                    While research used to focus on the constitutional aspects of its operation,
+                    today's studies are mostly concerned with the aspects associated with cultural
+                    history. These studies are concerned both with the public perception of the
+                    Reichstag and the extent to which the representatives have crossed party
+                    boundaries to develop an <hi rend="italic">esprit de corps</hi> that would allow
+                    them to cooperate with other political institutions.</p>
+            <p xml:id="ojs-86-p-11">Jung was interested in the extent to which the extraparliamentary criticism of
+                    parliamentarism had penetrated the Reichstag itself. Such criticism presented a
+                    paradox, as many representatives – social democrats, conservatives and national
+                    minority delegates – doubted the Reichstag's legitimacy. They expressed their
+                    doubts by demanding <hi rend="italic">true</hi> parliamentarism, i.e. an
+                    improved version of it (with rules of procedure, and a system of warnings and
+                    punishments). Other than that, the representatives expressed unreserved support
+                    for parliamentarism. The anti-parliamentarism, widespread among the political
+                    public and politicians themselves, was overlooked in the parliament. The
+                    representatives in the Reichstag followed the parliament's internal logic and
+                    self-perception that underestimated the extent of the "anti-parliamentarism"
+                    targeted at the proverbial "weakness" of the German Reichstag.</p>
+            <p xml:id="ojs-86-p-12">The antipode of parliamentary discourse – the politics of the street – was
+                    addressed by Thomas Lindenberger. In his presentation (The street as an arena of
+                    politics in the long 20<hi rend="superscript">th</hi> centrury), Linderberger
+                    pointed out that the street or public spaces have been used for political
+                    purposes since the French Revolution. The street is a mass medium supported by
+                    its own physical presence, which enables people to demonstrate their political
+                    goals and identities. However, the street is also the place where conflicts
+                    unfold between different groups regarding their acknowledgement by the society
+                    and their collaboration with the public – the conflicts that may have political
+                    and cultural consequences based on their adherence to law and order. The concept
+                    of "street politics" connects various dimensions of everything political
+                    expressed on and by the street, with the street thus becoming a separate
+                    political arena alongside the parliament, the government, the press, etc. In
+                    Germany, modern street protests began in the late empire, and Linderberger
+                    outlined their diverse development until the German re-unification.</p>
+            <p xml:id="ojs-86-p-13">Barbara Wolbring spoke about the space of extraparliamentary discourse between
+                    the street and the building of the parliament. Her critical discussion (The mass
+                    media as stage and tribunal. Parliament in the “media democracy”) describes
+                    today's Bundestag as follows: Empty benches in the plenary chamber.
+                    Prefabricated and predictable atatements by both the opposition and the
+                    governing parties instead of controversy and struggle for optimal solutions. It
+                    has become widely popular to say that in parliaments like the German Bundestag
+                    political decisions nowadays are merely announced. Whereas discussion and
+                    decision-making takes place behind closed doors in committees, parliamentary
+                    group meetings or informal consultations.</p>
+            <p xml:id="ojs-86-p-14">Barbara Wolbring determined that the political debate that had vanished from the
+                    parliament moved to TV talk shows. We are living in the age of media democracy
+                    and mass media, which had, by refusing to exclude the public, become the place
+                    of political action. Since 1998, when Sabina Christiansen created the
+                    Sonntagabend show, politicians, journalists, representatives of various
+                    interests, and scientists have been discussing public matters in a number of
+                    talk shows; however, it is uncertain what this means for the parliamentary
+                    culture and for the recognition of representative democracy. We can understand
+                    the spatial transition of the parliamentary debate and its duration as a
+                    categorical political shift, i.e. the adaptation of politics to popular tastes,
+                    which only accept TV-ready political slogans rather than reasoned arguments
+                    appropriate to the complexity of the political subjects they address.</p>
+            <p xml:id="ojs-86-p-15">The third topic – <hi rend="italic">Actors and Practicians of
+                        Anti-Parliamentarism</hi> – focused on the manifestation of
+                    anti-parliamentary attitudes. The first paper on this issue (The Non-Voter.
+                    Rethinking the Category) was presented by James Retallack (Toronto). He pointed
+                    out that the findings on the non-voter category in relevant literature are not
+                    static as they are the result of the variable development of intellectual and
+                    political environments. New possibilities of action in the civil society offered
+                    by technology and the mass culture – e.g. online voting, spontaneous mass
+                    protests organized through Twitter – have forced researchers to take into
+                    account the largest possible set of institutions as well as individual and
+                    psychological reasons associated with the "performance of the individual's duty"
+                    of voting. Citizens' activity is present behind political curtains, in
+                    legislative bodies, study halls, in media and in the streets.</p>
+            <p xml:id="ojs-86-p-16">Faced with the remarkable variation and inconsistency of interpretations trying
+                    to explain where and why non-voters can be found, James Retallack focused on the
+                    historical example of German non-voters from 1867 to 1918. He stressed that the
+                    category of non-voters must be evaluated in a new, broad perspective, based on
+                    historical documents, not on political theories or moral imperatives, and not
+                    even necessarily on international comparisons. Retallack's evaluation was not
+                    concerned with non-voters who voluntarily practise their "democratic abstention"
+                    (like a responsible drinker who takes a turn to avoid the pub), but rather with
+                    the exclusion practised by the authoritarian state. In Germany, the latter used
+                    voter censuses and indirect elections to limit the electoral weight of millions
+                    of citizens. The metaphor of "democratic abstention" is thus turned on its head.
+                    After 1900, mass politics and its implications spurred the desire of the common
+                    people to gain a voice in the society through full participation in the
+                    elections. However, the "cup of democracy" was in other hands. It was held by
+                    anti-Semites who strived for indirect elections in the name of the blocked
+                    middle class, as well as reactionaries who claimed that the social democrats
+                    would suffer a defeat should all bourgeois voters actually go to the polling
+                    stations. As the defeated right termed the "red" election of 1912 as
+                    "Judenwahlen", this delusion took a sinister turn. The "national habit" of
+                    voting representatives into the Reichstag thus did not mean that the Germans
+                    actually practised democracy – at least not in a manner that would prepare them
+                    for the opportunity represented by the Weimar Republic.</p>
+            <p xml:id="ojs-86-p-17">Political caricature may be seen as another tool for expressing
+                    anti-parliamentarist attitudes. It was studied by Andreas Biefang (Berlin),
+                    whose paper ("Kiss my rump". An indecent imagery as a means of criticism of
+                    parliament?) dealt with the motif of the – sometimes naked – backside as the
+                    depiction of the politician's main characteristic. The motif of the backside is
+                    deeply rooted in the European history. It was first used in Great Britain in the
+                        18t<hi rend="superscript">h</hi> century and was taken up by the French and
+                    the Germans by the 1830s to express critical attitude towards the parliament. In
+                    contrast to the theoretical critique of parliamentarism, political caricature
+                    stems from the ideological opposition to it.</p>
+            <p xml:id="ojs-86-p-18">Obstructionism often goes side by side with anti-parliamentarism. It was
+                    addressed by Benjamin Conrad (Mainz). In his presentation (Opposition by
+                    obstruction. The strategies of fundamental oppositional parliamentarian of
+                    national minority in Eastern Europe during the interwar period), Conrad analysed
+                    the conduct of the national minority representatives in Eastern-European
+                    countries that were established or expanded after the First World War – Latvia,
+                    Poland and Czechoslovakia. Conrad focused on the representatives who defied the
+                    country of the majority. Their parliamentary strategies and methods often
+                    opposed parliamentarism and included boycotting the parliamentary procedure and
+                    interrupting sessions with songs or speeches in their language, especially if
+                    only the language of the national majority was permitted in the parliament. With
+                    regard to obstructionist practices, Conrad pointed out the behaviour of
+                    nationally diverse parties that were opposed to the political system of rival
+                    parties (Communist Party of Czechoslovakia) and of representatives belonging to
+                    the national majority that were opposed to the system as well.</p>
+            <p xml:id="ojs-86-p-19">Pasi Ihalainen (Jyväskylä) focused on an international comparison of
+                    anti-parliamentary attitudes. In his paper (Royalists, republicans,
+                    revolutionaries. Criticism of parliamentarism in Swedish and Finnish debates and
+                    practices in comparison with Britain, Germany and Russia, 1917–1919), Ihalainen
+                    examined the constitutional unrest that gripped Finland and Sweden after the
+                    Russian revolution, in 1917–1919. In both countries, left- and right-wing
+                    political camps of the time were critical of their parliamentary systems in
+                    comparison with the Western (British and French) systems as well as with German
+                    and Bolshevik anti-parliamentarism. Leading Finnish and Swedish parliamentary
+                    representatives openly opposed (unlimited) parliamentarism, and some even
+                    renounced parliamentary principles altogether (or were alleged to have done so
+                    by their political rivals). In Finland, both leftist and rightist critics of
+                    parliamentarism based their attitudes on the obvious discrepancy between the
+                    expectations and the reality of parliamentarism following the radical
+                    parliamentary reform of 1906 that was supposed to establish the "most democratic
+                    popular representation in the world"). In Sweden, left-wing critique was
+                    prompted by the shortcomings of the existing parliamentary system that the right
+                    wanted to preserve.</p>
+            <p xml:id="ojs-86-p-20">Both the Finnish and the Swedish left were influenced by the German leftist
+                    interpretation of parliamentarism. In 1917–1919, various levels of critique and
+                    rejection of the "bourgeois" parliamentarism existed among Finnish social
+                    democrats, ranging from the willingness to break parliamentary rules in the
+                    parliament wherein they had the majority, through challenging the legitimacy of
+                    the parliament with a bourgeois majority, to an armed uprising inspired by the
+                    Russian revolutionary anti-parliamentary practice. The Finnish civil war of 1918
+                    that reflected the concepts of the German left was accompanied by a consistently
+                    pro-parliamentary attitude of the Swedish social-democratic workers' party.
+                    After 1918, the "Western" or "bourgeois" parliamentarism was rejected in both
+                    countries only by the extreme left.</p>
+            <p xml:id="ojs-86-p-21">The Finnish and Swedish right with their royalist and anti-parliamentary
+                    sentiments, the admiration of the "constitutional monarchy" and their criticism
+                    of the weakness of the "Western" parliamentarism did not differ much from the
+                    Prussian right. However, they respected the parliament and, unlike the German
+                    right, did not threaten to resist the existing order. Some Finnish right-wing
+                    supporters were already defending parliamentarism by 1917, while their Swedish
+                    colleagues began accepting the parliamentary reality in 1919. Both countries'
+                    governments were parliamentary, although they implemented limitations
+                    reminiscent of the Weimar Constitution. Their adjustment to parliamentarism was
+                    successful thanks to a long-standing common tradition of popular representation
+                    that also included the peasantry. In Sweden, parliamentarism was most
+                    consistently supported by the liberals, while the main Finnish political force
+                    defending parliamentarism from left- and right-wing extremes was the agrarian
+                    centre.</p>
+            <p xml:id="ojs-86-p-22">Ihalainen's paper wrapped up the discussion of the conference's topics. The
+                    conference itself was concluded by Andreas Schulz, Secretary-General of the
+                    Commission of Parliamentary History and History of Parliamentarian Parties. In
+                    his concluding speech (Balance and Perspectives), Schulz summarized its
+                    findings, stating that the critiques of parliamentarism and anti-parliamentarism
+                    constitute a discussion complex that is intertwined with parliamentary practice.
+                    The arguments presented by the critics of parliamentarism remain more or less
+                    unchanged and are compatible with extremely diverse political tendencies. Since
+                    the line between the critique of parliamentarism and parliamentary practice is
+                    blurred, the presenters at the conference treated the main factors and arguments
+                    of anti-parliamentarism in a common context.</p>
+            <p xml:id="ojs-86-p-23"> Schulz pointed out that European critique of parliamentarism was generally
+                    affirmative in its intentions. Critics demanded "true" democracy and were rarely
+                    destructive, a fact also true of the practice of the obstructionist parties. On
+                    the other hand, even extremist factions and parties protected against criminal
+                    sanctions by virtue of being in the parliament were exposed to the integrational
+                    absorption of parliamentarism, despite their radical critique of the system and
+                    their anti-democratic rhetoric.</p>
+            <p xml:id="ojs-86-p-24">The same is true for the streets as a place for expressing the critique of
+                    parliamentarism, although activism by the masses actually eliminates the
+                    principle of representation. As pointed out by Schulz, the public space is
+                    rarely the scene of a <hi rend="italic">civil war</hi> and usually functions as
+                    a symbol and an arena for the manifestation of the democratic public, as in
+                    1989. In their protests against the government and parliament, the democratic
+                    elements of the street also agitate for the implementation of the "true" will of
+                    the people. Their credibility and influence is determined by their ability to
+                    draw crowds that represent the significance of the manifested democratic
+                    demands. In this sense, democracy of the street and parliamentarism are
+                    interacting with each other.</p>
+            <p xml:id="ojs-86-p-25">According to Schulz, the conference posited abstention from voting as the "normal
+                    example" and "normal" critique of parliamentarism. However, we should take note
+                    of his emphasis that the category of non-voters, a flexible class posited by the
+                    democratic interpretation of politics, has parliamentary potential nonetheless.
+                    That is, the democratic legitimacy of the elected parliament is <hi rend="italic">by definition</hi> dependent on the voter turnout. We should
+                    thus differentiate between temporary "democratic abstention", i.e. the
+                    disinterest for fundamental political issues, and the principled refusal of
+                    voting as a silent anti-parliamentary protest.</p>
+            <p xml:id="ojs-86-p-26">Schulz then discussed anti-parliamentary attitudes of the executive branch of the
+                    government and tied it to the institutional reservations manifested at the
+                    executive level in an ideological assessment of the social importance of
+                    political parties. Their importance is lessened by authoritarian constitutional
+                    revisions or periods of a state of emergency. In the recent populist atmosphere,
+                    the anti-parliamentary interventions of the executive branch and the critique of
+                    parliamentarism and political parties share a common political frequency if they
+                    had been imbued by the authority of the eliminated constitutional institution.
+                    There is no <hi rend="italic">pouvoir neutre</hi> in this case, as the fake
+                    authoritarian power holder and his presidential diction do not represent it,
+                    even if they act in place of the "lost sovereign" in agreement with the general
+                    critical attitude towards parliamentarism. The opinions of the executive branch
+                    of the government regarding the institutional arrangement certainly represent a
+                    challenge for the parliamentary system.</p>
+            <p xml:id="ojs-86-p-27">Nowadays, political activities typical for the parliament have shifted to the
+                    arena of the visual media. Because representatives and their voters rarely
+                    communicate directly, the interpretation of parliamentarism was taken over by
+                    the media. According to Shulz, professional players in the media have
+                    established new rules of political conduct, which have, in the markedly focused
+                    environment of the media public, dramatically increased the pressure on the
+                    elected representatives of the people to communicate well and in a credible
+                    manner. An impression is forming of an extraparliamentary democracy, in which
+                    the "voice of the people" is represented by the media players, politicians and
+                    the virtual public. The illusion of a media-based popular representation is
+                    gradually taking place of the actual parliamentary sovereign.</p>
+            <p xml:id="ojs-86-p-28">Schulz concluded his closing speech for the conference by noting that the history
+                    of anti-parliamentarism in Europe is a complementary part of the history of
+                    European parliamentarism. For Europe, as had been previously pointed out by
+                    Marie-Luise Recker, has developed within the broad and unified context of
+                    anti-parliamentary criticism ever since the introduction of parliamentarism
+                    itself. The conference was an explicit display of the interconnectedness and
+                    complexity of the creative democratic social process, the dialectic of its
+                    rejection, and of the triumphant will to ensure individual and societal freedom
+                    that persists in spite of all obstacles placed in front of it by history. This
+                    desire can exist in various ideological and political forms, but the realization
+                    of the philosophical <hi rend="italic">good</hi> has always cut short the reign
+                    of <hi rend="italic">evil</hi>. In this regard, we would have perhaps wished for
+                    a more pointed warning against the (anti)parliamentary attitudes of the
+                    totalitarian systems of today; however, the main point of the conference was
+                    explicit enough. This message was also expanded upon by Norbert Lammert,
+                    President of the German Bundestag, who was a guest at the end of the first day
+                    of the conference. With the eloquence of a master of social sciences and an
+                    experienced politician, Lammert spoke about German and European politics and
+                    answered a number of questions. It was a pleasure to listen to the deeply
+                    confident parliamentarian and his entertaining comments. Let us conclude with
+                    one of them, which Lammert used to answer a question regarding non-voters and
+                    the general level of interest in politics: "ADAC (Allgemeiner Deutscher
+                    Automobil-Club – General German Automobile-Club, comment J. P.) has more members
+                    than all of the German political parties."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

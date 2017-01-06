@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:lang="en" xml:id="ojs-pnz-2015-3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="sl" level="j">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en" level="j">Contributions to the Contemporary History</title>
+                <title xml:lang="fr" level="j">Contributions a l'histoire contemporaine</title>
+                <title xml:lang="de" level="j">Beiträge zur Zeitgeschichte</title>
+                <respStmt>
+                    <resp>Uredniški odbor/Editorial board</resp>
+                    <name>dr. Jure Gašparič (glavni urednik/editor-in-chief)</name>
+                    <name>dr. Zdenko Čepič</name>
+                    <name>dr. Filip Čuček</name>
+                    <name>dr. Damijan Guštin</name>
+                    <name>dr. Ľuboš Kačírek</name>
+                    <name>dr. Martin Moll</name>
+                    <name>dr. Andrej Pančur</name>
+                    <name>dr. Zdenko Radelić</name>
+                    <name>dr. Andreas Schulz</name>
+                    <name>dr. Mojca Šorn</name>
+                    <name>dr. Marko Zajc</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Lektura/Proofreading</resp>
+                    <name>Bojana Samarin</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Prevodi/Translations</resp>
+                    <name>Borut Praper - angleščina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Bibliografska obdelava/Bibliographic data processing</resp>
+                    <name>Igor Zemljič</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Sofinancer/Financially supported by</resp>
+                    <name>Javna agencija za raziskovalno dejavnost Republike Slovenije/ Slovenian
+                        Research Agency</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Electronic edition 1.0</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Inštitut za novejšo zgodovino/Institute of Contemporary
+                        History</name>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                        <addrLine>
+                            <ref target="tel:tel.+386012003120">tel. (386) 01 200 31 20</ref>
+                        </addrLine>
+                        <addrLine>
+                            <ref target="fax:+386012003160">fax. (386) 01 200 31 60</ref>
+                        </addrLine>
+                    </address>
+                    <email>jure.gasparic@inz.si</email>
+                </publisher>
+                <availability>
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                    <p>This work is licensed under a <ref
+                            target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
+                            Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+                            License</ref>
+                    </p>
+                </availability>
+                <pubPlace>Ljubljana</pubPlace>
+                <idno type="PID">sistory.36113</idno>
+                <idno type="ISSN">
+                    <idno type="print">ISBN 0353-0329 (Tiskana izd.)</idno>
+                    <idno type="www">ISBN 2463-7807 (Spletna izd.)</idno>
+                </idno>
+                <idno type="volume">LV</idno>
+                <idno type="issue">3</idno>
+                <date>2015</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>Prispevki za novejšo zgodovino so indeksirani v/are indexed in: Historical
+                    Abstract; ERIH - European Reference Index for the Humanities</note>
+                <note>Za znanstveno korektnost člankov odgovarjajo avtorji/ The publisher assumes no
+                    responsibility for statements made by authors</note>
+                <note>Številka vpisa v razvid medijev: 720</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <xi:include href="PNZ-ojs-133.xml"/>
+    <xi:include href="PNZ-ojs-129.xml"/>
+    <xi:include href="PNZ-ojs-125.xml"/>
+    <xi:include href="PNZ-ojs-123.xml"/>
+    <xi:include href="PNZ-ojs-130.xml"/>
+    <xi:include href="PNZ-ojs-120.xml"/>
+    <xi:include href="PNZ-ojs-131.xml"/>
+    <xi:include href="PNZ-ojs-132.xml"/>
+    <xi:include href="PNZ-ojs-86.xml"/>
+    <xi:include href="PNZ-ojs-118.xml"/>
+</teiCorpus>

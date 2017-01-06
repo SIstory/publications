@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ojs-120">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Changing Dynamics of Democratic Parliamentary Arena in
+                    Slovenia</title>
+                <title level="a">Voters, Parties, Elections</title>
+                <author>
+                    <name>
+                        <forename>Simona</forename>
+                        <surname>Kustec</surname>
+                        <surname>Lipicer</surname>
+                    </name>
+                    <roleName>Associate Professor and researcher</roleName>
+                    <roleName>PhD</roleName>
+                    <affiliation>Faculty of Social sciences, University of Ljubljana</affiliation>
+                    <address>
+                        <addrLine>Kardeljeva pl. 5</addrLine>
+                        <addrLine>1000 Ljubljana</addrLine>
+                        <addrLine>Slovenia</addrLine>
+                    </address>
+                    <email>simona.kustec-lipicer@fdv.uni-lj.si</email>
+                </author>
+                <author>
+                    <name>
+                        <forename>Andrija</forename>
+                        <surname>Henjak</surname>
+                    </name>
+                    <roleName>Assistant Professor</roleName>
+                    <roleName>PhD</roleName>
+                    <affiliation>Faculty of Political Sciences</affiliation>
+                    <affiliation>University of Zagreb</affiliation>
+                    <address>
+                        <addrLine>Lepušićeva ul. 6</addrLine>
+                        <addrLine>10000 Zagreb</addrLine>
+                        <addrLine>Croatia</addrLine>
+                    </address>
+                    <email>ahenjak@fpzg.hr</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-12-08</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/120</pubPlace>
+                <date>2015</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+                <idno type="PID">sistory.36119</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">55</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>parliament</term>
+                    <term>political parties</term>
+                    <term>democracy</term>
+                    <term>Republic of Slovenia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>parlament</term>
+                    <term>politične stranke</term>
+                    <term>demokracija</term>
+                    <term>Republika Slovenija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2015-12-09</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="en" type="article" n="Articles">
+        <front>
+            <titlePage>
+                <docAuthor>Simona Kustec Lipicer</docAuthor>
+                <docAuthor>Andrija Henjak</docAuthor>
+                <docTitle>
+                    <titlePart>Changing Dynamics of Democratic Parliamentary Arena in
+                        Slovenia</titlePart>
+                    <titlePart>Voters, Parties, Elections</titlePart>
+                </docTitle>
+                <docImprint>
+                    <idno type="cobissType">1.01</idno>
+                    <idno type="UDC">328:340.134(497.4)"1991/2014"</idno>
+                </docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="ojs-120-toc">
+                <head>Table of Contents</head>
+            </divGen>
+            <divGen type="toc" xml:id="ojs-120-images">
+                <head>List of Images</head>
+            </divGen>
+            <divGen type="toc" xml:id="ojs-120-tables">
+                <head>List of Tables</head>
+            </divGen>
+            <divGen type="search" xml:id="ojs-120-search">
+                <head>Search</head>
+            </divGen>
+            <div type="abstract" xml:lang="sl" xml:id="ojs-120-izvlecek">
+                <head xml:id="ojs-120-head-1">Izvleček</head>
+                <head rend="subtitle" xml:id="ojs-120-head-2">Spreminjajoča se dinamika slovenske
+                    demokratične parlamentarne arene: Volivci, stranke, volitve</head>
+                <p xml:id="ojs-120-p-6">Glavni namen članka je podati deskritptivni analitični
+                    pregled in ocene dosedanjega razvoja slovenske parlamentarne arene od prehoda v
+                    demokracijo do današnjih dni. Članek je razdeljen na dva dela: (1) pregled
+                    normativnih podlag parlamentarnega in strankarskega delovanja, in (2) analitične
+                    ocene strukture parlamentarne arene, kot jo odražajo volilne ter strankarske
+                    izbire in politične ponudbe. Vpogled v sodobno demokratično parlamentarno areno
+                    v Sloveniji kaže, da je ta dokaj stabilna, a da ob naraščajočem nezaupanju in
+                    spreminjajoči se volilni podpori politične stranke kot sestavni deli
+                    parlamentarne arene posebej v drugem desetletju demokracije postajajo manj
+                    stabilne, njihovo delovanje pa tudi manj predvidljivo, kar ima posledično lahko
+                    vpliv tudi na prihodnjo stabilnost same parlamentarne arene.</p>
+                <p xml:id="ojs-120-p-7">Ključne besede: parlament, politične stranke, demokracija,
+                    Republika Slovenija</p>
+            </div>
+            <div type="abstract" xml:id="ojs-120-abstract">
+                <head xml:id="ojs-120-head-3">Abstract</head>
+                <p xml:id="ojs-120-p-8">The main goal of this paper is to provide a descriptive
+                    analytical overview of the existing evolution of the Slovenian parliamentary
+                    arena since its transition to democracy and independence. The paper is divided
+                    into two main parts: (1) an overview of a normative insight into the
+                    parliamentary and party system, and (2) an analytical assessment of the
+                    structure of the parliamentary arena as it is reflected in electoral and
+                    parties’ choices and policy preferences. A look at the contemporary democratic
+                    parliamentary arena in Slovenia shows that it, in itself, has been quite stable,
+                    while, on the contrary, its main integral parts – political parties – have
+                    gradually become less stable and less predictable, especially in the second
+                    decade of democracy, which can potentially influence the future stability of
+                    parliamentary arena, too.</p>
+                <p xml:id="ojs-120-p-9">Keywords: parliament, political parties, democracy, Republic
+                    of Slovenia</p>
+            </div>
+        </front>
+        <body>
+            <div type="chapter" xml:id="ojs-120-article">
+                <head xml:id="ojs-120-head-4">Changing Dynamics of Democratic Parliamentary Arena in
+                    Slovenia</head>
+                <head rend="subtitle" xml:id="ojs-120-head-5">Voters, Parties, Elections</head>
+                <docAuthor xml:id="ojs-120-docAuthor-3">Simona Kustec Lipicer<note place="foot"
+                        xml:id="ojs-120-ftn1" n="*">Associate Professor and researcher, PhD, Faculty
+                        of Social sciences, University of Ljubljana, Kardeljeva pl. 5, 1000
+                        Ljubljana, Slovenia, <ref
+                            target="mailto:simona.kustec-lipicer@fdv.uni-lj.si"
+                            >simona.kustec-lipicer@fdv.uni-lj.si</ref>
+                    </note>
+                </docAuthor>
+                <docAuthor xml:id="ojs-120-docAuthor-4">Andrija Henjak<note place="foot"
+                        xml:id="ojs-120-ftn2" n="**">Assistant Professor, PhD, Faculty of Political
+                        Sciences, University of Zagreb, Lepušićeva ul. 6, 10000 Zagreb, Croatia,
+                            <ref target="mailto:ahenjak@fpzg.hr">ahenjak@fpzg.hr</ref>
+                    </note>
+                </docAuthor>
+                <div type="subchapter" xml:id="ojs-120-articel-sub01">
+                    <head xml:id="ojs-120-head-6">Main Characteristics of the Slovenian Party
+                        System</head>
+                    <p xml:id="ojs-120-p-10">Slovenia is a country without a long tradition of
+                        statehood. It has had its current borders since 1945, when it was
+                        constituted as a federal republic of the socialist Yugoslavia. Slovenia
+                        became independent at the same time as it transformed into a democracy: with
+                        the collapse of communism and disintegration of Yugoslavia in 1991. As the
+                        most developed of Yugoslav republics – with the most advanced economy,
+                        already well integrated in the West European markets, and ethnically the
+                        most homogenous of the former Yugoslav federal republics – the Slovenian
+                        transition to democracy was both smooth and quick. The process was only
+                        interrupted by a brief but intense war at the end of June 1991, resulting
+                        from the intervention of the federal army, which tried to prevent the
+                        inevitable process of the Yugoslav breakup.<note place="foot"
+                            xml:id="ojs-120-ftn3" n="1">Niko Toš and Vlado Miheljak, "Transition in
+                            Slovenia: Towards Democratization and the Attainment of Sovereignty," in
+                                <hi rend="italic">Slovenia Between continuity and change
+                                1990–1997</hi>, ed. Niko Toš and Vlado Miheljak (Berlin: Sigma,
+                            2002).</note> Like in other post-socialist countries, political parties
+                        in Slovenia played a crucial role as proponents of change in the transition
+                        process from the former communist regime, which has been labelled as
+                            transplaced<note place="foot" xml:id="ojs-120-ftn4" n="2">Samuel P.
+                            Huntington, <hi rend="italic">The Third Wave: Democratization in the
+                                late twentieth century</hi> (London: Univeristy of Oklahoma Press,
+                            1991).</note> or ruptforma<note place="foot" xml:id="ojs-120-ftn5" n="3"
+                            >Juan Linz, "The Breakdown of Democratic Regimes: Crisis," in <hi
+                                rend="italic">Breakdown and Reequilibration,</hi> ed. Juan Linz and
+                            Alfred Stepan (Baltimore: John Hopkins University Press, 1978).</note>
+                        form of transition. The Slovenian transition was characterised by the
+                        cooperation and bargaining between the emerging civil society and new social
+                        movements, newly emerging opposition political parties, and existing
+                        political elites.<note place="foot" xml:id="ojs-120-ftn6" n="4">Danica
+                            Fink-Hafner, "Between continuity and change," in <hi rend="italic"
+                                >Slovenia Between Continuity and Change 1990–1997</hi>, ed. Niko Toš
+                            and Vlado Miheljak (Berlin: Sigma, 2002).</note> As assessed by
+                            Fink-Hafner,<note place="foot" xml:id="ojs-120-ftn7" n="5"> Ibid.,
+                            43.</note> political parties became the agents of the formation of the
+                        Slovenian state,<note place="foot" xml:id="ojs-120-ftn8" n="6">Janko Prunk,
+                            "Politično življenje v samostojni Sloveniji," in <hi rend="italic"
+                                >Dvajset let slovenske države</hi>, ed. Janko Prunk and Tomaž
+                            Deželan (Maribor: Aristej; Ljubljana: Fakulteta za družbene vede, Center
+                            za politološke raziskave, Ljubljana 2012), 17–57.</note> but they were
+                        also shaped by this process. Some new parties emerged from the
+                        transformation of the League of Communists of Slovenia (in 1993 renamed as
+                        the United List of Social Democrats, and in 2005 as Social Democrats); the
+                        League of Socialist Youth (later the Liberal Democracy of Slovenia); the
+                        Socialist League of the Working People (later renamed as the Socialist
+                        Alliance); and the Social Democratic League (later renamed as the Social
+                        Democratic Party of Slovenia). Simultaneously the opposition to the old
+                        regime, emerging from the society, first called the Alliance of
+                        Intellectuals and later renamed as the Slovenian Democratic Alliance/Union,
+                        was established at the end of the 1980s. Since then it has served as a base
+                        for the foundation of a number of political parties. It included social
+                        groups with specific issues at heart, such as religious groups (Slovenian
+                        Christian Democrats; Christian Socialists), peasants (the Slovenian Peasant
+                        Party - People’s Party, later renamed as the Slovenian People’s Party),
+                        pensioners (the Democratic Party of Pensioners), regional parties (e.g. the
+                        Alliance of Haloze, Alliance for Primorska, Party of Slovenian Štajerska),
+                        and ethnic interests (e.g. the Alliance of Roma, Communita Italiana).
+                        Certain other contemporary issue‑oriented social movements of that period,
+                        such as the Greens of Slovenia, also evolved into parties.</p>
+                    <p xml:id="ojs-120-p-11">Out of these parties, the Democratic Opposition of
+                        Slovenia, also known as the DEMOS coalition, was created through an
+                        agreement between the <ref
+                            target="http://en.wikipedia.org/wiki/Slovenian_Democratic_Union"
+                            >Slovenian Democratic Union</ref>, the <ref
+                            target="http://en.wikipedia.org/wiki/Slovenian_Democratic_Party">Social
+                            Democrat Alliance of Slovenia</ref>, the <ref
+                            target="http://en.wikipedia.org/wiki/Slovene_Christian_Democrats"
+                            >Slovene Christian Democrats</ref>, the <ref
+                            target="http://en.wikipedia.org/wiki/Slovenian_People%27s_Party">Peasant
+                            Alliance</ref> and the <ref
+                            target="http://en.wikipedia.org/wiki/Greens_of_Slovenia">Greens of
+                            Slovenia</ref>. In 1992 the Slovenian Democratic Union split into two
+                        parties: the social-liberal wing became the <ref
+                            target="http://en.wikipedia.org/wiki/Democratic_Party_(Slovenia)"
+                            >Democratic Party</ref>, and the <ref
+                            target="http://en.wikipedia.org/wiki/Conservatism">conservative</ref>
+                        faction established the <ref
+                            target="http://en.wikipedia.org/wiki/National_Democratic_Party_(Slovenia)"
+                            >National Democratic Party</ref>. A third group, dissatisfied with both
+                        options, joined the Social Democratic Party (SDSS, later simplified to SDS),
+                        which suffered a clear defeat at the 1992 elections, barely securing its
+                        entry in the <ref
+                            target="http://en.wikipedia.org/wiki/Slovenian_National_Assembly"
+                            >Parliament</ref>. Nevertheless, it formed a coalition with the winning
+                            <ref target="http://en.wikipedia.org/wiki/Liberal_Democracy_of_Slovenia"
+                            >Liberal Democracy of Slovenia</ref> and even became a member of the
+                        governing coalition. Later it became the dominant party of the right of
+                        center under the name of Slovenian Democratic Party.</p>
+                    <p xml:id="ojs-120-p-12">Only those socio-political organisations from the old
+                        regime that successfully transformed themselves, as well as new formations
+                        which managed to establish clear political identities and organisations,
+                        were able to survive the transition processes and constitute the new
+                        democratic party system. The successful parties generally managed to create
+                        a widespread organisation in the field, while at the same time maintaining a
+                        strong central party organisation and a high degree of party unity – all of
+                        this despite the lack of politically experienced members and with only
+                        limited financial resources. All other parties, including those with strong
+                        international support, vanished from the public life almost overnight.<note
+                            place="foot" xml:id="ojs-120-ftn9" n="7">Fink-Hafner, "Between
+                            continuity and change," 48.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-13">In its first two decades, the party system of Slovenia
+                        was characterised by the relative openness, allowing for a relatively easy
+                        entry of new parties. However, at the same time it exhibited a high degree
+                        of party stability, with parties creating stable organisations, membership
+                        bases and political identities. At the level of interparty competition, the
+                        party system was initially characterised by the dominance of Liberal
+                        Democracy of Slovenia (LDS). This was followed by the increasing bipolarity,
+                        with one end dominated initially by the LDS and then a succession of three
+                        other, often new parties; while the other end has become increasingly
+                        dominated by the Slovenian Democratic Party (SDS).<note place="foot"
+                            xml:id="ojs-120-ftn10" n="8">For more information about the
+                            characteristics of the Slovenian political parties since 1990 see Danica
+                            Fink-Hafner, "Strankarski sistem v Sloveniji: Od prikrite k
+                            transparentni bipolarnosti," in <hi rend="italic">Političke stranke i
+                                birači u državama bivše Jugoslavije,</hi> ed. Zoran Lutovac
+                            (Beograd: Friderich Ebert Stiftung, 2006), 363–384. Danica Fink-Hafner,
+                            "Slovenia: Between Bipolarity and Broad Coalition-Building," in <hi
+                                rend="italic">Post-Communist EU Member States: Parties and Party
+                                Systems,</hi> ed. Susanne Jungerstam-Mulders (Aldershot, Burlington:
+                            Ashgate, 2006), 203–231.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-14">Despite the relative openness of the Slovenian party
+                        system, only a small number of new parties entered the Slovenian Parliament
+                        in the first two decades. This trend started to change at the 2008
+                        parliamentary elections, with the rapid decline of the LDS, strengthening of
+                        the SD as the temporary strongest party on the left, and the entry of a new
+                        party splintering from the LDS into the Parliament (Zares). At the 2011 and
+                        2014 elections the instability of party systems reached new heights, with
+                        the once dominant LDS almost completely disappearing from the scene, being
+                        supplanted on the broad left first by the SD, then by the Positive Slovenia,
+                        and finally by the Miro Cerar's Party, later renamed as the Modern Centre
+                        Party. This opened a new trend of single-term parties, emerging and
+                        disappearing from one election to the next, leading to a huge turnover in
+                        the Parliament. Despite the increasing instability, no anti-system parties
+                        have emerged in Slovenia, although some parties have occasionally challenged
+                        the legitimacy of the ruling political elite and called for its replacement
+                        at early elections.<note place="foot" xml:id="ojs-120-ftn11" n="9">Jure
+                            Gašparič, <hi rend="italic">Državni zbor 1992-2012: o slovenskem
+                                parlamentarizmu</hi> (Ljubljana: Inštitut za novejšo zgodovino,
+                            2012). Danica Fink-Hafner, Damjan Lajh and Alenka Krašovec, <hi
+                                rend="italic">Politika na območju nekdanje Jugoslavije</hi>
+                            (Ljubljana: Fakulteta za družbene vede, 2005).</note>
+                    </p>
+                    <p xml:id="ojs-120-p-15">Generally we can state that political parties in
+                        Slovenia are not based on the representation and advocacy of narrow
+                            interests<note place="foot" xml:id="ojs-120-ftn12" n="10">In contrast to
+                            most EU countries, "actual" Eurosceptic parties cannot be detected in
+                            Slovenia. In the period of the Slovenian integration into the EU the
+                            parliamentary Slovenian National Party was characterised as a
+                            "Eurosceptic" party. However, during, for example, the campaign for the
+                            referendum on the Slovenian accession to the EU it remained completely
+                            inactive and inconspicuous.</note> (e.g. individual social classes,
+                        interest groups, regions, etc...) and cannot be distinguished easily
+                        according to the standard understanding of the left and right wing,
+                        primarily based on the economic or social issues. For the most part,
+                        Slovenian parties aim to be "catch-all" organisations, as their programmes
+                        and appeals address a wide range of voters with varying concerns. This is
+                        also true in case of the rare parliamentary “interest-group parties” such as
+                        the DESUS. However, for the most of the time since multiparty democracy was
+                        established, the principal political parties did possess a clear political
+                        identity and identifiable, if not always permanently loyal, electoral base.
+                        Additionally, we should also note that in the past the parties which have
+                        shown a narrower focus on the specific issues and policies were not
+                        electorally successful in the long term, and the Green parties in the
+                        nineties are a typical example of this.</p>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-articel-sub02">
+                    <head xml:id="ojs-120-head-7">Legal and Financial Frameworks for a Transparent
+                        Functioning of Political Parties in Slovenia</head>
+                    <p xml:id="ojs-120-p-16">In accordance with the Political Parties Act, a
+                        political party in Slovenia is defined as "<hi rend="italic">an association
+                            of citizens who pursue their political goals as adopted in the party's
+                            programme through the democratic formulation of the political will of
+                            the citizens and by proposing candidates for elections to the National
+                            Assembly, elections for the president of the republic and for elections
+                            to local community bodies</hi>."<note place="foot"
+                            xml:id="ojs-120-ftn13" n="11">"Political Party Act. Official
+                            consolidated text," <hi rend="italic">Official Gazette of the RS</hi>,
+                            no. 100 (2005): art. 1.</note> The <hi rend="long_text">Slovenian
+                            Constitution itself does not define neither political parties nor their
+                            functioning, but it provides for the individuals' right to freely
+                            associate with others, maintaining certain legal limitations on that
+                            right if required by the national security, public safety, and
+                            protection against the spread of infectious diseases.</hi>
+                        <note place="foot" xml:id="ojs-120-ftn14" n="12">
+                            <hi rend="italic">Constitution of the Republic of Slovenia</hi>, art.
+                            42.</note> Political parties are regulated by the Political Parties Act
+                        and the Elections and Referendum Campaign Act. A party may be founded by no
+                        less than 200 adult citizens of the Republic of Slovenia who sign a
+                        declaration on the founding of the party. A party becomes a legal entity and
+                        shall act in accordance with the Slovenian laws after the registration body
+                        (Ministry of the Interior) marks the application of a party (for the entry
+                        in the register) with the time and date when the application was received.
+                        Each party must add to the application for entry in the register a) 200
+                        founding signatures, b) the party statute and its program, c) a record of
+                        the founding assembly, meeting or congress, naming the elected bodies of the
+                        parties and the office-holder who, in accordance with the statute,
+                        represents the party as the responsible person, d) a graphic representation
+                        of the symbol of the party.<note place="foot" xml:id="ojs-120-ftn15" n="13"
+                            >Ibid., art. 8.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-17">In terms of internal democratic governance, all the
+                        main political parties must establish rules for the election of its
+                        leadership, the selection of candidates for elections, and the
+                        decision-making processes of the party’s programme platforms. There are also
+                        certain legal restrictions with regard to persons who cannot become party
+                        members or representatives in the leadership bodies of political parties.
+                        However, at the same time no demand for the public availability of the
+                        membership information is defined.<note place="foot" xml:id="ojs-120-ftn16"
+                            n="14">"Political Party Act. Official consolidated text," <hi
+                                rend="italic">Official Gazette of the RS</hi>, no. 100
+                            (2005).</note>
+                    </p>
+                    <p xml:id="ojs-120-p-18">In terms of resources parties mostly rely on public
+                        funds, while privately provided funding has a smaller role. Legally,
+                        political parties in Slovenia can obtain funds from membership fees,
+                        contributions from private or legal persons, income from property, gifts,
+                        requests, the budget (national or local), and profit from the income of a
+                        company owned by it, but not from international funds or any type of
+                        domestic organisations with public ownership of at least 50 percent.<note
+                            place="foot" xml:id="ojs-120-ftn17" n="15">"Political Party Act.
+                            Official consolidated text," <hi rend="italic">Official Gazette of the
+                                RS</hi>, no. 100 (2005): art. 21 and 26. See also Article 22 for
+                            certain criteria and limitations that are set for obtaining the stated
+                            for the acquisition of the relevant eligible funds.</note> The most
+                        frequent and most ‘welcome’ party financial contribution by far comes from
+                        the national budget. Parties that propose candidates for the elections to
+                        the National Assembly have the right to receive funds from the national
+                        budget, provided that they received at least 1 percent (or 1.2 % if two
+                        parties compete on a joint list; or 1.5 % if three or more compete together
+                        on one list) of votes nationwide. The amount of the public funds available
+                        to the political parties depends on the electoral result. It should also be
+                        noted that the political parties which are represented in the National
+                        Assembly are entitled to other "indirect" (financial, personnel,
+                        administrative) resources, which they receive from the National Assembly
+                        budget. It should be noted that although a 4-percent threshold is set at the
+                        national level as the level of eligibility for the reception of public
+                        funds, there are also some non-parliamentary parties – those which received
+                        more than one percent or less than four percent of the votes of voters at
+                        the national level – which are also entitled to public funding. In light of
+                        all of the above, in practice this means that Slovenian parliamentary
+                        parties receive a substantial portion of their resources from the budget
+                        (national and municipal), and only a moderate amount from membership fees
+                        and donations.</p>
+                    <p xml:id="ojs-120-p-19">However the issues with regard to the integrity of
+                        political parties, especially with regard to the transparency of party
+                        membership and funding, as well as issues related to the assurance of
+                        effective control over funding have been on the agenda almost constantly
+                        ever since the Slovenian independence. Political parties frequently, mostly
+                        on their own initiative, fail to inform the public about their membership,
+                        democratic governance procedures, as well as financial management. In light
+                        of the loose legal regulations, the general public therefore only has few
+                        limited possibilities to gain direct access to the information about the
+                        activities of the parties.<note place="foot" xml:id="ojs-120-ftn18" n="16"
+                            >Supervision is carried out by the Ministry of Interior and the Ministry
+                            of Finance, while financial auditing control is assured by the Court of
+                            Audit. For more information see also "Political Party Act. Official
+                            consolidated text," <hi rend="italic">Official Gazette of the RS</hi>,
+                            no. 100 (2005): art. 27–29.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-20">All these factors result in significant distrust
+                        towards political parties, facilitating the search for new but not actually
+                        innovative party choices in the increasing bipolarity of the multi-party
+                        system, maintained not only by the voters’ choices, but also through the
+                        media representation of the political parties and their actions.<note
+                            place="foot" xml:id="ojs-120-ftn19" n="17">For media reports see: <hi
+                                rend="italic">Delo</hi>, accessed December 3, 2015, <ref
+                                target="http://www.delo.si">www.delo.si</ref>. <hi rend="italic"
+                                >Dnevnik</hi>, accessed December 3, 2015, <ref
+                                target="http://www.dnevnik.si">www.dnevnik.si</ref>. <hi
+                                rend="italic">Večer</hi>, accessed December 3, 2015, <ref
+                                target="http://www.vecer.si">www.vecer.si</ref>. <hi rend="italic"
+                                >Prvi interaktivni multimedijski portal, MMC RTV Slovenija</hi>,
+                            accessed December 3, 2015, <ref target="http://www.rtvslo.si"
+                                >www.rtvslo.si</ref>. <hi rend="italic">Planet Siol.net</hi>,
+                            accessed December 3, 2015, <ref target="http://www.siol.net"
+                                >www.siol.net</ref>. <hi rend="italic">MLADINA.si</hi> , accessed
+                            December 3, 2015, <ref target="http://www.mladina.si"
+                                >www.mladina.si</ref>. <hi rend="italic">Revija Reporter</hi>,
+                            accessed December 3, 2015, <ref target="http://www.reporter.si"
+                                >www.reporter.si</ref>. <hi rend="italic">Tednik Demokracija</hi>,
+                            accessed December 3, 2015, <ref target="http://www.demokracija.si"
+                                >www.demokracija.si</ref>. See also Greco country monitoring reports
+                            at: <hi rend="italic">Untitled 1</hi>, accessed December 3, 2015, <ref
+                                target="http://www.coe.int/t/dghl/monitoring/greco/default_en.asp"
+                                >http://www.coe.int/t/dghl/monitoring/greco/default_en.asp</ref>.
+                        </note>
+                    </p>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-articel-sub03">
+                    <head xml:id="ojs-120-head-8">Parties in the Party System</head>
+                    <p xml:id="ojs-120-p-21">In the second half of 2015, there were 84 registered
+                        political parties in Slovenia, which is an increase from the 74 parties
+                        which were registered in 2012.<note place="foot" xml:id="ojs-120-ftn20"
+                            n="18">Ministry of Interior, Political Party Register, at <hi
+                                rend="italic">Društva, politične stranke in ustanove - objave na
+                                spletu</hi>, <ref
+                                target="http://mrrsp.gov.si/rdruobjave/ps/index.faces"
+                                >http://mrrsp.gov.si/rdruobjave/ps/index.faces</ref>.</note> Seven
+                        of these are represented in the National Assembly, which is about the
+                        average number of political parties represented in the National Assembly
+                        after the 1992 elections. So far, on average, one third of all parties
+                        competing in the elections have successfully entered the Parliament.<note
+                            place="foot" xml:id="ojs-120-ftn21" n="19">No. of all competeing parties
+                            in the period 1992–2014, divided with the number of parties, elected in
+                            the Parliamnet in the period 1992–2014.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-22">Regarding the number of party members in Slovenia we
+                        can only give a rough estimate, as it is very difficult to obtain credible
+                        information from the parties. According to some estimates,<note place="foot"
+                            xml:id="ojs-120-ftn22" n="20">Ingrid van Biezen, Peter Mair and Thomas
+                            Poguntke, "Going, Going…Gone? Party Membership in the 21<hi
+                                rend="superscript">st</hi> Century," paper prepared for the workshop
+                            on ‘Political Parties and Civil Society’, ECPR Joint Sessions, Lisbon,
+                            April 2009.</note> in 2008 108,000 people were members of political
+                        parties in Slovenia, which represents 6.26 percent of the Slovenian
+                        electorate. In comparison with the number in 1998, when members of the
+                        parties represented 9.86 percent of the electorate, in 2008 the membership
+                        in political parties decreased approximately by 3.5 percentage points.<note
+                            place="foot" xml:id="ojs-120-ftn23" n="21">Ibid.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-23">If we compare the number of parties competing at the
+                        national parliamentary elections in Slovenia between 1990 and 2014, we can
+                        see that the aggregate numbers indicate a relatively stable dynamic of the
+                        party system, without dramatic changes in the numbers of parties competing
+                        in the elections, or parties entering the Parliament, and without
+                        significant changes in the government formula. Table 1 shows that the number
+                        of parties competing at the elections ranged from 17 to 23, reaching 26 only
+                        in 1992, after the departure of the DEMOS coalition from the political scene
+                        resulted in a large number of new parties contesting the elections.
+                        Throughout the period, except for the first elections, seven or eight
+                        parties were elected to the Parliament at all the elections.</p>
+                    <p xml:id="ojs-120-p-24">The number of parties in the governing coalitions
+                        ranged between two and five, but most of the time the government consisted
+                        of three or four parties. The patterns of governmental changes for the whole
+                        period of the Slovenian independence were characterised by the partial
+                        alternation of governing parties and partial changes in the government
+                        formula. Complete changes of governing parties were almost completely absent
+                        from the Slovenian party system, while innovations of the governmental
+                        formula mostly came about as the consequence of the emergence of new
+                        parties. In fact, the largest source of instability and volatility in the
+                        Slovenian party system has been the disappearance of old and emergence of
+                        new parties. This trend has become more important after the 2008 elections,
+                        given that the subsequent two elections resulted in completely new parties
+                        heading the government.</p>
+                    <p xml:id="ojs-120-p-25"><ref target="#ojs-120-table-1">Table 1</ref> also indicates that at each of the elections
+                        since 1992 at least one new party was elected to the Parliament and at least
+                        two or three parties dropped from the Parliament. However, in some cases
+                        certain parties, such as New Slovenia (NSi) which failed to gain electoral
+                        representation at a certain point, managed to enter the Parliament on a
+                        later date.</p>
+                    <p xml:id="ojs-120-p-26">In the last decade the changes of the party system have
+                        picked up the pace. This was especially the case at the last two elections,
+                        held in 2011 and 2014, both of them called one year before the parliamentary
+                        term expired. At both of these elections two new and very successful
+                        political parties were established without being formed through a merger or
+                        secession from of one of the existing political parties. Conversely, before
+                        the 2011 elections most new parties came about mostly through splits or
+                        mergers of the existing political parties. The elections of 2011 and 2014
+                        were also different because a few parliamentary parties existing from 1992 –
+                        two of them playing an important part in all the governments between 1992
+                        and 2011 – failed to enter the Parliament. In 2011 the LDS and the only
+                        nationalistic party, the SNS, lost parliamentary representation, while in
+                        2014 the oldest Slovenian political party, the Slovenian Peoples Party
+                        (SLS), failed to win any seats. These went to the winner of the 2011
+                        elections Positive Slovenia (PS) as well as the newly established Citizens
+                        List (DLGV), which was the third biggest parliamentary party in the
+                        2011–2014 term.</p>
+                    <table xml:id="ojs-120-table-1" rend="table-scroll hover">
+                        <head>Data regarding the number of parties in the parliamentary
+                            elections in Slovenia, 1990-2014</head>
+                        <row>
+                            <cell/>
+                            <cell role="label">1990</cell>
+                            <cell role="label">1992</cell>
+                            <cell role="label">1996</cell>
+                            <cell role="label">2000</cell>
+                            <cell role="label">2004</cell>
+                            <cell role="label">2008</cell>
+                            <cell role="label">2011</cell>
+                            <cell role="label">2014</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of candidates</cell>
+                            <cell>851</cell>
+                            <cell>1475</cell>
+                            <cell>1300</cell>
+                            <cell>1007</cell>
+                            <cell>1395</cell>
+                            <cell>1182</cell>
+                            <cell>1300</cell>
+                            <cell>na</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of competing parties</cell>
+                            <cell>17</cell>
+                            <cell>26</cell>
+                            <cell>22</cell>
+                            <cell>23</cell>
+                            <cell>23</cell>
+                            <cell>17</cell>
+                            <cell>20</cell>
+                            <cell>17</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of elected parties</cell>
+                            <cell>9</cell>
+                            <cell>8</cell>
+                            <cell>7</cell>
+                            <cell>8</cell>
+                            <cell>7</cell>
+                            <cell>7</cell>
+                            <cell>7</cell>
+                            <cell>7</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of newely elected parties</cell>
+                            <cell>/</cell>
+                            <cell>1</cell>
+                            <cell>1</cell>
+                            <cell>3</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>2</cell>
+                            <cell>2/3*</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of unelected parties</cell>
+                            <cell>/</cell>
+                            <cell>2</cell>
+                            <cell>2</cell>
+                            <cell>2</cell>
+                            <cell>2</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>2/3**</cell>
+                        </row>
+                        <row>
+                            <cell role="label">No. of coalition parties</cell>
+                            <cell>Demos, 5, later 6</cell>
+                            <cell>4, later 3 and then 2</cell>
+                            <cell>3 dropping to 2 </cell>
+                            <cell>5 dropping to 4 </cell>
+                            <cell>4</cell>
+                            <cell>4</cell>
+                            <cell>5 droping to 4</cell>
+                            <cell>3</cell>
+                        </row>
+                        <note type="trailer" n="*">Counting the ZaAB as a new party, not as one of
+                            the successors to the PS<lb/></note>
+                        <note type="trailer" n="**">Not counting the ZaAB as one of the successors
+                            to the PS<lb/></note>
+                        <note type="trailer" n="">Source: National Electoral Commission
+                            (2015).<lb/></note>
+                    </table>
+                    <p xml:id="ojs-120-p-27">Despite the frequent creation of new parties and
+                        elimination of existing parties, the Slovenian party system has been
+                        characterised by a relative stability. In the first decade of democratic
+                        politics, the Slovenian political arena was dominated by the Liberal
+                        Democracy of Slovenia (LDS), which controlled the government for 12 years
+                        after 1992 through coalitions that included left and right-wing parties
+                        alike. With the strengthening of the SDS, more clearly defined bloc
+                        alternatives emerged, and the last four elections were characterised by a
+                        bipolar pattern of competition between the SDS and a strong left-wing party:
+                        first the LDS, then the SD, PS, and now the Party of Modern Centre
+                        (SMC).</p>
+                    <p xml:id="ojs-120-p-28">So far the most important changes in the structure of
+                        the party system the last two elections, affecting predominantly the
+                        formerly dominant left and centre-left parties. In 2011 the LDS received
+                        slightly less than 2 % of votes, while its splinter party Zares, formed for
+                        the 2008 elections, also failed to enter the Parliament. The elimination of
+                        the only nationalist party, Slovene National Party (SNS), which had been a
+                        member of the Parliament since 1992, was significant as well. In 2011 the
+                        newly-established parties – the PS (centre-left) and the DLGV
+                            (centre-right)<note place="foot" xml:id="ojs-120-ftn24" n="22">Simona
+                            Kustec Lipicer and Niko Toš, "Analiza volilnega vedenja in izbir na
+                            prvih predčasnih volitvah v državni zbor," <hi rend="italic">Teorija in
+                                praksa</hi> 50, no. 3/4 (2013): 503.</note> – gained seats and
+                        participated in the government, together receiving more than 37 percent of
+                        the votes. These parties soon dropped out of the Parliament in the 2014
+                        elections, when they gained less than 4 percent of the votes in total. At
+                        the 2014 elections two new parties entered parliament: the Party of Miro
+                        Cerar, now renamed as the Modern Centre Party (SMC), and the United Left
+                        (ZL), together won more than 40 percent of the votes, while the 2011–2014
+                        term parliamentary parties – the PS, DLGV and SLS – dropped out of the
+                        Parliament.</p>
+                    <p xml:id="ojs-120-p-29">When we shift our focus from the number of parties to
+                        the movement of voters, we can observe that the level of volatility at the
+                        Slovenian elections, as shown in <ref target="#figure1">Figure 1</ref>,
+                        remained comparatively high after the first elections (above 30 percent).
+                        However, in 2004 it dropped to 23 percent as a stronger bipolar pattern of
+                        party competition emerged. Since the 2008 elections volatility has been
+                        increasing again, topping 50 percent in 2014 and indicating a heightened
+                        instability of the party system as well as the weakening of links between
+                        the parties and voters and an increased willingness of voters to switch
+                        support between parties or move on to supporting an entirely new political
+                        party.</p>
+                    <figure xml:id="figure1">
+                        <head>Volatility and vote share of new parties in the
+                            parliamentary elections in Slovenia 1992-2014</head>
+                        <graphic url="PNZ-ojs-120-figure1.jpg"/>
+                        <p>Source: own calculations on the basis of the data provided by the
+                            National Electoral Commission (2015)</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-31">If we analyse the share of votes for the new parties at
+                        each elections we get a somewhat better picture of what drives such high
+                        level of volatility over time. In <ref target="#figure1">Figure 1</ref>
+                        above we can observe that both volatility and votes for new parties have
+                        increased significantly since 2008. Still, while volatility has been fairly
+                        high from the beginning, we can see that the vote share of the new parties
+                        was relatively modest until the 2008 elections, suggesting that volatility
+                        was mostly driven by the shifts of the electorate within the established
+                        parties. However, at last two elections the share of votes belonging to new
+                        parties has been on the rise precipitously, and this accounts for most of
+                        the volatility taking place in the Slovenian elections.</p>
+                    <p xml:id="ojs-120-p-32">When we look at the number of votes of the relevant
+                        parties in the period between 1992 and 2014, we see that the changes in the
+                        amount of party support were considerable, not only as far as the share of
+                        votes parties gained is concerned, but also with regard to the actual number
+                        of votes parties won at elections. What clearly comes across as the starkest
+                        finding is that with the end of the LDS dominance on the political scene,
+                        the voters supporting the broad left side of the political spectrum have
+                        shifted their support from the LDS to the SD, then to the PS, and finally to
+                        the SMC. On the right side, after the SLS lost the position of the second
+                        party in the party system at the 2000 elections, this consolidation took
+                        place primarily around the SDS in the second decade of democratic politics.
+                        The SDS managed to win the support of almost a third of the electorate
+                        between 2004 and 2011, only to witness the demobilization of about one third
+                        of its voters at the 2014 elections while still retaining the status of the
+                        second largest party in the context of the significantly reduced turnout. </p>
+                    <p xml:id="ojs-120-p-33">The seats in the National Assembly over time and in
+                        particular since 2000, are increasingly becoming distributed in such a way
+                        as to make a clear distinction between the smaller and larger parties in the
+                        context of an increasing bipolarity. In this context two principal parties
+                        control over 50 % of the seats, while the remaining five or six
+                        parliamentary parties distribute the remaining seats among themselves more
+                        or less evenly.</p>
+                    <figure xml:id="figure2">
+                        <head>Vote choice at the Slovenian parliamentary elections (in
+                            thousands of votes)</head>
+                        <graphic url="PNZ-ojs-120-figure2.jpg"/>
+                        <p>Source: National Electoral Commission (2015).</p>
+                    </figure>
+                    <figure xml:id="figure3">
+                        <head>Share of the parliamentary seats at the Slovenian
+                            parliamentary elections</head>
+                        <graphic url="PNZ-ojs-120-figure3.jpg"/>
+                        <p>Source: National Electoral Commission (2014).</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-36">Although the party system sees parties emerging and
+                        disappearing, for most of the period under consideration the electoral
+                        system has performed relatively efficiently in securing that the voters’
+                        preferences have been represented and that votes have not been wasted. Since
+                        the establishment of the party system we have been able to observe that the
+                        share of voters who voted for parties represented in the Parliament, or, in
+                        other words, the share of voters whose votes are represented, increased just
+                        after the first elections. However, since then this share has remained
+                        between 84 percent and 93 percent within the period. The lowest share of
+                        represented voters (76 percent) can be traced back to the first elections in
+                        1992, which are also the elections with the highest number of parties
+                        competing, while the best representation was achieved in 2000, when less
+                        than 10 percent of voters voted for parties that did not manage to enter the
+                        Parliament. The fact that despite the significant instability of the party
+                        system in the last decade 85 % of voters voted for parties that are
+                        represented in the Parliament is perhaps related to this very party system
+                        instability. As it happens, in the eyes of the voters such instability
+                        implies a reasonable probability that switching support to a different party
+                        will not result in a wasted vote. Furthermore, it also signifies that a
+                        large number of parties does not lead to a large number of wasted votes, or
+                        to a continued concentration of support for marginal parties. </p>
+                    <figure xml:id="figure4">
+                        <head>Share of voters voting for parties represented in the
+                            Parliament</head>
+                        <graphic url="PNZ-ojs-120-figure4.jpg"/>
+                        <p>Source: National Electoral Commission (2014).</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-38">In conclusion, when we observe the development of the
+                        Slovenian electoral and parliamentary party system, we can pinpoint several
+                        significant developments affecting the stability of the party system and
+                        changing the way it has functioned after the first decade of democracy:</p>
+                    <list rend="ordered" xml:id="ojs-120-list-1">
+                        <item>As a result of the 2004 elections, the first centre-right government,
+                            led by the SDS, was formed after the twelve-year dominance of the
+                            centre-left coalition government of LDS, leading to a more pronounced
+                            bipolarisation of the party system.</item>
+                        <item>In 2008 the centre-right government lost the elections. Once again a
+                            centre-left government was formed, with the SD (the former communist
+                            party) as the leader of the coalition with the DeSUS and two centre-left
+                            parties, the LDS and Zares, the parties that arose from the split of the
+                            LDS. The term of this government was characterised by the beginning of
+                            the economic slowdown and modest growth as well as increasing financial
+                            problems in the banking sector, as well as conflicts within the
+                            government. The term ended with the 2011 early elections effectively
+                            removing the SD from the position of the principal party of the
+                            centre-left. </item>
+                        <item>In 2011 early elections were held. The SDS and the newly formed
+                            Positive Slovenia won the most votes. The following three years were
+                            characterised by the changes of the government without elections and
+                            severe conflicts within the PS, the new DLGV, as well as within both
+                            governments in the 2011-2014 parliamentary term – one led by the SDS and
+                            the other by the PS.<note place="foot" xml:id="ojs-120-ftn25" n="23">On
+                                20 September 2011 the vote of no confidence was passed in the
+                                Parliament. On 21 October 2011 the President of the Republic
+                                dismissed the Parliament and called for elections. The elections
+                                were held on 4<hi rend="superscript">th</hi> December 2011. On 22
+                                October 2011 Zoran Janković, the mayor of the Slovenian capital of
+                                Ljubljana, established the Zoran Janković List - Positive Slovenija
+                                party, which won the 2011 parliamentary elections with 28.51 % of
+                                votes and became the leading parliamentary opposition party. Gregor
+                                Virant as one of the lieutenants of the SDS party leader Janez
+                                Janša, also the Minister of Public Administration in Janša's
+                                2004-2008 government, resigned from the SDS in late summer of 2011
+                                and established a new party, the Gregor Virant's Civic List, on 21
+                                October 2011. His list won 8.37 % of votes and became one of the
+                                government coalition parties.</note> Both the PS and DLGV came into
+                            existence as alternatives to the existing established parliamentary
+                            parties, and both claimed to represent new agendas and boasted highly
+                            visible individuals as leaders in combination with relatively basic
+                            party organisations.<note place="foot" xml:id="ojs-120-ftn26" n="24">See
+                                for example Krašovec and Tim Haughton, "Europe and the Parliamentary
+                                Elections in Slovenia December 2011," <hi rend="italic">EPERN
+                                    Election Briefing</hi> 69 (2012).</note> This set in motion a
+                            new trend of one-shot parties, established by very prominent
+                            personalities shortly before the elections and without clear programme
+                            orientations, political identities or organisations, in order to be
+                            propelled into the government virtually overnight.</item>
+                        <item>A similar picture emerged in the second consecutive early elections in
+                            2014, where the SMC repeated the Positive Slovenia's success from 2011,
+                            and the United Left (ZL), as a left-wing socialist alternative, entered
+                            the Parliament and extended the ideological scope of the political
+                            spectrum on the left. On the right end of the political spectrum, the
+                            oldest Slovenian party SLS dropped out of the Parliament. The same
+                            happened to the Civic List (DLGV), which entered the Parliament only in
+                            2011 and reduced the number of the political actors right of
+                            center.</item>
+                    </list>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-articel-sub04">
+                    <head xml:id="ojs-120-head-14">Parties and the Public Opinion</head>
+                    <p xml:id="ojs-120-p-39">The significant instability of the party system in the
+                        last decade, in comparison with the first decade of democratic politics, may
+                        indicate that the public attitudes towards political parties may be changing
+                        as well. If this is the case, it can be expected that other political
+                        institutions could be affected as well. The fact that some political parties
+                        are losing support and disappearing while others are rising without clear
+                        programmes, party identities or organisation may indicate that the voters
+                        feel a certain degree of dissatisfaction with the parties. </p>
+                    <p xml:id="ojs-120-p-40">This is confirmed if we look at the level of the public
+                        support for the political parties and political institutions through which
+                        the parties operate. The public image of the political parties and the
+                        National Assembly as the principal arena of their institutional activities
+                        is fairly low in Slovenia. Regarding the central government political
+                        institutions as well as some other societal institutions, the political
+                        parties and the National Assembly are consistently assessed by the
+                        respondents as the least trustworthy. The public opinion survey polls
+                        (called Polibarometer) in 2010<note place="foot" xml:id="ojs-120-ftn27"
+                            n="25">
+                            <hi rend="italic">Survey Politbarometer</hi> 12/2010 (Ljubljana: Center
+                            za raziskovanje javnega mnenja, 2010).</note> revealed that only three
+                        percent of respondents trusted the political parties, while as much as 64
+                        percent did not trust them. According to a study carried out in March
+                            2011,<note place="foot" xml:id="ojs-120-ftn28" n="26">
+                            <hi rend="italic">Survey Politbarometer</hi> 03/2011 (Ljubljana: Center
+                            za raziskovanje javnega mnenja, 2011).</note> the level of trust was
+                        even lower – only two percent of respondents trusted the political parties,
+                        while distrust increased to 68 percent. Such considerable (and increasing)
+                        rate of distrust in the parties is also a result of the increasing
+                        perception of the clientelistic relationships between the parties and
+                        various interest groups as reported by the various media.<note place="foot"
+                            xml:id="ojs-120-ftn29" n="27">Data available in various media presses:
+                                <hi rend="italic">Delo</hi>, <ref target="http://www.delo.si"
+                                >www.delo.si</ref>. <hi rend="italic">Dnevnik</hi>, <ref
+                                target="http://www.dnevnik.si">www.dnevnik.si</ref>. <hi
+                                rend="italic">Večer</hi>, <ref target="http://www.vecer.si"
+                                >www.vecer.si</ref>. <hi rend="italic">Prvi interaktivni
+                                multimedijski portal, MMC RTV Slovenija</hi>, <ref
+                                target="http://www.rtvslo.si">www.rtvslo.si</ref>. <hi rend="italic"
+                                >Planet Siol.net</hi>, <ref target="http://www.siol.net"
+                                >www.siol.net</ref>. <hi rend="italic">MLADINA.si</hi>, <ref
+                                target="http://www.mladina.si">www.mladina.si</ref>, <hi
+                                rend="italic">Revija Reporter</hi>, <ref
+                                target="http://www.reporter.si">www.reporter.si</ref>. <hi
+                                rend="italic">Tednik Demokracija</hi>, <ref
+                                target="http://www.demokracija.si">www.demokracija.si</ref>.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-41">While the parties suffered from the lack of trust by
+                        the public since the middle of the 1990s, over the last few years the trust
+                        in the government and the Parliament has declined significantly as well. The
+                        timing of this development closely coincides with the economic crisis
+                        affecting the country. However, it also coincides with the increase in
+                        volatility of the electorate and the increased turnover, or emergence and
+                        disappearance of political parties from one election to the next. All of
+                        this indicates that the public opinion sees political parties as
+                        institutions that fail to fulfil their function, and their failure is
+                        affecting the attitude of voters towards the whole political system.</p>
+                    <figure xml:id="figure5">
+                        <head>Share of respondents indicating that they do not trust
+                            particular political institutions</head>
+                        <graphic url="PNZ-ojs-120-figure5.jpg"/>
+                        <p>Source: Niko Toš et. al., <hi rend="italic">Politbarometer 3/2011 and
+                                1/2012. Meritve v času izrednih parlamentarnih volitev v DZ RS
+                                oktober 2011 – januar 2012 [dataset]</hi> (Ljubljana: Public Opinion
+                            and Mass Communication Research Centre, 2012)</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-43">Electoral participation in the elections at various
+                        levels is a further sign of the shift in the popular attitudes towards the
+                        political system. <ref target="#figure3">Figure 3</ref> shows a considerable decline in the electoral
+                        turnout since the 1992 elections, signifying a changing attitude of the
+                        public towards the elected institutions. In 1992 the turnout at the
+                        parliamentary elections was 85 percent. In 1996 and 2000 it dropped to just
+                        above 70 percent, only to fall to only 60 percent in 2004. The turnout
+                        remained between 60 and 65 percent until 2014, when it dropped to 51 %,
+                        which is one of the lowest levels in Europe for national elections. Similar
+                        trends are evident also for the presidential and local elections, where the
+                        turnout (initially at a lower level than in the case of parliamentary
+                        elections) was declining in accordance with the trends at the national
+                        elections. The level of turnout was the lowest for the European Parliament
+                        elections, as it did not exceed 30 percent in any of the three European
+                        Parliament elections so far.</p>
+                    <figure xml:id="figure6">
+                        <head>Election turnout in Slovenia, 1992-2014</head>
+                        <graphic url="PNZ-ojs-120-figure6.jpg"/>
+                        <p>Source: National Electoral Commission (2015).</p>
+                        <note n="">Legend: * due to the legislative changes, in a certain period the
+                            local elections were not called for all the local communities at the
+                            same time, which makes the collection of turnout data for the local
+                            elections turnout more challenging for the terms under consideration,
+                            although this does not have any direct impact on the turnout
+                            interpretations for the purposes of this paper.</note>
+                    </figure>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-articel-sub05">
+                    <head xml:id="ojs-120-head-17">Party Identification and Preferences</head>
+                    <p xml:id="ojs-120-p-45">The comparative analysis of the relationship between
+                        the ideological positioning of voters and political parties in Slovenia,
+                        with respect to their position on the political spectrum, has so far shown
+                        that the classic economic left-right position in Slovenia is one of the
+                        least relevant factors of electoral choice.<note place="foot"
+                            xml:id="ojs-120-ftn30" n="28">Russell J Dalton, David M. Farrell and Ian
+                                McAllister, <hi rend="italic">Political Parties and Democratic
+                                Linkage: How parties organize democracy</hi> (Oxford: Oxford
+                            University Press, 2011).</note> Instead, most studies reveal that the
+                        main ideological division in Slovenia revolves around the interpretation of
+                        history, and in that context primarily around the interpretation of the
+                        political divisions during World War II, the interpretation of the nature of
+                        war and its participants in Slovenia, as well as the character of the
+                        post-war state and the events related to it.<note place="foot"
+                            xml:id="ojs-120-ftn31" n="29">Hans-Dieter Klingemann, Dieter Fuchs and
+                            Jan Zielonka, <hi rend="italic">Democracy and Political Culture in
+                                Eastern Europe</hi> (London: Routledge, 2006). Drago Zajc and Tomaz
+                            Boh, "10. Slovenia," in <hi rend="italic">The Handbook of Political
+                                Change in Eastern Europe,</hi> ed. Sten Berglund  (Cheltenham,
+                            Northampton (MA): Edward Elgar Publishing, 2004). Danica Fink-Hafner and
+                            Alenka Krašovec, "Europeanisation of the Slovenian party system–from
+                            marginal European impacts to the domestication of EU policy issues?" <hi
+                                rend="italic">Politics</hi> (2006).</note> The issues of the
+                        traditional versus modern attitudes and values regarding individual freedom,
+                        role of family, religion and morality, as well as the definition of national
+                        identity are closely related to these historical divisions. These elements
+                        have formed another dimension of the dominant symbolic division.</p>
+                    <p xml:id="ojs-120-p-46">What appears to characterise the social foundations of
+                        the Slovenian party system is a stable distribution of the voters' party
+                        identification across the political spectrum, with somewhat lesser stability
+                        of party identity in case of the left-wing voters. Furthermore, we cannot
+                        observe any consistent classic ideological divisions based on the
+                        socio-economic differences, despite the issue of the role of the old and new
+                        economic and social elites. The interpretation of history, attitude towards
+                        the communist regime and other similar issues form a very clear symbolic
+                        division. This dominance of symbolic politics means that with respect to
+                        economic issues, parties sometimes behave in a way which is not likely to be
+                        consistent with their overall ideological orientation.<note place="foot"
+                            xml:id="ojs-120-ftn32" n="30">Russell J Dalton, David M. Farrell and Ian
+                            McAllister, "The Dynamics of Political Representation," in <hi
+                                rend="italic">How Democracy Works: Political Representation and
+                                Policy Congruence in Modern Societies,</hi> ed. Martin Rosema, Kees
+                            Aarts and Bas Denters (Chicago: University of Chicago Press, 2011). Samo
+                            Kropivnik and Simona Kustec Lipicer, "Party Manifestos in
+                            Slovenia," Prepared for delivery at the 2012 Annual Meeting of the
+                            American Political Science Association, August 30 – September 2,
+                            2012.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-47">The analysis of the Slovenian parties’ electoral
+                        programmes reveals that the character of party competition is in some
+                        respects typical of the electoral politics in other Central and Eastern
+                        European countries with respect to the scope and type of the prevailing
+                        policy issues.<note place="foot" xml:id="ojs-120-ftn33" n="31">Hans-Dieter
+                            Klingemann, Andrea Volkens, Judith Bara, Ian Budge, <hi rend="italic"
+                                >Mapping policy preferences II: estimates for parties, electors, and
+                                governments in Eastern Europe, European Union, and OECD
+                                1990–2003</hi> (Oxford: Oxford University Press, 2006). According to
+                            the applied methodology, the scope of electoral program issues is
+                            analyzed by measuring the frequency of the following seven domains in
+                            each program 1) External Relations; 2) Freedom and Democracy; 3)
+                            Political System; 4) Economy; 5) Welfare and Quality of life; 6) Fabric
+                            of Society; 7) Social Groups.</note> Moreover, it is apparent that the
+                        contemporary Slovenian political parties are not formed as representatives
+                        of narrow interests, but rather that they have a position of so-called
+                        "catch-all" parties, as their programmes address a wide range of voters,
+                        even when they are nominally representing particular social groups, like the
+                        DeSUS.</p>
+                    <figure xml:id="figure7">
+                        <head>Distribution of political issues in the party programmes –
+                            averages for all parties</head>
+                        <graphic url="PNZ-ojs-120-figure7.jpg"/>
+                        <p>Sources: own data and calculations on the dateset methodology by
+                            Hans-Dieter Klingemann, Andrea Volkens, Judith Bara, Ian Budge, <hi
+                                rend="italic">Mapping policy preferences II: estimates for parties,
+                                electors, and governments in Eastern Europe, European Union, and
+                                OECD 1990-2003</hi> (Oxford: Oxford University Press, 2006); Simona
+                            Kustec Lipicer and Samo Kropivnik. "Dimensions of Party Electoral
+                            Programs: Slovenian Experience," <hi rend="italic">Journal of
+                                Comparative Politics</hi> 4.1 (2011): 52</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-49">The data shows that the Slovenian parties, in general,
+                        keep the contents of their programmes increasingly stable over time, despite
+                        the significant contextual changes in the society and economy over the last
+                        decade. The priority given to particular issues in the party programmes has
+                        been changing over time, but generally, welfare and quality of life issues
+                        have topped the list, while the economic issues have grown in importance
+                        over time, mostly at the expense of the decline in the priority of welfare
+                        issues as well as all the issues related to social policy. This shift is
+                        more obvious in the case of the leading centre-right Slovenian Democratic
+                        Party (SDS), where we can observe a sharp shift of focus between the two
+                        periods. A less prominent but still obvious shift took place in the
+                        programmes of other parties, where we observe slow, gradual changes leading
+                        to a shift in the policy orientation.<note place="foot"
+                            xml:id="ojs-120-ftn34" n="32">Including also a unique and very strong
+                            focus on the political system issues.</note> It is reasonable to
+                        speculate that these changes have appeared mostly as a result of the ongoing
+                        external social, economic and political turbulences, manifesting themselves
+                        in the local context. Apart from the shifts in focus, we can observe that
+                        the structures of party programmes have become more similar over time with
+                        respect to the structure of the issues included in the party
+                            programmes.<note place="foot" xml:id="ojs-120-ftn35" n="33">More on this
+                            in: Simona Kustec Lipicer and Samo Kropivnik, "Dimensions of Party
+                            Electoral Programmes: Slovenian Experience," <hi rend="italic">Journal
+                                of Comparative Politics</hi> 4.1 (2011): 52.</note>
+                    </p>
+                    <p xml:id="ojs-120-p-50">A further analysis of the 2004-2011 period reveals that
+                        the structural differences in issue priorities clearly separate the
+                        parliamentary from the non-parliamentary parties rather than, as already
+                        indicated, along the lines between the left vs. right or government vs.
+                            opposition.<note place="foot" xml:id="ojs-120-ftn36" n="34">Ibid.</note>
+                        Parliamentary parties are more focused on the political system and economy,
+                        while non-parliamentary parties prioritise welfare, quality of life, and
+                        social fabric. These differences are expected and correspond to the findings
+                        of the general policy analyses. They imply that non-parliamentary parties
+                        are much more issue-oriented and focus on the policies related to the
+                        welfare and/or societal issues than the leading parliamentary parties are
+                        far more catch-all oriented and focus on the fundamental issues of the
+                        political system. On the other hand, there are no obvious differences in the
+                        issue structure between the more and less successful parliamentary parties.
+                        The only exception, to a degree, to the general trend shown in <ref target="#figure7">Figure 7</ref>
+                        seems to emerge in 2014, where the issue dimensions are more evenly
+                        represented in the party programmes in comparison with the previous
+                        elections.</p>
+                    <figure xml:id="figure8">
+                        <head>Party programmes and electoral success</head>
+                        <graphic url="PNZ-ojs-120-figure8.jpg"/>
+                        <p>Sources: own data and calculations; Simona Kustec Lipicer and Niko Toš,
+                            "Analiza volilnega vedenja in izbir na prvih predčasnih volitvah u
+                            državni zbor," <hi rend="italic">Teorija in praksa 50</hi>, no. 3/4
+                            (2013): 503</p>
+                    </figure>
+                    <p xml:id="ojs-120-p-52">Furthermore, even the new parties (PS and DLGV, SMC or
+                        ZL), which ran at the 2011 and 2014 elections with atypically short and
+                        general programmes but nevertheless experienced significant electoral
+                        success, are close to the other parliamentary parties as far as the issue
+                        structure of their party programmes is concerned. This may point to the
+                        conclusion that the electoral upheaval, affecting Slovenian politics at the
+                        2011 and 2014 elections, was not so much about the voters trying to find a
+                        new political direction, but rather that it was a case of the voters being
+                        dissatisfied with the old political elites, therefore trying to replace them
+                        with a new set of actors without asking for credentials or assurances that
+                        the new elites in fact have any new solutions to the problems.</p>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-articel-sub06">
+                    <head xml:id="ojs-120-head-20">Final remarks</head>
+                    <p xml:id="ojs-120-p-53">The Slovenian party system as an integral element of
+                        parliamentary democracy since the Slovenian transition to democracy has
+                        exhibited several significant trends. On one hand the party system has
+                        exhibited a significant degree of stability in its aggregate
+                        characteristics. The number of parties competing at elections as well as the
+                        number of elected and governing parties, the broad contours of party
+                        programmes, and the patterns of governmental alterations have remained
+                        broadly stable over time.</p>
+                    <p xml:id="ojs-120-p-54">At the same time, while the party system has exhibited
+                        a significant degree of stability at the aggregate level, over time the
+                        instability at the level of political parties has increased. This has taken
+                        place in the context of the increased dissatisfaction of the citizens with
+                        the political parties. Electoral volatility, always high, further increased
+                        dramatically at the 2011 and 2014 elections, when the old parties were
+                        eliminated from the government from one election to the next and the share
+                        of votes for new parties reached 40 % or more. Increased volatility is just
+                        one of the trends indicating the increasingly critical attitude of citizens
+                        towards the parties and political institutions most closely related to the
+                        political parties, such as the government and the Parliament. It remains to
+                        be seen whether such a critical attitude of citizens towards the political
+                        parties will continue in the next electoral cycle. However, it is evident
+                        from the developments in the last few years that the new parties have a
+                        number of weaknesses and lack the resilience that the old parties have in
+                        terms of stable links with voters, stable party organisations allowing for
+                        steady and effective patterns of political recruitment, and stable party
+                        identity. The new parties that emerged in the 2014 elections are vulnerable
+                        the same as were their predecessors in 2011, and it is not unlikely that the
+                        degree of instability will persist, though the external pressure on the
+                        party system might decline if the economic conditions and modes of
+                        transparent governance are stabilised.</p>
+                    <p xml:id="ojs-120-p-55">Finally, the party system is an essential element of
+                        the parliamentary system. Parties are the principal conduit for the
+                        recruitment of political elites and representation of the political
+                        preferences of voters. It is therefore not unlikely that the changes in the
+                        party system could ultimately lead to changes in the parliamentary
+                        arena.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr" xml:id="ojs-120-bibliogr">
+                <head xml:id="ojs-120-head-21">Sources and references</head>
+                <div type="subchapter" xml:id="ojs-120-bibliogr-sub01">
+                    <head xml:id="ojs-120-head-22">Literature</head>
+                    <listBibl xml:id="ojs-120-listBibl-1">
+                        <bibl>Biezen, Ingrid van, Peter Mair and Thomas Poguntke. "Going,
+                            Going…Gone? Party Membership in the 21<hi rend="superscript">st</hi>
+                            Century." Paper prepared for the workshop on ‘Political Parties and
+                            Civil Society’, ECPR Joint Sessions, Lisbon, April 2009.</bibl>
+                        <bibl>Dalton, Russell J., David M. Farrell and Ian McAllister. "The Dynamics
+                            of Political Representation." In <hi rend="italic">How Democracy Works:
+                                Political Representation and Policy Congruence in Modern
+                                Societies,</hi> edited by Martin Rosema, Kees Aarts and Bas Denters.
+                            Chicago: University of Chicago Press, 2011.</bibl>
+                        <bibl>Dalton, Russell J., David M. Farrell and Ian McAllister. <hi
+                                rend="italic">Political Parties and Democratic Linkage: How parties
+                                organize democracy</hi>. Oxford: Oxford University Press,
+                            2011.</bibl>
+                        <bibl>Fink-Hafner, Danica and Alenka Krašovec. "Europeanisation of the
+                            Slovenian party system–from marginal European impacts to the
+                            domestication of EU policy issues?" <hi rend="italic"
+                            >Politics</hi> (2006).</bibl>
+                        <bibl>Fink-Hafner, Danica, Damjan Lajh and Alenka Krašovec. <hi
+                                rend="italic">Politika na območju nekdanje Jugoslavije.</hi>
+                            Ljubljana: Fakulteta za družbene vede, 2005.</bibl>
+                        <bibl>Fink-Hafner, Danica. "Slovenia: Between Bipolarity and Broad
+                            Coalition-Building." In <hi rend="italic">Post-Communist EU Member
+                                States: Parties and Party Systems,</hi> edited by Susanne
+                            Jungerstam-Mulders, 203–231. Aldershot, Burlington: Ashgate,
+                            2006.</bibl>
+                        <bibl>Fink-Hafner, Danica. "Strankarski sistem v Sloveniji: Od prikrite k
+                            transparentni bipolarnosti." In <hi rend="italic">Političke stranke i
+                                birači u državama bivše Jugoslavije,</hi> edited by Zoran Lutovac,
+                            363–384. Beograd: Friderich Ebert Stiftung, 2006.</bibl>
+                        <bibl>Fink-Hafner, Danica. "Between continuity and change." In <hi
+                                rend="italic">Slovenia Between Continuity and Change 1990–1997</hi>,
+                            edited by Niko Toš and Vlado Miheljak. Berlin: Sigma, 2002.</bibl>
+                        <bibl>Fink-Hafner, Danica. <hi rend="italic">Nova družbena gibanja -
+                                subjekti politične inovacije</hi>. Ljubljana: Fakulteta za družbene
+                            vede, 2002.</bibl>
+                        <bibl>Gašparič, Jure. <hi rend="italic">Državni zbor: 1992–2012: o
+                                slovenskem parlamentarizmu</hi>. Ljubljana: Inštitut za novejšo
+                            zgodovino, 2012.</bibl>
+                        <bibl>Huntington, Samuel P. <hi rend="italic">The Third Wave:
+                                Democratization in the late twentieth century.</hi> London:
+                            University of Oklahoma Press, 1991.</bibl>
+                        <bibl>Klingemann, Hans-Dieter, Andrea Volkens, Judith Bara and Ian Budge.
+                                <hi rend="italic">Mapping policy preferences II: estimates for
+                                parties, electors, and governments in Eastern Europe, European
+                                Union, and OECD 1990–2003</hi>. Oxford: Oxford University Press,
+                            2006.</bibl>
+                        <bibl>Klingemann, Hans-Dieter, Dieter Fuchs and Jan Zielonka. <hi
+                                rend="italic">Democracy and Political Culture in Eastern
+                                Europe.</hi> London: Routledge, 2006.</bibl>
+                        <bibl>Krašovec, Alenka and Tim Haughton. "Europe and the Parliamentary
+                            Elections in Slovenia December 2011." <hi rend="italic">EPERN Election
+                                Briefing</hi> 69 (2012).</bibl>
+                        <bibl>Kropivnik, Samo and Simona Kustec Lipicer. "Party Manifestos in
+                            Slovenia." Prepared for delivery at the 2012 Annual Meeting of the
+                            American Political Science Association, August 30 – September 2,
+                            2012.</bibl>
+                        <bibl>Kustec Lipicer, Simona and Niko Toš. "Analiza volilnega vedenja in
+                            izbir na prvih predčasnih volitvah v državni zbor." <hi rend="italic"
+                                >Teorija in praksa</hi> 50, no. 3/4 (2013): 503–529.</bibl>
+                        <bibl>Kustec Lipicer, Simona and Samo Kropivnik. "Dimensions of Party
+                            Electoral Programs: Slovenian Experience." <hi rend="italic">Journal of
+                                Comparative Politics</hi> 4.1 (2011): 52.</bibl>
+                        <bibl>Linz, Juan. "The Breakdown of Democratic Regimes: Crisis." In <hi
+                                rend="italic">Breakdown and Reequilibration,</hi> edited by Juan
+                            Linz and Alfred Stepan. Baltimore: John Hopkins University Press,
+                            1978.</bibl>
+                        <bibl>Prunk, Janko. "Politično življenje v samostojni Sloveniji." In <hi
+                                rend="italic">Dvajset let slovenske države</hi>, edited by Janko
+                            Prunk and Tomaž Deželan, 17–57. Maribor: Aristej; Ljubljana: Fakulteta
+                            za družbene vede, Center za politološke raziskave 2012.</bibl>
+                        <bibl>Toš, Niko and Vlado Miheljak. "Transition in Slovenia: Towards
+                            Democratization and the Attainment of Sovereignty." In <hi rend="italic"
+                                >Slovenia Between Continuity and Change 1990–1997</hi>, edited by
+                            Niko Toš and Vlado Miheljak. Berlin: Sigma, 2002.</bibl>
+                        <bibl>Toš, Niko et. al. <hi rend="italic">Politbarometer 3/2011 and 1/2012.
+                                Meritve v času izrednih parlamentarnih volitev v DZ RS oktober 2011
+                                – januar 2012 [dataset]</hi>. Ljubljana: Public Opinion and Mass
+                            Communication Research Centre, 2012.</bibl>
+                        <bibl>Zajc, Drago and Tomaz Boh. "10. Slovenia." In <hi rend="italic">The
+                                Handbook of Political Change in Eastern Europe,</hi> edited by Sten
+                            Berglund. Cheltenham, Northampton (MA): Edward Elgar Publishing,
+                            2004.</bibl>
+                    </listBibl>
+                </div>
+                <div type="subchapter" xml:id="ojs-120-bibliogr-sub02">
+                    <head xml:id="ojs-120-head-23">Other sources</head>
+                    <listBibl xml:id="ojs-120-listBibl-2">
+                        <bibl>
+                            <hi rend="italic">Constitution of the Republic of Slovenia</hi>.</bibl>
+                        <bibl>
+                            <hi rend="italic">Official Gazette of the RS</hi>, no. 100
+                            (2005).</bibl>
+                    </listBibl>
+                </div>
+            </div>
+            <div type="summary" xml:lang="sl" xml:id="ojs-120-summary">
+                <head xml:id="ojs-120-head-24">Povzetek</head>
+                <head rend="subtitle" xml:id="ojs-120-head-25">Spreminjajoča se dinamika slovenske
+                    demokratične parlamentarne arene: Volivci, stranke, volitve</head>
+                <docAuthor xml:id="ojs-120-docAuthor-5">Simona Kustec Lipicer</docAuthor>
+                <docAuthor xml:id="ojs-120-docAuthor-6">Andrija Henjak</docAuthor>
+                <p xml:id="ojs-120-p-56">Glavni namen članka je podati opisni analitični pregled
+                    razvoja slovenskega parlamentarnega prostora od prehoda v demokracijo in
+                    neodvisnost do današnjih dni. Sodobni demokratični parlamentarni prostor v
+                    Sloveniji je sam po sebi videti sorazmerno stabilen. Nasprotno so njegovi
+                    sestavni deli – politične stranke – postopno postali manj stabilni in
+                    predvidljivi, zlasti v drugem desetletju demokracije. To je razvidno tudi iz vse
+                    večjega nezaupanja volivcev – ne samo v politične stranke, ampak tudi v
+                    parlament in vlado – ter iz naraščajoče nestanovitnosti.</p>
+                <p xml:id="ojs-120-p-57">Razprava se najprej posveti normativnemu vpogledu v
+                    parlamentarni in strankarski sistem, nato pa analitični oceni strukture
+                    parlamentarnega prostora, kot jo izražajo odločitve volivcev na volitvah in
+                    politična stališča strank. </p>
+                <p xml:id="ojs-120-p-58">Pri slovenskem sistemu političnih strank kot sestavnem delu
+                    parlamentarne demokracije lahko od prehoda v demokracijo opazimo več različnih
+                    pomembnih trendov. Po osamosvojitvi so se postopno vzpostavili zakonski okviri
+                    za ustanavljanje političnih strank, ki so opredelili pojem, financiranje in
+                    delovanje političnih strank v državi ter jim hkrati omogočili tako visoko raven
+                    samoregulacije, da je javnost njih in njihovo podobo pogosto ocenjevala kot
+                    netransparentno. Strankarski sistem se je po eni strani v celoti izkazal za
+                    precej stabilnega. Število strank, ki so sodelovale na volitvah, število
+                    izvoljenih in vladajočih strank, splošni obrisi strankarskih programov in vzorci
+                    menjavanja vlad so na splošno stabilni. Hkrati je tej splošni stabilnosti
+                    sledila vse večja nestabilnost na ravni političnih strank, do katere je prišlo v
+                    okviru naraščajoče nezadovoljnosti državljanov s političnimi strankami.
+                    Nestanovitnost volivcev in nezaupanje do političnih strank sta se zelo okrepila,
+                    kar kaže na vse bolj kritičen odnos državljanov do strank. To velja tudi za
+                    politične institucije, ki so najtesneje povezane s političnimi strankami, na
+                    primer za vlado in parlament. Nestabilnost na ravni političnih strank se je
+                    kazala skozi številne nove stranke, ki so nastajale in izginjale od enih volitev
+                    do drugih. To je pomembno vplivalo na vzorce oblikovanja vlad in vladnih
+                    koalicij, saj so stranke vstopale v vlado, nato pa izginile na naslednjih
+                    volitvah, na katerih so jih nadomestile nove stranke. Vzrok za to nestabilnost
+                    so predvsem številne pomanjkljivosti novih strank, ki očitno nimajo ključnih
+                    stabilizacijskih elementov političnih strank, kot so stabilna povezava z volivci
+                    ter stabilna strankarska organizacija in identiteta. To velja tudi za uspešne
+                    nove stranke, ki so se pojavile v obdobju med volitvami leta 2008 in zadnjimi
+                    volitvami leta 2014, drugimi v nizu predčasnih volitev. Zato bi se lahko podobna
+                    raven nestabilnosti nadaljevala tudi v prihodnje, čeprav je možno, da bi se s
+                    stabilizacijo gospodarskih razmer in težav z upravljanjem zmanjšal zunanji
+                    pritisk na strankarski sistem in posamezne stranke. Vprašanje je tudi, ali bodo
+                    slovenskih državljani ohranili tako kritičen odnos do političnih strank v
+                    naslednjem volilnem ciklusu ali pa bi stabilnejše gospodarstvo in upravna
+                    struktura lahko morda spremenila stališča državljanov do strank in politike.</p>
+                <p xml:id="ojs-120-p-59">Navsezadnje ima usoda strankarskega sistema širši pomen.
+                    Strankarski sistem je bistveni sestavni del parlamentarnega sistema, stranke pa
+                    so osnovni kanal za rekrutiranje političnih elit in zastopanje politične volje
+                    volivcev. Zato bi lahko spremembe v strankarskem sistemu sčasoma pripeljale tudi
+                    do mnogo bolj temeljnih sprememb tudi v dosedanjem delovanju v političnem
+                    parlamentarnem prostoru.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

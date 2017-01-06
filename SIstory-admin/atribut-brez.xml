@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item xmlns="http://www.tei-c.org/ns/1.0"><term>Brez</term><list type="gloss">
+    <label>Definicija</label>
+    <item>Brez omejitev glede načina vpisovanja datumov.</item>
+    <label>Uporaba</label>
+    <item>V to polje se lahko vpisuje datum na kakršen koli poljuben način, npr.<list type="bulleted">
+        <item>2013-01-16</item>
+        <item>2013/1/16</item>
+        <item>16/01/2013</item>
+        <item>16. januar 2013</item>
+        <item>16. 1. 2013</item>
+        <item>šestnajsti januar 2013</item>
+        <item>šestnajsti januar dvatisoč trinajst</item>
+        <item>dva tedna po novem letu leta 2013</item>
+    </list></item>
+</list></item>

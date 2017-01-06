@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ojs-132">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Complex Parliaments in Transition: Central European Federations Facing Regime Change</title>
+            <title level="a">International Workshop, Ljubljana, 16 October 2015</title>
+            <author>
+               <name>
+                  <forename>Jurij</forename>
+                  <surname>Hadalin</surname>
+               </name>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2015-11-24</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/132</pubPlace>
+            <date>2015</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+            <idno type="PID">sistory.36121</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">55</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2015-12-03</date>
+               <name>Neja Blaj Hribar</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en" type="article" n="Reviews and Reports">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>Complex Parliaments in Transition: Central European Federations Facing Regime Change</titlePart>
+               <titlePart>International Workshop, Ljubljana, 16 October 2015</titlePart>
+            </docTitle>
+            <docAuthor>Jurij Hadalin</docAuthor>
+         </titlePage>
+         <divGen type="search" xml:id="ojs-132-search">
+            <head>Search</head>
+         </divGen>
+      </front>
+      <body>
+         <div type="chapter" xml:id="ojs-132-article">
+            <head xml:id="ojs-132-head-1">Complex Parliaments in Transition: Central European Federations Facing Regime Change</head>
+            <head rend="subtitle" xml:id="ojs-132-head-2">International Workshop, Ljubljana, 16 October 2015</head>
+            <docAuthor xml:id="ojs-132-docAuthor-2">Jurij Hadalin</docAuthor>
+            <p xml:id="ojs-132-p-6">The year 1990 represented a turning point in many aspects. Also in the Eastern
+                    European Assemblies, which carried out their role in the transition processes in
+                    different manners. Federations were falling apart, new states were forming,
+                    efficient ways of carrying out the transition from the socialist to the
+                    democratic system were being sought, and the majority of the population found
+                    itself in an unknown and treacherous terrain... Even the former dissidents and
+                    new leaders. Meanwhile, compliance with the law and democratic decision‑making
+                    in the Parliaments, whatever they were like, was a vital part of the process
+                    that ensured the legitimacy of the transition. As we were able to hear at the
+                    conference, Vaclav Havel faced such an obstacle as well, and according to the
+                    opinion at the time he carried out one of the most elegant political
+                    transitions. On the other hand, fortunately the Romanian scenario was unique.
+                    Nevertheless, the unexpected course of events in the Soviet Union contributed to
+                    these events as well, besides a large number of other factors. Ephraim Kishon
+                    described this moment in his own way: <hi rend="italic">"Frankly, such a
+                        development of events was not certain. It was a true miracle. I am only
+                        trying to describe how such an impossible revolution was possible at all.
+                        And I am not doing it as one of those experts in the Soviet Union who
+                        disgraced themselves, but because I was a witness to the events. So, those
+                        who expect any new prophecies from me should stay away from this book. Not
+                        even the Delphic oracle could predict with any certainty whether Gorbachev
+                        will go down in history as a messiah the saviour or a confused wizard's
+                        apprentice. Even now everybody is saying that during the time of Brezhnev
+                        one had to stand in line for carrots a quarter of an hour less... As far as
+                        I am concerned, Mikhail Gorbachev is nevertheless an impressive person,
+                        whether the Russian market runs out of carrots completely or not. His
+                        revolution that shook the world is a special kind of a one‑man show, which
+                        he has carried out himself. Moses had a brother, Aaron; Marx had a friend,
+                        Engels; and Gorbachev has nothing but worries. Still, at this moment I am as
+                        confused as anyone else. Was it all just a nightmare, a cheap horror movie?
+                        Were all those generals, faceless fossils with countless shiny medals, truly
+                        the masters of the universe? Did the bloodthirsty Count Dracula truly exist
+                        in Romania? Was that average insurance agent Erich Honecker truly a tyrant
+                        whom everyone was afraid of? Was all of this just a bad joke? Therefore my
+                        book will only describe the events that already belong to history, and which
+                        can no longer be changed by anyone. Except for the Soviet historians, of
+                        course."</hi>
+               <note place="foot" xml:id="ojs-132-ftn1" n="1">Ephraim Kishon<hi rend="italic">, Pomozi sirotu na svoju sramotu</hi>. (Zagreb: Znanje,
+                        1992), 7-8.</note> Thus the question of transition was dealt with by a
+                    Hungarian emigrant, as he looked into the past.</p>
+            <p xml:id="ojs-132-p-7">However, at that moment it was far more important to look into the future. The
+                    participants of the workshop in Ljubljana focused on the question of the role of
+                    Assemblies in the former socialist federal countries. As it was stated in the
+                    presentation of the workshop, the federal states, based on the construction of
+                    the socialist relations, started to lose their primary meaning. As we could see
+                    in the cases of Yugoslavia and Czechoslovakia, the deputies/delegates in the
+                    federal structures started focusing on their national issues, and instead of the
+                    community the individual national units gradually became more important, which
+                    ultimately resulted in the dissolution of both federations. In the Czechoslovak
+                    case the Federal Assembly, which had not played a very important political role
+                    before, nevertheless managed to complete the transition from the socialist
+                    system to a democratic regime before its term came to an end, while the Yugoslav
+                    Federal Assembly was quite an unimportant factor in this process and the
+                    Republican Assemblies played a tremendous role. The presentation of the East
+                    German example represented an interesting addition to the majority of the
+                    contributions that focused on the aforementioned countries. As it happened,
+                    after the first free elections the East German Volkskammer merely paved the way
+                    towards the legal and formal unification with West Germany. This also involved a
+                    renewed federalisation, as East Germany had no longer been divided into states
+                    since the late 1950s. However, the fact that the parliamentary transition in
+                    Germany was thus not yet concluded was pointed out by the analysis of the
+                    changed circumstances, in which the today's German Federal State Parliaments can
+                    take an active part in the European Parliament without answering to the federal
+                    authorities.</p>
+            <p xml:id="ojs-132-p-8">The consultation took place at the Institute of Contemporary History in
+                    Ljubljana, where Jure Gašparič and the Director of the Institute Damijan Guštin
+                    greeted the participants in the name of the Slovenian hosts.</p>
+            <p xml:id="ojs-132-p-9">Accompanied by the photos from the former Czechoslovak Parliament, the
+                    introductory paper was presented by Dr. Adéla Gjuričovà, who has ample
+                    experience of her own with this Czech parliament. She presented the role of the
+                    Federal Parliament, which had, until the Velvet Revolution, been a less
+                    important institution from the political viewpoint, and where decisions were
+                    merely adopted and not created all that often. During the turmoil of the Velvet
+                    Revolution this Parliament continued working and remained unresponsive to the
+                    external influences, even though it was clearly evident from its immediate
+                    surroundings that the environment had changed radically. The revolutionary
+                    leadership did not hold the reins of the Parliament, but it quickly established
+                    that without the Parliament it would not be possible to implement the changes
+                    legally. Namely, the problems implied by the structure of the Parliament – which
+                    did not guarantee that any decisions adopted at various round tables in those
+                    days would also be processed or adopted – dictated changes in the structure of
+                    the delegates. Tomaš Zahradniček explained more about the solution, which
+                    represented a compromise between the departing old authorities and the
+                    revolutionary movement, and thus provided the missing details. As it happened,
+                    elections for the Federal Assembly were not deemed as a sufficiently swift and
+                    efficient solution, and therefore approximately one third of new delegates were
+                    co‑opted into the Assembly. Despite the legality of this procedure, which
+                    enabled an active cooperation between the executive and legislative authorities,
+                    the move started undermining the legitimacy of the Assembly itself, as its
+                    co‑opted members started undermining the Assembly's previous political
+                    consistency as well as its regional proportionality. The majority of the new
+                    members came from large cities, and the essential differences in perception
+                    between the Czech and Slovak parts of the state were evident as well. Censorship
+                    and the consequent political turmoil were significantly less prominent in
+                    Slovakia, and soon after the introduction of the most important changes the
+                    Assembly deputies started acting more in line with the expectations of the
+                    individual parts of the state. Then Petr Roubal presented an in‑depth analysis
+                    of the subsequent parliamentary discord and the origins of the problems of
+                    Czechoslovak federalism, which was the only political remainder of the Prague
+                    Spring (perhaps also because of the Slovak role in its conclusion; author's
+                    comment). Thus Roubal supplemented the introductory lecture with regard to the
+                    final but consenting breakup after the consolidation of the two national
+                    leaders, Vaclav Havel and Vladimir Mečiar. At this point we should also
+                    underline the discussion about how easily this breakup was actually accepted by
+                    the Czech public and politics, which saw the West through rose‑tinted glasses at
+                    the time but disregarded the East.</p>
+            <p xml:id="ojs-132-p-10">From the today's perception of the established democratic parliamentary
+                    practices, the East German example of transitional parliament is actually
+                    closest to us. The first and last free elections in the German Democratic
+                    Republic took place in May 1990, and the Parliament operated successfully until
+                    2 October of the same year, that is, until the day before the German
+                    reunification. Its mandate was clear, despite the organisationally unchanged
+                    structure: to pave the way for the reunification. Unlike other transitional
+                    states, where the political parties had yet to be established, the last East
+                    German Parliament enjoyed a strong support in the traditional political parties
+                    from the Federal Republic of Germany. If we disregard the SED (Sozialistiche
+                    Einheitspartei Deutschland), the former East German party that came in third,
+                    most of the parties worth mentioning were actually copies of the existing West
+                    German parties. Bettina Tuffers presented the influence of the Bonn parties on
+                    the political developments in the Berlin Parliament, as its delegates also
+                    followed the events from the balcony. The inexperienced new Members of
+                    Parliament had yet to learn about the significance of parliamentary procedures
+                    and basics of political appearances from the veteran West German politicians.
+                    Further elaboration was provided by Aron Buzogany, who focused on the somewhat
+                    more recent issues. With the example of the German Federal State Parliaments he
+                    demonstrated that these independent bodies have – apart from the Upper Chambers
+                    of the National Parliaments – the possibility of successfully influencing the
+                    adoption or rejection of legislation in the European Parliament. While this
+                    calls for enormous organisational efforts, it has born results in at least two
+                    cases. Therefore the weakened national and regional parliaments have retained or
+                    enhanced their significance in the process of the "European federalisation".</p>
+            <p xml:id="ojs-132-p-11">The comparisons between the various constitutional and legal systems and the role
+                    of parliamentary institutions in these systems usually turn out to be very
+                    significant for the presentation of the last stage of the Yugoslav system, the
+                    so‑called "mature self‑management". The convoluted language that accompanied
+                    this system can also be seen in the foreword to the collected works of the
+                    Yugoslav President of the Government Milka Planinc: <hi rend="italic">"The
+                        current stage of the Yugoslav socialist revolution involves the struggle for
+                        the development of socialist self‑management as an integral social
+                        relationship and principle of the construction of the society, struggle for
+                        the construction of the associated labour society or the rule of the working
+                        class with regard to income, social reproduction and social decision‑making.
+                        The everyday constancy of this struggle results in the totality of the
+                        revolutionary practices and attests to human creativity on the path towards
+                        the further liberation of work, the working class and the masses, led by the
+                        League of Communists of Yugoslavia as the leading ideological‑political
+                        force."</hi>
+               <note place="foot" xml:id="ojs-132-ftn2" n="2">Milka Planinc, <hi rend="italic">Savez komunista Jugoslavije u socialističkom
+                            samoupravljanju</hi> (Zagreb: Centar za kulturnu djelatnost, 1982),
+                        2.</note>This totality and creativity resulted in the fact that formally
+                    almost everyone could take part in the political decision‑making at the various
+                    levels, which Jure Gašparič demonstrated schematically in his introduction to
+                    the explanation of the transition in the Slovenian Assembly. Gašparič brought
+                    the attention to the fact that in this process the Federal Assembly became
+                    increasingly irrelevant, while the fundamental political discussions started
+                    coming to the forefront in the Slovenian Socialist Assembly. The Socialist
+                    Assembly and the subsequent first democratically‑elected Assembly, still based
+                    on the old organisational principles, were seen as exceedingly positive by the
+                    Slovenian public. This is also apparent from the results of the public opinion
+                    polls, which was one of Slovenian peculiarities, as this research has gone on
+                    continuously since as early as 1967. However, public opinion polls can
+                    occasionally be wrong, especially when it comes to election results. On the
+                    basis of public opinion patterns and election results, Simona Kustec Lipicer
+                    showed the trends of the changes in the Slovenian political space, where the
+                    already established parties keep losing their positions, while the newly‑formed
+                    parties (sometimes actually established during the official election campaign)
+                    keep making their way into the parliamentary life with each new elections and
+                    have enjoyed very large percentages for the past few years. The lecturer is also
+                    the president of a parliamentary group of one of these parties. Therefore she
+                    could bring together her practical and research experience, while the workshop
+                    participants were able to observe the everyday parliamentary life in the
+                    Slovenian Parliament.</p>
+            <p xml:id="ojs-132-p-12">The constructive debates following each individual contribution and the provided
+                    comparative dimension set excellent foundations for the future research
+                    challenges. These results will not only remain limited to the participants, as
+                    they are freely accessible to anyone: the workshop was recorded, and the
+                    recordings are published at the History of Slovenia – SIstory portal (<ref target="http://www.sistory.si">www.sistory.si</ref>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

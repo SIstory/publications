@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item xmlns="http://www.tei-c.org/ns/1.0"><term>W3CDTF</term><list type="gloss">
+        <label>Definicija</label>
+        <item>Datumski in časovni format W3CDTF.</item>
+        <label>Izvorni atribut</label>
+        <item><ref target="http://dublincore.org/documents/dcmi-terms/#terms-W3CDTF"
+                >dcterms:W3CDTF</ref></item>
+        <label>Originalna definicija</label>
+        <item>"The set of dates and times constructed according to the W3C Date and Time Formats
+            Specification."</item>
+        <label>Uporaba</label>
+        <item><list>
+                <item>Ožji pomen od izvornega <ref
+                        target="http://dublincore.org/documents/dcmi-terms/#terms-W3CDTF"
+                        >dcterms:W3CDTF</ref>. Velja samo za datume, ne velja za čas.</item>
+                <item>Oblika zapisa datuma je vedno LLLL-MM-DD, se pravi leto-mesec-dan - npr.
+                    2013-01-16, kar pomeni 16. januar 2013. Toda v administraciji se ta datum vnaša
+                    kot 16.1.2013.</item>
+                <item>Če v administraciji vpišemo samo leto, npr. 2013, se v bazi shrani celoten
+                    datum 2013-01-01.</item>
+            </list></item>
+    </list></item>

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ojs-131">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Debates Were to be Held in the Parliament, but it Proved Impossible</title>
+            <title>The Federal Assembly and the Velvet Revolution in Czechoslovakia in
+                    1989</title>
+            <author>
+               <name>
+                  <forename>Adéla</forename>
+                  <surname>Gjuričová</surname>
+               </name>
+               <roleName>researcher</roleName>
+               <roleName>PhD</roleName>
+               <affiliation>Institute of Contemporary History of the Czech Academy of
+                        Sciences</affiliation>
+               <address>
+                  <addrLine>Puškinovo náměstí 9</addrLine>
+                  <addrLine>Prague 6</addrLine>
+                  <addrLine>16000</addrLine>
+                  <addrLine>Czech Republic</addrLine>
+               </address>
+               <email>tzahradnicek@seznam.cz</email>
+            </author>
+            <funder>This paper was written as part of a research project on the “Czechoslovak
+                    dissent as a spiritual, cultural and political phenomenon at the times of
+                    normalization, revolution and transformation (1969-2000)” that has been
+                    supported by a grant from the Czech Science Foundation (GACR,
+                    GA15-16256S).</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2015-12-03</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/131</pubPlace>
+            <date>2015</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+             <idno type="PID">sistory.36120</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">55</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Czechoslovakia 1989</term>
+               <term>Parliamentarism</term>
+               <term>The Federal Assembly</term>
+               <term>The Communist Party of Czechoslovakia</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term> Češkoslovaška 1989</term>
+               <term>parlamentarizem</term>
+               <term>zvezni parlament</term>
+               <term>komunistična partija Češkoslovaške</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2015-12-03T19:27:59Z</date>
+               <name>Neja Blaj Hribar</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en" type="article" n="Articles">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>Debates Were to be Held in the Parliament, but it Proved
+                        Impossible</titlePart>
+               <titlePart>The Federal Assembly and the Velvet Revolution in Czechoslovakia in
+                        1989</titlePart>
+            </docTitle>
+             <docAuthor>Tomáš Zahradníček</docAuthor>
+             <docImprint>
+                 <idno type="cobissType">1.01</idno>
+                 <idno type="UDC">328(437):323.27"1989"</idno>
+             </docImprint>
+         </titlePage>
+         <divGen type="search" xml:id="ojs-131-search">
+            <head>Search</head>
+         </divGen>
+         <div type="abstract" xml:lang="sl" xml:id="ojs-131-izvlecek">
+            <head xml:id="ojs.131-head-3">Izvleček</head>
+            <head rend="subtitle" xml:id="ojs.131-head-4">V parlamentu naj bi potekale razprave, vendar se je to
+                    izkazalo za nemogoče: Zvezni parlament in žametna revolucija na Češkoslovaškem
+                    leta 1989</head>
+            <p xml:id="ojs.131-p-6">Leta 1989, ko se je zrušil komunistični režim, se je na Češkoslovaškem pogosto
+                    ponavljala zahteva, da bi bilo treba pomembno politično razpravo o usmeritvi
+                    države voditi zlasti v parlamentu. Vendar se je parlament vse leto izmikal
+                    bistvenim političnim razpravam. Zakonodajno telo ni postalo politični oder in
+                    forum za pomembne razprave ali prizorišče merjenja moči nasprotnikov. Članek
+                    opisuje poskuse pooblastitve parlamenta in analizira razloge za njihov neuspeh.
+                    Osredotoča se zlasti na nekaj tednov po padcu berlinskega zidu, ki so na
+                    Češkoslovaškem dosegli vrhunec z izvolitvijo Václava Havla in Aleksandra Dubčka
+                    na vrhovni ustavni funkciji predsednika in predsednika zveznega parlamenta. </p>
+            <p xml:id="ojs.131-p-7">Ključne besede: Češkoslovaška 1989, parlamentarizem, zvezni parlament,
+                    komunistična partija Češkoslovaške</p>
+         </div>
+         <div type="abstract" xml:id="ojs-131-abstract">
+            <head xml:id="ojs.131-head-5">Abstract</head>
+            <p xml:id="ojs.131-p-8">During 1989, the year of the collapse of the Communist regime, a claim was often
+                    repeated in Czechoslovakia that substantive political debate about the direction
+                    of the country ought to be held particularly in the parliament. Yet the key
+                    political debates shun away from the parliament for the entire year. The
+                    legislature did not become the stage for politics, a forum for substantive
+                    debates or the arena for competing forces. The article maps the attempts to
+                    empower the parliament and analyses the reasons for their failure. Particular
+                    focus is given to the few weeks after the fall of the Berlin Wall that
+                    culminated in Czechoslovakia with the election of Václav Havel and Alexander
+                    Dubček to the supreme constitutional posts of the President and Chairman of the
+                    Federal Assembly.</p>
+            <p xml:id="ojs.131-p-9">Keywords: Czechoslovakia 1989, Parliamentarism, The Federal Assembly, The
+                    Communist Party of Czechoslovakia</p>
+         </div>
+      </front>
+      <body>
+         <div type="chapter" xml:id="ojs-131-article">
+            <head xml:id="ojs.131-head-6">Debates Were to be Held in the Parliament, but it Proved Impossible: The
+                    Federal Assembly and the Velvet Revolution in Czechoslovakia in 1989<note place="foot" xml:id="ojs-131-ftn2" n="1">This paper was written as part of a
+                        research project on the “Czechoslovak dissent as a spiritual, cultural and
+                        political phenomenon at the times of normalization, revolution and
+                        transformation (1969-2000)” that has been supported by a grant from the
+                        Czech Science Foundation (GACR, GA15-16256S).</note>
+            </head>
+            <docAuthor xml:id="ojs.131-docAuthor-2">Tomáš Zahradníček<note place="foot" xml:id="ojs-131-ftn1" n="*">researcher, PhD, Institute of Contemporary History of the Czech Academy of
+                        Sciences, Puškinovo náměstí 9, Prague 6, 16000, Czech Republic, <ref target="mailto:tzahradnicek@seznam.cz">tzahradnicek@seznam.cz</ref>
+               </note>
+            </docAuthor>
+            <p xml:id="ojs.131-p-10">During the breakthrough year of 1989 a claim was often repeated in Czechoslovakia
+                    that substantive political debate about the direction of the country ought to be
+                    held particularly in the parliament. Yet the key political debates shun away
+                    from the parliament for the entire year. The legislature did not become the
+                    stage for politics, a forum for substantive debates or the arena for competing
+                    forces. This study maps the attempts to empower the parliament and their
+                    failure. Particular focus is given to the few weeks after the fall of the Berlin
+                    Wall that culminated in Czechoslovakia with the rise of Václav Havel and
+                    Alexander Dubček to the supreme constitutional posts of the President and
+                    Chairman of the Federal Assembly.<note place="foot" xml:id="ojs-131-ftn3" n="2">The best summary publications about the Czechoslovak November and December
+                        1989: James Krapfl, <hi rend="italic">Revolution with a Human Face:
+                            Politics, Culture, and Community in Czechoslovakia, 1989-1992</hi>
+                        (Ithaca: Cornell University Press, 2013). Jiří Suk, <hi rend="italic">Labyrintem revoluce. Aktéři, zápletky a křižovatky jedné politické
+                            krize (od listopadu 1989 do června 1990)</hi> [Through the Labyrinth of
+                        the Revolution. Actors, Plots and Crossroads of A Political Crisis (from
+                        November 1989 to June 1990)] (Praha: Prostor, 2003).</note>
+            </p>
+            <p xml:id="ojs.131-p-11">The Berlin Wall fell on 11 November 1989. On 17 November police in Prague
+                    intervened against student demonstration in a manner that triggered mass
+                    demonstrations in the coming days in Czechoslovakia as well. Most gatherings
+                    took place just a few metres from the Czechoslovak federal parliament – the
+                    Federal Assembly, which, however did not merit their attention. During the first
+                    street protests the massive flow of protesters repeatedly headed towards the
+                    parliament. Yet that was not their destination: the crowd passed the building
+                    without major interest and continued a few steps further to the headquarters of
+                    the Czechoslovak Radio to demand true information about the developments in
+                    Prague. The initial ignorance of the federal parliament building by the
+                    protesters shows their realistic assessment of the role of the legislature and
+                    its crew in the power gear.</p>
+            <p xml:id="ojs.131-p-12">To enhance the role of representative assemblies during socialism was one of the
+                    slogans of Mikhail Gorbachevʼs reforms. They had been also translated, quoted
+                    and repeated in Czechoslovakia. The parliament was to enhance its autonomy and
+                    become “a powerful agent of socialist democracy.”<note place="foot" xml:id="ojs-131-ftn4" n="3">Gorbachev speaks of “Soviets” that were known as
+                        the “National Committees” in Czechoslovak terminology, whilst the three
+                        supreme assemblies were called differently: The Czech National Council, the
+                        Slovak National Council (the supreme soviets in the republics), and the
+                        Federal Assembly. In his criticism of the existing situation Gorbachev used
+                        to say: “... the role of the Soviets was weakened. What emerged was what we
+                        call the replacement of the roles and activities of the state and
+                        administrative bodies by the party organs. (...) In brief, there was a
+                        specific deformation of the entire activity of the democratic body which
+                        owes its existence to our socialist revolution. Thus the major task that
+                        arose in front of us during the reconstruction: to fully renew the role of
+                        the Soviets, as the bodies of political power, as bearers and powerful
+                        carriers of socialist democracy”. ̶ Michail Sergejevič Gorbačov, <hi rend="italic">Přestavba a nové myšlení pro naši zemi a pro celý svět
+                        </hi>[Perestroika and New Thinking for Our Country and the Whole World]
+                        (Praha: Svoboda, 1987), 96-97.</note> Possible outcome was only tested by
+                    individuals in Prague before the Autumn of 1989. Among them was Evžen Erban,
+                    retired high official of the Communist Party. As the first and only more
+                    noteworthy politician he invited Václav Havel for a meeting in the Summer of
+                    1989. At one point of his long political monologue he told Havel: “I might be
+                    arrested in the afternoon ...” to add: “They cannot! They cannot! I have
+                    parliamentary immunity!” and pulled out his parliamentary ID card.<note place="foot" xml:id="ojs-131-ftn5" n="4">Václav Havel seemed so captivated
+                        by that moment that he has not forgotten about it when, from the distance of
+                        a few weeks, he recounted the unique encounter of 15 November to Irena
+                        Gerová. Irena Gerová, <hi rend="italic">Vyhrabávačky: Deníkové zápisy a
+                            rozhovory z let 1988 a 1989</hi> [Digs: Diary Notes and Interviews from
+                        1888 and 1989] (Praha, Litomyšl: Paseka, 2009), 137. For additional
+                        testimonies about Erbanʼs activities see Zdislav Šulc, <hi rend="italic">Z
+                            jeviště i zákulisí české politiky a ekonomiky</hi> [From the Stage and
+                        Backstage of Czech Politics and Economics] (Brno: Doplněk, 2011),
+                        197.</note> The scene offers a glimpse on some significance attached to
+                    parliamentary immunity when deciding about the degree of political courage
+                    vis-à-vis political breakthroughs. Yet there is only limited evidence of the
+                    kind in Czechoslovakia.</p>
+            <p xml:id="ojs.131-p-13">When testing the limits of how far one could have gone in using the federal
+                    parliament and uncensored rostrum, Lubomír Štrougal went farthest. Another of
+                    the political veterans, having served the top power posts for thirty years,
+                    Štrougal withdrew to seclusion probably in hope that he would be invited back.
+                    In the Summer of 1989 he reminded the Party leadership of their guilt for the
+                    failure of the earlier reform attempts. He skilfully used a language different
+                    from that prescribed by the Party leadership. Instead of reconstruction he spoke
+                    of “radical reform” and criticised the abandonment of economic policies of the
+                    Prague Spring.<note place="foot" xml:id="ojs-131-ftn6" n="5">“Politics is the
+                        art of the possible, whilst the possible was affected not only by internal,
+                        but also international context. (...) The abandonment of the economic reform
+                        in the early 1970s was a grave mistake,” stated Štrougal. ̶ <hi rend="italic">Společná česko-slovenská digitální parlamentní
+                            knihovna</hi> [Common Digital Czecho-Slovak Parliamentary Library],
+                        Federal Assembly 1986-1990, Joint Sessions of the House of People and the
+                        House of Nations, Stenographic records, 14<hi rend="superscript">th</hi>
+                        session, 20. 6. 1989, accessed October 30, 2015,<ref target="http://www.psp.cz/eknih/1986fs/slsn/stenprot/014schuz/s014017.htm">http://www.psp.cz/eknih/1986fs/slsn/stenprot/014schuz/s014017.htm</ref>.
+                        Cf. Jaromír Sedlák, <hi rend="italic">Muž nad stolem, aneb Byl jsem
+                            Štrougalovým poradcem</hi> [A Man Over The Table or I Was Štrougalʼs
+                        Adviser] (Praha: BVD, 2010), 131.</note> His address on 20 June 1989 to the
+                    plenary session of the Federal Assembly met with silence among the MPs and the
+                    media.</p>
+            <p xml:id="ojs.131-p-14">Another attempt was made a few months later by Štrougalʼs successor in the post
+                    of the federal Prime Minister, Ladislav Adamec. As constitutional official the
+                    Prime Minister was answerable to the federal parliament. At the same time, as
+                    member of the Communist Party, he was bound to conformity with the Party
+                    leadership. In the Autumn of 1989 Adamec tried to weaken the dependence on the
+                    Party leadership by transferring the hitherto internal discussion from the Party
+                    grounds to the parliament. Yet the report he had drafted was not approved by his
+                    superior Party bodies. Hence on 11 November 1989 the Prime Minister, bound with
+                    discipline, had to read to the Federal Assembly statements that included some
+                    points that were in contradiction to what he had wanted to say. Nonetheless, he
+                    did not give in and spoke later in the debate together with other MPs. With a
+                    slight delay he presented his own version of the thesis about the need for
+                    political reform. Those passages were, however, later censored by the media upon
+                    intervention from the Party headquarters. Such was the infamous fate of the key
+                    attempt to transfer political debate from Party corridors to the
+                        parliament.<note place="foot" xml:id="ojs-131-ftn7" n="6">Miloš Hájek, <hi rend="italic">Paměť české levice</hi> [The Memory of the Czech Left]
+                        (Praha: Ústav pro soudobé dějiny AV ČR, 2011), 295.</note>
+            </p>
+            <p xml:id="ojs.131-p-15">The attempt by Adamec did not become publicly known and has not entered history:
+                    in the days that followed it was outshone by new, more far reaching events. The
+                    Civic Forum was established as a wide coalition of those outraged by police
+                    brutality against the demonstration in Prague on 17 November 1989. After a few
+                    days of mass rallies it became apparent that the retiring power structures were
+                    giving up their power quite willingly. Guided by the logic of the existing power
+                    system, the attention focused on the development within the Communist Party of
+                    Czechoslovakia. The parliament and other political institutions respected the
+                    hierarchy.</p>
+            <p xml:id="ojs.131-p-16">Personnel changes in the presidium of the Central Committee of the Communist
+                    Party of Czechoslovakia were bound to signal a major power shift. The Central
+                    Committee was a federal body: two thirds out of the hundred and fifty full
+                    members were Czechs. The assembly of the actual power holders convened on 24 and
+                    25 November.<note place="foot" xml:id="ojs-131-ftn8" n="7">Recordings of both
+                        session, after which the leadership was altogether replaced: <hi rend="italic">Poslední hurá. Stenografický záznam z mimořádných zasedání
+                            ÚV KSČ 24. a 26. listopadu 1989</hi> [The Final Hooray: Stenographic
+                        Record from Extraordinary Sessions of the Central Committee of the Communist
+                        Party of Czechoslovakia on 24 and 26 November 1989] (Praha: Agentura Cesty,
+                        1992).</note> A few candidates for political leadership spoke actively,
+                    including the two aforementioned speakers from the parliament – Lubomír Štrougal
+                    and Ladislav Adamec. Yet none of them was given a mandate. A dramatic clash of
+                    long warring factions gave rise to the Communist Party leadership to neutral,
+                    feeble candidates. The choice meant actual and virtually immediate extinction of
+                    the influence of the Party headquarters.</p>
+            <p xml:id="ojs.131-p-17">The disintegration of the old institutional centre opened space for activities at
+                    other platforms. The first in line to benefit from this for some time was the
+                    federal Prime Minister Ladislav Adamec. He held operational power and entered,
+                    on his own, into talks about further developments with the Civic Forum. The
+                    demands by the Civic Forum headed towards transformation of the political
+                    system: a revision of the Constitution, preparation of elections, changes in
+                    state posts. All that called for the involvement of the parliament.</p>
+            <p xml:id="ojs.131-p-18">As the events evolved, the significance of the parliament rose notably. Yet there
+                    was a glitch: mandates were required in order to move political debates to the
+                    parliament. Nevertheless, none of the new members of the temporarily governing
+                    group surrounding Prime Minister Adamec had them. Adamec himself was not member
+                    of the parliament. Naturally, the Civic Forum did not have any parliamentary
+                    representatives. Meeting in the federal government building, only one of the
+                    seventeen people who gathered on 28 November as part of the delegations of the
+                    federal government and the Civic Forum to plan the future of their country, held
+                    parliamentary mandate: Bohuslav Kučera, the Chairman of the Czechoslovak
+                    Socialist Party.</p>
+            <p xml:id="ojs.131-p-19">Who then actually was represented in the parliament? Who were the people who
+                    held, at the moment of political change, the 350 mandates? The national key
+                    served as the basis of parliamentary mathematics at the Federal Assembly. At the
+                    core of the entire complex structure of the institution was representation of
+                    deputies from both parts of the federation in the two Houses of the Federal
+                    Assembly. The representation in one of them, the House of Nations, was equal.
+                    Moreover, the deputies from the Czech Republic and from Slovakia voted
+                    separately on Constitutional changes and other major issues subject to debate on
+                    which the Constitution stipulated “a ban on majorisation”. Hence the need for
+                    identical consensus by both Czech and Slovak majority. In the other chamber, the
+                    House of People, the twice more populous Czech Republic had the corresponding
+                    majority of mandates.</p>
+            <p xml:id="ojs.131-p-20">Additional crucial parliamentary mathematics was based on power control through
+                    the privileged and disciplined Communist Party. The thoroughness that gave the
+                    Party members priority rights and leading posts was, in the case of the
+                    parliament, brought to perfection. Following the elections in 1986, 69 percent
+                    of MPs came from the Communist Party of Czechoslovakia.<note place="foot" xml:id="ojs-131-ftn9" n="8">For the list of MPs elected in 1986 with their
+                        political identification and other characteristics see <hi rend="italic">Československo dnes: Zastupitelské sbory, vlády, diplomatické styky,
+                            školství, zdravotnictví, ekonomika, kraje ČSSR</hi> [Czechoslovakia
+                        Today: Representative Assemblies, Government, Diplomatic Relations, Schools,
+                        Healthcare, Economics, and Regions in CSSR] (Praha: Pressfoto, 1987),
+                        20-56.</note> The second most numerous group was the “non-partisan” members,
+                    representing 18.3 percent. It was an atomised crowd of women and men
+                    organisationally linked to the apparatus of the Communist Party.<note place="foot" xml:id="ojs-131-ftn10" n="9">The easiest way to describe this
+                        is an atomised team of reliable friends of the Party in power, representing
+                        some features prescribed by the doctrine of socialist parliamentarism that
+                        detailed all qualities and their proportion as ought to be present in the
+                        assemblies.</note> The only four individual organisations with some degree
+                    of autonomy were represented far more scarcely. The two Czech political parties,
+                    the Czechoslovak Socialist Party and the Czechoslovak Peopleʼs Party held
+                    identical 5.5 percent of mandates in the Federal Assembly. Each of the two
+                    Slovak parties, the Freedom Party and the Party of Slovak Revival held only 1.1
+                    percent.</p>
+            <p xml:id="ojs.131-p-21">A simple look at the data that were undisclosed at the time in the raw form,
+                    shows quite clearly the developmental options for the Federal Assembly: the
+                    fundamental question was what would the total of 87 percent of MPs representing
+                    the Communist A-team (the faction of the Communist MPs) and the associate B-team
+                    (non-partisan MPs), the hitherto pillars of power do. What would they do in the
+                    uncertain times when their power centre was falling apart?</p>
+            <p xml:id="ojs.131-p-22">The first joint session in the revolutionary weeks was called for Thursday 29
+                    November. The main points in the agenda arose from the government talks with the
+                    Civic Forum. The deputy Prime Minister in the Adamec cabinet was to address
+                    them. On their way to the parliament the MPs had to pass by instructions from
+                    the revolutionary street, saying: “Deputies, vote for your voters, not for
+                        yourselves!”<note place="foot" xml:id="ojs-131-ftn11" n="10">“Poslanci,
+                        hlasujte za své voliče, ne za sebe!,” <hi rend="italic">Svobodné slovo</hi>,
+                        November 30, 1989, 1.</note> The joint session of the two Houses opened
+                    after lunch in somewhat chaotic atmosphere. “Quite an unrest reigned in the
+                    building of the Federal Assembly during the lunch break,” recalled MP Karel Löbl
+                    later. “We did not have any information about the agenda of the joint session.
+                    It seemed that an unusual number of guests were present. One could hear the echo
+                    of the protesters chanting outside by the statue of St. Wenceslas. (...) When
+                    the hitherto Chairman Indra stepped down, Slovak Communist Janík, lacking
+                    relevant experience, took over chairing the session. Moreover, the atmosphere in
+                    the Federal Assembly building echoed responses to the morning closed session of
+                    the Communist faction where the Minister of Defence General Václavík was
+                    allegedly in a warring mood when reporting on the readiness of the military to
+                    intervene. Being non-Communist, I was not there. The non-Communist MPs were,
+                    however, disturbed by that the Communist MPs had already available in advance
+                    some printouts of the agenda of the afternoon session.”<note place="foot" xml:id="ojs-131-ftn12" n="11">Karel Löbl, <hi rend="italic">Naděje a omyly.
+                            Vzpomínky na onu dobu</hi> [Hopes and Errors. Memoirs of An Era] (Praha:
+                        Academia, 2012), 641-2.</note>
+            </p>
+            <p xml:id="ojs.131-p-23">At their joint session, the two Houses of the Federal Assembly quickly met all
+                    fundamental demands by the Civic Forum, yet by means most advantageous for the
+                    parliamentarians. Within a few hours the discredited veteran Alois Indra
+                    disappeared as the leader of the Federal Assembly, as did the passages in the
+                    Constitution about the leading role of the Communist Party of Czechoslovakia and
+                    of Marxism-Leninism. A commission for the oversight over the investigation of
+                    the intervention on 17 November was set up. All that happened broadcasted live
+                    by the Czechoslovak Television and the Czechoslovak Radio.</p>
+            <p xml:id="ojs.131-p-24">Yet the parliament also adopted its own resolution on the political situation.
+                    Speakers from different political currents represented in the parliament agreed
+                    in that the political decision-making finally got to the parliament from the
+                    Party bureaus, as well as from the streets and squares. It belonged there and
+                    was to remain there. The resolution adopted by both chambers of the Federal
+                    Assembly as “the representative of the people of Czechoslovakia” subscribed to
+                    all “progressive demands that lead to further development of socialist societal
+                    relations, to the improvement of socialist democracy and living conditions of
+                    the people.” It reminded that a number of reform laws have reached an advanced
+                    stage of draft and were to be adopted within “a few days”, whilst MPs were
+                    drafting additional ones. At the same time they explicitly mentioned the need to
+                    adopt new regulations for the press, association, and the right to petition and
+                    defence law. Furthermore, “at the same time we deem it of prime duty to promptly
+                    complete the work on the new Constitution.” The parliament further emphasised
+                    both steps that preceded the adoption of resolutions and meant satisfaction of
+                    the main demands of those on strike. That meant setting up the parliamentary
+                    commission and abolition of the Constitutional article about the leading role of
+                    the Communist Party of Czechoslovakia. Constitutionally speaking – and
+                    altogether in contrast with the vision of the revolutionary forces – the Federal
+                    Assembly became the sovereign. Whilst its declaration did not explicitly
+                    emphasise that and only hinted at it by praising the government for “the
+                    dialogue with the representatives of civic initiatives”, by expressing support
+                    to the planned changes in the government and also with a few formulations
+                    attempting to define the government powers: “The Federal Assembly commits the
+                    government of the Czechoslovak Socialist Republic to carry out dialogue whilst
+                    being aware of responsibility for the socialist future of our nations and ethnic
+                    groups. At the same time it commits it to systematically continue in following
+                    the foreign policy line contained in its manifesto adopted in November 1989 at
+                    the joint session of the Federal Assembly.” Finally, the Federal Assembly
+                    stated: “We assure the people of our republic that we shall continue to do our
+                    utmost to secure content life of the peoples in our socialist republic in line
+                    with the principle: 'All power in the Czechoslovak Socialist Republic belongs to
+                    the working people.'”<note place="foot" xml:id="ojs-131-ftn13" n="12">“K
+                        současné vnitropolitické situaci. Prohlášení FS ČSSR“ [On the current
+                        political situation. Declaration by the Federal Assembly of CSSR], <hi rend="italic">Svobodné slovo</hi>, November 30, 1989, 3.</note>
+            </p>
+            <p xml:id="ojs.131-p-25">The parliamentary attempt to take over activity as an indispensable institution
+                    was, in the hours that followed after the end of the televised broadcast,
+                    commented upon far less than was the audience experience of it. The breakthrough
+                    events were increasingly broadcast by the state television and radio. The first
+                    televised live broadcasts from Wenceslas Square were aired on 22 November, a
+                    week prior to the broadcast from the Federal Assembly. Ever longer broadcasts
+                    and transmissions followed, all of which were less and less tailored to satisfy
+                    the needs of the leadership of the Communist Party of Czechoslovakia.<note place="foot" xml:id="ojs-131-ftn14" n="13">The director general of
+                        Czechoslovak Television Libor Bartla announced on the news on 23 November
+                        that the television was directly run by the federal government; i.e. it was
+                        the government instead of the hitherto unlawful direct control by the
+                        apparatus of the Central Committee of the Communist Party of Czechoslovakia.
+                        Mirka Spáčilová, “Televize v rukou vlády?” [Television in the Hands of the
+                        Government?], <hi rend="italic">Mladá fronta</hi>, November 24, 1989, 5. Cf.
+                        Milan Šmíd, “Česká média a jejich role v procesu politické změny roku 1989”
+                        [Czech Media and Their Role in the Process of Political Change in 1989],
+                        accessed May 15, 2013, <ref target="http://www.louc.cz/pril01/listopad.pdf">http://www.louc.cz/pril01/listopad.pdf</ref>.</note> The highlight of
+                    the development came as soon as Saturday 25 November when the first federal
+                    channel showed alternatively live broadcasts of thanksgiving mass for the
+                    canonisation of Agnes of Bohemia with Cardinal František Tomášek serving at St.
+                    Vitus Cathedral; from press conference on the extraordinary session of the
+                    Central Committee of the Communist Party of Czechoslovakia; and from the biggest
+                    of mass demonstrations in Prague, which was alternated with a concurrent
+                    conference of the Prague branch of the Communist Party of Czechoslovakia held in
+                    the Palace of Culture. In the evening after the extended main news, the
+                    television repeated twice a special televised address by the new secretary
+                    general of the Communist Party of Czechoslovakia Karel Urbánek. In between,
+                    within an improvised 45-minute bloc of interviews “On Current Issues”, Václav
+                    Havel spoke for the first time more continuously on cameras.</p>
+            <p xml:id="ojs.131-p-26">The programme deserves recognition for the speed, quality and representative
+                    nature of political debate on television and its broadcasts, that was achieved
+                    as early as during the weekend of 25 and 26 November. Apart from the television,
+                    other media, radio and daily press tried hard as well. It ought to be noted in
+                    order to understand the preserved scope of – largely disenchanted – responses to
+                    the first live broadcast from the Federal Assembly in the afternoon of Wednesday
+                    29 November. From the perspective of television viewers, the session of the
+                    legislative body was to be yet another part in the series on the revolution. The
+                    core roles that otherwise were to be played by the parliament, had been already
+                    well served by other fora, as had been also noted by MPs. Compared to the
+                    televised platforms, some representatives had been missing altogether whilst
+                    others were superfluous. The final impression was thus somewhat skewed and
+                    incoherent with the ongoing debates in Prague and Bratislava.</p>
+            <p xml:id="ojs.131-p-27">Those characteristics come out most clearly in the case of Anton Blažej who
+                    became, for three weeks, the leading figure of the emancipation effort at the
+                    Federal Assembly. Rector of the Technical University in Bratislava since 1969,
+                    Blažej appeared in front of the cameras on 29 December as spokesman of the
+                    Communists in the parliament. He gave a major political address about the
+                    emergent situation. On behalf of the Communist majority he recognised and
+                    welcomed the de facto completed régime change: “We, the Communist MPs, have to
+                    primarily state in public that those were our own faults and mistakes, as well
+                    as the mistakes of the Party, our erroneous interpretation of socialism, our
+                    flawed understanding of the leading role of the Communist Party ...” He
+                    explained to the viewers that the federal parliament was being transformed along
+                    with the wider changes, and was gaining stronger position. He criticised the
+                    previous policy, welcomed constitutional changes and talks with the Opposition,
+                    and stated that the Communists would try to succeed in the coming elections:
+                    “Communist MPs support most actively the democratic elections and the emergence
+                    of the coalition government. If we wish to genuinely unite on the principles of
+                    building modern, democratic, human, and industrially advanced socialist
+                    Czechoslovakia, I think we have every capacity to find a common
+                    ground.”According to Blažej, within the coming hours the Federal Assembly was to
+                    meet all student demands it was able to satisfy, and the youth would then be
+                    free to part and return to their studies.<note place="foot" xml:id="ojs-131-ftn15" n="14">
+                  <hi rend="italic">Společná česko-slovenská
+                            digitální parlamentní knihovna</hi> [Common Digital Czecho-Slovak
+                        Parliamentary Library], Federal Assembly 1986-1990, Joint Sessions of the
+                        House of People and the House of Nations, Stenographic records, 16<hi rend="superscript">th</hi> session, 29. 11. 1989, accessed October 30,
+                        2015, <ref target="http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016001.htm">http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016001.htm</ref>.</note>
+            </p>
+            <p xml:id="ojs.131-p-28">It would have been a fine address and perhaps even effective, had it not been
+                    given by an unknown man in his sixties and without Miloš Jakeš and other
+                    infamous faces of the old leadership seated to his left. They evidently
+                    considered it their duty not to be missing in their seats at the presidium. Even
+                    though they no longer had any influence on the content of Blažejʼs speech or on
+                    anything else what was going on that day in the Federal Assembly, with their
+                    mere visual presence they set the background to the effort of most speakers.
+                    They sat without responding to Blažej or the others who were escalating the
+                    general condemnation of the previous decades and the criticism of particulars.
+                    Yet, according to the rules of procedure, as members of the presidium they were
+                    entitled to priority intervention in the debate. From among the Czech
+                    politicians representing real power, only the Minister of Defence General Milan
+                    Václavík was to speak. He was invited directly by the deputy chairman of the
+                    Czechoslovak Socialist Party Karel Löbl to tell the plenary whether there were
+                    any grounds for concern about military intervention. The Minister, dressed in
+                    uniform as was customary, indignantly rejected the concern.<note place="foot" xml:id="ojs-131-ftn16" n="15">Karel Löbl, <hi rend="italic">Naděje a omyly.
+                            Vzpomínky na onu dobu</hi> [Hopes and Errors. Memoirs of An Era] (Praha:
+                        Academia, 2012), 641. Address by Löbl and Václavík: <hi rend="italic">Společná česko-slovenská digitální parlamentní knihovna</hi> [Common
+                        Digital Czecho-Slovak Parliamentary Library], Federal Assembly 1986-1990,
+                        Joint Sessions of the House of People and the House of Nations, Stenographic
+                        records, 16<hi rend="superscript">th</hi> session, 29. 11. 1989, accessed
+                        October 30, 2015, <ref target="http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016004.htm">http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016004.htm</ref>.</note>
+            </p>
+            <p xml:id="ojs.131-p-29">On behalf of the Czech part of the Communist Party of Czechoslovakia, two common
+                    MPs spoke up: Jana Pekařová and Hana Návratová. It was their address that, in
+                    the coming days, triggered major debate within the Czech context. One might
+                    rightly assume that theirs were to be complementary speeches to that given by
+                    Blažej. The Czech women-mothers spoke after a man, an academic with his rational
+                    arguments. The division was common in similar arrangements and the two MPs
+                    introduced themselves to the viewers and listeners accordingly. After the
+                    conflict in the Communist faction at noon, it was unlikely to be an
+                    authoritatively drafted script for the debate, but somewhat an intuitive
+                    balancing and repetition of morning debates in front of the television cameras.
+                    According to the testimony by Ms Návratová, MP, the Communist MPs no longer had
+                    any firm leadership that day after the noon meeting of the faction, and their
+                    presentations came out in an improvised manner.</p>
+            <p xml:id="ojs.131-p-30">In case of the Czech female MPs on television the impression was not given that
+                    much by their message, but their looks and presentation. In a concentrated form
+                    the addresses contained vast amount of patterns and canonical formulations by
+                    lower rank officials who reproduced the official propaganda with least
+                    investment in thought or language, yet with high personal commitment. That
+                    immediately triggered allergic reactions among a part of audience in spite of
+                    the fact that the addresses by the two MPs were de facto quite forthcoming. Both
+                    were plainly supportive of the Adamec cabinet against possible attacks by the
+                    Party apparatus. Yet most audiences had been unable to decode this. Not only
+                    were they accustomed to “switch off” when listening to official speeches. The
+                    speeches suggesting emancipation of Communist MPs from the leadership by the
+                    Party apparatus that were in part pursuing the pre-November institutional
+                    attempts and intraparty struggles, were unintelligible to the uninitiated
+                    audience. Within the context of the new discourse and situation they came across
+                    as inappropriate and out of sync with the debate on the squares.</p>
+            <p xml:id="ojs.131-p-31">The Adamec cabinet had an opportunity on the day to test its ability as the new
+                    centre of power to mobilise the majority in both Houses. The test brought
+                    relatively positive results: except for a handful of succinct commentaries, its
+                    opponents from the Communist Party were silent in the plenary. Support to the
+                    federal government and to the Prime Minister personally came out from most
+                    speakers. For instance, Slovak independent MP Gejza Mede appealed: “We, the
+                    parliament, have already shown that we are at the level that we can criticise
+                    the government when appropriate and in the interest of the society, of our
+                    voters. Yet has this parliament reached the level that it can help the
+                    government when help is needed?”<note place="foot" xml:id="ojs-131-ftn17" n="16">
+                  <hi rend="italic"> Společná česko-slovenská digitální parlamentní
+                            knihovna</hi> [Common Digital Czecho-Slovak Parliamentary Library],
+                        Federal Assembly 1986-1990, Joint Sessions of the House of People and the
+                        House of Nations, Stenographic records, 16<hi rend="superscript">th</hi>
+                        session, 29. 11. 1989, accessed October 30, 2015, <ref target="http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016002.htm">http://www.psp.cz/eknih/1986fs/slsn/stenprot/016schuz/s016002.htm</ref>.</note>
+                    Prime Minister Adamec and his team followed the debate on television and were
+                    responding to some statements by telephone. “Adamec followed my address on
+                    television and immediately phoned my secretariat,” recalls Karel Löbl who has
+                    known Adamec well for the nearly two decades of their service to the Czech
+                    government. “His secretary Dáša only got hold of me the next day when the Prime
+                    Minister thanked me for support and critical suggestions, and expressed belief
+                    in positive developments. I acquired an impression from the debate that he was
+                    not fighting as much the emerging Civic Forum, but some people in his own
+                        Party.”<note place="foot" xml:id="ojs-131-ftn18" n="17">Löbl, <hi rend="italic">Naděje a omyly</hi>, 643.</note>
+            </p>
+            <p xml:id="ojs.131-p-32">The first debate evidenced fairly advanced split in the Czech and Slovak
+                    politics, different role of debates in the two national communities at the
+                    Federal Assembly, as well as the different position and perspective of the
+                    Communist Parties in Czech and Slovak politics. Though the Communist faction
+                    formally presented all Constitutional changes, a number of disparate groups were
+                    within the brand, all standing on historical crossroads where they split into a
+                    number of groups. Anton Blažej was given space in front of the cameras. As the
+                    subsequent debate and events over the coming weeks and months showed, the rector
+                    from Bratislava used, in an improvised manner, his perspective and rhetorical
+                    skills. Yet de facto he did not represent any significant faction within the
+                    disintegrating Party. The moments that were deciding their fate occurred
+                    elsewhere, mainly in the central apparatuses in Prague and Bratislava and within
+                    the executive.</p>
+            <p xml:id="ojs.131-p-33">The other components of the parliament to draw attention by their activity during
+                    the first televised debate were the smaller Czech and Slovak political parties.
+                    The Czech Socialists, who emerged strong with a team of five well prepared
+                    speakers during the debate over the first point on the agenda, were gradually
+                    joined by others. Thus during the evening tuning of the parliamentary
+                    declaration in the plenary, each particular matter was discussed by a Czech and
+                    Slovak Communist MP along with MPs from the Czechoslovak Peopleʼs Party, the
+                    Party of Slovak Renewal, and the Freedom Party. The common problem of all these
+                    voices lay in the proportion between their quantity and representativeness.
+                    Unlike the readers of this text, television viewers were not warned in advance
+                    about the weight of individual organisations. Thus the debate might have led
+                    them to a false conclusion about the political weight of individual
+                    addresses.</p>
+            <p xml:id="ojs.131-p-34">The assessment of the four legal political parties differed substantially in the
+                    Czech and Slovak society, ranging from quite benign ideas about the prospective
+                    role of these parties as the nuclei of pluralistic political life (what was the
+                    evident long-term aim of, for instance, their newspapers), to bitter
+                    condemnations of the operetta mini-parties led by police agents and frightened
+                    corrupted officials whose activity created smokescreen for democratic
+                    socialism.</p>
+            <p xml:id="ojs.131-p-35">The particular status of these parties within the political system emerged as an
+                    improvisation in an effort to retain, in the newly seized countries in the
+                    Soviet bloc, some ornamental differences related to local customs.<note place="foot" xml:id="ojs-131-ftn19" n="18">Non-Communist parties as part of
+                        the state-socialist governments worked in East Germany (4), Czechoslovakia
+                        (2+2), Poland (2) and Bulgaria (1), as well as in Vietnam (2 destroyed in
+                        1988) and China (8). In Hungary, Romania, Yugoslavia and other countries of
+                        the Soviet bloc non-Communist parties were altogether suppressed.</note> It
+                    was similar to the Moscow decision to retain Presidency in Czechoslovakia, a
+                    post that was functionally superfluous and inexistent in the Soviet model. The
+                    Soviet political reforms at the end of 1980s led to democratisation of internal
+                    life of the Communist Party. They did not offer any example for the leaders of
+                    non-Communist parties in the Soviet satellites. Not that the leaders of those
+                    parties did not know what could be expected of them. Visions of equality and
+                    greater share in the government were a natural part of their existence.
+                    Throughout the forty years all such efforts ended where they began. Other
+                    organisations were not allowed to take part in the decision-making. They were
+                    merely permitted to elaborate or provide for the adopted decision. It was the
+                    Communist Party that had the patent to govern. The situation at the end of the
+                    1980s seemed to a part of the lower rank officials of both larger Czech
+                    satellite parties, the Peopleʼs and Socialist, as untenable. Pressure on the
+                    leadership was rising and the activities in both parties were called a “reviving
+                    current.”</p>
+            <p xml:id="ojs.131-p-36">The idea that they would significantly increase their influence in the future was
+                    largely based on analogies with Czechoslovakia’s interwar politics. Similarly to
+                    other areas, such as the economy or culture, there was a widespread belief in
+                    the Czech society that the future development would return to the developmental
+                    trends suppressed or eliminated by the Communist rule. Other future was hardly
+                    conceivable.</p>
+            <p xml:id="ojs.131-p-37">Hence the quite widespread belief that the Socialists and Populars represented,
+                    albeit in a distorted form, traditional mass political currents identified with
+                    by a substantial part of the population, and that some sort of restoration of
+                    influence was about to come. Václav Havel thought along the same lines. In the
+                    middle of the Summer of 1989, he grasped an accidental informal opportunity to
+                    send, faced by a number of witnesses, a flirty message to the central secretary
+                    of the Czechoslovak Socialist Party, Jan Škoda, addressing his former schoolmate
+                    and fellow scout with an old nickname: “Dear Nosák [Nosey], I hope we meet soon
+                    at some roundtable. Václav Havel.”<note place="foot" xml:id="ojs-131-ftn20" n="19">Gerová, <hi rend="italic">Vyhrabávačky, </hi>51.</note>
+            </p>
+            <p xml:id="ojs.131-p-38">The Czechoslovak Socialist party was the first to join the newly formed coalition
+                    as soon as in the first hours of the demonstrations against the police
+                    intervention on 17 November. When Škoda, directly invited by Havel, came to the
+                    founding meeting of the Civic Forum, he was listed among the representatives of
+                    the dissident groups and strike committees. In the tumultuous events of the
+                    coming days the Czech Socialists were present and accepted everywhere, and,
+                    given their mediation skills, they were also liked to be seen in the old
+                    government institutions and in the headquarters of the Civic Forum. The chairman
+                    of the party, Kučera, ceremoniously used his many posts in the political system
+                    to involve the Civic Forum in the game and in the removal of the Communist Party
+                    headquarters. The star day came during the parliamentary debate in front of the
+                    television cameras on 29 November.</p>
+            <p xml:id="ojs.131-p-39">Whatever was said above about the party of Czechoslovak Socialists also held true
+                    with some variations for the Czechoslovak Peopleʼs Party. The first major
+                    difference was the threefold membership base: there were about fifteen thousand
+                    socialists and some forty thousand Populars.<note place="foot" xml:id="ojs-131-ftn21" n="20">Löbl, <hi rend="italic">Naděje a omyly</hi>,
+                        583.</note> The other distinction was such a cautious party leadership that,
+                    apart from pacifying its own fellow party members, throughout 1989 it did not
+                    exert any noteworthy activity. In order for the Peopleʼs Party to join the main
+                    stream of political events, the leadership had to be replaced, which happened on
+                    Monday 27 November.<note place="foot" xml:id="ojs-131-ftn22" n="21">Břetislav
+                        Daněk, <hi rend="italic">Československá strana lidová – její krize a obroda
+                        </hi>[Czechoslovak Peopleʼ Party – Its Crisis and Restoration] (Praha:
+                        Vyšehrad, 1990), 130.</note> With the new leadership, the Czechoslovak
+                    Peopleʼs Party joined the Czech Socialists. Richard Sacher attended with Jan
+                    Škoda as an ally leadership meetings about further action at the Civic Forum.
+                    The new party chairman, Josef Bartončík, showed himself in live televised
+                    broadcast as skilled speaker and strategist.</p>
+            <p xml:id="ojs.131-p-40">None of that could be said of any of the Slovak parties. Their status was a
+                    magnitude weaker, although some symmetry in the political system concealed the
+                    reality. The deputy chairmen of the Federal Assembly included Josef Šimúth, the
+                    chairman of the Party of Slovak Renewal (renamed Democratic Party from 1
+                    December) as well as Ján Pampúch, deputy chairman of the Freedom Party. Yet each
+                    had only four MPs in both chambers of the Federal Assembly, including their own
+                    mandates. The nature of the groupings that were not exceeding fourteen hundred
+                    members across Slovakia in the Autumn of 1989<note place="foot" xml:id="ojs-131-ftn23" n="22">Lubomír Lipták, <hi rend="italic">Politické
+                            strany na Slovensku, 1860–1989</hi> [Political Parties in Slovakia
+                        1860–1989] (Bratislava: Archa, 1992), 293-300.</note> and their sparse
+                    representation in the executive institutions caused that, in Bratislava, they
+                    did not play any visible role similar to that assumed by the Socialists and
+                    Populars in the Czech Republic during the fall of the old régime. On 29 November
+                    in front of the television cameras at the Federal Assembly they tried as best as
+                    they could, yet their diligence added the deliberations blindingly grotesque
+                    features. In the silence of the parliamentary constitutional majority, Josef
+                    Šimúth managed, throughout the day, to deliver to the cameras three major
+                    speeches. That made him the busiest speaker of the day.<note place="foot" xml:id="ojs-131-ftn24" n="23">Bohuslav Kučera, the chairman of the Czech
+                        Socialists, was the only one to be at the microphone more often than Šimút.
+                        Yet the former only five times glossed the procedure or specified some
+                        situations as one who attended the earlier talks between Adamec and Havel.
+                        He managed to deliver two of his own speeches on that.</note> He touched
+                    upon a number of substantial political and economic issues. As the first MP in
+                    the plenary of the Federal Assembly he also managed to criticise the planned
+                    Constitutional changes and to demand a better role for Slovakia.</p>
+            <p xml:id="ojs.131-p-41">When exploring the response to the first televised broadcast from the federal
+                    parliament, the sources unveil a few discrete scenes. Joining the winning
+                    revolution, the media aired in devastating condemnations in the coming days.
+                    “The live broadcast from the parliament beats the worst of expectations. I am in
+                    no mood for this farce,” Václav Bartuška, one of the leaders of the student
+                    committees in Prague, noted in his diary. He did not endure watching the
+                    broadcast, at the end of which he was elected by the parliament for the
+                    parliamentary commission for the oversight over the investigation of the police
+                    intervention on 17 November. <hi rend="italic">Mladá fronta</hi>, the daily of
+                    the Socialist Youth Union, reported with the same air of disdain. To describe
+                    the broadcast, it used the most emotional statements by the most radical
+                    segments of the society, the leaders of the student strike committees at the
+                    Prague schools. After a week of reign over public spaces in the centre of the
+                    capital city, they only had condemnation and ironic comments for the sticking
+                    and dashed spectacle from the parliament: “There is no life to it. It is a
+                    typical example of speaking in the supreme institutions. (...) The winter
+                    hibernation that breaths from the parliament is truly striking.”<note place="foot" xml:id="ojs-131-ftn25" n="24">Zdeněk John and Petr Šabata,
+                        “Studenti poslancům: Budíček” [Students to the Deputies: Wake Up Call], <hi rend="italic">Mladá fronta</hi>, November 30, 1989, 1-2.</note> The
+                    comment by one of the revolutionaries applied here to the debate, its
+                    proceedings and aesthetic. Yet it altogether missed the point that the live
+                    broadcast was just showing the key postulates by the student rebellion being
+                    met.</p>
+            <p xml:id="ojs.131-p-42">Those most vocal voices, however, were by far not the only feedback to confront
+                    the MPs after the television première of the live broadcast from the Federal
+                    Assembly in the days to come. The abolition of the postulate of the rule of the
+                    Communist Party transformed the holders of the federal mandates into a choir
+                    without which no further step was possible, as all actors were quick to realise.
+                    The federal executive was leaving and the preparations for the early elections,
+                    which no one doubted anymore, would not do without a number of legislative
+                    measures.</p>
+            <p xml:id="ojs.131-p-43">When the Federal Assembly reconvened to address these issues two weeks later, it
+                    offered an altogether different picture: most of the legislature came back to
+                    life. The familiar faces of the old régime left their visible seats and joined
+                    the MPs down below. The new spokesmen of the Communists led by Anton Blažej
+                    revelled with confidence and latching activity. The altogether worst proposal
+                    for the Civic Forum that came out from the televised session on 13 December 1989
+                    was Blažejʼs suggestion that the new President was not to be elected by the
+                    Federal Assembly but the people in a referendum. That dramatically lowered
+                    Havelʼs chances and raise the hopes of the members of the then establishment
+                    (such as Adamec) or the figures of 1968 (Alexander Dubček or someone else). From
+                    the perspective of the revolutionaries, the very fact that the parliamentary
+                    soil came to life as the key playground without the Civic Forum having control
+                    over it, was bad enough news. The student siege of the building and pressure on
+                    the MPs in their constituencies, both applied already for a number of weeks,
+                    were instruments with limited effect.</p>
+            <p xml:id="ojs.131-p-44">Following the resignation of the hitherto officials, Blažej was elected chairman
+                    of the House of Nations on 12 December. He gave a programmatic address about the
+                    new role of the parliament as an active and autonomous institution with its own
+                    specialist base that “will not only be considering government proposals, but
+                    will also be presenting its own initiatives,” whilst “starting to execute a
+                    genuine control over the government” and becoming “the conscience of the work of
+                    the government.” The Federal Assembly would thus earn “respect and gain
+                    authority prior to the elections” which, as Blažej rightly predicted, would be
+                    held in about six months. It was to be used in order “not to lose continuity and
+                    to create real conditions for the functioning of the parliamentary system within
+                    the context of legal democratic state.”<note place="foot" xml:id="ojs-131-ftn26" n="25">
+                  <hi rend="italic">Společná česko-slovenská digitální parlamentní
+                            knihovna</hi> [Common Digital Czecho-Slovak Parliamentary Library],
+                        Federal Assembly 1986-1990, The House of Nations, Stenographic records, 6<hi rend="superscript">th</hi> session, 12. 12. 1989, accessed October 30,
+                        2015, <ref target="http://www.psp.cz/eknih/1986fs/sn/stenprot/006schuz/s006001.htm">http://www.psp.cz/eknih/1986fs/sn/stenprot/006schuz/s006001.htm</ref>.</note>
+            </p>
+            <p xml:id="ojs.131-p-45">The next two weeks had shown that the development was to follow a different path.
+                    The Civic Forum established itself as the new power hub. A part of the elderly
+                    political establishment of the old régime was withdrawing to privacy and the
+                    youths were offering themselves to serve the new régime. Its fundamental
+                    institution became “the government of national unity” which was the name for the
+                    reshuffled federal cabinet with multiple representation with former dissidents
+                    complementing the ranks of relatively unknown bureaucrats.<note place="foot" xml:id="ojs-131-ftn27" n="26">Government posts in the previous régime were
+                        not held by the actual rulers who were based at the superior Party
+                        apparatus; federal ministers were hardly present in the media, their names
+                        and faces were hardly discernible even by political professionals. Václav
+                        Havel, as can be seen in the recordings of meetings within the Civic Forum,
+                        took a while to remember the name of Marián Čalfa, Adamecʼs successor in the
+                        post of the federal Prime Minister. Čalfa was in the government since 1987
+                        and was deputy to Adamec in the last year.</note> The government emerged
+                    outside the parliament and without participation by MPs: none of the ministers
+                    were members of the Federal Assembly. The government was named on 10 December by
+                    President Gustav Husák who abdicated immediately afterwards to free his
+                    Presidential post.</p>
+            <p xml:id="ojs.131-p-46">Blažejʼs vision that the parliament would oversee the new executive proved to be
+                    an illusion. In a few days everything was the other way round. It was Václav
+                    Havel and his colleagues from the leadership at the Civic Forum to design the
+                    progress of the key moments of the next sessions as a staged production. They
+                    discussed in detail individual roles with relevant actors or sought willing
+                    executors among MPs.<note place="foot" xml:id="ojs-131-ftn28" n="27">Meeting of
+                        representatives of the Civic Forum Coordination Centre and the Coordination
+                        Committee of the Public Against Violence on co-optations of deputies to the
+                        Federal Assembly and on the election of its chairman and presidium, 22
+                        December 1989. ̶ Jiří Suk, <hi rend="italic">Občanské fórum,
+                            listopad-prosinec 1989, 2. díl – dokumenty</hi> [Civic Forum,
+                        November–December 1992, volume 2: Documents] (Praha-Brno: Doplněk, 1998),
+                        261.</note> Except for those who retreated to seclusion and Blažej, all
+                    officials within the Federal Assembly came forward. Already a favourite in the
+                    Presidential elections to be held in a few days by the federal parliament
+                    following the desires of the Civic Forum, Havel explained to his less initiated
+                    colleagues: “Everything has been agreed with the people, they all know it and
+                    are prepared for the arrangement (...) Apart from Mr Blažej. The arrangement has
+                    not been agreed with him.”<note place="foot" xml:id="ojs-131-ftn29" n="28">Suk,
+                            <hi rend="italic">Občanské forum</hi>, 262-3.</note>
+            </p>
+            <p xml:id="ojs.131-p-47">The concept of “national unity” in Czechoslovakia at the break of 1989 and 1990
+                    went without the autonomously acting institutions. Blažej was removed from his
+                    post on 28 December having led the Federal Assembly for three weeks. The new
+                    leadership of the Communist Party that arose from the extraordinary Congress on
+                    20 and 21 December 1989 agreed with the reshuffle in the leadership of the House
+                    of Nations. Blažej was replaced by Jozef Stank, another Slovak with Communist
+                    membership. Although, at the time of the election, he identified with the agenda
+                    of his predecessor, in practical politics of the coming months he became a
+                    willing executor of the will of the new President and of “the government of
+                    national understanding.”</p>
+            <p xml:id="ojs.131-p-48">The parliament soon returned to the dependence on the executive. Blažejʼs failed
+                    attempt for the more independent parliamentary politics was among many failures,
+                    albeit the most visible and interesting. Overall statistics lay beneath: none of
+                    the 350 holders of the federal mandates as of 17 November 1989 served a year
+                    later in any significant post; only a handful were given further federal mandate
+                    in the next elections but none have appeared in the governments. Such degree of
+                    discontinuity was not a norm but an absolute exception in Czechoslovak political
+                    institutions where, for example, Marián Čalfa, the former deputy of Adamec, was
+                    the federal Prime Minister until the summer of 1992.</p>
+            <p xml:id="ojs.131-p-49">The main reason is called co-optations: the replacement of a part of deputies. It
+                    was created by agreement between the old and new political forces at a
+                    roundtable and was part of conciliatory accord about the occupation of
+                    governmental posts, the office of the President and early elections. The present
+                    power apparatuses – the leadership of the Civic Forum and its Slovak
+                    counterpart, the new leadership of the Communist Party of Czechoslovakia and the
+                    four non-Communist political parties – agreed that, within the framework of the
+                    politics of “national understanding”, they would bring to the Federal Assembly
+                    MPs from the Civic Forum; at the same time, the individual parties could replace
+                    their MPs at their own discretion.<note place="foot" xml:id="ojs-131-ftn30" n="29">For details of the genesis and the process see the study by Petr
+                        Roubal in this issue.</note> The new political élites thus gained the
+                    missing political representation and, from Spring 1990, the role of the
+                    parliament has indeed increased. Only it did not happen through the rising
+                    authority of MPs, but by their replacement for political officials who gained
+                    their de facto power before and elsewhere. They moved their political debates to
+                    the parliament, having taken over parliamentary seats by the means of
+                    revolution. The list of their names shows that they were renowned dissidents,
+                    skilled leaders of local rebellions of November 1989 in the regional centres or
+                    political talents of the Communist Party grabbing high posts in the rejuvenating
+                    apparatus. Whilst it holds true that none of the three hundred and fifty holders
+                    of the federal mandates as of 17 November 1989, none of the deputies became any
+                    significant political or public figure in the coming years, the opposite holds
+                    true for the one hundred and fifty co-opted deputies:<note place="foot" xml:id="ojs-131-ftn31" n="30">For a list of co-opted MPs see Petr Roubal,
+                            <hi rend="italic">Starý pes, nové kousky. Kooptace do Federálního
+                            shromáždění a vytváření polistopadové politické kultury</hi> [Old Dog,
+                        New Tricks: Co-optations in the Federal Assembly and the Development of the
+                        post-November Political Culture] (Praha: Ústav pro soudobé dějiny Akademie
+                        věd České republiky, 2013), 94-102.</note> among them were two future
+                    Presidents, a number of Ministers, Constitutional Judges as well as a range of
+                    other leading figures in the coming two decades of Czechoslovakia and, after
+                    1992, in the Czech Republic and the Slovak Republic.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr" xml:id="ojs-131-bibliogr">
+            <head xml:id="ojs.131-head-7">Sources and references</head>
+            <div type="subchapter" xml:id="ojs-131-bibliogr-sub01">
+               <head xml:id="ojs.131-head-8">Literature</head>
+               <listBibl xml:id="ojs.131-listBibl-1">
+                  <bibl>
+                     <hi rend="italic">Československo dnes: Zastupitelské sbory, vlády,
+                                diplomatické styky, školství, zdravotnictví, ekonomika, kraje
+                                ČSSR</hi> [Czechoslovakia Today: Representative Assemblies,
+                            Government, Diplomatic Relations, Schools, Healthcare, Economics, and
+                            Regions in CSSR]. Praha: Pressfoto, 1987.</bibl>
+                  <bibl>Daněk, Břetislav. <hi rend="italic">Československá strana lidová –
+                                její krize a obroda</hi> [Czechoslovak Peopleʼ Party – Its Crisis
+                            and Restoration]. Praha: Vyšehrad, 1990. </bibl>
+                  <bibl>Gerová, Irena. <hi rend="italic">Vyhrabávačky: Deníkové zápisy a
+                                rozhovory z let 1988 a 1989</hi> [Digs: Diary Notes and Interviews
+                            from 1888 and 1989]. Praha, Litomyšl: Paseka, 2009. </bibl>
+                  <bibl>Gorbačov, Michail Sergejevič. <hi rend="italic">Přestavba a nové
+                                myšlení pro naši zemi a pro celý svět</hi> [Perestroika and New
+                            Thinking for Our Country and the Whole World]. Praha: Svoboda,
+                            1987.</bibl>
+                  <bibl>Hájek, Miloš. <hi rend="italic">Paměť české levice</hi> [The Memory of
+                            the Czech Left]. Praha: Ústav pro soudobé dějiny AV ČR, 2011.</bibl>
+                  <bibl>Krapfl, James. <hi rend="italic">Revolution with a Human Face:
+                                Politics, Culture, and Community in Czechoslovakia, 1989-1992.</hi>
+                            Ithaca: Cornell University Press, 2013.</bibl>
+                  <bibl>Lipták, Lubomír.<hi rend="italic"> Politické strany na Slovensku,
+                                1860–1989</hi> [Political Parties in Slovakia 1860–1989].
+                            Bratislava: Archa, 1992.</bibl>
+                  <bibl>Löbl Karel, <hi rend="italic">Naděje a omyly. Vzpomínky na onu
+                                dobu</hi> [Hopes and Errors. Memoirs of An Era]. Praha: Academia,
+                            2012.</bibl>
+                  <bibl>
+                     <hi rend="italic">Poslední hurá. Stenografický záznam z mimořádných
+                                zasedání ÚV KSČ 24. a 26. listopadu 1989</hi> [The Final Hooray:
+                            Stenographic Record from Extraordinary Sessions of the Central Committee
+                            of the Communist Party of Czechoslovakia on 24 and 26 November 1989].
+                            Praha: Agentura Cesty, 1992. </bibl>
+                  <bibl>Roubal, Petr. <hi rend="italic">Starý pes, nové kousky. Kooptace do
+                                Federálního shromáždění a vytváření polistopadové politické
+                                kultury</hi> [Old Dog, New Tricks: Co-optations in the Federal
+                            Assembly and the Development of the post-November Political Culture].
+                            Praha: Ústav pro soudobé dějiny Akademie věd České republiky,
+                            2013.</bibl>
+                  <bibl>Sedlák, Jaromír.<hi rend="italic"> Muž nad stolem, aneb Byl jsem
+                                Štrougalovým poradcem</hi> [A Man Over The Table or I Was Štrougalʼs
+                            Adviser]. Praha: BVD, 2010.</bibl>
+                  <bibl>Šmíd, Milan. “Česká média a jejich role v procesu politické změny roku
+                            1989” [Czech Media and Their Role in the Process of Political Change in
+                            1989]. Accessed May 15, 2013, <ref target="http://www.louc.cz/pril01/listopad.pdf">http://www.louc.cz/pril01/listopad.pdf</ref>.</bibl>
+                  <bibl>
+                     <hi rend="italic">Společná česko-slovenská digitální parlamentní
+                                knihovna</hi> [Common Digital Czecho-Slovak Parliamentary Library],
+                            Federal Assembly 1986-1990. Accessed October 30, 2015. <ref target="http://www.psp.cz/eknih/1986fs/index.htm">http://www.psp.cz/eknih/1986fs/index.htm</ref>.</bibl>
+                  <bibl>Suk, Jiří. <hi rend="italic">Labyrintem revoluce. Aktéři, zápletky a
+                                křižovatky jedné politické krize (od listopadu 1989 do června
+                                1990)</hi> [Through the Labyrinth of the Revolution. Actors, Plots
+                            and Crossroads of A Political Crisis (from November 1989 to June 1990)].
+                            Praha: Prostor, 2003.</bibl>
+                  <bibl>Suk, Jiří. <hi rend="italic">Občanské fórum, listopad-prosinec 1989,
+                                2. díl – dokumenty</hi> [Civic Forum, November–December 1992, volume
+                            2: Documents]. Praha, Brno: Doplněk, 1998. </bibl>
+                  <bibl>Šulc, Zdislav. <hi rend="italic">Z jeviště i zákulisí české politiky a
+                                ekonomiky</hi> [From the Stage and Backstage of Czech Politics and
+                            Economics]. Brno: Doplněk, 2011.</bibl>
+               </listBibl>
+            </div>
+            <div type="subchapter" xml:id="ojs-131-bibliogr-sub02">
+               <head xml:id="ojs.131-head-9">Newspaper sources</head>
+               <listBibl xml:id="ojs.131-listBibl-2">
+                  <bibl>John, Zdeněk and Petr Šabata. “Studenti poslancům: Budíček” [Students
+                            to the Deputies: Wake Up Call]. <hi rend="italic">Mladá fronta</hi>,
+                            November 30, 1989, 1-2.</bibl>
+                  <bibl>Spáčilová, Mirka. “Televize v rukou vlády?” [Television in the Hands
+                            of the Government?]. <hi rend="italic">Mladá fronta</hi>, November 24,
+                            1989, 5. </bibl>
+                  <bibl>
+                     <hi rend="italic">Svobodné slovo.</hi> “K současné vnitropolitické
+                            situaci. Prohlášení FS ČSSR“ [On the current political situation.
+                            Declaration by the Federal Assembly of CSSR]. November 30, 1989,
+                            3.</bibl>
+                  <bibl>
+                     <hi rend="italic">Svobodné slovo</hi>. “Poslanci, hlasujte za své
+                            voliče, ne za sebe!,” November 30, 1989, 1.</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="summary" xml:lang="sl" xml:id="ojs-131-summary">
+            <head xml:id="ojs.131-head-10">Povzetek</head>
+            <head rend="subtitle" xml:id="ojs.131-head-11">V parlamentu naj bi potekale razprave, vendar se je to
+                    izkazalo za nemogoče: Zvezni parlament in žametna revolucija na Češkoslovaškem
+                    leta 1989</head>
+            <docAuthor xml:id="ojs.131-docAuthor-3">Tomáš Zahradníček</docAuthor>
+            <p xml:id="ojs.131-p-50">Študija je osredotočena na vlogo češkoslovaškega zveznega parlamenta v političnem
+                    prevratu leta 1989. Na podlagi institucionalne perspektive predstavlja novo
+                    analizo prelomnih tednov. Z vidika parlamenta so bile spremembe nenavadno hitre.
+                    V nekaj tednih od padca berlinskega zidu do konca leta 1989 je državi uspelo
+                    zamenjati izvršilno oblast (zlasti predsedstvo – Václav Havel je nadomestil
+                    Gustáva Husáka), pri čemer parlament ni odigral pomembne vloge.</p>
+            <p xml:id="ojs.131-p-51">Predhodna vlada in vodje Državljanskega foruma so sklenili dogovor, ki je
+                    vključeval tudi naloge, ki bi jih moral izpolnjevati parlament, tako da je bila
+                    odločitev formalno ustrezna. Ključna pogajanja se sploh niso približala
+                    parlamentarnemu odru.</p>
+            <p xml:id="ojs.131-p-52">Medtem so si številni tedanji poslanci, izvoljeni leta 1986, pa tudi parlament
+                    kot institucija, razlagali zlom predhodne strukture moči kot priložnost za
+                    neodvisnost, zato so se poskušali vključiti v pogajanja, vendar brez uspeha.
+                    Slovaški poslanec Anton Blažej, ki se je javno zavzemal, da bi neodvisni
+                    parlament postal »vest vlade«, je na čelu zveznega parlamenta preživel samo tri
+                    tedne, preden ga je odslovila nova izvršilna oblast z novoizvoljenim
+                    predsednikom Havlom.</p>
+            <p xml:id="ojs.131-p-53">Istočasno so v parlament začeli vstopati predstavniki nove oblasti in zasedli
+                    prazne sedeže poslancev, ki so odstopili ali bili razrešeni. Po skoraj dveh
+                    mesecih improviziranja se je parlament spet vključil v politiko. To se ni
+                    zgodilo zaradi njegove neodvisnosti ali splošnih volitev. Formalnopraven prihod
+                    predstavnikov nove oblasti na vodilne položaje je bil resnično revolucionarno
+                    dejanje. Institucionalna perspektiva nam omogoča, da precej jasno prepoznamo
+                    tovrstno naravo te politične spremembe.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

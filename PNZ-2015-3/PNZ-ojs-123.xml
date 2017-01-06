@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ojs-123">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Slovenian Socialist Parliament on the Eve of the Dissolution of the
+               Yugoslav Federation</title>
+            <title level="a">A Feeble "Ratification Body" or Important Political
+               Decision-Maker?</title>
+            <author>
+               <name>
+                  <forename>Jure</forename>
+                  <surname>Gašparič</surname>
+               </name>
+               <roleName>PhD</roleName>
+               <roleName>senior researcher</roleName>
+               <affiliation>
+                  <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                  <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               </affiliation>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>jure.gasparic@inz.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2015-11-06</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Available at <ref target=" http://hdl.handle.net/11686/36073"
+                  >http://hdl.handle.net/11686/36073</ref>
+            </pubPlace>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/123</pubPlace>
+            <date>2015</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+            <idno type="PID">sistory.36117</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">55</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+            <idno type="URL">http://hdl.handle.net/11686/????</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>socialist Parliament</term>
+               <term>Yugoslavia</term>
+               <term>Slovenia</term>
+               <term>dissolution</term>
+               <term>1989</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>socialistični parlament</term>
+               <term>Jugoslavija</term>
+               <term>Slovenija</term>
+               <term>razpad</term>
+               <term>1989</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2015-11-06</date>
+               <name>Andrej Pančur</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en" type="article" n="Articles">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>Slovenian Socialist Parliament on the Eve of the Dissolution of the
+                  Yugoslav Federation</titlePart>
+               <titlePart>A Feeble "Ratification Body" or Important Political
+                  Decision-Maker?</titlePart>
+            </docTitle>
+            <docAuthor>Jure Gašparič</docAuthor>
+            <docImprint>
+               <idno type="cobissType">1.01</idno>
+               <idno type="UDC">328(497.4)"198"</idno>
+            </docImprint>
+         </titlePage>
+         <divGen type="toc" xml:id="toc">
+            <head>Table of Contents</head>
+         </divGen>
+         <divGen type="toc" xml:id="tables">
+            <head>List of Tables</head>
+         </divGen>
+         <divGen type="search" xml:id="search">
+            <head>Search</head>
+         </divGen>
+         <div type="abstract" xml:id="izvlecek" xml:lang="sl">
+            <head xml:id="head-5">Izvleček</head>
+            <head xml:id="head-6" rend="subtitle">Slovenski socialistični parlament na predvečer razpada
+               jugoslovanske federacije – bledo "ratafikacijsko telo" ali važen političen
+               odločevalec?</head>
+            <p xml:id="p-6">Skupščina socialistične republike Slovenije je bila še leta 1986, na
+               predvečer razpada jugoslovanske federacije, precej dolgočasen organ, zaprt v
+               uradniško-formalistične okvirje. Sestavljali so jo na specifičen posredni način
+               izvoljeni neprofesionalni delegati brez večjega družbenega vpliva. Toda prav ta
+               skupščina je nato nekaj let kasneje sprejela več ključnih odločitev, ki so uvedle
+               večstrankarski sistem, elemente tržnega gospodarstva in okrepile položaj republike.
+               Zdi se, da je skupščina takrat postala prvi faktor tranzicije in da je prav ona
+               zamajala jugoslovansko federacijo. Toda taka ocena se vendarle ni uveljavila. Njena
+               vloga deluje nejasno. Izhajajoč iz tega avtor v prispevku išče odgovor na vprašanje:
+               Kakšen organ je bila socialistična skupščina? Pri tem najprej predstavi genezo
+               jugoslovanskega skupščinskega sistema in njegove temeljne značilnosti, nato pa
+               obravnava tri različne ravni oz. možne poglede na skupščino: pravno raven,
+               percepcijsko raven (kako so ljudje dojemali skupščino) in raven notranjih mehanizmov
+               (kako se je spreminjala parlamentarna razprava).</p>
+            <p xml:id="p-7">Ključne besede: socialistični parlament, Jugoslavija, Slovenija, razpad,
+               1989</p>
+         </div>
+         <div type="abstract" xml:id="abstract">
+            <head xml:id="head-7">Abstract</head>
+            <p xml:id="p-8">In 1986, on the eve of the dissolution of the Yugoslav Federation, the
+               Assembly of the Socialist Republic of Slovenia was a rather boring authority,
+               restricted to the bureaucratic and formalist framework. It consisted of
+               non‑professional delegates without significant social influence, elected in a
+               specific indirect manner. However, it was this very Assembly that passed several key
+               decisions a few years later, leading to the introduction of a multi‑party system and
+               elements of market economy, as well as strengthening the position of the republic. It
+               seems that at the time this Assembly became the primary factor of transition and that
+               it was this very institution that destabilised the Yugoslav federation. However, such
+               an evaluation has nevertheless not asserted itself. The role of the socialist
+               Assembly appears vague. Consequently the author, in his contribution, seeks to answer
+               the following question: What sort of an authority body was the socialist Assembly?
+               Initially the author presents the genesis of the Yugoslav Assembly system and its
+               basic characteristics, and then he explores the three different levels or possible
+               outlooks on the Assembly: legal level, perceptual level (how people saw the
+               Assembly), and the level of internal mechanisms (how the parliamentary discussions
+               changed).</p>
+            <p xml:id="p-9">Keywords: socialist Parliament, Yugoslavia, Slovenia, dissolution,
+               1989</p>
+         </div>
+      </front>
+      <body>
+         <div type="chapter" xml:id="article">
+            <head rend="maintitle">Slovenian Socialist Parliament on the Eve of the Dissolution of the Yugoslav
+               Federation</head>
+            <head rend="subtitle">A Feeble "Ratification Body" or Important Political Decision-Maker?</head>
+            <docAuthor>Jure Gašparič<note place="foot" xml:id="ftn1" n="*">senior researcher,
+               PhD, Institute of Contemporary History, Kongresni trg 1, 1000 Ljubljana, Slovenia,
+               <ref target="mailto:jure.gasparic@inz.si"
+                  >jure.gasparic@inz.si</ref></note></docAuthor>
+            <div type="subchapter" xml:id="article-sub01">
+               <head xml:id="head-8">To be President of the Socialist Assembly is a "comfortable
+                  function"</head>
+               <p xml:id="p-10">In April 1986 a relatively young Slovenian politician with quite
+                  impressive political mileage Miran Potrč (among other things he had been the
+                  President of the Labour Union Association of Yugoslavia a few years earlier; at
+                  that time, in terms of protocol, he was in the 13<hi rend="superscript">th</hi>
+                  place in the Yugoslav hierarchy) was elected as President of the Socialist
+                  Assembly of the Republic of Slovenia. Formally this function was very important as
+                  well, as in Slovenia only the President of the Republic was superior to him.
+                  However, as Potrč wrote in his memoirs, "the President of the Executive Committee,
+                  but especially the President of the Central Committee of the League of Communists
+                  of Slovenia and occasionally also the President of the Socialist Alliance of the
+                  Working People had a greater influence on the situation in the society."<note
+                     place="foot" xml:id="ftn2" n="1">Miran Potrč, <hi rend="italic">Klic k razumu:
+                        spomini</hi> (Ljubljana: Modrijan, 2014), 116.</note> To put it differently,
+                  Potrč was inferior to the Head of Government, Head of the Party, and Head of a
+                  specific "socio-political organisation", the Socialist Alliance of the Working
+                  People, whose extensive jurisdiction and open-door policy gave Yugoslav socialism
+                  the appearance of democracy. Therefore to be President of the Assembly was, "under
+                  normal circumstances", a "comfortable function, as it mostly involved the
+                  responsibility for work organisation and prompt decision-making, and even in this
+                  regard the President of the Assembly could consult three Presidents of Chambers
+                  and a well-organised professional service, while he was not directly responsible
+                  for the content of the decisions themselves."<note place="foot" xml:id="ftn3"
+                     n="2">Ibid.</note> In 1986 the circumstances in the state were still
+                  "normal".</p>
+               <p xml:id="p-11">The economic crisis might have been troubling the country for quite
+                  a long time before and no efficient political solutions were on the horizon, but
+                  at the same time the spring of 1986 was the time when the Memorandum of the
+                  Serbian Academy of Science and Arts – a “Greater Serbian” national programme,
+                  which caused so much unrest in Yugoslavia in September 1986 – had not been
+                  published yet. Furthermore, the ascent of the Serbian leader Slobodan Milošević,
+                  accompanied with a series of worrisome mass rallies, had yet to take place (in
+                  1987 and especially 1988). The more serious conflicts with Belgrade and Yugoslav
+                  People's Army had not happened yet, either. The resounding 57<hi
+                     rend="superscript">th</hi> issue of the Nova revija magazine, containing the
+                  contributions to the Slovenian national programme, would not be published until
+                  1987, and the so‑called Trial of the Four against Janez Janša and others in front
+                  of the Military Court, which mobilised a significant part of the Slovenian
+                  community, would not happen for another two years... The public opinion was still
+                  quite uncritical and vague at the time.<note place="foot" xml:id="ftn4" n="3">Jure
+                     Gašparič and Mojca Šorn, "Od tovariša delegata do gospoda poslanca: O razpravi
+                     v socialistični enostrankarski skupščini in demokratičnem tranzicijskem
+                     parlamentu v Sloveniji," <hi rend="italic">Prispevki za novejšo zgodovino</hi>
+                     54, no. 1 (2014): 37-47.</note> According to Miran Potrč, the public was
+                  focused on the "practical questions", but remained mostly indifferent towards the
+                  more general political issues. </p>
+               <p xml:id="p-12">Such a social climate was also reflected in the Parliament. Debates
+                  about new problematic issues were non‑existent. The proceedings were tedious and
+                  very formal, almost bureaucratic, which was the result of the “self‑management”
+                  system. As it was, Members of the Assembly were not MPs, but rather “delegates”
+                  coming from the so-called basic organisations. Therefore, as the delegates were
+                  not skilful politicians, they mostly read the "reports" drawn up by their
+                  organisations and agreed with the proposals at the sessions.<note place="foot"
+                     xml:id="ftn5" n="4">Miran Potrč, interview by author, Ljubljana, April 24,
+                     2014. Sound recordings and transcriptions of the interview are kept by the
+                     author.</note>
+               </p>
+               <p xml:id="p-13">However, the comfortable life in the Republican Socialist Parliament
+                  did not last long: the term from 1986 to 1990 turned out to be turbulent and
+                  decisive, and also final incarnation of the "classic" delegate Assembly form.
+                  Afterwards the Assembly stopped functioning, but not before singing its swan song.
+                  As it happened, in its final years the Assembly was often pushed to the forefront
+                  and had a decisive impact on the events.</p>
+            </div>
+            <div type="subchapter" xml:id="article-sub02">
+               <head xml:id="head-9">Republican Socialist Assemblies in the political system of the
+                  Yugoslav Federation</head>
+               <p xml:id="p-14">Before we begin with the in-depth exploration of the activities and
+                  character of the Republican Assembly in its final period, we should take a look at
+                  the genesis of its creation as well as its position in the Yugoslav political
+                  system.</p>
+               <p xml:id="p-15">Already during World War II a completely new political system, based
+                  on the people's authority, started emerging in the occupied Yugoslavia. In this
+                  process Slovenia attained a status of a federal unit (as one of the Yugoslav
+                  republics) with its own constitution and statehood. At that time the establishment
+                  of a new system under the leadership of the communists took place gradually, in
+                  agreement with the Allies, but at the same time resolutely and intensely. While,
+                  on one hand, new authorities were being created, on the other hand the former
+                  Yugoslav King's government-in-exile in London still existed. Therefore both sides
+                  sat down at the negotiating table, especially due to the British pressure, and
+                  reached a compromise: on one hand the establishment of a joint government of the
+                  resistance movement and government-in-exile – a kind of a transitional government,
+                  which was nothing special in the European context – and on the other hand the
+                  "restoration" of multi-party democracy.<note place="foot" xml:id="ftn6" n="5">For
+                     more information see Jerca Vodušek Starič, <hi rend="italic">Prevzem
+                        oblasti</hi> (Ljubljana: Cankarjeva založba, 1992), 106−107, 130−145.</note>
+                  At this point we should add that the "restoration" of the multi-party system in
+                  Yugoslavia in accordance with the King Alexander Karađorđević Imposed Constitution
+                  of 1931 and the accompanying electoral law would imply the introduction of public
+                  elections where not everyone could run for office. It would therefore mean the
+                  introduction of a kind of multi-party democracy disputable even in its formalistic
+                     aspect.<note place="foot" xml:id="ftn7" n="6">Jure Gašparič, <hi rend="italic"
+                        >SLS pod kraljevo diktaturo: Diktatura kralja Aleksandra in politika
+                        Slovenske ljudske stranke 1929-1935</hi> (Ljubljana: Modrijan, 2007),
+                     116−124.</note> After the war the pre-war multi-party system was in fact not
+                  fully restored, but rather only partially. Yet in the formal sense this was even
+                  more prudent. As it was, the elections were now secret, minor parties allowed, and
+                  in the beginning even media pluralism was acceptable.<note place="foot"
+                     xml:id="ftn8" n="7">Aleš Gabrič, "Opozicija v Sloveniji po letu 1945," <hi
+                        rend="italic">Prispevki za novejšo zgodovino</hi> 45, no. 2 (2005): 104.
+                     Vodušek Starič, <hi rend="italic">Prevzem oblasti</hi>, 166−167,
+                     331−337.</note> However, in all other aspects and conditions for the
+                  development of the political life this restoration was largely a replication of
+                  the 1930s. </p>
+               <p xml:id="p-16">In a state where a multi-party system was not desired, a state-wide
+                  coalition named the People's Front was established, headed by the Communist
+                     Party.<note place="foot" xml:id="ftn9" n="8">The basic characteristics of the
+                     "People's Front" approach was the same throughout the Central and Southeastern
+                     Europe. For example, a similar platform was also established in Czechoslovakia,
+                     where the non-communist politics headed by Beneš had a far stronger starting
+                     position as in Yugoslavia. The so‑called "Košice Government Programme", which
+                     was the first step towards "people's democracy", was comprehended in various
+                     ways at that time. Some people saw in it a maximum package of reforms, while
+                     others believed it was merely the beginning of a radical transformation. – Jiří
+                     Vykoukal, Bohuslav Litera and Miroslav Tejchman, <hi rend="italic">Východ:
+                        Vznik, vývoj a rozpad sovětského bloku 1944−1989</hi> (Praha: Libri, 2000),
+                     126.</note> The so‑called extra‑Front opposition was thwarted (the communists
+                  controlled the repressive apparatus and the political police), and therefore the
+                  opposition ultimately failed to appear at the elections. A single list, which
+                  could count on winning in any case, competed for the votes.<note place="foot"
+                     xml:id="ftn10" n="9">Vodušek Starič, <hi rend="italic">Prevzem oblasti</hi>,
+                     343−369.</note> In the autumn of 1945 the American embassy in Yugoslavia
+                  reported to Washington that the country was turning into a totalitarian police
+                  state with no freedom of speech and press, but that "significant opposition or
+                  objections to the existing situation are nevertheless virtually
+                     non-existent".<note place="foot" xml:id="ftn11" n="10">Gabrič, "Opozicija po
+                     1945," 102.</note>
+               </p>
+               <p xml:id="p-17">While in certain parts of Yugoslavia, especially in Serbia, the
+                  opposition remained active despite the difficulties, the situation in Slovenia was
+                  completely different. Here the idea and political form of the People's Front had
+                  already been implemented by the communists as early as in 1941, when the
+                  Liberation Front was established. At a congress immediately after the war the
+                  Liberation Front pronounced itself as the "only political representative for the
+                  whole of Slovenia".<note place="foot" xml:id="ftn12" n="11">Božo Repe, <hi
+                        rend="italic">Rdeča Slovenija: Tokovi in obrazi iz obdobja socializma</hi>
+                     (Ljubljana: Sophia, 2003), 25.</note> The actual power of the Liberation Front,
+                  primarily stemming from the resistance against the occupiers and the victory in
+                  the national liberation war, was not questionable either. The political structure
+                  of Slovenia after 1945 became increasingly monolithic. However, the complete
+                  absence of any opposition did not result exclusively from the activities of the
+                  communists, but also from the actions of the pre-war political parties. Their
+                  wartime activities and collaborationist heritage had pushed them to the edge of
+                  the political space.<note place="foot" xml:id="ftn13" n="12">Janko Pleterski, "O
+                     soslednosti novejše zgodovine Slovencev: Nekaj pripomb ob in k posvetu Slovenci
+                     in leto 1941," <hi rend="italic">Prispevki za novejšo zgodovino</hi> 43, no. 1
+                     (2003): 109.</note>
+               </p>
+               <p xml:id="p-18">After World War II we can therefore no longer speak about classic
+                  parliamentarism, since despite the existence of the Assembly and elections only a
+                  single political party existed in this period. Apart from the one‑party aspect,
+                  the main characteristics of the post‑war system also included the constant
+                  distancing from the principles of the functioning of the classic parliamentary
+                  system and gradual introduction of a specific corporatist system. This was also
+                  evident from the structure of each Assembly.</p>
+               <p xml:id="p-19">The Constitutional Assembly consisted of two chambers: the Federal
+                  Assembly, elected on the basis of the state-wide and equal right, and the National
+                  Assembly, where each republic had 25 representatives. Unicameral Assemblies of the
+                  People's Republics existed at the republican level.<note place="foot"
+                     xml:id="ftn14" n="13">Aleš Gabrič, "Volitve v Ustavodajno skupščino novembra
+                     1945," in <hi rend="italic">Slovenska novejša zgodovina: Od programa Zedinjena
+                        Slovenija do mednarodnega priznanja Republike Slovenije: 1848−1992</hi>, ed.
+                     Jasna Fischer et al. (Ljubljana: Inštitut za novejšo zgodovino, Mladinska
+                     knjiga, 2005), 854−860. Aleš Gabrič, "Prva slovenska ustava," in <hi
+                        rend="italic">Slovenska novejša zgodovina</hi>, 867−868.</note> After the
+                  1953 constitutional reform the National Assembly was annexed to the Federal
+                  Assembly, and in its stead a new chamber, called the Council of Producers, was
+                  established. Its members were elected indirectly, according to the specific
+                  branches of economy, which was the first step towards corporatism. The new
+                  constitution of 1963 implemented a further systemic upgrade. The Federal Assembly,
+                  later renamed as the Assembly of the Socialist Federal Republic of Yugoslavia, was
+                  expanded to five councils (chambers): Federal Council (which included the Council
+                  of Nations), Economic Council, Educational and Cultural Council, Social and Health
+                  Council, and Organisational-Political Council. The same system was introduced in
+                  each of the republics, but here the Republican Council took the place of the
+                  Federal Council.<note place="foot" xml:id="ftn15" n="14">Mateja Režek, "Ustava
+                     reforma leta 1953," in <hi rend="italic">Slovenska novejša zgodovina</hi>,
+                     950−952. Mateja Režek, "Na pragu reform," in:<hi rend="italic"> Slovenska
+                        novejša zgodovina</hi>, 998−999.</note>
+               </p>
+               <p xml:id="p-20">Despite the one-party Assembly system, several elements of classic
+                  parliamentarism can be identified in the activities of the Slovenian Assemblies
+                  throughout this time. However, these elements were merely fragmentary and
+                  especially characteristic of the period of the so-called Party liberalism in the
+                  1960s. Already in 1966 President of the Government Janko Smole tied the question
+                  of the government vote of confidence to the vote on a concrete proposal, which was
+                  completely unusual for the Assembly system (unlike the parliamentary system);
+                  while the classic role of MPs became especially apparent a few years later. In
+                  1971 an actual political affair broke out, known as the "Affair of 25 Deputies".
+                  At this time a group of deputies proposed, apart from the "official" candidate,
+                  its own candidate as a member of the Presidency of the Socialist Federal Republic
+                  of Yugoslavia. Although unsuccessful, this action questioned the monopoly of
+                  personnel management of the Party leadership.<note place="foot" xml:id="ftn16"
+                     n="15">Ciril Ribičič, <hi rend="italic">Siva tipka 074</hi> (Ljubljana:
+                     Enotnost, 1995), 17−24.</note>
+               </p>
+            </div>
+            <div type="subchapter" xml:id="article-sub03">
+               <head xml:id="head-10">The "delegate system" (1974-1991)</head>
+               <p xml:id="p-21">The last thorough constitutional reform followed in 1974 (before
+                  that numerous constitutional amendments had been adopted between 1968 and 1971).
+                  This reform represented the peak of the "Yugoslav experiment" and remained in
+                  force until the 1990s. A system of delegates was introduced, which was a
+                  non‑transparent and impractical indirect concept of total self‑management. The
+                  Federal Assembly of the Socialist Federal Republic of Yugoslavia once again became
+                  bicameral, consisting of two equal chambers: the Federal Chamber and the Chamber
+                  of Republics and Provinces, to which the delegates were appointed from the
+                  Assemblies of six republics and two autonomous provinces. The Republican
+                  Assemblies, also the Slovenian Assembly, became tricameral, consisting of the
+                  Chamber of Associated Labour, Chamber of Municipalities and Socio‑Political
+                     Chamber.<note place="foot" xml:id="ftn17" n="16">Zdenko Čepič, "Federaliziranje
+                     federacije 1967-1971," in <hi rend="italic">Slovenska novejša zgodovina</hi>,
+                     1052−1054. Zdenko Čepič, "Ustava 1974: preureditev jugoslovanske federacije,
+                     delegatski sistem in dogovorna ekonomija," in <hi rend="italic">Slovenska
+                        novejša zgodovina</hi>, 1094−1101. Božo Repe, "Pravne in politične podlage,
+                     okoliščine in pomen prvih demokratičnih volitev," in: <hi rend="italic">Razvoj
+                        slovenskega parlamentarizma: Kolokvij ob 10. obletnici parlamentarizma v
+                        Sloveniji: Zbornik referatov, koreferatov in razprav</hi>, ed. Tatjana
+                     Krašovec (Ljubljana: Državni zbor Republike Slovenije, 2000), 41−62.</note>
+               </p>
+               <p xml:id="p-22">The delegate system, outlined primarily by the Slovenian politician
+                  Edvard Kardelj and his supporters, was, according to Peter Vodopivec, based on the
+                  author's "Bolshevik Proudhonistic socio‑political fantasies" (one of the reasons
+                  why in the West Kardelj was mockingly referred to as an "ideological tailor"). The
+                  architects of the new order deconstructed the whole society together with all
+                  organisations into the smallest possible parts (all institutes, institutions,
+                  companies, etc.), which would supposedly encourage the mass politicisation of the
+                  population and their engagement. In the second half of the 1970s almost 300,000
+                  people – in Slovenia with its two million inhabitants – were included into the
+                  delegate functions.<note place="foot" xml:id="ftn18" n="17">Peter Vodopivec,
+                     "Komunistične skupščine v senci partije," in: <hi rend="italic">Analiza razvoja
+                        slovenskega parlamentarizma</hi>, ed. Barbara Vogrinec (Ljubljana: Inštitut
+                     za civilizacijo in kulturo, 2005), 286-287.</note>
+               </p>
+               <p xml:id="p-23">How could a citizen become a delegate in the Slovenian Assembly? If
+                  it was a question of the Chamber of Municipalities, a citizen had to be first
+                  elected as a member of the “basic” delegation, for example in his/her local
+                  community. Then the local communities elected delegations for the municipal
+                  communities, and after that the municipal communities organised the groups of
+                  delegates to join the Republican Assembly. On each occasion one of the delegates
+                  from the group attended the session of the Republican Parliament, chosen on the
+                  basis of the issues on the agenda.<note place="foot" xml:id="ftn19" n="18">See <hi
+                        rend="italic">Zakon o volitvah in delegiranju v skupščine: Zakon o volitvah
+                        in odpoklicu Predsedstva Socialistične republike Slovenije s pojasnili
+                        Cirila Ribičiča in Franca Grada</hi> (Ljubljana: ČZ Uradni list SRS,
+                     1985).</note> If it was a question of the Chamber of Associated Labour, a
+                  citizen had to be first elected as a member of the delegation in his/her company
+                  (factory). These delegations sent delegates to the Municipal Chamber of Associated
+                  Labour, which at the end chose the delegates for the Republican Assembly. If it
+                  was a question of the Socio-Political Chamber, a citizen had to be a member of a
+                  "socio-political organisation" and as such elected as a member of the Republican
+                  Assembly by the municipal socio-political chambers.<note place="foot"
+                     xml:id="ftn20" n="19">Apart from these chambers, the "Self-Management Interest
+                     Associations" were a part of the assembly system at the time as well (SIS).
+                     These "associations" supposedly enabled people to express their common
+                     interests in the fields of education, culture, health. Special assemblies of
+                     Self-Management Interest Associations made decisions about matters from their
+                     jurisdiction on equal footing with the competent Assembly chambers.</note>
+               </p>
+               <p xml:id="p-24">What this meant for the status of the delegates was described
+                  vividly by the literary historian Dušan Pirjevec: "To be a Member of Parliament
+                  nevertheless meant something once. Today it means nothing to be a delegate. This
+                  is no longer a political function – the only politicians left are members of the
+                     Party."<note place="foot" xml:id="ftn21" n="20">Vodopivec, "Komunistične
+                     skupščine v senci partije," 287.</note> Miha Ribarič, secretary of the
+                  constitutional commission of the Republican Assembly, said something similar
+                  already in 1978: "One of the fundamental unacceptable characteristics of the
+                  delegate Assembly system is ... that the delegate Assemblies in fact often
+                  function as a sort of ratification or verification bodies of materials, decisions,
+                  solutions and proposals, prepared by the executive or administrative bodies."<note
+                     place="foot" xml:id="ftn22" n="21">Miha Ribarič, <hi rend="italic">Spomini:
+                        Slovenija – Jugoslavija</hi> (Ljubljana: Fakulteta za družbene vede, 2015),
+                     61.</note>
+               </p>
+               <p xml:id="p-25">However, the Yugoslav crisis intensified and a decade after
+                  Ribarič's resigned observations the role of Assemblies and delegates started
+                  changing. The sessions of the Federal Assembly became increasingly lively and
+                  conflicting, and it even happened that in 1988 the President of the Federal
+                  Government Branko Mikulić resigned because he failed to secure the Assembly
+                  support for his budget proposal.<note place="foot" xml:id="ftn23" n="22"
+                     >Vodopivec, "Komunistične skupščine v senci partije," 292.</note> While this is
+                  a rather normal occurrence in classic parliamentary democracies, in Yugoslavia
+                  this happened for the first time after 1945. However, at that time certain
+                  Republican Assemblies started becoming far more important than the Federal
+                  Parliament, among them especially the Slovenian Assembly.</p>
+            </div>
+            <div type="subchapter" xml:id="article-sub04">
+               <head xml:id="head-11">The final convening of the Slovenian Socialist Assembly and
+                  its place in historiography</head>
+               <p xml:id="p-26">The crisis, which went on unacknowledged by the Yugoslav political
+                  elites for a long time (the leading politicians avoided the term "crisis"
+                  consciously), and all its many layers, economic as well as social and political,
+                  had an increasingly obvious impact on that period. The numerous solutions that
+                  were gradually outlined were very diverse and exceedingly dependent on the
+                  individual republican elites. Due to the federal structure of the state this led
+                  to severe mutual conflicts. The elite that gathered around Slobodan Milošević
+                  (initially the President of the Central Committee of the League of Communists of
+                  Serbia, then the President of Presidency of the Socialist Republic of Serbia)
+                  asserted itself as the strongest and also most aggressive. Together with its
+                  allies (the Montenegrin, Kosovo and Vojvodina leadership) it argued for the
+                  increased powers of the central federal authorities, therefore for the reduction
+                  of federalism and for the classic socialist system that Yugoslavia had adhered to
+                  before the constitutional reforms between 1971 and 1974. On the other hand a
+                  tentative alliance formed between Slovenia, Croatia, Bosnia and Herzegovina and
+                  Macedonia, brought together especially because of the fear of the centralist and
+                  nationalist offensive of the Milošević's circle. Within this circle the leadership
+                  of the League of Communists of Slovenia argued for the clearest standpoints, aimed
+                  at the democratisation of the society, allowing the formation of non‑communist
+                  political groups, a more prominent role of the republics and market economy.<note
+                     place="foot" xml:id="ftn24" n="23">Božo Repe, <hi rend="italic">Jutri je nov
+                        dan: Slovenci in razpad Jugoslavije</hi> (Ljubljana: Modrijan, 2002), 63−73,
+                     232−235.</note>
+               </p>
+               <p xml:id="p-27">The already loose federal system kept getting looser and the
+                  political control in the individual republics was becoming less and less
+                  effective. The demands for pluralism and systemic changes became increasingly
+                  decisive, and finally they also manifested themselves in the hall of the Slovenian
+                  Assembly of delegates. Thus in its final convening between 1986 and 1990, the
+                  Slovenian Assembly became one of the key supporters of a peaceful and evolutionary
+                  transformation into a multiparty parliamentary system. The adoption of numerous
+                  constitutional amendments to the Slovenian Constitution in September 1989 was
+                  especially important.<note place="foot" xml:id="ftn25" n="24">Miran Potrč, "Za
+                     prvo demokratično izvoljeno Skupščino Republike Slovenije je dala zakonsko
+                     podlago zakonodaja, sprejeta 27. 12. 1989 v Skupščini Socialistične Republike
+                     Slovenije," in <hi rend="italic">Prihodnost parlamentarne demokracije: Zbornik
+                        strokovnega srečanja ob 20. obletnici prvih večstrankarskih volitev</hi>,
+                     ed. Tatjana Krašovec and Mojca Pristavec Đogić (Ljubljana: Državni zbor
+                     Republike Slovenije, 2010), 26−32.</note>
+               </p>
+               <p xml:id="p-28">In the increasingly tense circumstances at the time, on 27 September
+                  1989 the delegates, with the strong engagement of the civil society,<note
+                     place="foot" xml:id="ftn26" n="25">For more information about the circumstances
+                     see Repe, <hi rend="italic">Jutri je nov dan</hi>, 177-183.</note> actually
+                  introduced an asymmetrical position of Slovenia in the federation, as they
+                  implemented the "security, economic and developmental priority of interests and
+                  needs of Slovenia" before the federation. Furthermore, they enabled the conditions
+                  for direct and secret elections,<note place="foot" xml:id="ftn27" n="26">The
+                     elections were called for April 1990. Apart from a few former socio‑political
+                     organisations, transformed into political parties, new parties united in the
+                     Demos coalition also competed for the votes. Altogether this coalition received
+                     the majority of the votes and formed a government. The political life proceeded
+                     increasingly in the spirit of multiparty parliamentarism, although "only" the
+                     delegate Assembly, consisting of three chambers, existed.</note> allowed for
+                  the establishment of political parties, and introduced elements of market
+                     economy.<note place="foot" xml:id="ftn28" n="27">Potrč, <hi rend="italic">Klic
+                        k razumu: spomini</hi>, 127-140.</note> Throughout this process important
+                  political debates unfolded in the Assembly and far‑reaching decisions were made.
+                  Even symbolism – always an important matter in politics – was not lacking. In
+                  September 1989, after adopting the constitutional amendments, the delegates
+                  spontaneously (and allegedly quite out of tune) sang Zdravljica (A Toast), the
+                  song that one of the amendments proclaimed as the Slovenian anthem. Zdravljica was
+                  written in 1847 by the most important poet of the Slovenian romantic period France
+                  Prešeren, famous among the people and almost synonymous with Slovenian literature.
+                  Everybody knew the popular song (structurally a toast), and they declared their
+                  adherence by singing it. Many a tear was shed on this occasion, and the Assembly
+                  politics was no longer boring, but rather very emotional...</p>
+               <p xml:id="p-29">Thus it seems, at the first glance, that in 1989 the Assembly became
+                  the primary factor of the transition: as it was, it adopted the acts that shook
+                  the Yugoslav federation. However, such assessments cannot be found in the
+                  historiographic literature. The authors who focus on the dissolution of Yugoslavia
+                  and definitely mention the adoption of the constitutional amendments rarely look
+                  carefully at the authority body that adopted them and the way in which they were
+                     adopted.<note place="foot" xml:id="ftn29" n="28">See for example Robert M.
+                     Hayden, <hi rend="italic">Blueprints for a House Divided: The Constitutional
+                        Logic of the Yugoslav Conflicts </hi>(Ann Arbor: The University of Michigan
+                     Press, 2000). Susan L. Woodward, <hi rend="italic">Balkan Tragedy: Chaos and
+                        Dissolution after the Cold War</hi> (Washington D. C.: The Brookings
+                     Institution, 1995). Sabrina P. Ramet, <hi rend="italic">The Three Yugoslavias:
+                        State-Building and legitimation, 1918-2005</hi> (Washington D. C.: Woodrow
+                     Wilson Center Press, 2005). Lenard J. Cohen, <hi rend="italic">Broken Bonds:
+                        The Disintegration of Yugoslavia</hi> (Boulder, San Francisco, Oxford:
+                     Westview press, 1993). There is a noticeable difference between the way in
+                     which the Assembly is seen by Slovenian and foreign authors. Slovenian authors
+                     generally pay more attention to it and try to explain its decisions; primarily
+                     Repe, <hi rend="italic">Jutri je nov dan</hi> and the authors of the work <hi
+                        rend="italic">Slovenska novejša zgodovina</hi>, apart from them also Stefano
+                     Lusa, <hi rend="italic">Razkroj oblasti: Slovenski komunisti in demokratizacija
+                        države</hi> (Ljubljana: Modrijan, 2012). Rosvita Pesek, <hi rend="italic"
+                        >Osamosvojitev Slovenije: "Ali naj Republika Slovenija postane samostojna in
+                        neodvisna država?"</hi> (Ljubljana: Nova revija, 2007). The Assembly is seen
+                     in a similar manner also by Viktor Maier, <hi rend="italic">Wie Jugoslawien
+                        verspielt wurde</hi> (München: C. H. Beck, 1995).</note> They usually refer
+                  to the voting in the Assembly with expressions like "Slovenia adopted" or
+                  "Slovenians decided" or "Slovenian politics opted for", etc. On this basis we can
+                  make at least two different conclusions about the character of the Assembly at the
+                  time: </p>
+               <list type="unordered" xml:id="list-1">
+                  <item>either that in the opinion of numerous experts in Yugoslavia until 1990
+                     decisions were still made by a few people in the key positions, while the
+                     Assembly merely verified their decisions, which merely happened to be
+                     resounding and very significant in 1989;</item>
+                  <item>or that despite the delegate system the Assembly was a body of
+                     representatives which embodied the political will of the population of the
+                     Socialist Republic of Slovenia.</item>
+               </list>
+               <p xml:id="p-30">The role of the Assembly is thus unclear, and the logical question
+                  is therefore the following:</p>
+            </div>
+            <div type="subchapter" xml:id="article-sub05">
+               <head xml:id="head-12">What sort of an authority body was the Socialist
+                  Assembly?</head>
+               <p xml:id="p-31">In the Yugoslav federation, the Slovenian Socialist Assembly at this
+                  time, as the socialist system was falling apart, was a rather complicated
+                  organism, and it should be analysed in detail. In order to ensure its
+                  understanding and temporal placement I will attempt to deal with three levels: the
+                  formalistic legal level, the perceptual level, and the manner in which the
+                  Assembly operated.</p>
+               <div type="subsubchapter" xml:id="article-sub05-sub01">
+                  <head xml:id="head-13">Legal level</head>
+                  <p xml:id="p-32">In view of the legal sources (especially the 1974 Constitution)
+                     and literature we can state almost definitely that during the dissolution of
+                     the state the Assembly was an authority body impossible to bypass. “The
+                     Assembly of the Socialist Republic of Slovenia is a social self-management body
+                     and the highest authority in the framework of the rights and duties of the
+                     republic", stated Article 334 of the republican constitution.<note place="foot"
+                        xml:id="ftn30" n="29">
+                        <hi rend="italic">Ustava Socialistične republike Slovenije</hi>, §
+                        334.</note> As such it was an important factor in the process of political
+                     decision-making with broad jurisdictions.<note place="foot" xml:id="ftn31"
+                        n="30">
+                        <hi rend="italic">Ustava Socialistične republike Slovenije</hi>, §
+                        335.</note> There was nothing else – not at the federal nor at the
+                     republican level – that could replace it. The decision-making process at the
+                     time was "implemented through complicated mechanisms and procedures", which
+                     often only formally ensured the democratic choice and participation of the
+                     people. In fact the purpose of the self-management mechanisms, according to
+                     Miran Potrč, was primarily to ensure that the system as envisioned in the Party
+                     programmes was not threatened.<note place="foot" xml:id="ftn32" n="31">Potrč,
+                           <hi rend="italic">Klic k razumu: spomini</hi>, 121.</note> However,
+                     without the Assembly the adoption of decisions was nevertheless impossible,
+                     especially when it came to amending the constitution. In his commentary on the
+                     adoption of the constitutional amendments, the constitutional lawyer Miha
+                     Ribarič wrote that with these amendments Slovenia addressed some of the key
+                     questions regarding its position in Yugoslavia – a federation which in itself
+                     had "no original functions and jurisdictions; meaning such that would not
+                     originate from its members."<note place="foot" xml:id="ftn33" n="32">Ribarič,
+                           <hi rend="italic">Spomini: Slovenija – Jugoslavija</hi>, 230-234.</note>
+                     The members of the federation, the republics, could therefore strengthen or
+                     weaken their own position through the decisions adopted in their Assemblies.
+                     Furthermore, in 1989 many people in Belgrade found it questionable whether the
+                     decisions of the Slovenian Assembly, which strengthened the Slovenian position,
+                     were compatible with the Constitution of the Socialist Federal Republic of
+                     Yugoslavia. However, no one questioned the formal manner in which these
+                     amendments were adopted. </p>
+                  <p xml:id="p-33">Thus the Assembly had all of the systemic conditions for actually
+                     carrying out an important political role in the system. Without its engagement
+                     the political changes would not be possible, at least not in the constitutional
+                     manner characteristic of the Slovenian emancipation process and the initial
+                     stage of its political transition. After all, even the current Slovenian
+                     Constitution from 1991 was adopted in accordance with the constitutional
+                     revision procedures, set out in the preceding 1974 Constitution.<note
+                        place="foot" xml:id="ftn34" n="33">Jure Gašparič, <hi rend="italic">Državni
+                           zbor Republike Slovenije 1992-2012: O slovenskem parlamentarizmu</hi>
+                        (Ljubljana: Inštitut za novejšo zgodovino, 2012), 42-46.</note>
+                  </p>
+                  <p xml:id="p-34">At the same time the Assembly was an elected authority body, even
+                     if in a special delegate manner. The delegation elections differed
+                     significantly from the classic parliamentary elections, as they did not reflect
+                     the "single act of the voters, authorising the elected Members of Parliament to
+                     adopt governmental decisions as their general representatives and in their
+                     name". According to the legal interpretation at the time, the delegation
+                     elections meant "the beginning of a permanent, four-year working cooperation
+                     between delegations and delegates, working people and citizens..." Supposedly
+                     people were "continuously deciding" which guidelines their delegates should
+                     observe. The system was a kind of an implementation of direct democracy.
+                     Consequently the Assembly was not envisioned as a classic representative
+                        body.<note place="foot" xml:id="ftn35" n="34">
+                        <hi rend="italic">Zakon o volitvah in delegiranju v skupščine: Zakon o
+                           volitvah in odpoklicu Predsedstva Socialistične republike Slovenije s
+                           pojasnili Cirila Ribičiča in Franca Grada</hi>, uvodna pojasnila.</note>
+                  </p>
+               </div>
+               <div type="subsubchapter" xml:id="article-sub05-sub012">
+                  <head xml:id="head-14">Perceptual level / perception of the Assembly</head>
+                  <p xml:id="p-35">The second moment, important in order to understand the role and
+                     activities of the Assembly, is its perception among the people, the trust in
+                     the Assembly and vice versa: the Assembly's interaction with the public
+                     opinion, with the impulses of the time as felt by the population. Miran Potrč
+                     says:</p>
+                  <quote xml:id="quote-1">"I am convinced it is very likely that the connection
+                     between the public opinion, the demands of the civil and social organisations
+                     as they were established at the time... that the links between them and the
+                     Parliament were stronger than today. ... These connections were stronger
+                     then... For example in 1990, or between 1986 and 1990, between 1988 and 1990.
+                     Much stronger. At that time we paid great attention to the public opinion. We
+                     were very mindful of what was discussed in public, what the public demands
+                     were. I am not saying that we satisfied all of them, far from it, but we
+                     considered more or less all of these demands and met them in many ways."<note
+                        place="foot" xml:id="ftn36" n="35">Miran Potrč, interview by author,
+                        Ljubljana, April 24, 2014.</note>
+                  </quote>
+                  <p xml:id="p-36">We should also emphasise that at that time the delegates were not
+                     the same people for the whole term: due to the system of interchangeable
+                     delegates the Assembly sessions could be attended by new, different delegates,
+                     sometimes also sympathisers of the new social movements.<note place="foot"
+                        xml:id="ftn37" n="36">
+                        <hi rend="italic">Zakon o volitvah in delegiranju v skupščine: Zakon o
+                           volitvah in odpoklicu Predsedstva Socialistične republike Slovenije s
+                           pojasnili Cirila Ribičiča in Franca Grada</hi>. Potrč, <hi rend="italic"
+                           >Klic k razumu: spomini</hi>, 117.</note>
+                  </p>
+                  <p xml:id="p-37">Thus the Assembly could follow the wishes and observe the demands
+                     of the public, and the delegates were aware of their responsibility. For
+                     example, when President of the Assembly Potrč opened the session on the
+                     occasion when the amendments were adopted, he said: "It has been a long time
+                     since the delegates of this Assembly had such a profound responsibility to the
+                     Slovenian nation as we do today."<note place="foot" xml:id="ftn38" n="37"
+                        >"Slovenska ustava stremi k svobodi in kreativnosti ljudi," <hi
+                           rend="italic">Delo</hi>, September 28, 1989.</note>
+                  </p>
+                  <p xml:id="p-38">However, did the public share the opinion that this was the case?
+                     Did the people see the Assembly as their representative?</p>
+                  <p xml:id="p-39">The results of the public opinion polls at the time are very
+                     revealing. In 1986, as far as the municipal level was concerned, 50 % of people
+                     answered "yes" to the question: "We have just held the Assembly election. Do
+                     you feel that you have taken part in the selection and appointment of the
+                     candidates for the leading functions?". However, when their participation in
+                     the appointment of the leading candidates at the republican and federal level
+                     was in question, almost three quarters of interviewees answered "no".<note
+                        place="foot" xml:id="ftn39" n="38">Niko Toš et al., <hi rend="italic"
+                           >Slovensko javno mnenje 1986 [database]</hi> (Ljubljana: Univerza Edvarda
+                        Kardelja, Fakulteta za sociologijo, politične vede in novinarstvo, Center za
+                        raziskovanje javnega mnenja in množičnih komunikacij [creation ], 1986;
+                        Ljubljana: Univerza v Ljubljani, Fakulteta za družbene vede, Arhiv
+                        družboslovnih podatkov [distribution ], 1999).</note> People obviously felt
+                     that the delegate system was alienated and they felt that they did not take
+                     part in the formation of the Assembly.</p>
+                  <p xml:id="p-40">Neither were they very familiar with the political system: in
+                     1989, on the eve of the adoption of the constitutional amendments, most of them
+                     were unable to name all three Assembly Chambers.</p>
+                  <p xml:id="p-41">However, on the other hand the answers of the people were in
+                     favour of the Assembly. A minimal percentage responded that they did not trust
+                     the Assembly. Mostly they only wished for more (direct) democracy (which is a
+                     sort of a paradox, as this very system supposedly implemented direct
+                     democracy). It was especially important that at the time a very large majority
+                     of people agreed with the constitutional amendments.<note place="foot"
+                        xml:id="ftn40" n="39">Niko Toš et al., Slo<hi rend="italic">vensko javno
+                           mnenje 1989: Stališča o ustavnih dopolnilih [database]</hi> (Ljubljana:
+                        Univerza Edvarda Kardelja, Fakulteta za sociologijo, politične vede in
+                        novinarstvo, Center za raziskovanje javnega mnenja in množičnih komunikacij
+                        [creation ], 1989; Ljubljana: Univerza v Ljubljani, Fakulteta za družbene
+                        vede, Arhiv družboslovnih podatkov [distribution ], 1999).</note>
+                  </p>
+                  <p xml:id="p-42">The favourable inclination that the people showed to the
+                     decisions of the Assembly on the day when the amendments were adopted and
+                     immediately after that day reached dimensions which are rare even in the system
+                     of the classic parliamentary democracy. When the delegates arrived to the
+                     Assembly, the representatives of a new social movement (which later grew into a
+                     political party, like many others) the Greens of Slovenia distributed apples
+                     for encouragement; and when the delegates were leaving, a crowd of people
+                     waited for them, applauding. The passing cars honked their horns euphorically.
+                     It is also not negligible that the Slovenian delegates were under significant
+                     pressure throughout this time. Almost all federal bodies were opposed to the
+                     adoption of the amendments. The discussions about them were frequently
+                     turbulent and very emotional, the warnings foreboding, and in the end the
+                     Slovenian Assembly was "more or less explicitly" advised to postpone the
+                     adoption of the amendments. In his commentary after the adoption of the
+                     amendments, the journalist of the central Slovenian daily newspaper Delo,
+                     Danilo Slivnik, wrote:</p>
+                  <quote xml:id="quote-2">"In the following days some people will try to add to or
+                     subtract from this event, typical of politics everywhere. However, they will
+                     hardly be able to change the fact that the current political turning point in
+                     Slovenia is a consequence of wider democratic changes in the republic, in which
+                     everyone from the still incomplete national political circle participated: from
+                     those individuals who kept sending their "letters to the editor" to various
+                     newspapers for months and months... To the representatives of the most
+                     "official politics".<note place="foot" xml:id="ftn41" n="40">Danilo Slivnik,
+                        "Po meri Slovencev," <hi rend="italic">Delo</hi>, September 28, 1989.
+                     </note>
+                  </quote>
+                  <p xml:id="p-43">Thus in September 1989 the Assembly was implementing the
+                     political will of the population. However, as the young Slavko Gaber, later a
+                     long-time Minister of Education, underlined in a newspaper column: the Assembly
+                     could only acquire this legitimacy by "taking steps towards the normal
+                     conclusion of its term". He claimed that the Assembly could not take merit as a
+                     classic elected Parliament, therefore he spoke in favour of its
+                        abolishment.<note place="foot" xml:id="ftn42" n="41">Slavko Gaber,
+                        "Skupščina komunistov se odpravi," <hi rend="italic">Telex</hi>, October 26,
+                        1989.</note> This in fact happened shortly afterwards, but the dilemma
+                     remained: was the Assembly only legitimate because with its own decisions it
+                     simultaneously abolished itself?</p>
+               </div>
+               <div type="subsubchapter" xml:id="article-sub05-sub03">
+                  <head xml:id="head-15">Operating principle</head>
+                  <p xml:id="p-44">In order to understand the last, 10<hi rend="superscript">th</hi>
+                     convening of the Slovenian Socialist Assembly, I believed that it was necessary
+                     to ask another question: in what way did the Assembly operate, had its cultural
+                     pattern changed, had the internal mechanisms during the sessions been altered?
+                     In order to find the answer I employed a different methodological approach,
+                     making use of the advances of digital humanities. Building on the thesis that
+                     every parliament (even the socialist kind) primarily focuses on and pays
+                     attention to discussions, I have analysed the quantitative characteristics of
+                     discussions on the basis of a few reference books containing verbatim records
+                     of the Assembly sessions. Thus my colleague Andrej Pančur and I have checked
+                     how many words the delegates (and later MPs) spoke at individual sessions, how
+                     many different speeches they held, how many words they used for discussing an
+                     individual item, and what was the proportion between the number of words of the
+                     President and the other participants of the discussions. The results are not
+                     very surprising, even if they may initially appear to be.</p>
+                  <table xml:id="table-1" rend="table-scroll hover">
+                     <head>A part of the quantitative analysis, prepared by Andrej Pančur on the
+                        basis of selected collections of verbatim records of certain Assembly /
+                        Parliament sessions in the stated years</head>
+                     <row role="label">
+                        <cell>Year</cell>
+                        <cell>Number of speeches per session</cell>
+                        <cell>Number of words per session</cell>
+                        <cell>Number of speeches of the President per session</cell>
+                        <cell>Number of words of the President per session</cell>
+                        <cell>Proportion: words of the President vs. everyone else</cell>
+                        <cell>Number of words per session item</cell>
+                        <cell>Proportion: words of the President vs. everyone else per item</cell>
+                     </row>
+                     <row>
+                        <cell>1973</cell>
+                        <cell>73</cell>
+                        <cell>16315</cell>
+                        <cell>42</cell>
+                        <cell>3524</cell>
+                        <cell>0.22</cell>
+                        <cell>1991</cell>
+                        <cell>0.19</cell>
+                     </row>
+                     <row>
+                        <cell>1982</cell>
+                        <cell>71</cell>
+                        <cell>18987</cell>
+                        <cell>42</cell>
+                        <cell>5497</cell>
+                        <cell>0.29</cell>
+                        <cell>1386</cell>
+                        <cell>0.27</cell>
+                     </row>
+                     <row>
+                        <cell>1984</cell>
+                        <cell>90</cell>
+                        <cell>27252</cell>
+                        <cell>53</cell>
+                        <cell>7088</cell>
+                        <cell>0.26</cell>
+                        <cell>1830</cell>
+                        <cell>0.22</cell>
+                     </row>
+                     <row>
+                        <cell>1986</cell>
+                        <cell>98</cell>
+                        <cell>22055</cell>
+                        <cell>59</cell>
+                        <cell>6909</cell>
+                        <cell>0.31</cell>
+                        <cell>1396</cell>
+                        <cell>0.27</cell>
+                     </row>
+                     <row>
+                        <cell>1987</cell>
+                        <cell>111</cell>
+                        <cell>25123</cell>
+                        <cell>63</cell>
+                        <cell>7190</cell>
+                        <cell>0.29</cell>
+                        <cell>1057</cell>
+                        <cell>0.25</cell>
+                     </row>
+                     <row>
+                        <cell>1989</cell>
+                        <cell>130</cell>
+                        <cell>35530</cell>
+                        <cell>75</cell>
+                        <cell>10045</cell>
+                        <cell>0.28</cell>
+                        <cell>1978</cell>
+                        <cell>0.25</cell>
+                     </row>
+                     <row>
+                        <cell>1990</cell>
+                        <cell>472</cell>
+                        <cell>68401</cell>
+                        <cell>221</cell>
+                        <cell>18610</cell>
+                        <cell>0.27</cell>
+                        <cell>1904</cell>
+                        <cell>0.22</cell>
+                     </row>
+                     <row>
+                        <cell>1991</cell>
+                        <cell>258</cell>
+                        <cell>54498</cell>
+                        <cell>133</cell>
+                        <cell>12627</cell>
+                        <cell>0.23</cell>
+                        <cell>3761</cell>
+                        <cell>0.21</cell>
+                     </row>
+                     <row>
+                        <cell>1992</cell>
+                        <cell>415</cell>
+                        <cell>76544</cell>
+                        <cell>225</cell>
+                        <cell>26218</cell>
+                        <cell>0.34</cell>
+                        <cell>2557</cell>
+                        <cell>0.31</cell>
+                     </row>
+                  </table>
+                  <p xml:id="p-45">Since the 1980s the number of speeches at individual sessions was
+                     rising steadily, but then increased radically in 1990 (dissolution of the
+                     state) and 1992 (swift adoption of new legislation). Simultaneously the number
+                     of words spoken at individual sessions was increasing as well, especially after
+                     1989. The Presidents spoke more often and longer. Even the number of words,
+                     spoken during the discussion of individual items, increased. (Thus the
+                     proportion between the number of words spoken at a single session and the
+                     number of words spoken by the President remained relatively static.)</p>
+                  <p xml:id="p-46">It seems that the political dynamics, felt all around Slovenia
+                     and Yugoslavia, also found its way into the Assembly and characterised its
+                     work: more was said there. On the basis of certain case studies we may also
+                     conclude that gradually not only more was said, but also differently: the
+                     language started changing and the reading of "reports" became rarer, while
+                     political passion intensified.<note place="foot" xml:id="ftn43" n="42">Gašparič
+                        and Šorn, "Od tovariša delegata do gospoda poslanca," 37-47.</note> The
+                     upgrading of the search tools in the context of the digitalisation of session
+                     records, currently carried out at the Institute of Contemporary History, will
+                     allow for a more advanced and temporally more comprehensive linguistic
+                     research, not only regarding the quantitative characteristics, but also the
+                     contents of what was said. The stated information is only partial, therefore
+                     its representativeness is questionable.</p>
+               </div>
+            </div>
+            <div type="subchapter" xml:id="article-sub06">
+               <head xml:id="head-17">Conclusion</head>
+               <p xml:id="p-47">We can establish that the socialist Parliament on the eve of the
+                  dissolution of Yugoslavia has not yet been explored in much detail. This is true
+                  in case of the republican Assemblies as well as the Federal Assembly in Belgrade.
+                  However – at least we can claim this for Slovenia – at this time the Assembly
+                  underwent internal changes and, most notably, started adopting important
+                  decisions: in the process of the dissolution of Yugoslav federalism it was a
+                  constitutional and political factor which could not be ignored.</p>
+               <p xml:id="p-48">We can partially agree that the Assembly (also) gained legitimacy by
+                  steadily marching towards its end, although in this regard we should also add that
+                  the legitimacy of the Assembly and trust in it by the people was encouraged at
+                  least in the same degree (if not more so) by the threat that the people saw in
+                  Belgrade. In 1989 the answers to the public opinion poll question "In the current
+                  circumstances, what represents the greatest threat to the sovereignty of
+                  Slovenia?" included especially the following three issues:</p>
+               <list type="simple" xml:id="list-2">
+                  <item>that "we have excessive economic responsibilities to the federation and the
+                     underdeveloped";</item>
+                  <item>that "the federal authorities are authoritarian in their rejection of
+                     important Slovenian proposals";</item>
+                  <item>and that "Slovenian political pluralism and democratisation was under attack
+                     outside of Slovenia".</item>
+               </list>
+               <p xml:id="p-49">Therefore the Slovenian Assembly represented defence from the
+                  Belgrade threat. This was reason enough why it was seen as a legitimate
+                  representative body, a parliament with a purpose.</p>
+               <p xml:id="p-50">The federal institutions, including the League of Communists of
+                  Yugoslavia, were different: they were becoming an end in themselves.
+                  Paradoxically, these institutions were able to persist precisely because of the
+                  Slovenian Assembly and similar authority bodies, as the League of Communists of
+                  Yugoslavia as well as other federal institutions justified their own existence at
+                  least partially by responding to the decisions of the Slovenian Assembly. In
+                  September 1989, during the adoption of the Slovenian constitutional amendments, a
+                  motto wittily and evidently illustrating the logic of the Party sessions became
+                  popular: "If you have problems, convene a session of the Central Committee. This
+                  will result in even more problems, but at least you'll have a Central Committee
+                     session."<note place="foot" xml:id="ftn44" n="43">Rastko Močnik, "Paralogizmi
+                     argumentov in logika institucije," <hi rend="italic">Telex</hi>, October 5,
+                     1989.</note>
+               </p>
+               <p xml:id="p-51">The legitimacy of the federal authorities gradually disappeared
+                  completely, and only a few Western countries saw the Federal Assembly and the
+                  federal government of the reformist prime minister Ante Marković as a credible
+                  party.</p>
+               <p xml:id="p-52">In the meantime the credibility of the Slovenian Assembly kept
+                  strengthening, especially after April 1990 when the first multi-party elections by
+                  secret ballot were carried out for the first time after 1927. At that time the
+                  Assembly was filled with delegates who, despite the existing constitution, called
+                  themselves Members of Parliament, which was more appropriate for the new times.
+                  The largest number of MPs came from new parties, but we should note that the
+                  former League of Communists of Slovenia and the other former "socio-political
+                  organisations" had a very good result as well. The latter can perhaps be
+                  interpreted as an additional argument supporting the thesis that in the final
+                  period the former Socialist Assembly was nevertheless a legitimate
+                  "representative" institution, supported by the population. Finally, in 1991 people
+                  in Slovenia believed that democracy in their republic was not very different from
+                  the democracies in the Western European countries. They were probably wrong, but
+                  still – they (at least partially) based this opinion on their experience with
+                  their socialist Parliament, which was, comparatively speaking, the most positive
+                  in the whole of Eastern Europe.<note place="foot" xml:id="ftn45" n="44">
+                     <hi rend="italic">Vrednote v prehodu VIII: Slovenija v srednje in
+                        vzhodnoevropskih primerjavah</hi>, ed. Niko Toš (Ljubljana: Univerza v
+                     Ljubljani, Fakulteta za družbene vede, IDV – CJMMK; Wien: Edition Echoraum,
+                     2014), 334.</note>
+               </p>
+               <table xml:id="table-2" rend="table-scroll hover">
+                  <head>Consolidation of Democracy in Central and Eastern Europe, 1991 / 1999</head>
+                  <row role="label">
+                     <cell>Country</cell>
+                     <cell>Year</cell>
+                     <cell>Our State should develop like Western European Countries</cell>
+                     <cell>In our State will never be possible to implement the true
+                        Democracy</cell>
+                     <cell>Democracy in our State is similar to democracies in Western European
+                        countries</cell>
+                  </row>
+                  <row>
+                     <cell role="label">White Russia</cell>
+                     <cell>1999</cell>
+                     <cell>62.9</cell>
+                     <cell>29.3</cell>
+                     <cell>2.8</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Bolgaria</cell>
+                     <cell>1991</cell>
+                     <cell>81.2</cell>
+                     <cell>17.9</cell>
+                     <cell>6.2</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>76.7</cell>
+                     <cell>48.2</cell>
+                     <cell>92.1</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Czech Republic</cell>
+                     <cell>1991</cell>
+                     <cell>77.2</cell>
+                     <cell>13.1</cell>
+                     <cell>13.4</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>76.0</cell>
+                     <cell>30.0</cell>
+                     <cell>16.3</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Estonia</cell>
+                     <cell>1991</cell>
+                     <cell>73.5</cell>
+                     <cell>16.4</cell>
+                     <cell>6.4</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>69.3</cell>
+                     <cell>18.1</cell>
+                     <cell>28.2</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">East Germany</cell>
+                     <cell>1991</cell>
+                     <cell>80.2</cell>
+                     <cell>21.4</cell>
+                     <cell>30.2</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>82.8</cell>
+                     <cell>21.5</cell>
+                     <cell>58.7</cell>
+                  </row>
+                  <row>
+                     <cell role="label">West Germany</cell>
+                     <cell>1999</cell>
+                     <cell>86.9</cell>
+                     <cell>18.7</cell>
+                     <cell>64.3</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Hungary</cell>
+                     <cell>1991</cell>
+                     <cell>94.8</cell>
+                     <cell>20.7</cell>
+                     <cell>7.6</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>94.2</cell>
+                     <cell>23.5</cell>
+                     <cell>16.9</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Latvia</cell>
+                     <cell>1999</cell>
+                     <cell>58.5</cell>
+                     <cell>14.9</cell>
+                     <cell>8.5</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Lithuania</cell>
+                     <cell>1991</cell>
+                     <cell>86.2</cell>
+                     <cell>20.7</cell>
+                     <cell>10.7</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>81.2</cell>
+                     <cell>24.5</cell>
+                     <cell>15.1</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Poland</cell>
+                     <cell>1991</cell>
+                     <cell>97.1</cell>
+                     <cell>31.3</cell>
+                     <cell>16.5</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>92.9</cell>
+                     <cell>46.3</cell>
+                     <cell>24.6</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Romania</cell>
+                     <cell>1991</cell>
+                     <cell>93.9</cell>
+                     <cell>23.5</cell>
+                     <cell>18.1</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>95.4</cell>
+                     <cell>22.8</cell>
+                     <cell>24.3</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Russia</cell>
+                     <cell>1999</cell>
+                     <cell>34.0</cell>
+                     <cell>35.6</cell>
+                     <cell>10.0</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Slovakia</cell>
+                     <cell>1991</cell>
+                     <cell>67.2</cell>
+                     <cell>15.8</cell>
+                     <cell>12.2</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>73.5</cell>
+                     <cell>40.3</cell>
+                     <cell>10.8</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Slovenia</cell>
+                     <cell>1991</cell>
+                     <cell>96.9</cell>
+                     <cell>17.2</cell>
+                     <cell>41.1</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>89.4</cell>
+                     <cell>18.5</cell>
+                     <cell>45.5</cell>
+                  </row>
+                  <row>
+                     <cell rows="2" role="label">Ukraine</cell>
+                     <cell>1991</cell>
+                     <cell>74.1</cell>
+                     <cell>35.1</cell>
+                     <cell>7.4</cell>
+                  </row>
+                  <row>
+                     <cell>1999</cell>
+                     <cell>66.1</cell>
+                     <cell>44.7</cell>
+                     <cell>3.9</cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr" xml:id="bibliogr">
+            <head xml:id="head-19">Sources and references</head>
+            <div type="subchapter" xml:id="bibliogr-sub01">
+               <head xml:id="head-20">Literature</head>
+               <listBibl xml:id="listBibl-1">
+                  <bibl>Čepič, Zdenko. "Federaliziranje federacije 1967-1971." In <hi rend="italic"
+                        >Slovenska novejša zgodovina: Od programa Zedinjena Slovenija do
+                        mednarodnega priznanja Republike Slovenije: 1848−1992</hi>, edited by Jasna
+                     Fischer et al., 1052−1054. Ljubljana: Inštitut za novejšo zgodovino, Mladinska
+                     knjiga, 2005.</bibl>
+                  <bibl>Čepič, Zdenko. "Ustava 1974: preureditev jugoslovanske federacije,
+                     delegatski sistem in dogovorna ekonomija." In <hi rend="italic">Slovenska
+                        novejša zgodovina: Od programa Zedinjena Slovenija do mednarodnega priznanja
+                        Republike Slovenije: 1848−1992</hi>, edited by Jasna Fischer et al.,
+                     1094−1104. Ljubljana: Inštitut za novejšo zgodovino, Mladinska knjiga,
+                     2005.</bibl>
+                  <bibl>Cohen, Lenard J. <hi rend="italic">Broken Bonds: The Disintegration of
+                        Yugoslavia</hi>. Boulder, San Francisco, Oxford: Westview Press,
+                     1993.</bibl>
+                  <bibl>Gabrič, Aleš. "Opozicija v Sloveniji po letu 1945." <hi rend="italic"
+                        >Prispevki za novejšo zgodovino</hi> 45, no. 2 (2005): 97-120.</bibl>
+                  <bibl>Gabrič, Aleš. "Prva slovenska ustava." In <hi rend="italic">Slovenska
+                        novejša zgodovina: Od programa Zedinjena Slovenija do mednarodnega priznanja
+                        Republike Slovenije: 1848−1992</hi>, edited by Jasna Fischer et al.,
+                     867−868. Ljubljana: Inštitut za novejšo zgodovino, Mladinska knjiga,
+                     2005.</bibl>
+                  <bibl>Gabrič, Aleš. "Volitve v Ustavodajno skupščino novembra 1945." In <hi
+                        rend="italic">Slovenska novejša zgodovina: Od programa Zedinjena Slovenija
+                        do mednarodnega priznanja Republike Slovenije: 1848−1992</hi>, edited by
+                     Jasna Fischer et al., 854-858. Ljubljana: Inštitut za novejšo zgodovino,
+                     Mladinska knjiga, 2005.</bibl>
+                  <bibl>Gašparič, Jure and Mojca Šorn. "Od tovariša delegata do gospoda poslanca: O
+                     razpravi v socialistični enostrankarski skupščini in demokratičnem
+                     tranzicijskem parlamentu v Sloveniji." <hi rend="italic">Prispevki za novejšo
+                        zgodovino</hi> 54, no. 1 (2014): 37-47.</bibl>
+                  <bibl>Gašparič, Jure.<hi rend="italic"> Državni zbor Republike Slovenije
+                        1992-2012: O slovenskem parlamentarizmu</hi>. Ljubljana: Inštitut za novejšo
+                     zgodovino, 2012.</bibl>
+                  <bibl>Gašparič, Jure. <hi rend="italic">SLS pod kraljevo diktaturo: Diktatura
+                        kralja Aleksandra in politika Slovenske ljudske stranke 1929-1935</hi>.
+                     Ljubljana: Modrijan, 2007.</bibl>
+                  <bibl>Hayden, Robert M. <hi rend="italic">Blueprints for a House Divided: The
+                        Constitutional Logic of the Yugoslav Conflicts</hi>. Ann Arbor: The
+                     University of Michigan Press, 2000.</bibl>
+                  <bibl>Lusa, Stefano.<hi rend="italic"> Razkroj oblasti: Slovenski komunisti in
+                        demokratizacija države</hi>. Ljubljana: Modrijan, 2012. </bibl>
+                  <bibl>Maier, Viktor. <hi rend="italic">Wie Jugoslawien verspielt wurde</hi>.
+                     München: C. H. Beck, 1995.</bibl>
+                  <bibl>Pesek, Rosvita.<hi rend="italic"> Osamosvojitev Slovenije: "Ali naj
+                        Republika Slovenija postane samostojna in neodvisna država?."</hi>
+                     Ljubljana: Nova revija, 2007.</bibl>
+                  <bibl>Pleterski, Janko. "O soslednosti novejše zgodovine Slovencev: Nekaj pripomb
+                     ob in k posvetu Slovenci in leto 1941." <hi rend="italic">Prispevki za novejšo
+                        zgodovino</hi> 43, no. 1 (2003): 103-124.</bibl>
+                  <bibl>Potrč, Miran. "Za prvo demokratično izvoljeno Skupščino Republike Slovenije
+                     je dala zakonsko podlago zakonodaja, sprejeta 27. 12. 1989 v Skupščini
+                     Socialistične Republike Slovenije." In <hi rend="italic">Prihodnost
+                        parlamentarne demokracije: Zbornik strokovnega srečanja ob 20. obletnici
+                        prvih večstrankarskih volitev</hi>, edited by Tatjana Krašovec, and Mojca
+                     Pristavec Đogić, 26-32. Ljubljana: Državni zbor Republike Slovenije,
+                     2010.</bibl>
+                  <bibl>Potrč, Miran. <hi rend="italic">Klic k razumu: spomini</hi>. Ljubljana:
+                     Modrijan, 2014.</bibl>
+                  <bibl>Ramet, Sabrina P. <hi rend="italic">The Three Yugoslavias: State-Building
+                        and legitimation, 1918-2005</hi>. Washington D. C.: Woodrow Wilson Center
+                     Press, 2005.</bibl>
+                  <bibl>Repe, Božo. "Pravne in politične podlage, okoliščine in pomen prvih
+                     demokratičnih volitev." In <hi rend="italic">Razvoj slovenskega
+                        parlamentarizma: Kolokvij ob 10. obletnici parlamentarizma v Sloveniji:
+                        Zbornik referatov, koreferatov in razprav</hi>, edited by Tatjana Krašovec,
+                     26-69. Ljubljana: Državni zbor Republike Slovenije, 2000.</bibl>
+                  <bibl>Repe, Božo.<hi rend="italic"> Jutri je nov dan: Slovenci in razpad
+                        Jugoslavije</hi>. Ljubljana: Modrijan, 2002.</bibl>
+                  <bibl>Repe, Božo.<hi rend="italic"> Rdeča Slovenija: Tokovi in obrazi iz obdobja
+                        socializma</hi>. Ljubljana: Sophia, 2003.</bibl>
+                  <bibl>Režek, Mateja. "Na pragu reform." In <hi rend="italic">Slovenska novejša
+                        zgodovina: Od programa Zedinjena Slovenija do mednarodnega priznanja
+                        Republike Slovenije: 1848−1992</hi>, edited by Jasna Fischer et al.,
+                     998−999. Ljubljana: Inštitut za novejšo zgodovino, Mladinska knjiga,
+                     2005.</bibl>
+                  <bibl>Režek, Mateja. "Ustava reforma leta 1953." In <hi rend="italic">Slovenska
+                        novejša zgodovina: Od programa Zedinjena Slovenija do mednarodnega priznanja
+                        Republike Slovenije: 1848−1992</hi>, edited by Jasna Fischer et al.,
+                     950−952. Ljubljana: Inštitut za novejšo zgodovino, Mladinska knjiga,
+                     2005.</bibl>
+                  <bibl>Ribarič, Miha.<hi rend="italic"> Spomini: Slovenija – Jugoslavija</hi>.
+                     Ljubljana: Fakulteta za družbene vede, 2015.</bibl>
+                  <bibl>Ribičič, Ciril.<hi rend="italic"> Siva tipka 074</hi>. Ljubljana: Enotnost,
+                     1995.</bibl>
+                  <bibl>Vodopivec, Peter. "Komunistične skupščine v senci partije." In <hi
+                        rend="italic">Analiza razvoja slovenskega parlamentarizma</hi>, edited by
+                     Barbara Vogrinec, 258-297. Ljubljana: Inštitut za civilizacijo in kulturo,
+                     2005.</bibl>
+                  <bibl>Vodušek Starič, Jerca. <hi rend="italic">Prevzem oblasti</hi>. Ljubljana:
+                     Cankarjeva založba, 1992.</bibl>
+                  <bibl>Woodward, Susan L. <hi rend="italic">Balkan Tragedy: Chaos and Dissolution
+                        after the Cold War</hi>. Washington D. C.: The Brookings Institution,
+                     1995.</bibl>
+                  <bibl>Vykoukal, Jiří, Bohuslav Litera, and Miroslav Tejchman. <hi rend="italic"
+                        >Východ: Vznik, vývoj a rozpad sovětského bloku 1944−1989</hi>. Praha:
+                     Libri, 2000.</bibl>
+               </listBibl>
+            </div>
+            <div type="subchapter" xml:id="bibliogr-sub02">
+               <head xml:id="head-21">Newspaper sources</head>
+               <listBibl xml:id="listBibl-2">
+                  <bibl>
+                     <hi rend="italic">Delo</hi>. "Slovenska ustava stremi k svobodi in kreativnosti
+                     ljudi." September 28, 1989.</bibl>
+                  <bibl>Gaber, Slavko. "Skupščina komunistov se odpravi."<hi rend="italic">
+                        Telex</hi>, October 26, 1989.</bibl>
+                  <bibl>Močnik, Rastko. "Paralogizmi argumentov in logika institucije." <hi
+                        rend="italic">Telex</hi>, October 5, 1989.</bibl>
+                  <bibl>Slivnik, Danilo. "Po meri Slovencev."<hi rend="italic"> Delo</hi>, September
+                     28, 1989.</bibl>
+               </listBibl>
+            </div>
+            <div type="subchapter" xml:id="bibliogr-sub03">
+               <head xml:id="head-22">Sources (oral, legal, databases)</head>
+               <listBibl xml:id="listBibl-3">
+                  <bibl>Toš, Niko et al. <hi rend="italic">Slovensko javno mnenje 1986
+                        [database]</hi>. Ljubljana: Univerza Edvarda Kardelja, Fakulteta za
+                     sociologijo, politične vede in novinarstvo, Center za raziskovanje javnega
+                     mnenja in množičnih komunikacij [creation], 1986; Ljubljana: Univerza v
+                     Ljubljani, Fakulteta za družbene vede, Arhiv družboslovnih podatkov
+                     [distribution], 1999.</bibl>
+                  <bibl>Toš, Niko et al. <hi rend="italic">Slovensko javno mnenje 1989: Stališča o
+                        ustavnih dopolnilih [database]</hi>. Ljubljana: Univerza Edvarda Kardelja,
+                     Fakulteta za sociologijo, politične vede in novinarstvo, Center za raziskovanje
+                     javnega mnenja in množičnih komunikacij [creation], 1989; Ljubljana: Univerza v
+                     Ljubljani, Fakulteta za družbene vede, Arhiv družboslovnih podatkov
+                     [distribution], 1999.</bibl>
+                  <bibl>
+                     <hi rend="italic">Ustava Socialistične republike Slovenije</hi>.</bibl>
+                  <bibl>
+                     <hi rend="italic">Vrednote v prehodu VIII: Slovenija v srednje in
+                        vzhodnoevropskih primerjavah</hi>, edited by Niko Toš. Ljubljana: Univerza v
+                     Ljubljani, Fakulteta za družbene vede, IDV – CJMMK; Wien: Edition Echoraum,
+                     2014.</bibl>
+                  <bibl>
+                     <hi rend="italic">Zakon o volitvah in delegiranju v skupščine: Zakon o volitvah
+                        in odpoklicu Predsedstva Socialistične republike Slovenije s pojasnili
+                        Cirila Ribičiča in Franca Grada</hi>. Ljubljana: ČZ Uradni list SRS,
+                     1985.</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="summary" xml:id="summary" xml:lang="sl">
+            <head xml:id="head-24">Povzetek</head>
+            <head type="main" xml:id="head-23" rend="subtitle">Slovenski socialistični parlament na predvečer
+               razpada jugoslovanske federacije – bledo "ratafikacijsko telo" ali važen političen
+               odločevalec?</head>
+            <docAuthor xml:id="docAuthor-2">Jure Gašparič</docAuthor>
+            <p xml:id="p-53">Avtor ugotavlja, da socialističnemu parlamentu na predvečer razpada
+               Jugoslavije doslej ni bilo posvečene veliko raziskovalne pozornosti; to velja tako za
+               republiške skupščine kakor za zvezno skupščino v Beogradu. Toda (to lahko trdimo za
+               Slovenijo) skupščina je v tem času doživljala notranje spremembe in zlasti sprejemala
+               važne odločitve; v procesu razgradnje jugoslovanskega federalizma je bila ustavni in
+               politični faktor, ki ga ni bilo mogoče zaobiti. Slovenska skupščina je tako med
+               drugim septembra 1989 sprejela številne ustavne amandmaje k republiški ustavi, ki so
+               uvedli večstrankarski sistem, elemente tržnega gospodarstva in okrepili položaj
+               republike. Zdi se, da je nenadoma postala prvi in odločilni politični faktor. Toda
+               take ocene republiške skupščine ni nikjer najti. Ob zapleteni sestavi, ki je
+               temeljila v delegatskem sistemu iz leta 1974, ostaja skupščina precej zagoneten
+               faktor zgodnje tranzicije. Izhajajoč iz tega se zato avtor v prispevku sprašuje,
+               kakšen organ je skupščina sploh bila? Pri tem najprej predstavi genezo
+               jugoslovanskega skupščinskega sistema in njegove temeljne značilnosti, nato pa
+               obravnava tri različne ravni oz. možne poglede na skupščino. Najprej pravno raven,
+               kjer ugotavlja, da je skupščina imela vse sistemske pogoje za to, da dejansko
+               opravlja važno politično vlogo v sistemu. Brez njenega angažmaja politične spremembe
+               ne bi bile mogoče, vsaj ne po ustavni poti, ki je bila značilna za slovenski
+               osamosvojitveni proces in prvo fazo politične tranzicije. Nato analizira raven
+               dojemanja skupščine med prebivalstvom, kjer meni, da je skupščina septembra 1989
+               dejansko bila predstavniško telo, udejanjala je politično voljo prebivalstva. Ob
+               koncu se loti še ravni notranjih mehanizmov, saj s pomočjo orodij digitalne
+               humanistike pogleda nekatere kvantitativne kazalce parlamentarne razprave. Iz teh se
+               vidi, da je politična dinamika, ki jo je bilo čutiti povsod po Sloveniji in
+               Jugoslaviji, zašla tudi v skupščino in zaznamovala njeno delo – govorilo se je
+               več.</p>
+            <p xml:id="p-54">Skupščina je torej tedaj bila legitimno telo, a je vprašanje, s čim je
+               svojo legitimiteto pridobivala. Po eni strani vsaj deloma s korakanjem k svojemu
+               koncu, s sprejemanjem sklepov, ki so pomenili spodkopavanje sistema. Toda po drugi
+               strani je bržkone njeno legitimiteto in zaupanje med ljudmi vsaj v enaki meri (če ne
+               večji) dvigala grožnja, ki so jo ljudje videli v Beogradu. Z institucijami
+               federacije, vključno z Zvezo komunistov Jugoslavije, je bila situacija drugačna, vse
+               bolj so bile same sebi namen. Njihova legitimnosti je sčasoma povsem usahnila.
+               Kredibilnost slovenske skupščine se je medtem le še krepila, zlasti po aprilu 1990,
+               ko so bile prvič po letu 1927 izvedene večstrankarske in tajne volitve. V skupščino
+               so tedaj sedli delegati, ki so se navkljub veljavni ustavi novim časom primerno
+               nazivali z izrazom poslanci. Med njimi je bil največ članov novih strank, a velja
+               opaziti, da je tudi nekdanja Zveza komunistov Slovenije z drugimi bivšimi
+               družbeno-političnimi organizacijami osvojila zelo dober rezultat. Slednje morda lahko
+               interpretiramo kot dodaten argument, ki govori v prid tezi, da je bila bivša
+               socialistična skupščina v zadnjem obdobju vendarle legitimna "predstavniška"
+               ustanova, blizu prebivalstvu.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

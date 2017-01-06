@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+    xmlns="http://www.daisy.org/z3986/2005/ncx/"
+    version="2005-1"
+    xml:lang="en">
+    <head>
+        <meta name="cover" content="cover"/>
+        <!-- POPRAVI NA PRAVILNI ISBN ZA EPUB -->
+        <meta name="dtb:uid" content="urn:isbn:978-961-6386-48-7"/>
+        <meta name="dtb:depth" content="3"/>
+    </head>
+    <docTitle>
+        <text>Slovenski parlament : Politično-zgodovinski pregled od začetka prvega do konca šestega mandata (1992 – 2014)</text>
+    </docTitle>
+    <docAuthor>
+        <text>Jure Gašparič</text>
+    </docAuthor>
+    <navMap>
+        <navPoint id="cover" playOrder="1">
+            <navLabel>
+                <text>Slovenski parlament</text>
+            </navLabel>
+            <content src="cover.xhtml"/>
+        </navPoint>
+        <navPoint id="teiHeader" playOrder="2">
+            <navLabel>
+                <text>Kolofon</text>
+            </navLabel>
+            <content src="index.xhtml"/>
+        </navPoint>
+        <navPoint id="tocs" playOrder="3">
+            <navLabel>
+                <text>Kazala</text>
+            </navLabel>
+            <content src="tocs.xhtml"/>
+            <navPoint id="toc" playOrder="4">
+                <navLabel>
+                    <text>Kazalo poglavij</text>
+                </navLabel>
+                <content src="toc.xhtml"/>
+            </navPoint>
+            <navPoint id="toc-tables" playOrder="5">
+                <navLabel>
+                    <text>Seznam tabel</text>
+                </navLabel>
+                <content src="toc-tables.xhtml"/>
+            </navPoint>
+            <navPoint id="toc-persons" playOrder="6">
+                <navLabel>
+                    <text>Imensko kazalo</text>
+                </navLabel>
+                <content src="toc-persons.xhtml"/>
+            </navPoint>
+            <navPoint id="toc-organizations" playOrder="7">
+                <navLabel>
+                    <text></text>
+                </navLabel>
+                <content src="toc-organizations.xhtml"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="blankPage1" playOrder="8">
+            <navLabel>
+                <text>UVODNA POGLAVJA</text>
+            </navLabel>
+            <content src="blankPage1.xhtml"/>
+            <navPoint id="uvod" playOrder="9">
+                <navLabel>
+                    <text>Parlament kot teater</text>
+                </navLabel>
+                <content src="uvod.xhtml"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="blankPage2" playOrder="10">
+            <navLabel>
+                <text>OSREDNJA POGLAVJA</text>
+            </navLabel>
+            <content src="blankPage2.xhtml"/>
+            <navPoint id="ch01" playOrder="11">
+                <navLabel>
+                    <text>Položaj in vloga Državnega zbora</text>
+                </navLabel>
+                <content src="ch01.xhtml"/>
+            </navPoint>
+            <navPoint id="ch02" playOrder="12">
+                <navLabel>
+                    <text>Prvo mandatno obdobje – v znamenju tranzicije</text>
+                </navLabel>
+                <content src="ch02.xhtml"/>
+            </navPoint>
+            <navPoint id="ch03" playOrder="13">
+                <navLabel>
+                    <text>Drugo mandatno obdobje – šibkost velike koalicije</text>
+                </navLabel>
+                <content src="ch03.xhtml"/>
+            </navPoint>
+            <navPoint id="ch04" playOrder="14">
+                <navLabel>
+                    <text>Tretje mandatno obdobje – v znamenju levice</text>
+                </navLabel>
+                <content src="ch04.xhtml"/>
+            </navPoint>
+            <navPoint id="ch05" playOrder="15">
+                <navLabel>
+                    <text>Četrto mandatno obdobje – v znamenju desnice</text>
+                </navLabel>
+                <content src="ch05.xhtml"/>
+            </navPoint>
+            <navPoint id="ch06" playOrder="16">
+                <navLabel>
+                    <text>Peto mandatno obdobje – v znamenju krize</text>
+                </navLabel>
+                <content src="ch06.xhtml"/>
+            </navPoint>
+            <navPoint id="ch07" playOrder="17">
+                <navLabel>
+                    <text>Šesto mandatno obdobje – čas razočaranj in naveličanosti</text>
+                </navLabel>
+                <content src="ch07.xhtml"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="blankPage3" playOrder="18">
+            <navLabel>
+                <text>ZAKLJUČNA POGLAVJA</text>
+            </navLabel>
+            <content src="blankPage3.xhtml"/>
+            <navPoint id="bibliogr" playOrder="19">
+                <navLabel>
+                    <text>Viri</text>
+                </navLabel>
+                <content src="bibliogr.xhtml"/>
+                <navPoint id="bibliogr-subch01" playOrder="20">
+                    <navLabel>
+                        <text>Dokumentacijsko-knjižnični oddelek Državnega zbora RS: Dobesedni zapisi sej DZ</text>
+                    </navLabel>
+                    <content src="bibliogr.xhtml#bibliogr-subch01"/>
+                </navPoint>
+                <navPoint id="bibliogr-subch02" playOrder="21">
+                    <navLabel>
+                        <text>Viri in literatura</text>
+                    </navLabel>
+                    <content src="bibliogr.xhtml#bibliogr-subch02"/>
+                </navPoint>
+            </navPoint>
+            <navPoint id="blankPageAppendix" playOrder="22">
+                <navLabel>
+                    <text>Priloge</text>
+                </navLabel>
+                <content src="blankPageAppendix.xhtml"/>
+                <navPoint id="appendix1" playOrder="23">
+                    <navLabel>
+                        <text>Priloga 1</text>
+                    </navLabel>
+                    <content src="appendix1.xhtml"/>
+                </navPoint>
+                <navPoint id="appendix2" playOrder="24">
+                    <navLabel>
+                        <text>Priloga 2</text>
+                    </navLabel>
+                    <content src="appendix2.xhtml"/>
+                </navPoint>
+                <navPoint id="appendix3" playOrder="25">
+                    <navLabel>
+                        <text>Priloga 3</text>
+                    </navLabel>
+                    <content src="appendix3.xhtml"/>
+                </navPoint>
+                <navPoint id="appendix4" playOrder="26">
+                    <navLabel>
+                        <text>Priloga 4</text>
+                    </navLabel>
+                    <content src="appendix4.xhtml"/>
+                </navPoint>
+                <navPoint id="appendix5" playOrder="27">
+                    <navLabel>
+                        <text>Priloga 5</text>
+                    </navLabel>
+                    <content src="appendix5.xhtml"/>
+                </navPoint>
+                <navPoint id="appendix6" playOrder="28">
+                    <navLabel>
+                        <text>Priloga 6</text>
+                    </navLabel>
+                    <content src="appendix6.xhtml"/>
+                </navPoint>
+            </navPoint>
+            <navPoint id="summary" playOrder="29">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="ch09.xhtml"/>
+                <navPoint id="ch09-subch01" playOrder="30">
+                    <navLabel>
+                        <text>History of the National Assembly of the Republic of Slovenia 1992-2014</text>
+                    </navLabel>
+                    <content src="ch09.xhtml#ch09-subch01"/>
+                </navPoint>
+            </navPoint>
+        </navPoint>
+    </navMap>
+</ncx>

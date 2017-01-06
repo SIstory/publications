@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:marc="http://www.loc.gov/MARC21/slim"
+    version="3.0" 
+    xml:lang="sl"
+    unique-identifier="ISBN">
+    <metadata>
+        <!-- POPRAVI NA PRAVILNI ISBN ZA EPUB -->
+        <dc:identifier id="ISBN">ISBN 978-961-6386-48-7 (epub)</dc:identifier>
+        <dc:identifier id="sistory-uri">http://www.sistory.si/SISTORY:ID:26950</dc:identifier>
+        <dc:identifier id="sistory-urn">SISTORY:ID:26950</dc:identifier>
+        <dc:title id="title1">Slovenski parlament</dc:title>
+        <meta refines="#title1" property="title-type">main</meta>
+        <meta refines="#title1" property="display-seq">1</meta>
+        <dc:title id="title2">Politično-zgodovinski pregled od začetka prvega do konca šestega mandata (1992 – 2014)</dc:title>
+        <meta refines="#title2" property="title-type">subtitle</meta>
+        <meta refines="#title2" property="display-seq">2</meta>
+        <dc:title id="title3">Slovenski parlament : Politično-zgodovinski pregled od začetka prvega do konca šestega mandata (1992 – 2014)</dc:title>
+        <meta refines="#title3" property="title-type">extended</meta>
+        <dc:language id="pub-language">slv</dc:language>
+        <dc:creator id="avtor">Jure Gašparič</dc:creator>
+        <meta refines="#avtor" property="role" scheme="marc:relators" id="role">aut</meta>
+        <dc:contributor>Mojca Šorn</dc:contributor>
+        <dc:contributor>Andrej Pančur</dc:contributor>
+        <dc:date>2014-01-01T00:00:00Z</dc:date>
+        <meta property="dcterms:modified">2014-07-09T12:00:00Z</meta>
+        <dc:publisher>Inštitut za novejšo zgodovino</dc:publisher>
+        <dc:rights>Creative Commons Priznanje avtorstva-Nekomercialno–Brez predelav 2.5 Slovenija</dc:rights>
+        <meta property="dcterms:license">http://creativecommons.org/licenses/by-nc-nd/2.5/si/</meta>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+        <item href="Covers/parlamentaria_m-frontpage.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image" />
+        <item href="Icons/i.creativecommons.org_l_by-nc-nd_2.5_si_88x31.png" id="CC-icone" media-type="image/png" />
+        <item id="teiHeader" href="index.xhtml" media-type="application/xhtml+xml"/>
+        <item id="tocs" href="tocs.xhtml" media-type="application/xhtml+xml"/>
+        <item id="toc" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml"/>
+        <item id="toc-tables" href="toc-tables.xhtml" media-type="application/xhtml+xml"/>
+        <item id="blankPage1" href="blankPage1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="uvod" href="uvod.xhtml" media-type="application/xhtml+xml"/>
+        <item id="blankPage2" href="blankPage2.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch01" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch02" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch03" href="ch03.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch04" href="ch04.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch05" href="ch05.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch06" href="ch06.xhtml" media-type="application/xhtml+xml"/>
+        <item id="ch07" href="ch07.xhtml" media-type="application/xhtml+xml"/>
+        <item id="blankPage3" href="blankPage3.xhtml" media-type="application/xhtml+xml"/>
+        <item id="bibliogr" href="bibliogr.xhtml" media-type="application/xhtml+xml"/>
+        <item id="blankPageAppendix" href="blankPageAppendix.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix1" href="appendix1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix2" href="appendix2.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix3" href="appendix3.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix4" href="appendix4.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix5" href="appendix5.xhtml" media-type="application/xhtml+xml"/>
+        <item id="appendix6" href="appendix6.xhtml" media-type="application/xhtml+xml"/>
+        <item id="summary" href="ch09.xhtml" media-type="application/xhtml+xml"/>
+        <item id="toc-persons" href="toc-persons.xhtml" media-type="application/xhtml+xml"/>
+        <item id="toc-organizations" href="toc-organizations.xhtml" media-type="application/xhtml+xml"/>
+        <item id="style" href="css/main.css" media-type="text/css"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover"/>
+        <itemref idref="teiHeader"/>
+        <itemref idref="tocs"/>
+        <itemref idref="toc"/>
+        <itemref idref="toc-tables"/>
+        <itemref idref="blankPage1"/>
+        <itemref idref="uvod"/>
+        <itemref idref="blankPage2"/>
+        <itemref idref="ch01"/>
+        <itemref idref="ch02"/>
+        <itemref idref="ch03"/>
+        <itemref idref="ch04"/>
+        <itemref idref="ch05"/>
+        <itemref idref="ch06"/>
+        <itemref idref="ch07"/>
+        <itemref idref="blankPage3"/>
+        <itemref idref="bibliogr"/>
+        <itemref idref="blankPageAppendix"/>
+        <itemref idref="appendix1"/>
+        <itemref idref="appendix2"/>
+        <itemref idref="appendix3"/>
+        <itemref idref="appendix4"/>
+        <itemref idref="appendix5"/>
+        <itemref idref="appendix6"/>
+        <itemref idref="summary"/>
+        <itemref idref="toc-persons"/>
+        <itemref idref="toc-organizations"/>
+    </spine>
+    <guide>
+        <reference href="cover.xhtml" title="Cover" type="cover" />
+    </guide>
+</package>

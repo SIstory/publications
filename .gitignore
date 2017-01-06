@@ -1,0 +1,16 @@
+~*.*
+*.pdf
+*.epub
+*.bak
+*.jpg
+*.jpeg
+*.png
+
+themes
+Prva_svetovna_vojna-2014
+Prva_svetovna_vojna-2015
+vzorec
+
+archive/
+sources/
+working/

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ojs-118">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">In Search of Compromise</title>
+            <title level="a">Janez Cvirn: Dunajski državni zbor in Slovenci (1848-1918) [Vienna
+                    National Assembly and Slovenians (1848-1918)]. Zgodovinsko društvo Celje,
+                    Znanstvena založba Filozofske fakultete Ljubljana. Celje, Ljubljana 2015,
+                    280 pages</title>
+            <author>
+               <name>
+                  <forename>Filip</forename>
+                  <surname>Čuček</surname>
+               </name>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2015-11-04</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Kongresni trg 1</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/118</pubPlace>
+            <date>2015</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+            <idno type="PID">sistory.36123</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">55</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2015-11-04</date>
+               <name>Andrej Pančur</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en" type="article" n="Reviews and Reports">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>In Search of Compromise</titlePart>
+               <titlePart>Janez Cvirn: Dunajski državni zbor in Slovenci (1848-1918) [Vienna
+                        National Assembly and Slovenians (1848-1918)]. Zgodovinsko društvo Celje,
+                        Znanstvena založba Filozofske fakultete Ljubljana. Celje, Ljubljana 2015,
+                        280 pages</titlePart>
+            </docTitle>
+            <docAuthor>Filip Čuček</docAuthor>
+         </titlePage>
+         <divGen type="search" xml:id="ojs-118-search">
+            <head>Search</head>
+         </divGen>
+      </front>
+      <body>
+         <div type="chapter" xml:id="ojs-118-article">
+            <head xml:id="ojs-118-head-1">In Search of Compromise</head>
+            <head rend="subtitle" xml:id="ojs-118-head-2">Janez Cvirn: Dunajski državni zbor in Slovenci (1848-1918) [Vienna National
+                    Assembly and Slovenians (1848-1918)]. Zgodovinsko društvo Celje, Znanstvena
+                    založba Filozofske fakultete Ljubljana. Celje, Ljubljana 2015, 280 pages</head>
+            <docAuthor xml:id="ojs-118-docAuthor-2">Filip Čuček</docAuthor>
+            <p xml:id="ojs-118-p-6">Based on several years of research into the issue of parliamentarism in the
+                    Austrian Monarchy, the late Prof. Dr. Janez Cvirn (1960–2013) published a
+                    university textbook entitled Razvoj ustavnosti in parlamentarizma v habsburški
+                    monarhiji (dunajski državni zbor in Slovenci 1848 – 1918) [Development of
+                    Constitutionality and Parliamentarism in the Habsburg Monarchy: Vienna National
+                    Assembly and Slovenians (1848-1918)]. This textbook was far more than what its
+                    name suggested and indicated that the author was about to realise even more
+                    ambitious plans regarding this subject. Those of us who were close to him knew
+                    that he was also planning a book edition, i.e. a thorough and comprehensive
+                    history of Austrian parliamentarism (and the Slovenian experience within its
+                    context). However, he was not able to realise this project (the book was
+                    supposed to be published by another publisher a few years ago but,
+                    unfortunately, was not). It was finally co-published posthumously by the
+                    Historical Society of Celje and the Faculty of Arts of Ljubljana (also in
+                    cooperation with the Institute of Contemporary History – the book was edited by
+                    Dr. Jure Gašparič). Cvirn’s book is an essential source for studying the
+                    political history of the second half of the 19<hi rend="superscript">th</hi>
+                    century and, as such, finally available in Slovenian libraries and bookstores as
+                    the last, fifteenth book of the collection Zgodovini.ce, based on Cvirn’s idea
+                    (with this book the Celje book collection is therefore completed). Regrettably,
+                    Cvirn will not be able to read, evaluate or in any way assess this book, but I
+                    am convinced that he would certainly approve of it, as it is.</p>
+            <p xml:id="ojs-118-p-7">Cvirn has profoundly marked Slovenian historiography with his work and is
+                    considered the leading Slovenian expert in the history of the 19<hi rend="superscript">th</hi> century. In his final work, which is a result of
+                    systematic research, he presented the crucial turning points in the
+                    constitutional history of Austria – from the first steps toward
+                    constitutionalism in 1848 until the end of the Monarchy in 1918. Apart from
+                    that, the book is an exhaustive political-historical overview, as the author
+                    analysed the relationships between the governments and the parliament and thus
+                    described the role of the Austrian National Assembly in the political life of
+                    the state. The book also contains a detailed presentation of the activities of
+                    the Slovenian deputies (who had always been forced to resort to opportunistic
+                    politics because of their limited numbers) in the National Assembly between 1848
+                    and 1918, which is particularly valuable.</p>
+            <p xml:id="ojs-118-p-8">Let us take a quick glance at the book. The early constitutionalism, established
+                    especially by certain (south) German states in the pre-March period, was very
+                    slow to penetrate the conservative Austria on the eve of the March revolution.
+                    Only the revolution encouraged the Court to rely on the new societal model.
+                    However, the April (Pillersdorf) Constitution which, as the author convincingly
+                    demonstrates, followed constitutionalism only as far as to clearly enforce the
+                    separation of powers (judicial, executive and legislative), still conferred many
+                    powers on the emperor. The author then presents the initiative of the Provincial
+                    (Estate) Assemblies which joined the reform movement. The National Assembly
+                    elections in June 1848, establishing the first Austrian Parliament, were even
+                    more important. Cvirn analyses the elections in detail and notes, among other
+                    things, that the national component is indisputably a result of the political
+                    development of the later period.</p>
+            <p xml:id="ojs-118-p-9">With the imposed constitution the young Emperor Franz Joseph demonstrated that
+                    concessions to the revolution had come to an end. The author skilfully guides us
+                    through the developments which led to the neo-absolutist regime through the New
+                    Year’s Eve Patents, thus ending the early constitutional period in Austria. A
+                    ten-year period of resumed "silence", personified by the Minister of the
+                    Interior Bach, was followed by the restoration of the constitutional life in
+                    1860/61, when the period of oppression and censorship had, in a moral and
+                    material sense, come to an end. However, the creator of the new political course
+                    Anton Schmerling added a "German character" to the Austrian parliamentarism with
+                    his electoral structure, which also favoured the wealthier strata on the basis
+                    of a tax and intelligence census. The author thus offers a sound and coherent
+                    description of the development of political thought until the introduction of
+                    dualism in 1867, when Cisleithania was forced to re-establish the state-legal
+                    foundations of the Austrian half of the Monarchy and provide for the further
+                    (political) modernisation of the state with the December Constitution. The
+                    author then meticulously highlights individual issues concerning the
+                    directly-elected Vienna National Assembly (from 1873 on) and presents them
+                    through a perspective related to the functioning of governments and each
+                    convening of the Parliament. Cvirn does not conclude his work before World War
+                    I, as it would be expected, but follows the Austrian parliamentary life until
+                    the fall of the Monarchy.</p>
+            <p xml:id="ojs-118-p-10">One of the basic findings of Cvirn’s book is that the dissolution of the Monarchy
+                    was not a consequence of a belated and insufficient political democratisation.
+                    As it was, the liberal December Constitution of 1867 transformed Cisleithania
+                    into a relatively modern constitutional monarchy, which, as far as democracy was
+                    concerned, did not exhibit a significant lag in comparison with most European
+                    countries. With a set of electoral reforms the Monarchy advanced towards
+                    enforcing the universal manhood suffrage and also achieved it in 1907. The
+                    reasons for the Monarchy's tragic end lied primarily in the fatal lack of basic
+                    consensus on the matter of how the state should be organised. The latter was
+                    becoming increasingly evident in the Austrian parliamentary practice. Namely,
+                    since the end of the 19<hi rend="superscript">th</hi> century the parliament had
+                    become the place of severe national conflicts with no room for an agreement.</p>
+            <p xml:id="ojs-118-p-11">The present book is Cvirn’s final and most comprehensive work on the history of
+                    parliamentarism. The editor manly followed Cvirn's university textbook and
+                    strived to refrain from interfering with the text as much as possible. The
+                    author concludes the book with World War I. However, the editor completed
+                    Cvirn’s structure of the book by ending it with a few additional chapters
+                    written by the author (on the electoral reforms of the National Assembly,
+                    women’s suffrage, rules of procedure, language of proceedings, immunity of
+                    deputies, and deputies’ wages), which complement and clarify the primary text as
+                    well as underline the magnitude of the history of parliamentarism.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
