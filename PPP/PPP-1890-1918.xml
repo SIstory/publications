@@ -30,18 +30,14 @@
                      target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
                      Priznanje avtorstva-Nekomercialno-Brez predelav 4.0 Mednarodna licenco</ref>
                </p>
-               <p rend="ciptitle">CIP - Kataložni zapis o publikaciji <lb/> Narodna in univerzitetna
-                  knjižnjica, Ljubljana </p>
-               <p rend="cip"/>
-               <p rend="cip"/>
-               <p rend="cip">Način dostopa (URL): <ref target="http://hdl.handle.net/11686/36134"
-                     >http://hdl.handle.net/11686/36134</ref>
-               </p>
+               <p rend="CIP"><![CDATA[Kataložni zapis o publikaciji (CIP) pripravili v Narodni in univerzitetni knjižnici v Ljubljani<br>
+<a href="http://COBISS.SI" target="_blank">COBISS.SI</a>-ID=<a href="http://cobiss6.izum.si/scripts/cobiss?command=DISPLAY&base=99999&rid=288343040&fmt=13&lani=si" target="_blank">288343040</a><br>
+ISBN 978-961-6386-76-0 (html)<br>]]></p>
             </availability>
             <idno type="ISBN">
-               <idno type="html">ISBN ??? (html)</idno>
+               <idno type="html">ISBN 978-978961-6386-76-0 (html)</idno>
             </idno>
-            <idno type="cobiss">??</idno>
+            <idno type="cobiss">288343040</idno>
             <pubPlace>
                <ref target="http://hdl.handle.net/11686/36134"
                   >http://hdl.handle.net/11686/36134</ref>
@@ -22645,8 +22641,8 @@
                            od. 28. decembra 1897 do 28. februarja 1898 : po stenografičnih
                            zapisnikih : 39. zvezek</hi>. Ljubljana : deželni odbor kranjski, 1898,
                         str. 452, 459. – Predlog sklepa je na podlagi predhodnega predloga dr.
-                        Danila Majarona (glej <ref target="#doc116">dok. št. 116</ref>) podal upravni odsek kranjskega deželnega
-                        zbora (prav tam, str. 451)</note>
+                        Danila Majarona (glej <ref target="#doc116">dok. št. 116</ref>) podal
+                        upravni odsek kranjskega deželnega zbora (prav tam, str. 451)</note>
                   </head>
                   <p xml:id="No.118.PPP.1"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-Avstrija-Skupni-118.xml"
@@ -22681,8 +22677,9 @@
                      >Visoka c. kr. vlada se pozivlja, da takoj začne pripravljati ustanovitev
                      vseučilišča v Ljubljani po smislu sklepov deželnega zbora kranjskega v seji dne
                      28. februarija 1898. leta<note place="foot" xml:id="ftn207"
-                        source="#SourceBornDigital" n="207">Glej. <ref target="#doc119">dok. št. 119</ref>.</note> z ustanovami
-                     za bodoče učne moči na istem vseučilišču.</p>
+                        source="#SourceBornDigital" n="207">Glej. <ref target="#doc119">dok. št.
+                           119</ref>.</note> z ustanovami za bodoče učne moči na istem
+                     vseučilišču.</p>
                </div>
                <div type="chapter" xml:id="doc121">
                   <head xml:id="PPP-1890-1918-head-392">Dok. št. 121</head>
@@ -22745,8 +22742,9 @@
                            zasedanja od 25. oktobra 1905 do 29. decembra 1907 : po stenografičnih
                            zapisnikih : 46. zvezek</hi>. Ljubljana : deželni odbor kranjski, 1908,
                         str. 143, 155. – Predlog sklepa je na podlagi predhodnih predlogov dr. Ivana
-                        Šusteršiča in tovarišev ter Ivana Hribarja in tovarišev (glej <ref target="#doc011">dok. št. 11</ref> in
-                        <ref target="#doc054">dok. št. 54</ref>) oblikoval ustavni odsek kranjskega deželnega zbora.</note>
+                        Šusteršiča in tovarišev ter Ivana Hribarja in tovarišev (glej <ref
+                           target="#doc011">dok. št. 11</ref> in <ref target="#doc054">dok. št.
+                           54</ref>) oblikoval ustavni odsek kranjskega deželnega zbora.</note>
                   </head>
                   <div xml:id="No.122.PPP.1"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-Avstrija-Skupni-122.xml">
@@ -22859,10 +22857,11 @@
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-Avstrija-Skupni-125.xml">
                      <item n="1."> C. kr. osrednja vlada se glede na sklepe deželnega zbora
                         kranjskega v sejah dne 28. februarija<note place="foot" xml:id="ftn215"
-                           source="#SourceBornDigital" n="215">Glej <ref target="#doc119">dok. št. 119</ref>.</note> in 28.
-                        decembra 1898<note place="foot" xml:id="ftn216" source="#SourceBornDigital"
-                           n="216">Glej <ref target="#doc120">dok. št. 120</ref>.</note> nujno pozivlja, da pospeši vse
-                        predpriprave za ustanovitev vseučilišča z bogoslovno, pravoslovno in
+                           source="#SourceBornDigital" n="215">Glej <ref target="#doc119">dok. št.
+                              119</ref>.</note> in 28. decembra 1898<note place="foot"
+                           xml:id="ftn216" source="#SourceBornDigital" n="216">Glej <ref
+                              target="#doc120">dok. št. 120</ref>.</note> nujno pozivlja, da pospeši
+                        vse predpriprave za ustanovitev vseučilišča z bogoslovno, pravoslovno in
                         modroslovno fakulteto v Ljubljani in da kar najpreje mogoče pri državnem
                         zboru izposluje ustanovitev tacega vseučilišča.</item>
                      <item n="2.">Izvoli se pod predvoditeljstvom deželnega glavarja odposlanstvo še
@@ -22940,10 +22939,10 @@
                         <hi rend="italic">Visoki deželni zbor!</hi>
                      </opener>
                      <p xml:id="PPP-1890-1918-p-1041">V seji dne 27. marca 1908 <note place="foot"
-                           xml:id="ftn219" source="#SourceBornDigital" n="219">Glej <ref target="#doc127">dok. št.
-                           127</ref>.</note> stavili so poslanci dr. <hi rend="italic"> Šusteršič </hi>,
-                        baron <hi rend="italic"> Schwegel </hi>, dr. <hi rend="italic"> Tavčar </hi>
-                        in sodrugi nujni predlog:</p>
+                           xml:id="ftn219" source="#SourceBornDigital" n="219">Glej <ref
+                              target="#doc127">dok. št. 127</ref>.</note> stavili so poslanci dr.
+                           <hi rend="italic"> Šusteršič </hi>, baron <hi rend="italic"> Schwegel
+                        </hi>, dr. <hi rend="italic"> Tavčar </hi> in sodrugi nujni predlog:</p>
                      <quote xml:id="PPP-1890-1918-quote-4">
                         <p> Deželni zbor skleni:</p>
                         <p>Deželni red in deželni volilni red se imata spremeniti v tem smislu, da
@@ -23902,15 +23901,16 @@
                      za svoju nezavisnost. Dne 30. maja pročitao je predsjednik Jugoslovenskog kluba
                         <note place="foot" xml:id="ftn235" source="#SourceBornDigital" n="235"> Dr.
                         Anton Korošec.</note> u bečkoj zastupničkoj kući izjavu,<note place="foot"
-                        xml:id="ftn236" source="#SourceBornDigital" n="236">Glej <ref target="#doc133">dok. št.
-                        133</ref>.</note> u kojoj se traži ujedinjenje svih krajeva monarhije, u kojima su
-                     nastanjeni Slovenci, Hrvati i Srbi u jedno, samostalno, od svakog gospodstva
-                     tuđega naroda slobodno, na demokratskoj podlozi izgrađeno državno tijelo pod
-                     žezlom doma Habsburg-Lotringen. U nebrojenim javnim izjavama složila se zatim
-                     volja naroda bez obzira na razlike stranaka i klasa u zahtjevu za slobodnom
-                     nezavisnom državom. Unatoč očajnim otporima privilegovanih naroda, Nijemaca i
-                     Madžara, unatoč nečuvenom pritisku cenzure i neprestanim prijetnjama tamnicom i
-                     gladom, ipak je čista volja naroda prodrla jasno na javu.</p>
+                        xml:id="ftn236" source="#SourceBornDigital" n="236">Glej <ref
+                           target="#doc133">dok. št. 133</ref>.</note> u kojoj se traži ujedinjenje
+                     svih krajeva monarhije, u kojima su nastanjeni Slovenci, Hrvati i Srbi u jedno,
+                     samostalno, od svakog gospodstva tuđega naroda slobodno, na demokratskoj
+                     podlozi izgrađeno državno tijelo pod žezlom doma Habsburg-Lotringen. U
+                     nebrojenim javnim izjavama složila se zatim volja naroda bez obzira na razlike
+                     stranaka i klasa u zahtjevu za slobodnom nezavisnom državom. Unatoč očajnim
+                     otporima privilegovanih naroda, Nijemaca i Madžara, unatoč nečuvenom pritisku
+                     cenzure i neprestanim prijetnjama tamnicom i gladom, ipak je čista volja naroda
+                     prodrla jasno na javu.</p>
                   <p xml:id="No.134.PPP.11"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-Avstrija-Skupni-134.xml"
                      xml:lang="hbs">Na ovom mjestu moramo svečano protiv toga prosvjedovati, da
@@ -26868,11 +26868,11 @@
                      <p xml:id="PPP-1890-1918-p-1428">V narodnem oziru stojimo <hi rend="bold">na
                            stališču deklaracije jugoslovanskih poslancev dné 30. maja 1917
                            </hi>.<note place="foot" xml:id="ftn292" source="#SourceBornDigital"
-                           n="292">Glej <ref target="#doc133">dok. št. 133</ref>.</note> Ta deklaracija velja za nas <hi
-                           rend="bold">v celoti</hi>, neprikrajšana. Vsak poskus, pačiti duha in
-                        besedilo te pomembne izjave, hočemo pobijati z vso odločnostjo. Deklaracija
-                        mora biti resen realen program, ne pa predmet frivolne igre za politične
-                        borzijance.</p>
+                           n="292">Glej <ref target="#doc133">dok. št. 133</ref>.</note> Ta
+                        deklaracija velja za nas <hi rend="bold">v celoti</hi>, neprikrajšana. Vsak
+                        poskus, pačiti duha in besedilo te pomembne izjave, hočemo pobijati z vso
+                        odločnostjo. Deklaracija mora biti resen realen program, ne pa predmet
+                        frivolne igre za politične borzijance.</p>
                      <p xml:id="PPP-1890-1918-p-1429">
                         <hi rend="bold">Z bakljo resnice</hi> hočemo posvetiti v tisti gospodarski
                         ustroj, ki se je umetno ustvaril med vojno v veliko škodo kmetovalcem in
@@ -26970,16 +26970,16 @@
                      <p xml:id="PPP-1890-1918-p-1441">V radikalnih frazah in hujskarijah ter v
                         dvoumnem pretvarjanju naše deklaracije z dne 30. maja 1917 <note
                            place="foot" xml:id="ftn295" source="#SourceBornDigital" n="295">Glej
-                           <ref target="#doc133">dok. št. 133</ref>.</note> pa spoznavamo <hi rend="italic">največjo nevarnost
-                           za naše ljudstvo</hi> in vidimo v takem početju naravnost <hi
-                           rend="italic">izdajstvo življenskih interesov našega naroda</hi>,
-                        kateremu je božja previdnost odkazala dom pod mogočno, v vseh viharjih
-                        preizkušeno zaščito habsburškega žezla. <hi rend="italic">Ta</hi> dom si
-                        hočemo pripravno in prijazno urediti in <hi rend="italic">iz njega</hi>
-                        izključiti vsako drugorodno umešavanje. Vstrajamo pa zvesti in neupogljivi
-                        pod habsburško lorenskim žezlom in <hi rend="italic">pozivljamo katoliško
-                           slovensko ljudstvo, da se kot en mož združi v stari zvestobi okolu našega
-                           ljubljenega vladarja! </hi>
+                              <ref target="#doc133">dok. št. 133</ref>.</note> pa spoznavamo <hi
+                           rend="italic">največjo nevarnost za naše ljudstvo</hi> in vidimo v takem
+                        početju naravnost <hi rend="italic">izdajstvo življenskih interesov našega
+                           naroda</hi>, kateremu je božja previdnost odkazala dom pod mogočno, v
+                        vseh viharjih preizkušeno zaščito habsburškega žezla. <hi rend="italic"
+                           >Ta</hi> dom si hočemo pripravno in prijazno urediti in <hi rend="italic"
+                           >iz njega</hi> izključiti vsako drugorodno umešavanje. Vstrajamo pa
+                        zvesti in neupogljivi pod habsburško lorenskim žezlom in <hi rend="italic"
+                           >pozivljamo katoliško slovensko ljudstvo, da se kot en mož združi v stari
+                           zvestobi okolu našega ljubljenega vladarja! </hi>
                      </p>
                   </div>
                   <div xml:id="No.167.PPP.3"
@@ -27125,16 +27125,18 @@
                      <head xml:id="PPP-1890-1918-head-542">I.</head>
                      <p xml:id="PPP-1890-1918-p-1464"> Slovenska Kmečka Stranka se ponovno izjavlja
                         za deklaracijo od 30. maja,<note place="foot" xml:id="ftn298"
-                           source="#SourceBornDigital" n="298">Glej <ref target="#doc133">dok št. 133</ref>.</note> obsoja pa
-                        vsako kvarjenje pravega smisla majniške deklaracije,<note place="foot"
-                           xml:id="ftn299" source="#SourceBornDigital" n="299">Glej <ref target="#doc133">dok št.
-                           132</ref>.</note> zlasti pa razlaganje te deklaracije v tem smislu, kakor da bi
-                        slovenski narod bil omajan v svoji zvestobi do cesarske hiše in bi imel kak
-                        stik z veleizdajsko agitacijo, ki jo širijo uskoki iz nam sovražnih držav.
-                        Ta brezvestna agitacija je glavni vzrok, da se vojska od dne do dne
-                        podaljšuje. SKS. želi, da se čimprej sklene mir, ki naj vrne domovini njene
-                        sinove, da se zopet posvetijo delom miru na svojih domovih. SKS. obsoja
-                        vsako hujskanje, ki neti vedno hujše sovraštvo med narodi in državami.</p>
+                           source="#SourceBornDigital" n="298">Glej <ref target="#doc133">dok št.
+                              133</ref>.</note> obsoja pa vsako kvarjenje pravega smisla majniške
+                           deklaracije,<note place="foot" xml:id="ftn299"
+                           source="#SourceBornDigital" n="299">Glej <ref target="#doc133">dok št.
+                              132</ref>.</note> zlasti pa razlaganje te deklaracije v tem smislu,
+                        kakor da bi slovenski narod bil omajan v svoji zvestobi do cesarske hiše in
+                        bi imel kak stik z veleizdajsko agitacijo, ki jo širijo uskoki iz nam
+                        sovražnih držav. Ta brezvestna agitacija je glavni vzrok, da se vojska od
+                        dne do dne podaljšuje. SKS. želi, da se čimprej sklene mir, ki naj vrne
+                        domovini njene sinove, da se zopet posvetijo delom miru na svojih domovih.
+                        SKS. obsoja vsako hujskanje, ki neti vedno hujše sovraštvo med narodi in
+                        državami.</p>
                   </div>
                   <div xml:id="No.168.PPP.2"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-Avstrija-Izven-168.xml">
@@ -27575,13 +27577,13 @@
                      govoru poverjenika dr. Brejc <note place="foot" xml:id="ftn309"
                         source="#SourceBornDigital" n="309">Poleg Antona Kristana je predlog
                         Pokrajinske vlade za Dalmacijo kritično obravnaval tudi predstavnik
-                        Vseslovenske ljudske stranke dr. Janko Brejc. </note> in
-                     Kristan tehtne pomisleke: s tem se ustvari diktatura ene osebe, ki imenuje in
-                     seveda tudi odstavlja voditelje države; čas, kdaj se skliče konstituanta je
-                     popolnoma nedoločen, ker je pojm o tem, kdaj vlada na Balkanu mir in red,
-                     podvržen samovoljnemu tolmačenju provizorične vlade. Tudi se je bati, da se
-                     imenuje vojaški guverner v posameznih deželah in se bodo vršile volitve v
-                     konstituanto pod različnim pritiskom.</p>
+                        Vseslovenske ljudske stranke dr. Janko Brejc. </note> in Kristan tehtne
+                     pomisleke: s tem se ustvari diktatura ene osebe, ki imenuje in seveda tudi
+                     odstavlja voditelje države; čas, kdaj se skliče konstituanta je popolnoma
+                     nedoločen, ker je pojm o tem, kdaj vlada na Balkanu mir in red, podvržen
+                     samovoljnemu tolmačenju provizorične vlade. Tudi se je bati, da se imenuje
+                     vojaški guverner v posameznih deželah in se bodo vršile volitve v konstituanto
+                     pod različnim pritiskom.</p>
                </div>
                <div type="chapter" xml:id="doc176">
                   <head xml:id="PPP-1890-1918-head-560">Dok. št. 176</head>
@@ -27595,7 +27597,8 @@
                            Deželnih vlad za Slovenijo 1918–1921: 1. del: od 1. nov. 1918 do 26. feb.
                            1919</hi> (za objavo pripravil Peter Ribnikar). Ljubljana : Arhiv
                         Republike Slovenije, 1998, str. 125. – O predlogu Pokrajinske vlade za
-                        Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op. 308</ref>.</note>
+                        Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op.
+                        308</ref>.</note>
                   </head>
                   <p xml:id="No.176.PPP"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Socialisticni-176.xml"
@@ -28436,15 +28439,16 @@
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Liberalni-181.xml"
                      > Načelstvo J. D. S. se je v seji dne 20. novembra o tem predlogu<note
                         place="foot" xml:id="ftn319" source="#SourceBornDigital" n="319"> O predlogu
-                        Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op. 308</ref>. </note>
-                     vsestransko in temeljito posvetovalo in prišlo do zaključka, da je predlog
-                     dalmatinske zemaljske vlade v vsakem oziru utemeljen in da je edino v njem
-                     iskati rešitve iz sedanjih težavnih razmer. Edino takojšnje ujedinjenje more
-                     razbistriti mednaroden položaj, v kolikor se nanaša ta na nas in izvesti
-                     uspešno obrambo proti roparski nasilnosti sosedne italijanske države, ki nam
-                     hoče ugrabiti tretjino slovenskega naroda in zagotoviti našemu pričakovanju
-                     odgovarjajoče severne meje. Brez enotne zajedniške vlade je nemogoče izvesti
-                     zadostno prehrano naših dežel in urediti naše finance. </p>
+                        Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok.
+                           št. 175, op. 308</ref>. </note> vsestransko in temeljito posvetovalo in
+                     prišlo do zaključka, da je predlog dalmatinske zemaljske vlade v vsakem oziru
+                     utemeljen in da je edino v njem iskati rešitve iz sedanjih težavnih razmer.
+                     Edino takojšnje ujedinjenje more razbistriti mednaroden položaj, v kolikor se
+                     nanaša ta na nas in izvesti uspešno obrambo proti roparski nasilnosti sosedne
+                     italijanske države, ki nam hoče ugrabiti tretjino slovenskega naroda in
+                     zagotoviti našemu pričakovanju odgovarjajoče severne meje. Brez enotne
+                     zajedniške vlade je nemogoče izvesti zadostno prehrano naših dežel in urediti
+                     naše finance. </p>
                   <p xml:id="No.181.PPP.2"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Liberalni-181.xml"
                      >V tem prepričanju je sklenilo načelstvo, da so vsi zastopniki Jugoslovanske
@@ -28490,15 +28494,15 @@
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Liberalni-182.xml"
                      > Načelstvo J. D. S. se je v seji dne 20. novembra o tem predlogu<note
                         place="foot" xml:id="ftn322" source="#SourceBornDigital" n="322">O predlogu
-                        Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op. 308</ref>.</note>
-                     vsestransko in temeljito posvetovalo in prišlo do zaključka, da je predlog
-                     dalmatinske vlade v vsakem oziru utemeljen in da je edino v njem iskati rešitve
-                     iz sedanjih težavnih razmer. Edino takojšnje ujedinjenje mora razbistriti
-                     mednaroden položaj, v kolikor se nanaša ta na nas, in izvesti vspešno obrambo
-                     proti roparski nasilnosti sosedne ital. države, ki nam hoče ugrabiti tretjino
-                     slovenskega naroda in zagotoviti našemu pričakovanju odgovarjajoče severne
-                     meje. Brez enotne zajedniške vlade je nemogoče izvesti zadostno prehrano naših
-                     dežel in urediti naše finance.</p>
+                        Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok.
+                           št. 175, op. 308</ref>.</note> vsestransko in temeljito posvetovalo in
+                     prišlo do zaključka, da je predlog dalmatinske vlade v vsakem oziru utemeljen
+                     in da je edino v njem iskati rešitve iz sedanjih težavnih razmer. Edino
+                     takojšnje ujedinjenje mora razbistriti mednaroden položaj, v kolikor se nanaša
+                     ta na nas, in izvesti vspešno obrambo proti roparski nasilnosti sosedne ital.
+                     države, ki nam hoče ugrabiti tretjino slovenskega naroda in zagotoviti našemu
+                     pričakovanju odgovarjajoče severne meje. Brez enotne zajedniške vlade je
+                     nemogoče izvesti zadostno prehrano naših dežel in urediti naše finance.</p>
                   <p xml:id="No.182.PPP.3"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Liberalni-182.xml"
                      >V tem prepričanju je sklenilo načelstvo, da so vsi zastopniki J. D. S. v
@@ -28725,9 +28729,9 @@
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Katoliski-189.xml"
                      >Predloženi načrt zemaljske vlade za Dalmacijo <note place="foot"
                         xml:id="ftn331" source="#SourceBornDigital" n="331">O predlogu Pokrajinske
-                        vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op. 308</ref>.</note> po svoji
-                     osnovi nasprotuje vsakršnim demokratičnim načelom in ga vsled tega odklanjamo
-                     kot nesprejemljivega.</p>
+                        vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op.
+                           308</ref>.</note> po svoji osnovi nasprotuje vsakršnim demokratičnim
+                     načelom in ga vsled tega odklanjamo kot nesprejemljivega.</p>
                   <p xml:id="No.189.PPP.2"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Katoliski-189.xml"
                      >Ker je pa potrebno, da se za celo državo SHS skupne zadeve ustvarijo že za čas
@@ -28815,15 +28819,16 @@
                   <p xml:id="No.193.PPP"
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Katoliski-193.xml"
                      >Proti predlogu<note place="foot" xml:id="ftn336" source="#SourceBornDigital"
-                        n="336">O predlogu Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št.
-                        175, op. 308</ref>.</note> sta izražala v obširnem govoru poverjenika dr. Brejc<note
-                        place="foot" xml:id="ftn337" source="#SourceBornDigital" n="337">Član
-                        Vseslovenske ljudske stranke dr. Janko Brejc.</note> in Kristan<note
-                        place="foot" xml:id="ftn338" source="#SourceBornDigital" n="338">Poleg Janka
-                        Brejca je predlog Pokrajinske vlade za Dalmacijo kritično obravnaval tudi
-                        predstavnik Jugoslovanske socialnodemokratske stranke Anton Kristan.</note>
-                     tehtne pomisleke: s tem se ustvari diktatura ene osebe, ki imenuje in seveda
-                     tudi odstavlja voditelje države; čas, kdaj se skliče konstituanta je popolnoma
+                        n="336">O predlogu Pokrajinske vlade za Dalmacijo glej pojasnilo v <ref
+                           target="#ftn308">dok. št. 175, op. 308</ref>.</note> sta izražala v
+                     obširnem govoru poverjenika dr. Brejc<note place="foot" xml:id="ftn337"
+                        source="#SourceBornDigital" n="337">Član Vseslovenske ljudske stranke dr.
+                        Janko Brejc.</note> in Kristan<note place="foot" xml:id="ftn338"
+                        source="#SourceBornDigital" n="338">Poleg Janka Brejca je predlog
+                        Pokrajinske vlade za Dalmacijo kritično obravnaval tudi predstavnik
+                        Jugoslovanske socialnodemokratske stranke Anton Kristan.</note> tehtne
+                     pomisleke: s tem se ustvari diktatura ene osebe, ki imenuje in seveda tudi
+                     odstavlja voditelje države; čas, kdaj se skliče konstituanta je popolnoma
                      nedoločen, ker je pojm o tem, kdaj vlada na Balkanu mir in red, podvržen
                      samovoljnemu tolmačenju provizorične vlade. Tudi se je bati, da se imenuje
                      vojaški guverner v posameznih deželah in se bodo vršile volitve v konstituanto
@@ -28847,14 +28852,15 @@
                      xml:base="https://github.com/SIstory/PoliticalParties-Programs/blob/master/TEI/PPP-DrzavaSHS-Katoliski-194.xml"
                      >Predloženi načrt zemaljske vlade za Dalmacijo <note place="foot"
                         xml:id="ftn340" source="#SourceBornDigital" n="340">O predlogu Pokrajinske
-                        vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op. 308</ref>.</note> v svoji
-                     osnovi nasprotuje vsakršnim demokratičnim načelom in ga vsled tega odklanjamo
-                     kot nespremljivega. Ker pa je potrebno, da se za cel[o]i držav[o]i SHS skupne
-                     zadeve tudi že za čas provizorija ustvarijo skupni vladni organi, ki naj bi
-                     vodili tudi priprave za bodočo konstituanto, smo mnenja, da naj bi se ta prov.
-                     državni ustroj uredil potom pogajanj in dogovorov legitimiranih zastopnikov
-                     Slovencev, Hrvatov in Srbov kot enakopravnih enot. Izjavljamo, da smo v tem
-                     smislu pripravljeni takoj začeti pogajanja.</p>
+                        vlade za Dalmacijo glej pojasnilo v <ref target="#ftn308">dok. št. 175, op.
+                           308</ref>.</note> v svoji osnovi nasprotuje vsakršnim demokratičnim
+                     načelom in ga vsled tega odklanjamo kot nespremljivega. Ker pa je potrebno, da
+                     se za cel[o]i držav[o]i SHS skupne zadeve tudi že za čas provizorija ustvarijo
+                     skupni vladni organi, ki naj bi vodili tudi priprave za bodočo konstituanto,
+                     smo mnenja, da naj bi se ta prov. državni ustroj uredil potom pogajanj in
+                     dogovorov legitimiranih zastopnikov Slovencev, Hrvatov in Srbov kot
+                     enakopravnih enot. Izjavljamo, da smo v tem smislu pripravljeni takoj začeti
+                     pogajanja.</p>
                </div>
                <div type="chapter" xml:id="doc195">
                   <head xml:id="PPP-1890-1918-head-608">Dok. št. 195</head>
