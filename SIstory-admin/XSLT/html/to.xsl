@@ -58,6 +58,12 @@
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/my-html_param.xsl -->
    <xsl:param name="title-bar-sticky">false</xsl:param>
+   
+   <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>
+   
+   <!-- vse datoteke so shranjene v izhodiščni publikaciji -->
+   <xsl:param name="graphicsPrefix">/cdn/publikacije/36001-37000/36151/</xsl:param>
+   
    <!-- V html/head izpisani metapodatki -->
    <xsl:param name="description">Metapodatki portala Zgodovina Slovenije - SIstory, navodila za uporabo orodja za vnos metapodatkov</xsl:param>
    <xsl:param name="keywords">metapodatki, SIstory, portal, zgodovina, Slovenija, metadata, history, Slovenia</xsl:param>

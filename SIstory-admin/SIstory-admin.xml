@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sistory.36151">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="sistory.36151">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,9 +33,12 @@
                </p>
             </availability>
             <pubPlace>
-               <ref target="http://hdl.handle.net/11686/36151">http://sistory.si/11686/36151</ref>
+               <ref target="http://hdl.handle.net/11686/36151"
+                  >http://hdl.handle.net/11686/36151</ref>
             </pubPlace>
-            <idno type="PID">sistory.36151</idno>
+            <idno type="sistory"
+               corresp="#sistory.36151 #cip #teiHeader #toc #images #search #menu #title-part #avtor #creator #predmet #subject #opis #description-part #publisher #collection #contributor #date-part #type-part #format-part #identifier-part #source-part #sistoryChildren #language #relation-part #coverage-part #sistoryRights #rights-part #audience-part #other-part #sistoryPage #sistoryPublikacija-part #sistoryImage #sistoryPovezava #sistoryVideoKoda #arch-part #lib-part #vis-part #av-part #bibliogr"
+               >36151</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Izvorno digitalno besedilo.</p>
@@ -1822,7 +1826,8 @@
          </div>
          <div type="chapter" xml:id="coverage-part">
             <head xml:id="head-82">Coverage</head>
-            <p xml:id="p-13">V sklopu Coverage se izbere sledeče vrste metapodatkov za opis prostorske in/ali časovne oznake vsebine:</p>
+            <p xml:id="p-13">V sklopu Coverage se izbere sledeče vrste metapodatkov za opis
+               prostorske in/ali časovne oznake vsebine:</p>
             <list>
                <item><ref target="#coverage">Coverage</ref></item>
                <item><ref target="#spatial">Spatial</ref></item>
@@ -2119,7 +2124,8 @@
          </div>
          <div type="chapter" xml:id="rights-part">
             <head xml:id="head-87">Rights</head>
-            <p xml:id="p-14">V sklopu Rights se lahko izbere tri Dublin Core metapodatkovna polja za vpisovanje podatkov o avtorskih pravicah:</p>
+            <p xml:id="p-14">V sklopu Rights se lahko izbere tri Dublin Core metapodatkovna polja za
+               vpisovanje podatkov o avtorskih pravicah:</p>
             <list>
                <item><ref target="#rights">rights</ref></item>
                <item><ref target="#accessRights">accessRights</ref></item>
@@ -2773,7 +2779,8 @@
          </div>
          <div type="chapter" xml:id="arch-part">
             <head xml:id="head-114">Arhivski elementi</head>
-            <p xml:id="p-17">V sklopu Arhivski elementi lahko izberemo sledeča metapodatkovna polja:</p>
+            <p xml:id="p-17">V sklopu Arhivski elementi lahko izberemo sledeča metapodatkovna
+               polja:</p>
             <list>
                <item><ref target="#archLevel">archLevel</ref></item>
                <item><ref target="#archPhysdesc">archPhysdesc</ref></item>
@@ -2933,11 +2940,13 @@
          </div>
          <div type="chapter" xml:id="lib-part">
             <head xml:id="head-120">Knjižničarski elementi</head>
-            <p xml:id="p-18">V sklopu Knjižničarski elementi lahko izberemo sledeča metapodatkovna polja:</p>
+            <p xml:id="p-18">V sklopu Knjižničarski elementi lahko izberemo sledeča metapodatkovna
+               polja:</p>
             <list>
                <item><ref target="#libLevel">libLevel</ref></item>
                <item><ref target="#libGenMaterialDesignation">libGenMaterialDesignation</ref></item>
-               <item><ref target="#libSpecMaterialDesignation">libSpecMaterialDesignation</ref></item>
+               <item><ref target="#libSpecMaterialDesignation"
+                  >libSpecMaterialDesignation</ref></item>
                <item><ref target="#libExtent">libExtent</ref></item>
                <item><ref target="#libPubFrequency">libPubFrequency</ref></item>
                <item><ref target="#libDimensions">libDimensions</ref></item>
@@ -3136,7 +3145,8 @@
          </div>
          <div type="chapter" xml:id="vis-part">
             <head xml:id="head-128">Za slikovno gradivo</head>
-            <p xml:id="p-19">V sklopu Za slikovno gradivo lahko izberemo sledeča metapodatkovna polja:</p>
+            <p xml:id="p-19">V sklopu Za slikovno gradivo lahko izberemo sledeča metapodatkovna
+               polja:</p>
             <list>
                <item><ref target="#visLevel">visLevel</ref></item>
                <item><ref target="#visObjectName">visObjectName</ref></item>
@@ -3331,7 +3341,8 @@
          </div>
          <div type="chapter" xml:id="av-part">
             <head xml:id="head-135">Za avdiovizualno gradivo</head>
-            <p xml:id="p-20">V sklopu Za avdiovizualno gradivo lahko izberemo sledeča metapodatkovna polja:</p>
+            <p xml:id="p-20">V sklopu Za avdiovizualno gradivo lahko izberemo sledeča metapodatkovna
+               polja:</p>
             <list>
                <item><ref target="#avLevel">avLevel</ref></item>
                <item><ref target="#avInstantiationType">avInstantiationType</ref></item>
@@ -3557,8 +3568,9 @@
          <div type="bibliogr" xml:id="bibliogr">
             <head xml:id="head-200">Viri in literatura</head>
             <listBibl xml:id="listBibl-1">
-               <bibl>Dublin Core Metadata Initiative. "DCMI Metadata Terms." Pridobljeno 20. 11. 2013. <ref
-                  target="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</ref>.</bibl>
+               <bibl>Dublin Core Metadata Initiative. "DCMI Metadata Terms." Pridobljeno 20. 11.
+                  2013. <ref target="http://dublincore.org/documents/dcmi-terms/"
+                     >http://dublincore.org/documents/dcmi-terms/</ref>.</bibl>
                <bibl>The HOPE Wiki. "Best Practices for the Social History Domain." Pridobljeno 20.
                   11. 2013. <ref
                      target="http://hopewiki.socialhistoryportal.org/index.php/Main_Page"
@@ -3583,7 +3595,8 @@
                   >https://www.loc.gov/ead/</ref>.</bibl>
                <bibl>Lemmens, Bert, Joris Janssens, Ruth Van Dyck, Alessia Bardi, Paolo Manghi, Eric
                   Beving, Kathryn Máthé in Armin Straube. <hi rend="italic">The Common HOPE Metadata
-                     Structure, including the Harmonisation Specifications: Version 1.1.</hi> 31/05/2011.</bibl>
+                     Structure, including the Harmonisation Specifications: Version 1.1.</hi>
+                  31/05/2011.</bibl>
             </listBibl>
          </div>
       </back>
