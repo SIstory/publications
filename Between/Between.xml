@@ -67,6 +67,22 @@
                     <idno type="html">ISBN 978-961-6386-70-8 (html)</idno>
                 </idno>
                 <idno type="cobiss">287608320</idno>
+                <idno type="sistory" corresp="#sistory.36073 #cip #titleAuthor #search #bibliogr #persons">36073</idno>
+                <idno type="sistory" corresp="#preface">36284</idno>
+                <idno type="sistory" corresp="#ch01">36285</idno>
+                <idno type="sistory" corresp="#ch02">36286</idno>
+                <idno type="sistory" corresp="#ch03">36287</idno>
+                <idno type="sistory" corresp="#ch04">36288</idno>
+                <idno type="sistory" corresp="#ch05">36289</idno>
+                <idno type="sistory" corresp="#ch06">36290</idno>
+                <idno type="sistory" corresp="#ch07">36291</idno>
+                <idno type="sistory" corresp="#ch08">36292</idno>
+                <idno type="sistory" corresp="#ch09">36293</idno>
+                <idno type="sistory" corresp="#ch10">36294</idno>
+                <idno type="sistory" corresp="#ch11">36295</idno>
+                <idno type="sistory" corresp="#ch12">36296</idno>
+                <idno type="sistory" corresp="#ch13">36297</idno>
+                <idno type="sistory" corresp="#ch14">36298</idno>
                 <pubPlace>Available at <ref target=" http://hdl.handle.net/11686/36073"
                         >http://hdl.handle.net/11686/36073</ref>
                 </pubPlace>
@@ -3049,6 +3065,11 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date>2017-01-19</date>
+                    <name type="person">Andrej Pančur</name>
+                    <desc>Added idno[@type='sistory']</desc>
+                </change>
                 <change>
                     <date>2016-11</date>
                     <name type="person">Mojca Šorn</name>
