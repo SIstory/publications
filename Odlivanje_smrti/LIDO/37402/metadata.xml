@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+   <lido:lido>
+      <lido:lidoRecID lido:type="local" lido:label="SIstory">http://hdl.handle.net/11686/37402</lido:lidoRecID>
+      <lido:category>
+         <lido:conceptID lido:type="URI">http://purl.org/dc/terms/type</lido:conceptID>
+         <lido:term xml:lang="en">PhysicalObject</lido:term>
+      </lido:category>
+      <lido:descriptiveMetadata xml:lang="sl">
+         <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap>
+               <lido:objectWorkType>
+                  <lido:conceptID lido:source="http://vocab.getty.edu/aat" lido:type="ID">300047724</lido:conceptID>
+                  <lido:term>Posmrtna maska</lido:term>
+               </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            <lido:classificationWrap>
+               <lido:classification>
+                  <lido:conceptID lido:type="person">Upodobljenec</lido:conceptID>
+                  <lido:term>France Kotnik</lido:term>
+               </lido:classification>
+            </lido:classificationWrap>
+         </lido:objectClassificationWrap>
+         <lido:objectIdentificationWrap>
+            <lido:titleWrap>
+               <lido:titleSet>
+                  <lido:appellationValue>France Kotnik (SAZU)</lido:appellationValue>
+               </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap>
+               <lido:repositorySet lido:type="current">
+                  <lido:repositoryName>
+                     <lido:legalBodyName>
+                        <lido:appellationValue>Slovenska akademija znanosti in umetnosti</lido:appellationValue>
+                     </lido:legalBodyName>
+                  </lido:repositoryName>
+                  <lido:workID>MSAZU/9</lido:workID>
+               </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap>
+               <lido:objectDescriptionSet lido:type="conditionNote">
+                  <lido:descriptiveNoteValue>Maska je pritrjena na leseno ploščo z napisom: FRANCE KOTNIK 1882 - 1955</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <lido:objectDescriptionSet lido:type="conditionNote">
+                  <lido:descriptiveNoteValue>Na nekaterih mestih je nekoliko okrušena.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+            </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements>23 cm x 16.5 cm x 10.5 cm</lido:displayObjectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+         </lido:objectIdentificationWrap>
+         <lido:eventWrap>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00007</lido:conceptID>
+                     <lido:term xml:lang="en">Production</lido:term>
+                     <lido:term>Izdelovanje</lido:term>
+                  </lido:eventType>
+                  <lido:eventActor>
+                     <lido:actorInRole>
+                        <lido:actor>
+                           <lido:nameActorSet>
+                              <lido:appellationValue>Lipičnik Adalbert</lido:appellationValue>
+                           </lido:nameActorSet>
+                        </lido:actor>
+                        <lido:roleActor>
+                           <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
+                           <lido:term xml:lang="en">Person</lido:term>
+                           <lido:term>Oseba</lido:term>
+                        </lido:roleActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <lido:eventMaterialsTech>
+                     <lido:materialsTech>
+                        <lido:termMaterialsTech>
+                           <lido:term>Mavec, patiniran</lido:term>
+                        </lido:termMaterialsTech>
+                     </lido:materialsTech>
+                  </lido:eventMaterialsTech>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
+                     <lido:term xml:lang="en">Commissioning</lido:term>
+                     <lido:term>Naročilo</lido:term>
+                  </lido:eventType>
+                  <lido:eventActor>
+                     <lido:actorInRole>
+                        <lido:actor>
+                           <lido:nameActorSet>
+                              <lido:appellationValue>SAZU</lido:appellationValue>
+                           </lido:nameActorSet>
+                        </lido:actor>
+                        <lido:roleActor>
+                           <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
+                           <lido:term xml:lang="en">Person</lido:term>
+                           <lido:term>Oseba</lido:term>
+                        </lido:roleActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <lido:eventDate>
+                     <lido:displayDate>1955</lido:displayDate>
+                     <lido:date>
+                        <lido:earliestDate>1955</lido:earliestDate>
+                        <lido:latestDate>1955</lido:latestDate>
+                     </lido:date>
+                  </lido:eventDate>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00227</lido:conceptID>
+                     <lido:term xml:lang="en">Provenance</lido:term>
+                     <lido:term>Provenienca</lido:term>
+                  </lido:eventType>
+                  <lido:eventDescriptionSet>
+                     <lido:descriptiveNoteValue>Od 19.02 1955 ima masko v lasti SAZU (odkup).</lido:descriptiveNoteValue>
+                  </lido:eventDescriptionSet>
+               </lido:event>
+            </lido:eventSet>
+         </lido:eventWrap>
+      </lido:descriptiveMetadata>
+      <lido:administrativeMetadata xml:lang="sl">
+         <lido:recordWrap>
+            <lido:recordID lido:type="PID">37402</lido:recordID>
+            <lido:recordType>
+               <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00141</lido:conceptID>
+               <lido:term xml:lang="en">Item-level record</lido:term>
+               <lido:term>posamezen objekt</lido:term>
+            </lido:recordType>
+            <lido:recordSource>
+               <lido:legalBodyName>
+                  <lido:appellationValue>Društvo za domače raziskave</lido:appellationValue>
+               </lido:legalBodyName>
+               <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
+            </lido:recordSource>
+         </lido:recordWrap>
+      </lido:administrativeMetadata>
+   </lido:lido>
+</lido:lidoWrap>
