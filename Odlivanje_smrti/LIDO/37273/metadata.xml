@@ -48,7 +48,7 @@
                <lido:objectDescriptionSet lido:type="description">
                   <lido:descriptiveNoteValue>Po pričevanju zaposlenih v MNZS naj bi bila to posmrtna maska Ivana Levarja.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
-               <lido:objectDescriptionSet lido:type="conditionNote">
+               <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je v slabem stanju; na nekaterih mestih je odkrušena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>

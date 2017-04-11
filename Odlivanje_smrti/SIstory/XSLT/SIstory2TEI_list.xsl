@@ -60,55 +60,59 @@
         <xsl:result-document href="{$outputDir,'TEI_list.xml'}">
             <div type="lido" xml:id="lido">
                 <head>Posmrtne maske</head>
-                <xsl:for-each select="sistory:publication[xs:integer(sistory:ID) gt xs:integer($processingFromSIstoryID)] | 
-                    sistory:publication[xs:integer(sistory:ID) = xs:integer($processingSIstoryID)]">
-                    <xsl:sort select="sistory:TITLE[@titleType='Title']"/>
-                    <list type="gloss" xml:id="{concat('sistory-',sistory:ID)}">
-                        <label>Naziv</label>
-                        <item>
-                            <xsl:value-of select="sistory:TITLE[@titleType='Title']"/>
-                        </item>
-                        <xsl:for-each select="sistory:CREATOR">
-                            <xsl:variable name="avtor" select="concat(sistory:IME,' ',sistory:PRIIMEK)"/>
-                            <label>Avtor</label>
-                            <item>
-                                <xsl:for-each select="$osebe/sistory:oseba[. = $avtor]">
-                                    <ref target="{concat('#',@xml:id)}">
-                                        <xsl:value-of select="$avtor"/>
-                                    </ref>
-                                </xsl:for-each>
-                            </item>
-                        </xsl:for-each>
-                        <xsl:for-each select="sistory:SUBJECT">
-                            <xsl:variable name="upodobljenec" select="."/>
-                            <label>Upodobljenec</label>
-                            <item>
-                                <xsl:choose>
-                                    <xsl:when test="contains(.,'Neznan')">
-                                        <ref target="#pers.unknown">
-                                            <xsl:value-of select="$upodobljenec"/>
-                                        </ref>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:for-each select="$osebe/sistory:oseba[. = $upodobljenec]">
+                <list rend="ordered" type="deathMask">
+                    <xsl:for-each select="sistory:publication[xs:integer(sistory:ID) gt xs:integer($processingFromSIstoryID)] | 
+                        sistory:publication[xs:integer(sistory:ID) = xs:integer($processingSIstoryID)]">
+                        <xsl:sort select="sistory:TITLE[@titleType='Title']"/>
+                        <item xml:id="{concat('sistory-',sistory:ID)}">
+                            <list type="gloss">
+                                <label>Naziv</label>
+                                <item>
+                                    <xsl:value-of select="sistory:TITLE[@titleType='Title']"/>
+                                </item>
+                                <xsl:for-each select="sistory:CREATOR">
+                                    <xsl:variable name="avtor" select="concat(sistory:IME,' ',sistory:PRIIMEK)"/>
+                                    <label>Avtor</label>
+                                    <item>
+                                        <xsl:for-each select="$osebe/sistory:oseba[. = $avtor]">
                                             <ref target="{concat('#',@xml:id)}">
-                                                <xsl:value-of select="$upodobljenec"/>
+                                                <xsl:value-of select="$avtor"/>
                                             </ref>
                                         </xsl:for-each>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </item>
-                        </xsl:for-each>
-                        <label>SIstory</label>
-                        <item>
-                            <ref target="{concat('http://www.sistory.si/',sistory:URN)}">
-                                <xsl:value-of select="concat('http://hdl.handle.net/',sistory:URN)"/>
-                            </ref>
+                                    </item>
+                                </xsl:for-each>
+                                <xsl:for-each select="sistory:SUBJECT">
+                                    <xsl:variable name="upodobljenec" select="."/>
+                                    <label>Upodobljenec</label>
+                                    <item>
+                                        <xsl:choose>
+                                            <xsl:when test="contains(.,'Neznan')">
+                                                <ref target="#pers.unknown">
+                                                    <xsl:value-of select="$upodobljenec"/>
+                                                </ref>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:for-each select="$osebe/sistory:oseba[. = $upodobljenec]">
+                                                    <ref target="{concat('#',@xml:id)}">
+                                                        <xsl:value-of select="$upodobljenec"/>
+                                                    </ref>
+                                                </xsl:for-each>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </item>
+                                </xsl:for-each>
+                                <label>SIstory</label>
+                                <item>
+                                    <ref target="{concat('http://www.sistory.si/',sistory:URN)}">
+                                        <xsl:value-of select="concat('http://hdl.handle.net/',sistory:URN)"/>
+                                    </ref>
+                                </item>
+                                <label>LIDO metapodatki</label>
+                                <item><ptr target="{concat('https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/',sistory:ID,'/metadata.xml')}" type="LIDO"/></item>
+                            </list>
                         </item>
-                        <label>LIDO metapodatki</label>
-                        <item><ptr target="{concat('LIDO/',sistory:ID,'/metadata.xml')}" type="LIDO"/></item>
-                    </list>
-                </xsl:for-each>
+                    </xsl:for-each>
+                </list>
             </div>
         </xsl:result-document>
     </xsl:template>

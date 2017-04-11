@@ -108,7 +108,7 @@
                                         </xsl:for-each>
                                         <xsl:for-each select="sistory:SLIKOVNI[@slikovniElType='visTechAttribute']">
                                             <xsl:choose>
-                                                <xsl:when test="contains(.,'ohranje')">
+                                                <xsl:when test="contains(.,'ohranje') or contains(.,'stanju')">
                                                     <lido:objectDescriptionSet lido:type="condition">
                                                         <lido:descriptiveNoteValue>
                                                             <xsl:value-of select="normalize-space(.)"/>
@@ -207,59 +207,61 @@
                                         </xsl:for-each>
                                     </lido:event>
                                 </lido:eventSet>
-                                <lido:eventSet>
-                                    <lido:event>
-                                        <lido:eventType>
-                                            <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
-                                            <lido:term xml:lang="en">Commissioning</lido:term>
-                                            <lido:term>Naročilo</lido:term>
-                                        </lido:eventType>
-                                        <xsl:for-each select="sistory:CONTRIBUTOR">
-                                            <lido:eventActor>
-                                                <lido:actorInRole>
-                                                    <lido:actor>
-                                                        <lido:nameActorSet>
-                                                            <lido:appellationValue>
-                                                                <xsl:value-of select="normalize-space(substring-before(.,'('))"/>
-                                                            </lido:appellationValue>
-                                                        </lido:nameActorSet>
-                                                    </lido:actor>
-                                                    <lido:roleActor>
-                                                        <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
-                                                        <lido:term xml:lang="en">Person</lido:term>
-                                                        <lido:term>Oseba</lido:term>
-                                                    </lido:roleActor>
-                                                </lido:actorInRole>
-                                            </lido:eventActor>
-                                        </xsl:for-each>
-                                        <xsl:for-each select="sistory:DATE[@type='Date']">
-                                            <lido:eventDate>
-                                                <lido:displayDate>
-                                                    <xsl:value-of select="."/>
-                                                </lido:displayDate>
-                                                <xsl:choose>
-                                                    <xsl:when test="matches(.,'pred\s\d{4}')">
-                                                        <lido:date>
-                                                            <lido:latestDate>
-                                                                <xsl:value-of select="substring-after(.,'pred ')"/>
-                                                            </lido:latestDate>
-                                                        </lido:date>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <lido:date>
-                                                            <lido:earliestDate>
-                                                                <xsl:value-of select="."/>
-                                                            </lido:earliestDate>
-                                                            <lido:latestDate>
-                                                                <xsl:value-of select="."/>
-                                                            </lido:latestDate>
-                                                        </lido:date>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </lido:eventDate>
-                                        </xsl:for-each>
-                                    </lido:event>
-                                </lido:eventSet>
+                                <xsl:if test="sistory:CONTRIBUTOR or sistory:DATE[@type='Date']">
+                                    <lido:eventSet>
+                                        <lido:event>
+                                            <lido:eventType>
+                                                <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
+                                                <lido:term xml:lang="en">Commissioning</lido:term>
+                                                <lido:term>Naročilo</lido:term>
+                                            </lido:eventType>
+                                            <xsl:for-each select="sistory:CONTRIBUTOR">
+                                                <lido:eventActor>
+                                                    <lido:actorInRole>
+                                                        <lido:actor>
+                                                            <lido:nameActorSet>
+                                                                <lido:appellationValue>
+                                                                    <xsl:value-of select="normalize-space(substring-before(.,'('))"/>
+                                                                </lido:appellationValue>
+                                                            </lido:nameActorSet>
+                                                        </lido:actor>
+                                                        <lido:roleActor>
+                                                            <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
+                                                            <lido:term xml:lang="en">Person</lido:term>
+                                                            <lido:term>Oseba</lido:term>
+                                                        </lido:roleActor>
+                                                    </lido:actorInRole>
+                                                </lido:eventActor>
+                                            </xsl:for-each>
+                                            <xsl:for-each select="sistory:DATE[@type='Date']">
+                                                <lido:eventDate>
+                                                    <lido:displayDate>
+                                                        <xsl:value-of select="."/>
+                                                    </lido:displayDate>
+                                                    <xsl:choose>
+                                                        <xsl:when test="matches(.,'pred\s\d{4}')">
+                                                            <lido:date>
+                                                                <lido:latestDate>
+                                                                    <xsl:value-of select="substring-after(.,'pred ')"/>
+                                                                </lido:latestDate>
+                                                            </lido:date>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <lido:date>
+                                                                <lido:earliestDate>
+                                                                    <xsl:value-of select="."/>
+                                                                </lido:earliestDate>
+                                                                <lido:latestDate>
+                                                                    <xsl:value-of select="."/>
+                                                                </lido:latestDate>
+                                                            </lido:date>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </lido:eventDate>
+                                            </xsl:for-each>
+                                        </lido:event>
+                                    </lido:eventSet>
+                                </xsl:if>
                                 <xsl:if test="sistory:OTHER[@otherType='provenance']">
                                     <lido:eventSet>
                                         <lido:event>

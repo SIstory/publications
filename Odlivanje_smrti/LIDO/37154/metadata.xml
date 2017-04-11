@@ -45,7 +45,7 @@
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
-               <lido:objectDescriptionSet lido:type="conditionNote">
+               <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je v slabem stanju. Na več mestih je odrgnjena; polihromacija je odluščena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
@@ -65,15 +65,6 @@
                         </lido:termMaterialsTech>
                      </lido:materialsTech>
                   </lido:eventMaterialsTech>
-               </lido:event>
-            </lido:eventSet>
-            <lido:eventSet>
-               <lido:event>
-                  <lido:eventType>
-                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
-                     <lido:term xml:lang="en">Commissioning</lido:term>
-                     <lido:term>Naročilo</lido:term>
-                  </lido:eventType>
                </lido:event>
             </lido:eventSet>
          </lido:eventWrap>

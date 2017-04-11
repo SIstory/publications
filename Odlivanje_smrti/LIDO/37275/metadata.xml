@@ -84,15 +84,6 @@
             <lido:eventSet>
                <lido:event>
                   <lido:eventType>
-                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
-                     <lido:term xml:lang="en">Commissioning</lido:term>
-                     <lido:term>Naročilo</lido:term>
-                  </lido:eventType>
-               </lido:event>
-            </lido:eventSet>
-            <lido:eventSet>
-               <lido:event>
-                  <lido:eventType>
                      <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00227</lido:conceptID>
                      <lido:term xml:lang="en">Provenance</lido:term>
                      <lido:term>Provenienca</lido:term>

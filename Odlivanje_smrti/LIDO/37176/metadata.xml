@@ -47,7 +47,7 @@
                <lido:objectDescriptionSet lido:type="description">
                   <lido:descriptiveNoteValue>V depoju MGML hranijo tri posmrtne maske R. Jakopiča, dve od teh nimata inv. številke.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
-               <lido:objectDescriptionSet lido:type="conditionNote">
+               <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je v dobrem stanju.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>

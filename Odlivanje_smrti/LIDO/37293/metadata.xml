@@ -45,7 +45,7 @@
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
-               <lido:objectDescriptionSet lido:type="conditionNote">
+               <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je v slabem stanju.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="conditionNote">
