@@ -320,6 +320,17 @@
                         </xsl:for-each>
                      </li>
                   </xsl:if>
+                  <xsl:if test="tei:idno[@type='URL']">
+                     <li>
+                        <xsl:text>Dodatni podatki: </xsl:text>
+                        <xsl:for-each select="tei:idno[@type='URL']">
+                           <a href="{.}" target="_blank">
+                              <xsl:value-of select="."/>
+                           </a>
+                           <xsl:if test="position() != last()">, </xsl:if>
+                        </xsl:for-each>
+                     </li>
+                  </xsl:if>
                </ul>
             </li>
          </xsl:for-each>
