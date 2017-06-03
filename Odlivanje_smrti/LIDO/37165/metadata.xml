@@ -19,14 +19,14 @@
             <lido:classificationWrap>
                <lido:classification>
                   <lido:conceptID lido:type="person">Upodobljenec</lido:conceptID>
-                  <lido:term>Karel Kotnik</lido:term>
+                  <lido:term>Karol Kotnik</lido:term>
                </lido:classification>
             </lido:classificationWrap>
          </lido:objectClassificationWrap>
          <lido:objectIdentificationWrap>
             <lido:titleWrap>
                <lido:titleSet>
-                  <lido:appellationValue>Karel Kotnik (MGML)</lido:appellationValue>
+                  <lido:appellationValue>Karol Kotnik (MGML)</lido:appellationValue>
                </lido:titleSet>
             </lido:titleWrap>
             <lido:repositoryWrap>
@@ -46,7 +46,7 @@
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
                <lido:objectDescriptionSet lido:type="description">
-                  <lido:descriptiveNoteValue>Na podlagi primerjave s posmrtno masko, ki jo hrani NMS, je upodobljenec identificiran kot Karel Kotnik.</lido:descriptiveNoteValue>
+                  <lido:descriptiveNoteValue>Na podlagi primerjave s posmrtno masko, ki jo hrani NMS, je upodobljenec identificiran kot Karol Kotnik.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Srednje dobra ohranjenost</lido:descriptiveNoteValue>

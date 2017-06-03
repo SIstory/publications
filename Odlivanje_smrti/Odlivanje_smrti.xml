@@ -23,7 +23,8 @@
                </p>
             </availability>
             <pubPlace>
-               <ref target="http://hdl.handle.net/11686/37475">http://hdl.handle.net/11686/37475</ref>
+               <ref target="http://hdl.handle.net/11686/37475"
+                  >http://hdl.handle.net/11686/37475</ref>
             </pubPlace>
             <idno type="sistory"
                corresp="#sistory.37475 #cip #teiHeader #lido #listPerson #objects #persons #occupations"
@@ -3390,6 +3391,27 @@
          <div type="lido" xml:id="lido">
             <head>Posmrtne maske</head>
             <list rend="ordered" type="deathMask">
+               <item xml:id="sistory-37721">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Alojz Kraigher (Notranjski muzej Postojna)</item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.KraigherAlojz1877">Alojz Kraigher</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37721"
+                           >http://hdl.handle.net/11686/37721</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37721/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37144">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -3570,6 +3592,31 @@
                      </item>
                   </list>
                </item>
+               <item xml:id="sistory-37718">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>France Kotnik (Pokrajinski muzej Celje)</item>
+                     <label>Avtor</label>
+                     <item>
+                        <ref target="#pers.LipičnikAdalbert1913">Adalbert Lipičnik</ref>
+                     </item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.KotnikFran1882">France Kotnik</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37718"
+                           >http://hdl.handle.net/11686/37718</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37718/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37402">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -3591,6 +3638,52 @@
                      <item>
                         <ptr
                            target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37402/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
+               <item xml:id="sistory-37476">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>France Mihelič (LM)</item>
+                     <label>Avtor</label>
+                     <item>
+                        <ref target="#pers.ProkofjevBoris1943">Boris Prokofjev</ref>
+                     </item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.MiheličFrance1907">France Mihelič</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37476"
+                           >http://hdl.handle.net/11686/37476</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37476/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
+               <item xml:id="sistory-37477">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Franja Tavčar (LM)</item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.TavčarFranja1868">Franja Tavčar</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37477"
+                           >http://hdl.handle.net/11686/37477</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37477/metadata.xml"
                            type="LIDO"/>
                      </item>
                   </list>
@@ -3712,6 +3805,27 @@
                      <item>
                         <ptr
                            target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37415/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
+               <item xml:id="sistory-37719">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Ivan Cankar (Notranjski muzej Postojna)</item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37719"
+                           >http://hdl.handle.net/11686/37719</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37719/metadata.xml"
                            type="LIDO"/>
                      </item>
                   </list>
@@ -3887,6 +4001,31 @@
                      </item>
                   </list>
                </item>
+               <item xml:id="sistory-37722">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Ivan Prijatelj (Notranjski muzej Postojna)</item>
+                     <label>Avtor</label>
+                     <item>
+                        <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
+                     </item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.PrijateljIvan1875">Ivan Prijatelj</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37722"
+                           >http://hdl.handle.net/11686/37722</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37722/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37401">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -4008,6 +4147,23 @@
                      </item>
                   </list>
                </item>
+               <item xml:id="sistory-37715">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Josip Vilfan, mlajši (Goriški muzej)</item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37715"
+                           >http://hdl.handle.net/11686/37715</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37715/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37173">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -4074,10 +4230,10 @@
                <item xml:id="sistory-37165">
                   <list type="gloss">
                      <label>Naziv</label>
-                     <item>Karel Kotnik (MGML)</item>
+                     <item>Karol Kotnik (MGML)</item>
                      <label>Upodobljenec</label>
                      <item>
-                        <ref target="#pers.KotnikKarel1875">Karel Kotnik</ref>
+                        <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
                      </item>
                      <label>SIstory</label>
                      <item>
@@ -4095,10 +4251,10 @@
                <item xml:id="sistory-37350">
                   <list type="gloss">
                      <label>Naziv</label>
-                     <item>Karel Kotnik (NMS)</item>
+                     <item>Karol Kotnik (NMS)</item>
                      <label>Upodobljenec</label>
                      <item>
-                        <ref target="#pers.KotnikKarel1875">Karel Kotnik</ref>
+                        <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
                      </item>
                      <label>SIstory</label>
                      <item>
@@ -4522,6 +4678,27 @@
                      </item>
                   </list>
                </item>
+               <item xml:id="sistory-37714">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Piero Marussig (Goriški muzej)</item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.MarussigPiero1879">Piero Marussig</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37714"
+                           >http://hdl.handle.net/11686/37714</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37714/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37174">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -4638,6 +4815,27 @@
                      </item>
                   </list>
                </item>
+               <item xml:id="sistory-37720">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Rihard Jakopič (Notranjski muzej Postojna)</item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37720"
+                           >http://hdl.handle.net/11686/37720</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37720/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
                <item xml:id="sistory-37410">
                   <list type="gloss">
                      <label>Naziv</label>
@@ -4688,6 +4886,31 @@
                      <item>
                         <ptr
                            target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37414/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
+               <item xml:id="sistory-37717">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Simon Gregorčič (Goriški muzej)</item>
+                     <label>Avtor</label>
+                     <item>
+                        <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
+                     </item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37717"
+                           >http://hdl.handle.net/11686/37717</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37717/metadata.xml"
                            type="LIDO"/>
                      </item>
                   </list>
@@ -4809,6 +5032,31 @@
                      <item>
                         <ptr
                            target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37413/metadata.xml"
+                           type="LIDO"/>
+                     </item>
+                  </list>
+               </item>
+               <item xml:id="sistory-37716">
+                  <list type="gloss">
+                     <label>Naziv</label>
+                     <item>Tone Kralj (Goriški muzej)</item>
+                     <label>Avtor</label>
+                     <item>
+                        <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
+                     </item>
+                     <label>Upodobljenec</label>
+                     <item>
+                        <ref target="#pers.KraljAnton1900">Tone Kralj</ref>
+                     </item>
+                     <label>SIstory</label>
+                     <item>
+                        <ref target="http://www.sistory.si/11686/37716"
+                           >http://hdl.handle.net/11686/37716</ref>
+                     </item>
+                     <label>LIDO metapodatki</label>
+                     <item>
+                        <ptr
+                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37716/metadata.xml"
                            type="LIDO"/>
                      </item>
                   </list>
@@ -5087,7 +5335,7 @@
                   <death>
                      <date when="1992-01-21"/>
                      <placeName>
-                        <placeName>Radovljica</placeName>
+                        <settlement>Radovljica</settlement>
                      </placeName>
                   </death>
                   <occupation scheme="#occupation" code="#kipar"/>
@@ -5437,7 +5685,7 @@
                <person xml:id="pers.KotnikKarel1875">
                   <persName>
                      <surname>Kotnik</surname>
-                     <forename>Karel</forename>
+                     <forename>Karol</forename>
                   </persName>
                   <sex value="M"/>
                   <birth>
@@ -5454,6 +5702,37 @@
                   </death>
                   <occupation scheme="#occupation" code="#podjetnik"/>
                   <idno type="URL">https://sl.wikipedia.org/wiki/Karel_Kotnik</idno>
+               </person>
+               <person xml:id="pers.KraigherAlojz1877">
+                  <persName>
+                     <forename>Alojz</forename>
+                     <surname>Kraigher</surname>
+                  </persName>
+                  <persName>
+                     <forename>Lojz</forename>
+                     <surname>Kraigher</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#pisatelj"/>
+                  <occupation scheme="#occupation" code="#zdravnik"/>
+                  <occupation scheme="#occupation" code="#publicist"/>
+                  <occupation scheme="#occupation" code="#zobozdravnik"/>
+                  <birth>
+                     <date when="1877-04-22">22. apr. 1877</date>
+                     <placeName>
+                        <settlement>Postojna</settlement>
+                        <country>Slovenija</country>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1959-02-25"/>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi298859/</idno>
                </person>
                <person xml:id="pers.KraljAnton1900">
                   <persName>
@@ -5694,11 +5973,55 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi333102/</idno>
                </person>
+               <person xml:id="pers.MarussigPiero1879">
+                  <persName>
+                     <surname>Marussig</surname>
+                     <forename>Piero</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <birth>
+                     <date when="1879-05-10"/>
+                     <placeName>
+                        <settlement>Trst</settlement>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1937-10-13"/>
+                     <placeName>
+                        <settlement>Pavia</settlement>
+                     </placeName>
+                  </death>
+                  <occupation scheme="#occupation" code="#slikar"/>
+                  <idno type="URL">https://en.wikipedia.org/wiki/Piero_Marussig</idno>
+               </person>
                <person xml:id="pers.MercinaLojze">
                   <persName>
                      <surname>Mercina</surname>
                      <forename>Lojze</forename>
                   </persName>
+               </person>
+               <person xml:id="pers.MiheličFrance1907">
+                  <persName>
+                     <surname>Mihelič</surname>
+                     <forename>France</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <birth>
+                     <date when="1907-04-27"/>
+                     <placeName>
+                        <settlement>Virmaše pri Škofji Loki</settlement>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1998-08-01"/>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                     </placeName>
+                  </death>
+                  <occupation scheme="#occupation" code="#slikar"/>
+                  <occupation scheme="#occupation" code="#grafik"/>
+                  <occupation scheme="#occupation" code="#ilustrator"/>
+                  <idno type="URL">https://sl.wikipedia.org/wiki/France_Miheli%C4%8D</idno>
                </person>
                <person xml:id="pers.MušičMarjan1904">
                   <persName>
@@ -5880,6 +6203,48 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi432634/</idno>
                </person>
+               <person xml:id="pers.PrijateljIvan1875">
+                  <persName>
+                     <forename>Ivan</forename>
+                     <surname>Prijatelj</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#literarni-zgodovinar"/>
+                  <occupation scheme="#occupation" code="#kulturni-zgodovinar"/>
+                  <occupation scheme="#occupation" code="#literarni-teoretik"/>
+                  <occupation scheme="#occupation" code="#esejist"/>
+                  <occupation scheme="#occupation" code="#prevajalec"/>
+                  <birth>
+                     <date when="1875-12-23">23. dec. 1875</date>
+                     <placeName>
+                        <settlement>Vinice</settlement>
+                        <country>Slovenija</country>
+                        <geo>45.755612 14.6703242</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1937-05-23">23. maja 1937</date>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi469364/</idno>
+               </person>
+               <person xml:id="pers.ProkofjevBoris1943">
+                  <persName>
+                     <forename>Boris</forename>
+                     <surname>Prokofjev</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth>
+                     <date when="1943"/>
+                  </birth>
+                  <occupation scheme="#occupation" code="#akademski-kipar"/>
+                  <idno type="URL"
+                     >http://www.triada.si/ng/inf_exe/w.exe?AKCIJA=AVTORJI&amp;P3=0822200&amp;</idno>
+               </person>
                <person xml:id="pers.PutrihKarel1910">
                   <persName>
                      <surname>Putrih</surname>
@@ -5982,6 +6347,32 @@
                      </placeName>
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi518905/</idno>
+               </person>
+               <person xml:id="pers.SajevicIvan1891">
+                  <persName>
+                     <forename>Ivan</forename>
+                     <surname>Sajevic</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#akademski-kipar"/>
+                  <occupation scheme="#occupation" code="#medaljer"/>
+                  <birth>
+                     <date when="1891-10-21">21. okt. 1891</date>
+                     <placeName>
+                        <settlement>Stara vas</settlement>
+                        <country>Slovenija</country>
+                        <geo>45.7619595 14.212742</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1972-06-17"/>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi531731/</idno>
                </person>
                <person xml:id="pers.SajovicIvan">
                   <persName>
@@ -6313,6 +6704,40 @@
                      </placeName>
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi674165/</idno>
+               </person>
+               <person xml:id="pers.TavčarFranja1868">
+                  <persName type="married">
+                     <forename>Franja</forename>
+                     <surname>Tavčar</surname>
+                  </persName>
+                  <persName type="birth">
+                     <forename>Franja</forename>
+                     <surname>Košenini</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <occupation scheme="#occupation" code="#narodni-delavec"/>
+                  <occupation scheme="#occupation" code="#politik"/>
+                  <birth>
+                     <date when="1868-02-08"/>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1938-04-08">8. apr. 1938</date>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                     <placeName type="burried">
+                        <settlement>Visoko pri Poljanah, družinska grobnica</settlement>
+                        <country>Slovenija</country>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi686340/</idno>
                </person>
                <person xml:id="pers.VavpotičIvan1877">
                   <persName>

@@ -19,14 +19,14 @@
             <lido:classificationWrap>
                <lido:classification>
                   <lido:conceptID lido:type="person">Upodobljenec</lido:conceptID>
-                  <lido:term>Karel Kotnik</lido:term>
+                  <lido:term>Karol Kotnik</lido:term>
                </lido:classification>
             </lido:classificationWrap>
          </lido:objectClassificationWrap>
          <lido:objectIdentificationWrap>
             <lido:titleWrap>
                <lido:titleSet>
-                  <lido:appellationValue>Karel Kotnik (NMS)</lido:appellationValue>
+                  <lido:appellationValue>Karol Kotnik (NMS)</lido:appellationValue>
                </lido:titleSet>
             </lido:titleWrap>
             <lido:repositoryWrap>

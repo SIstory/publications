@@ -232,7 +232,14 @@
                   <xsl:if test="tei:birth">
                      <li>
                         <xsl:text>Rojstvo: </xsl:text>
-                        <xsl:value-of select="format-date(tei:birth/tei:date/@when,'[D]. [M]. [Y]','en',(),())"/>
+                        <xsl:choose>
+                           <xsl:when test="contains(tei:birth/tei:date/@when,'-')">
+                              <xsl:value-of select="format-date(tei:birth/tei:date/@when,'[D]. [M]. [Y]','en',(),())"/>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="tei:birth/tei:date/@when"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
                         <xsl:if test="tei:birth/tei:placeName">
                            <xsl:text> (</xsl:text>
                            <xsl:for-each select="tei:birth/tei:placeName[1]/*[not(self::tei:geo)]">

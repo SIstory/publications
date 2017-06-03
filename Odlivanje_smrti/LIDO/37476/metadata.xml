@@ -3,7 +3,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
    <lido:lido>
-      <lido:lidoRecID lido:type="local" lido:label="SIstory">http://hdl.handle.net/11686/37410</lido:lidoRecID>
+      <lido:lidoRecID lido:type="local" lido:label="SIstory">http://hdl.handle.net/11686/37476</lido:lidoRecID>
       <lido:category>
          <lido:conceptID lido:type="URI">http://purl.org/dc/terms/type</lido:conceptID>
          <lido:term xml:lang="en">PhysicalObject</lido:term>
@@ -19,50 +19,35 @@
             <lido:classificationWrap>
                <lido:classification>
                   <lido:conceptID lido:type="person">Upodobljenec</lido:conceptID>
-                  <lido:term>Rihard Jakopič</lido:term>
+                  <lido:term>France Mihelič</lido:term>
                </lido:classification>
             </lido:classificationWrap>
          </lido:objectClassificationWrap>
          <lido:objectIdentificationWrap>
             <lido:titleWrap>
                <lido:titleSet>
-                  <lido:appellationValue>Rihard Jakopič (SAZU)</lido:appellationValue>
+                  <lido:appellationValue>France Mihelič (LM)</lido:appellationValue>
                </lido:titleSet>
             </lido:titleWrap>
             <lido:repositoryWrap>
                <lido:repositorySet lido:type="current">
                   <lido:repositoryName>
                      <lido:legalBodyName>
-                        <lido:appellationValue>Slovenska akademija znanosti in umetnosti</lido:appellationValue>
+                        <lido:appellationValue>Loški muzej Škofja Loka</lido:appellationValue>
                      </lido:legalBodyName>
                   </lido:repositoryName>
-                  <lido:workID>MASZU/191</lido:workID>
                   <lido:repositoryLocation>
                      <lido:namePlaceSet>
-                        <lido:appellationValue xml:lang="slv">Maska je shranjena v sobi glavnega tajnika v omari.</lido:appellationValue>
+                        <lido:appellationValue xml:lang="slv">Depo</lido:appellationValue>
                      </lido:namePlaceSet>
                   </lido:repositoryLocation>
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
-               <lido:objectDescriptionSet lido:type="description">
-                  <lido:descriptiveNoteValue>Posmrtna maska po mnenju zaposlenih v SAZU pripada Rajku Nahtigalu. Na podlagi primerjave z ostalimi posmrtnimi maskami in signaturi na zadnji strani se zdi, da masko pripisujejo napačni osebi. Najverjetneje maska pripada slikarju Rihardu Jakopiču.</lido:descriptiveNoteValue>
-               </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je dobro ohranjena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
-               <lido:objectDescriptionSet lido:type="conditionNote">
-                  <lido:descriptiveNoteValue>Na hrbtni strani vstavljena kovinska prečka za obešanje.</lido:descriptiveNoteValue>
-               </lido:objectDescriptionSet>
-               <lido:objectDescriptionSet lido:type="conditionNote">
-                  <lido:descriptiveNoteValue>Signatura: Z. KALIN - PUTRIH</lido:descriptiveNoteValue>
-               </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
-            <lido:objectMeasurementsWrap>
-               <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>49 cm x 21 cm x 12 cm</lido:displayObjectMeasurements>
-               </lido:objectMeasurementsSet>
-            </lido:objectMeasurementsWrap>
          </lido:objectIdentificationWrap>
          <lido:eventWrap>
             <lido:eventSet>
@@ -76,21 +61,7 @@
                      <lido:actorInRole>
                         <lido:actor>
                            <lido:nameActorSet>
-                              <lido:appellationValue>Kalin Zdenko</lido:appellationValue>
-                           </lido:nameActorSet>
-                        </lido:actor>
-                        <lido:roleActor>
-                           <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
-                           <lido:term xml:lang="en">Person</lido:term>
-                           <lido:term>Oseba</lido:term>
-                        </lido:roleActor>
-                     </lido:actorInRole>
-                  </lido:eventActor>
-                  <lido:eventActor>
-                     <lido:actorInRole>
-                        <lido:actor>
-                           <lido:nameActorSet>
-                              <lido:appellationValue>Putrih Karel</lido:appellationValue>
+                              <lido:appellationValue>Prokofjev Boris</lido:appellationValue>
                            </lido:nameActorSet>
                         </lido:actor>
                         <lido:roleActor>
@@ -109,11 +80,41 @@
                   </lido:eventMaterialsTech>
                </lido:event>
             </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
+                     <lido:term xml:lang="en">Commissioning</lido:term>
+                     <lido:term>Naročilo</lido:term>
+                  </lido:eventType>
+                  <lido:eventActor>
+                     <lido:actorInRole>
+                        <lido:actor>
+                           <lido:nameActorSet>
+                              <lido:appellationValue>Loški muzej Škofja Loka</lido:appellationValue>
+                           </lido:nameActorSet>
+                        </lido:actor>
+                        <lido:roleActor>
+                           <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
+                           <lido:term xml:lang="en">Person</lido:term>
+                           <lido:term>Oseba</lido:term>
+                        </lido:roleActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <lido:eventDate>
+                     <lido:displayDate>1998</lido:displayDate>
+                     <lido:date>
+                        <lido:earliestDate>1998</lido:earliestDate>
+                        <lido:latestDate>1998</lido:latestDate>
+                     </lido:date>
+                  </lido:eventDate>
+               </lido:event>
+            </lido:eventSet>
          </lido:eventWrap>
       </lido:descriptiveMetadata>
       <lido:administrativeMetadata xml:lang="sl">
          <lido:recordWrap>
-            <lido:recordID lido:type="PID">37410</lido:recordID>
+            <lido:recordID lido:type="PID">37476</lido:recordID>
             <lido:recordType>
                <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00141</lido:conceptID>
                <lido:term xml:lang="en">Item-level record</lido:term>

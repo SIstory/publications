@@ -36,7 +36,6 @@
                         <lido:appellationValue>Slovenska akademija znanosti in umetnosti</lido:appellationValue>
                      </lido:legalBodyName>
                   </lido:repositoryName>
-                  <lido:workID>MSAZU/10</lido:workID>
                   <lido:repositoryLocation>
                      <lido:namePlaceSet>
                         <lido:appellationValue xml:lang="slv">Maska je shranjena v sobi glavnega tajnika v omari.</lido:appellationValue>
@@ -45,6 +44,9 @@
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
+               <lido:objectDescriptionSet lido:type="description">
+                  <lido:descriptiveNoteValue>Na podlagi primerjave z ostalimi posmrtnimi maskami se je izkazalo, da v SAZU masko Otona Župančiča napačno pripisujejo Franu Ramovšu. Maska z inventarno št. MSAZU/8 pripada Otonu Župančiču, maska z inventarno št. MSAZU/10 pa Franu Ramovšu.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je dobro ohranjena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>

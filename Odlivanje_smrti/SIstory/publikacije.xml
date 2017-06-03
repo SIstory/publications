@@ -1,6 +1,324 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="http://www.sistory.si/schemas/sistory/">
     <publication>
+        <ID>37722</ID>
+        <URN>11686/37722</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CREATOR>
+            <IME>Ivan</IME>
+            <PRIIMEK>Sajevic</PRIIMEK>
+        </CREATOR>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Analogno">8</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Ivan Prijatelj (Notranjski muzej Postojna)</TITLE>
+        <SUBJECT lang="slv">Ivan Prijatelj</SUBJECT>
+        <COLLECTION>Notranjski muzej Postojna</COLLECTION>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je leta 1953 daroval avtor, akademski kipar Ivan Sajevic.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 16:07:17</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 16:13:05</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+    </publication>
+    <publication>
+        <ID>37721</ID>
+        <URN>11686/37721</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Analogno">8</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Alojz Kraigher (Notranjski muzej Postojna)</TITLE>
+        <SUBJECT lang="slv">Alojz Kraigher</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            V Kraigherjevi zbirki, ki jo je muzeju darovala pokojnikova hči, so tri posmrtne maske.
+        </DESCRIPTION>
+        <COLLECTION>Notranjski muzej Postojna</COLLECTION>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 15:59:25</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 16:11:53</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+    </publication>
+    <publication>
+        <ID>37720</ID>
+        <URN>11686/37720</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Analogno">8</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Rihard Jakopič (Notranjski muzej Postojna)</TITLE>
+        <SUBJECT lang="slv">Rihard Jakopič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            V Kraigherjevi zbirki, ki jo je muzeju darovala pokojnikova hči, so tri posmrtne maske.
+        </DESCRIPTION>
+        <COLLECTION>Notranjski muzej Postojna</COLLECTION>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 15:47:56</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 16:10:49</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+    </publication>
+    <publication>
+        <ID>37719</ID>
+        <URN>11686/37719</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Analogno">8</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Ivan Cankar (Notranjski muzej Postojna)</TITLE>
+        <SUBJECT lang="slv">Ivan Cankar</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            V Kraigherjevi zbirki, ki jo je muzeju darovala pokojnikova hči, so tri posmrtne maske.
+        </DESCRIPTION>
+        <COLLECTION>Notranjski muzej Postojna</COLLECTION>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 15:40:07</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 16:08:21</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+    </publication>
+    <publication>
+        <ID>37718</ID>
+        <URN>11686/37718</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CREATOR>
+            <IME>Adalbert</IME>
+            <PRIIMEK>Lipičnik</PRIIMEK>
+        </CREATOR>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Analogno">8</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <TITLE titleType="Title" lang="slv">France Kotnik (Pokrajinski muzej Celje)</TITLE>
+        <SUBJECT lang="slv">France Kotnik</SUBJECT>
+        <COLLECTION>Pokrajinski muzej Celje</COLLECTION>
+        <SLIKOVNI slikovniElType="visDimensions">24 x 15 cm</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 15:25:14</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 15:25:14</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+    </publication>
+    <publication>
+        <ID>37717</ID>
+        <URN>11686/37717</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CREATOR>
+            <IME>Svitoslav</IME>
+            <PRIIMEK>Peruzzi</PRIIMEK>
+        </CREATOR>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Simon Gregorčič (Goriški muzej)</TITLE>
+        <SUBJECT lang="slv">Simon Gregorčič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Večkrat reproducirana v izdajah njegovih pesmi. (Podatek posredovala zaposlena v muzeju, 2.2. 2017)
+        </DESCRIPTION>
+        <COLLECTION>Goriški muzej</COLLECTION>
+        <IDENTIFIER identifierType="Identifier">KP 1020/2</IDENTIFIER>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je daroval slikar Marjan Pogačnik iz Ljubljane leta 1982.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska je srednje dobro ohranjena.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Na zgornjem delu maske vstavljena kovinska prečka za obešanje.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 15:11:31</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 15:32:58</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="Simon_Gregorcic.jpg">
+            <ATTRIBUTE type="">Posmrtna maska Simona Gregorčiča;</ATTRIBUTE>
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Goriški muzej</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
+        <ID>37716</ID>
+        <URN>11686/37716</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CREATOR>
+            <IME>Marjan</IME>
+            <PRIIMEK>Keršič</PRIIMEK>
+        </CREATOR>
+        <DATE type="Date">1975</DATE>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Tone Kralj (Goriški muzej)</TITLE>
+        <SUBJECT lang="slv">Tone Kralj</SUBJECT>
+        <COLLECTION>Goriški muzej</COLLECTION>
+        <IDENTIFIER identifierType="Identifier">GMK G 349</IDENTIFIER>
+        <OTHER otherType="provenance" lang="slv">Muzeju jo je prodal kipar Marjan Keršič leta 1976.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska je v dobrem stanju.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Pritrjena je na leseno ploščo velikosti.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <YEAR>1975</YEAR>
+        <DATETIME_ADDED>2017-06-01 15:02:53</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 15:02:53</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="Tone_Kralj.jpg">
+            <ATTRIBUTE type="">Posmrtna maska Toneta Kralja;</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Goriški muzej</ATTRIBUTE>
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
+        <ID>37715</ID>
+        <URN>11686/37715</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <TITLE titleType="Title" lang="slv">Josip Vilfan, mlajši (Goriški muzej)</TITLE>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Delo beograjskega kiparja.
+        </DESCRIPTION>
+        <COLLECTION>Goriški muzej</COLLECTION>
+        <IDENTIFIER identifierType="Identifier">KP 526/1</IDENTIFIER>
+        <OTHER otherType="provenance" lang="slv">Muzej jo hrani od leta 1975.</OTHER>
+        <OTHER otherType="provenance" lang="slv">Prišla je iz Ljubljane, darovala sta jo sinova Joža in Draško Vilfan skupaj z drugimi predmeti.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska je dobro ohranjena.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Obrazni odlitek je spojen z mavčno podlago.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-06-01 14:46:32</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 14:55:10</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="Josip_Vilfan.jpg">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Josipa Vilfana;</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Goriški muzej</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
+        <ID>37714</ID>
+        <URN>11686/37714</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <DATE type="Date">1937</DATE>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RELATION relationType="isReferencedBy" relationAttr="xml:lang" lang="slv">http://www.rtvslo.si/blog/tatjana-malec/primorka-tea-brescak-ucenka-slikarja-piera-marussiga/94021</RELATION>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Piero Marussig (Goriški muzej)</TITLE>
+        <SUBJECT lang="slv">Piero Marussig</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Nastala naj bi na dan slikarjeve smrti. (Podatek posredovala zaposlena v muzeju, 2.2. 2017)
+        </DESCRIPTION>
+        <COLLECTION>Goriški muzej</COLLECTION>
+        <IDENTIFIER identifierType="Identifier">GMK G 49</IDENTIFIER>
+        <OTHER otherType="provenance" lang="slv">Masko je Goriškemu muzeju darovala Narodna galerija leta 1969.</OTHER>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska se nahaja v slabem stanju.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <YEAR>1937</YEAR>
+        <DATETIME_ADDED>2017-06-01 11:57:22</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-06-01 15:32:34</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="Piero_Marussig.jpg">
+            <ATTRIBUTE type="">Posmrtna maska Piera Marussiga;</ATTRIBUTE>
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Goriški muzej</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
+        <ID>37477</ID>
+        <URN>11686/37477</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <DATE type="Date">1938</DATE>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Tavčarjev dvorec Visoko pri Poljanah</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Franja Tavčar (LM)</TITLE>
+        <SUBJECT lang="slv">Franja Tavčar</SUBJECT>
+        <COLLECTION>Loški muzej Škofja Loka</COLLECTION>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska je dobro ohranjena.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <YEAR>1938</YEAR>
+        <DATETIME_ADDED>2017-04-11 10:27:41</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-04-11 10:28:29</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="s1.jpg">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Franje Tavčar; Tavčarjev dvorec.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Loški muzej Škofja Loka</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
+        <ID>37476</ID>
+        <URN>11686/37476</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CONTRIBUTOR>Loški muzej Škofja Loka (naročnik)</CONTRIBUTOR>
+        <CREATOR>
+            <IME>Boris</IME>
+            <PRIIMEK>Prokofjev</PRIIMEK>
+        </CREATOR>
+        <DATE type="Date">1998</DATE>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
+        <TITLE titleType="Title" lang="slv">France Mihelič (LM)</TITLE>
+        <SUBJECT lang="slv">France Mihelič</SUBJECT>
+        <COLLECTION>Loški muzej Škofja Loka</COLLECTION>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Maska je dobro ohranjena.</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <YEAR>1998</YEAR>
+        <DATETIME_ADDED>2017-04-11 09:59:22</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-04-11 09:59:22</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="UZ359.jpg">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Franceta Miheliča; Loški muzej.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Loški muzej Škofja Loka</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    
+    <publication>
         <ID>37474</ID>
         <URN>11686/37474</URN>
         <CHILD_ORDER>1</CHILD_ORDER>
@@ -9,7 +327,7 @@
             <PRIIMEK>Danhauser</PRIIMEK>
         </CREATOR>
         <MENU_ID id="196">Odlivanje smrti</MENU_ID>
-        <LANGUAGE lang="slv">1</LANGUAGE>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
         <PAGE>0</PAGE>
         <TYPE title="Analogno">8</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
@@ -30,8 +348,8 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-04-06 11:35:02</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-04-07 12:36:11</DATETIME_MODIFIED>
-        <USER_ID_ADDED>11</USER_ID_ADDED>
+        <DATETIME_MODIFIED>2017-05-31 16:19:30</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
     </publication>
     <publication>
         <ID>37473</ID>
@@ -271,6 +589,9 @@
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Maska je shranjena v sobi glavnega tajnika v omari.</RIGHTS>
         <TITLE titleType="Title" lang="slv">Rihard Jakopič (SAZU)</TITLE>
         <SUBJECT lang="slv">Rihard Jakopič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Posmrtna maska po mnenju zaposlenih v SAZU pripada Rajku Nahtigalu. Na podlagi primerjave z ostalimi posmrtnimi maskami in signaturi na zadnji strani se zdi, da masko pripisujejo napačni osebi. Najverjetneje maska pripada slikarju Rihardu Jakopiču.
+        </DESCRIPTION>
         <COLLECTION>Slovenska akademija znanosti in umetnosti</COLLECTION>
         <IDENTIFIER identifierType="Identifier">MASZU/191</IDENTIFIER>
         <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
@@ -281,7 +602,7 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-04-03 18:12:15</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-04-03 18:34:41</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-22 16:38:20</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="20170330_102816.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
@@ -344,8 +665,10 @@
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Maska je shranjena v sobi glavnega tajnika v omari.</RIGHTS>
         <TITLE titleType="Title" lang="slv">Oton Župančič (SAZU)</TITLE>
         <SUBJECT lang="slv">Oton Župančič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Na podlagi primerjave z ostalimi posmrtnimi maskami se je izkazalo, da v SAZU masko Otona Župančiča napačno pripisujejo Franu Ramovšu. Maska z inventarno št. MSAZU/8 pripada Otonu Župančiču, maska z inventarno št. MSAZU/10 pa Franu Ramovšu.
+        </DESCRIPTION>
         <COLLECTION>Slovenska akademija znanosti in umetnosti</COLLECTION>
-        <IDENTIFIER identifierType="Identifier">MSAZU/10</IDENTIFIER>
         <OTHER otherType="provenance" lang="slv">SAZU je posmrtno masko l. 1955 odkupil (neznan izvor).</OTHER>
         <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
         <SLIKOVNI slikovniElType="visTechAttribute">Maska je dobro ohranjena.</SLIKOVNI>
@@ -354,7 +677,7 @@
         <LOCK>0</LOCK>
         <YEAR>1949</YEAR>
         <DATETIME_ADDED>2017-04-03 17:06:19</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-04-03 17:11:02</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-24 09:55:22</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="IMG_20170330_104851.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
@@ -378,18 +701,19 @@
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Maska je shranjena v sobi glavnega tajnika v omari.</RIGHTS>
         <TITLE titleType="Title" lang="slv">Fran Ramovš (SAZU)</TITLE>
         <SUBJECT lang="slv">Fran Ramovš</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Na podlagi primerjave z ostalimi posmrtnimi maskami se je izkazalo, da v SAZU masko Otona Župančiča napačno pripisujejo Franu Ramovšu. Maska z inventarno št. MSAZU/8 pripada Otonu Župančiču, maska z inventarno št. MSAZU/10 pa Franu Ramovšu.
+        </DESCRIPTION>
         <COLLECTION>Slovenska akademija znanosti in umetnosti</COLLECTION>
-        <IDENTIFIER identifierType="Identifier">MSAZU/8</IDENTIFIER>
         <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
         <SLIKOVNI slikovniElType="visTechAttribute">Maska je dobro ohranjena.</SLIKOVNI>
-        <SLIKOVNI slikovniElType="visDimensions">33 cm x 21 cm x 16 cm</SLIKOVNI>
         <SLIKOVNI slikovniElType="visTechAttribute">Na hrbtni strani vstavljena kovinska prečka za obešanje.</SLIKOVNI>
         <SLIKOVNI slikovniElType="visTechAttribute">Vidni lasje pokojnika, ki so se zataknili v mavcu.</SLIKOVNI>
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <YEAR>1952</YEAR>
         <DATETIME_ADDED>2017-04-03 14:02:06</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-04-03 14:02:06</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-24 09:56:06</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="IMG_20170330_104954.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
@@ -643,8 +967,8 @@
         <TYPE title="Slika">3</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
-        <TITLE titleType="Title" lang="slv">Karel Kotnik (NMS)</TITLE>
-        <SUBJECT lang="slv">Karel Kotnik</SUBJECT>
+        <TITLE titleType="Title" lang="slv">Karol Kotnik (NMS)</TITLE>
+        <SUBJECT lang="slv">Karol Kotnik</SUBJECT>
         <COLLECTION>Narodni muzej Slovenije</COLLECTION>
         <IDENTIFIER identifierType="Identifier">N 20157</IDENTIFIER>
         <OTHER otherType="provenance" lang="slv">Kotnikovo masko je  NMS podarila Ciril – Metodova družba leta 1938. Bil je njen pomemben mecen.</OTHER>
@@ -655,11 +979,11 @@
         <LOCK>0</LOCK>
         <YEAR>1910</YEAR>
         <DATETIME_ADDED>2017-03-23 15:17:42</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-23 15:19:55</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-21 12:44:19</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="N_20157.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Karla Kotnika. (Fotografija je last Narodnega muzeja Slovenije)</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Karola Kotnika. (Fotografija je last Narodnega muzeja Slovenije)</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
@@ -1062,7 +1386,7 @@
         <MENU_ID id="196">Odlivanje smrti</MENU_ID>
         <LANGUAGE lang="zxx">45</LANGUAGE>
         <PAGE>0</PAGE>
-        <TYPE title="Slika">3</TYPE>
+        <TYPE title="Analogno">8</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
         <TITLE titleType="Title" lang="slv">Neznan upodobljenec (1) (MNZS)</TITLE>
@@ -1075,12 +1399,8 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-03-13 11:14:02</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-15 11:06:18</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-22 16:42:36</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="20160714_124517.jpg">
-            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Na desni maska neznanega moža, na levi maska Otona Župančiča; depo MNZS.</ATTRIBUTE>
-        </PUBLICATION>
     </publication>
     <publication>
         <ID>37274</ID>
@@ -1160,7 +1480,7 @@
         <MENU_ID id="196">Odlivanje smrti</MENU_ID>
         <LANGUAGE lang="zxx">45</LANGUAGE>
         <PAGE>0</PAGE>
-        <TYPE title="Slika">3</TYPE>
+        <TYPE title="Analogno">8</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
         <TITLE titleType="Title" lang="slv">Oton Župančič (2) (MNZS)</TITLE>
@@ -1179,12 +1499,8 @@
         <LOCK>0</LOCK>
         <YEAR>1949</YEAR>
         <DATETIME_ADDED>2017-03-13 10:47:16</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-13 10:47:16</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-22 17:10:15</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="20160714_124501.jpg">
-            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Otona Župančiča; depo MNZS.</ATTRIBUTE>
-        </PUBLICATION>
     </publication>
     <publication>
         <ID>37271</ID>
@@ -1757,10 +2073,10 @@
         <TYPE title="Slika">3</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo; kulturna zgodovina; likovna zbirka, kiparstvo.</RIGHTS>
-        <TITLE titleType="Title" lang="slv">Karel Kotnik (MGML)</TITLE>
-        <SUBJECT lang="slv">Karel Kotnik</SUBJECT>
+        <TITLE titleType="Title" lang="slv">Karol Kotnik (MGML)</TITLE>
+        <SUBJECT lang="slv">Karol Kotnik</SUBJECT>
         <DESCRIPTION descriptionType="Description" lang="slv">
-            Na podlagi primerjave s posmrtno masko, ki jo hrani NMS, je upodobljenec identificiran kot Karel Kotnik.
+            Na podlagi primerjave s posmrtno masko, ki jo hrani NMS, je upodobljenec identificiran kot Karol Kotnik.
         </DESCRIPTION>
         <COLLECTION>Mestni muzej Ljubljana</COLLECTION>
         <IDENTIFIER identifierType="Identifier">510:LJU;0019059</IDENTIFIER>
@@ -1771,11 +2087,11 @@
         <LOCK>0</LOCK>
         <YEAR>1910</YEAR>
         <DATETIME_ADDED>2017-03-07 09:37:21</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-07 10:14:27</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-04-21 12:45:25</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="Posmrtna_maska_Kotnik.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Karla Kotnika; depo MGML.</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Karola Kotnika; depo MGML.</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
