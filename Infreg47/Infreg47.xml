@@ -604,7 +604,7 @@
                   <surname>Aufhauser</surname>
                   <forename>Vinzenz</forename>
                </persName>
-               <socecStatus>RefInf.</socecStatus>
+               <socecStatus>ResInf.</socecStatus>
                <residence>
                   <settlement>Eibiswald</settlement>
                   <region>Deutschlandsberg</region>
@@ -1313,7 +1313,7 @@
                <residence>
                   <settlement>Wutschdorf</settlement>
                   <region>Leibnitz</region>
-                  <country>Sheiemiark</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1894">1894</date></birth>
                <death>gest. <date when="1915-03-23">23. März 1915</date> <placeName>im k. u. k. Epidemiespital in Kassar. Raktor-ut, Kom. Abaus-Torna, Ungarn</placeName></death>
@@ -1352,7 +1352,7 @@
                <birth>geb. <date when="1898">1898</date></birth>
                <death>gef. <date when="1917-09-02">2. Sept. 1917</date> <placeName>bei Medeazza, Sesana, Küstenland</placeName> <note>(11. Isonzochlacht)</note></death>
                <event>
-                  <desc>beerd. <date when="1917-09-13">13. Sept. 1917</date>, <placeName>Milliärfriedhof, Grab Nr. 2149, Nabresina, Sesanna, Küstenlsand</placeName></desc>
+                  <desc>beerd. <date when="1917-09-13">13. Sept. 1917</date>, <placeName>Milliärfriedhof, Grab Nr. 2149, Nabresina, Sesanna, Küstenland</placeName></desc>
                </event>
             </person>
             <person xml:id="pers.BernreiterRudolf1895">
@@ -1452,7 +1452,7 @@
                <birth>geb. <date when="1890">1890</date></birth>
                <death>gef. <date when="1915-10-22">22. Okt. 1915</date>, <placeName>Pietra-Rossa, Monfalcone, Küstenland (3. Isonzoschlacht</placeName></death>
                <event>
-                  <desc>beerd. <date when="1915-10-22">22. Okt. 1915</date> <placeName>am See Pietra-Rossa (Massengrab), Monfalcone, Küstenlsand</placeName></desc>
+                  <desc>beerd. <date when="1915-10-22">22. Okt. 1915</date> <placeName>am See Pietra-Rossa (Massengrab), Monfalcone, Küstenland</placeName></desc>
                </event>
             </person>
             <person xml:id="pers.BezonškaKarl1892">
@@ -1460,7 +1460,7 @@
                   <surname>Bezonška</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>KpL (zuget. vom JR. 28)</socecStatus>
+               <socecStatus>Kp. (zuget. vom JR. 28)</socecStatus>
                <residence>
                   <settlement>Prag</settlement>
                   <country>Böhmen</country>
@@ -2636,7 +2636,7 @@
                <residence>
                   <settlement>Triest</settlement>
                   <region>Triest</region>
-                  <country>Küstenlsand</country>
+                  <country>Küstenland</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
                <death>gest. <date when="1914-12-14">14. Dez. 1914</date>, <placeName>Reservespital Nr. 1 in Lemberg, Galizien</placeName></death>
@@ -2737,7 +2737,7 @@
                   <country>Krain</country>
                </residence>
                <birth>geb. <date when="1897">1897</date></birth>
-               <death>gefallen <date when="1917-10-28">28. Okt. 1917</date> <placeName>auf der Straße von Liga nach Podbreg, Sesana, Küstenlsand</placeName> <note>(Bauchschuß)</note></death>
+               <death>gefallen <date when="1917-10-28">28. Okt. 1917</date> <placeName>auf der Straße von Liga nach Podbreg, Sesana, Küstenland</placeName> <note>(Bauchschuß)</note></death>
                <event>
                   <desc>beerd. laut Meldung des k. u. k. Etappenstationskommsandos <placeName>in Auzza</placeName> vom <date when="1918-02-24">24. Febr. 1918</date> <placeName>an der Straße Liga-Podbreg, Bezirk Sesana, an der Stelle, wo der Saumweg von Podbreg kommend, in die neue Straße einmündet</placeName></desc>
                </event>
@@ -2837,7 +2837,7 @@
                <residence>
                   <settlement>Podonizim</settlement>
                   <region>Pettau</region>
-                  <country>Steiemiark</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1897">1897</date></birth>
                <death>gef. <date when="1918-09-23">23. Sept. 1918</date> <placeName>am Monte Asolone, Belluno, Italien</placeName></death>
@@ -2909,7 +2909,7 @@
                <residence>
                   <settlement>Salcano</settlement>
                   <region>Görz</region>
-                  <country>Küstenlnnd</country>
+                  <country>Küstenland</country>
                </residence>
                <birth>geb. <date when="1885">1885</date></birth>
                <death>gest. <date when="1916-04-20">20. April 1916</date>, <placeName>Garnisonspital Nr. 11, Prag, Filiale: Staatsgewerbeschule in Smichov, Prag, Böhmen</placeName></death>
@@ -4708,7 +4708,7 @@
                   <surname>Fink</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>Kp1.</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Bergl</settlement>
                </residence>
@@ -4940,7 +4940,7 @@
                <birth>geb. <date when="1879">1879</date></birth>
                <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>bei Pietra-Rossa, Monfalcone, Küstenland</placeName> <note>(3. Isonzoschlacht)</note></death>
                <event>
-                  <desc>beerd. <date when="1915-10-22">22. Okt. 1915</date> <placeName>am See Pietra-Rossa (Einzelgrab), Monfalcone, Küstenlsand</placeName></desc>
+                  <desc>beerd. <date when="1915-10-22">22. Okt. 1915</date> <placeName>am See Pietra-Rossa (Einzelgrab), Monfalcone, Küstenland</placeName></desc>
                </event>
             </person>
             <person xml:id="pers.FragnerJohann1886">
@@ -5347,7 +5347,7 @@
                <birth>geb. <date when="1896">1896</date></birth>
                <death>gef. <date when="1915-10-19">19. Okt. 1915</date>, <placeName>Monte Cosich, Monfalcone, Küstenland</placeName> <note>(3. Isonzoschlacht)</note></death>
                <event>
-                  <desc>beerd. <date when="1915-10-19">19. Okt. 1915</date>, <placeName>2000 Schritte nördlich Monte Cosich, Monfalcone, Küstenlsand</placeName></desc>
+                  <desc>beerd. <date when="1915-10-19">19. Okt. 1915</date>, <placeName>2000 Schritte nördlich Monte Cosich, Monfalcone, Küstenland</placeName></desc>
                </event>
             </person>
             <person xml:id="pers.FrühwirthAlois1877">
@@ -5684,7 +5684,7 @@
                   <surname>Fürpaß</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>LInf..</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>St. Stefan im Rosental</settlement>
                   <region>Feldbach</region>
@@ -6038,7 +6038,7 @@
                   <surname>Geisler</surname>
                   <forename>Vinzenz</forename>
                </persName>
-               <socecStatus>ERef.</socecStatus>
+               <socecStatus>ERes.</socecStatus>
                <residence>
                   <settlement>Trattendorf</settlement>
                   <region>Radkersburg</region>
@@ -6735,7 +6735,7 @@
                   <surname>Gosak</surname>
                   <forename>Martin</forename>
                </persName>
-               <socecStatus>Komp.Hornift</socecStatus>
+               <socecStatus>Komp. Hornist</socecStatus>
                <residence>
                   <settlement>Ziegelstadt</settlement>
                   <region>Wind.-Feistritz</region>
@@ -7154,7 +7154,7 @@
                   <surname>Greiner</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>St. Ulrich</settlement>
                   <region>Deutschlandsberg</region>
@@ -8634,7 +8634,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1895">1895</date></birth>
-               <death>gef. <date when="1916-11-26">26. Nov. 1916</date>, <placeName>Kote 126 bei Biglia, Görz, Küstenlsand</placeName></death>
+               <death>gef. <date when="1916-11-26">26. Nov. 1916</date>, <placeName>Kote 126 bei Biglia, Görz, Küstenland</placeName></death>
                <event>
                   <desc>beerd. <date when="1916-11-26">26. Nov. 1916</date>, <placeName>Militärfriedhof bei Mohorini, Grab Nr. 22, Görz</placeName></desc>
                </event>
@@ -8997,7 +8997,7 @@
                   <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1894">1894</date></birth>
-               <death>gef. <date when="1917-02-25">25. Febr. 1917</date>, <placeName>Hudilog, Sesana, Küstenlsand</placeName> <note>(Kopfschuß)</note></death>
+               <death>gef. <date when="1917-02-25">25. Febr. 1917</date>, <placeName>Hudilog, Sesana, Küstenland</placeName> <note>(Kopfschuß)</note></death>
                <event>
                   <desc>beerd. <date when="1917-02-26">26. Febr. 1917</date>, <placeName>Militärfriedhof, Grab Nr. 406, Berje, Sesana</placeName></desc>
                </event>
@@ -9090,7 +9090,7 @@
                   <surname>Heiferer</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>" Kpl.</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>St. Johann</settlement>
                   <region>Leibnitz</region>
@@ -9154,7 +9154,7 @@
                <birth>geb. <date when="1881">1881</date></birth>
                <death>gef. <date when="1916-11-28">28. Nov. 1916</date>, <placeName>Kote 126 bei Mrljaki, Görz, Küstenland</placeName> <note>(Zerreißung beider Oberschenkel)</note></death>
                <event>
-                  <desc>beerdigt <date when="1916-11-29">29. Nov. 1916</date>, <placeName>Militärfriedhof, Mohorini, Görz, Küstenlsand</placeName></desc>
+                  <desc>beerdigt <date when="1916-11-29">29. Nov. 1916</date>, <placeName>Militärfriedhof, Mohorini, Görz, Küstenland</placeName></desc>
                </event>
             </person>
             <person xml:id="pers.HellerMatthias1896">
@@ -9696,7 +9696,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1898">1898</date></birth>
-               <death>gef. <date when="1916-12-06">6. Dez. 1916</date>, <placeName>Kote 126 bei Mrljaki, Görz, Küstenlnnd</placeName> <note>(Halsschuß)</note></death>
+               <death>gef. <date when="1916-12-06">6. Dez. 1916</date>, <placeName>Kote 126 bei Mrljaki, Görz, Küstenland</placeName> <note>(Halsschuß)</note></death>
                <event>
                   <desc>beerd. <date when="1916-12-07">7. Dez. 1916</date>, <placeName>Militärfriedhof, Grab Nr. 59, Mohorini, Görz, Küstenland</placeName></desc>
                </event>
@@ -9727,7 +9727,7 @@
                <residence>
                   <settlement>Rupucht</settlement>
                   <region>Wischau</region>
-                  <country>Möhren</country>
+                  <country>Mähren</country>
                </residence>
                <birth>geb. <date when="1889">1889</date></birth>
                <death>gef. <date when="1916-09-25">25. Sept. 1916</date> <placeName>bei Oppacchiasella, Görz, Küstenland</placeName></death>
@@ -9797,7 +9797,7 @@
                   <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
-               <death>gef. <date when="1916-11-27">27. Nov. 1916</date>, <placeName>Kote 126 bei Biglia, Görz, Küstenlsand</placeName></death>
+               <death>gef. <date when="1916-11-27">27. Nov. 1916</date>, <placeName>Kote 126 bei Biglia, Görz, Küstenland</placeName></death>
                <event>
                   <desc>beerd. am <date when="1916-11-28">28. Nov. 1916</date> <placeName>auf dem Gefechtsfels, Kote Nr 126 bei Biglia</placeName></desc>
                </event>
@@ -10090,7 +10090,7 @@
                   <surname>Hojnik</surname>
                   <forename>Richard</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>St. Nikolai</settlement>
                   <region>Marburg</region>
@@ -10516,7 +10516,7 @@
                   <surname>Hubmann</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Neudorf bei Sankt Andrä im Sausal</settlement>
                   <region>Leibnitz</region>
@@ -10954,7 +10954,7 @@
                <residence>
                   <settlement>Studenitz</settlement>
                   <region>Marburg</region>
-                  <country>Steiermiark</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1896">1896</date></birth>
                <death>gef. <date when="1916-07-18">18. Juli 1916</date> <placeName>bei Roana, Asiago, Italien</placeName></death>
@@ -11941,7 +11941,7 @@
                   <region>Radkersburg</region>
                </residence>
                <birth>geb. <date when="1892">1892</date></birth>
-               <death>gef. <date when="1917-08-20">20. Aug. 1917</date>, <placeName>Hermada, Sesana, Küstenlnnd</placeName> <note>(11. Isonzoschlsacht)</note></death>
+               <death>gef. <date when="1917-08-20">20. Aug. 1917</date>, <placeName>Hermada, Sesana, Küstenland</placeName> <note>(11. Isonzoschlsacht)</note></death>
                <note>beerd. unbekannt. (Die Leiche konnte nicht geborgen werden.)</note>
             </person>
             <person xml:id="pers.KelbičFranz1892">
@@ -12246,7 +12246,7 @@
                   <surname>Kindermann</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Gfrt</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>Steinriegl</settlement>
                   <region>Leibnitz</region>
@@ -12825,7 +12825,7 @@
                   <surname>Koch</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Jnf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Dossendorf</settlement>
                   <region>Feldbach</region>
@@ -12960,7 +12960,7 @@
                   <surname>Kodrič</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>. LInf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>St. Andrä-Maxau</settlement>
                </residence>
@@ -13065,7 +13065,7 @@
                   <surname>Kohl</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>EinjFreiw., titl. Znf.</socecStatus>
+               <socecStatus>EinjFreiw., titl. Zgf.</socecStatus>
                <residence>
                   <settlement>Fürstenfeld</settlement>
                   <region>Feldbach</region>
@@ -13116,7 +13116,7 @@
                   <surname>Kohoutek</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>. Inf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Trumau</settlement>
                   <country>Niederösterreich</country>
@@ -13798,7 +13798,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Lebing</settlement>
-                  <region>Deutschlsandsberg</region>
+                  <region>Deutschlandsberg</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1884">1884</date></birth>
@@ -13917,7 +13917,7 @@
                <residence>
                   <settlement>Zellnitz an der Drau</settlement>
                   <region>Marburg</region>
-                  <country>Steiekmarkz</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1886">1886</date></birth>
                <death>gest. <date when="1915-10-19">19. Okt. 1915</date> <placeName>in Jamiano am Regimentshilfsplatz, Bzk. Monfalcone, Küstenland</placeName> <note>(3. Isonzoschlacht)</note></death>
@@ -14738,7 +14738,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Maresego</settlement>
-                  <region>Capodistr1a</region>
+                  <region>Capodistria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1877">1877</date></birth>
@@ -14762,7 +14762,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1888">1888</date></birth>
-               <death>gef. <date when="1917-08-19">19. Aug. 1917</date> <placeName>bei San Giovanni, Sesana, Küstenlnnd</placeName> <note>(11. Isonzoschlacht)</note></death>
+               <death>gef. <date when="1917-08-19">19. Aug. 1917</date> <placeName>bei San Giovanni, Sesana, Küstenland</placeName> <note>(11. Isonzoschlacht)</note></death>
                <note>beerd. unbekannt (Die Leiche fiel in Feindeshand.)</note>
             </person>
             <person xml:id="pers.KroisAnton1888">
@@ -15405,7 +15405,7 @@
                   <surname>Ladler</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Zgf</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <residence>
                   <settlement>Frattendorf</settlement>
                   <region>Radkersburg</region>
@@ -15634,7 +15634,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1882">1882</date></birth>
-               <death>gef. <date when="1917-05-26">26. Mai 1917</date> <placeName>auf der Hermada, Sesana, Küstenlsand</placeName> <note>(10. Isonzoschlacht, Bauchschuß)</note></death>
+               <death>gef. <date when="1917-05-26">26. Mai 1917</date> <placeName>auf der Hermada, Sesana, Küstenland</placeName> <note>(10. Isonzoschlacht, Bauchschuß)</note></death>
                <event>
                   <desc>beerd. <date when="1917-05-29">29. Mai 1917</date>, <placeName>Militärfriedhof IV, Grab Nr. 370, in Berje, Sesana</placeName></desc>
                </event>
@@ -16417,7 +16417,7 @@
                   <surname>Linhart</surname>
                   <forename>Florian</forename>
                </persName>
-               <socecStatus>LInf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Loipersdorf</settlement>
                   <region>Feldbach</region>
@@ -16700,7 +16700,7 @@
                <residence>
                   <settlement>Dignano</settlement>
                   <region>Pola</region>
-                  <country>Isitrien</country>
+                  <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1877">1877</date></birth>
                <death>gest. <date when="1917-08-22">22. Aug. 1917</date> <placeName>in Bivio bei der Divisionsanitätskolonne Nr. 28, Sesana, Küstenland</placeName> <note>(Kopfschuß)</note></death>
@@ -16848,7 +16848,7 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <residence>
-                  <settlement>. Gams</settlement>
+                  <settlement>Gams</settlement>
                   <region>Marburg</region>
                   <country>Steiermark</country>
                </residence>
@@ -17236,7 +17236,7 @@
                   <surname>Malik</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>titl. KpL</socecStatus>
+               <socecStatus>titl. Kpl.</socecStatus>
                <residence>
                   <settlement>Gr.- Vukowina</settlement>
                   <region>Brünn</region>
@@ -17322,7 +17322,7 @@
                   <surname>Mandl</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Inf,</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Ziegenberg</settlement>
                   <region>Feldbach</region>
@@ -17388,7 +17388,7 @@
                   <surname>Marbler</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>titl. KpL</socecStatus>
+               <socecStatus>titl. Kpl.</socecStatus>
                <residence>
                   <settlement>Wieden</settlement>
                   <region>Radkersburg</region>
@@ -17859,7 +17859,7 @@
                   <surname>Mayer</surname>
                   <forename>Hermann</forename>
                </persName>
-               <socecStatus>Fhnr.i.d.Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Oberhaag</settlement>
                   <region>Leibnitz</region>
@@ -18359,7 +18359,7 @@
                   <surname>Mikl</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Fhnr.i. d. Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Zelting</settlement>
                   <region>Radkersburg</region>
@@ -19007,7 +19007,7 @@
                   <surname>Müller</surname>
                   <forename>David</forename>
                </persName>
-               <socecStatus>LInf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Kerschbaum</settlement>
                   <region>Deutschlandsberg</region>
@@ -19133,7 +19133,7 @@
                   <surname>Müller</surname>
                   <forename>Michael</forename>
                </persName>
-               <socecStatus>LInf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Wies</settlement>
                   <region>Deutschlandsberg</region>
@@ -19297,7 +19297,7 @@
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1895">1895</date></birth>
-               <death>gef. <date when="1916-10-07">7. Okt. 1916</date> <placeName>bei Lokvica, Görz, Küstenlsand</placeName> <note>(8. Isonzoschlacht)</note></death>
+               <death>gef. <date when="1916-10-07">7. Okt. 1916</date> <placeName>bei Lokvica, Görz, Küstenland</placeName> <note>(8. Isonzoschlacht)</note></death>
                <event>
                   <desc>beerd. <date when="1916-10-08">8. Okt. 1916</date>, <placeName>Brigadefriedhof bei Kostanjevica, Görz</placeName></desc>
                </event>
@@ -19862,7 +19862,7 @@
                   <surname>Nikl</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Zgf..</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <residence>
                   <settlement>Zellnitz</settlement>
                   <region>Marburg</region>
@@ -19911,7 +19911,7 @@
                   <surname>Nöst</surname>
                   <forename>Ludwig</forename>
                </persName>
-               <socecStatus>LInf:</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Graz</settlement>
                </residence>
@@ -20134,7 +20134,7 @@
                   <surname>Ogriseg</surname>
                   <forename>Egon</forename>
                </persName>
-               <socecStatus>Fhnr.i.d.Res</socecStatus>
+               <socecStatus>Fhnr. i. d. Res</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -20309,7 +20309,7 @@
                   <surname>Ornik</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>tit1. Gfrt.</socecStatus>
+               <socecStatus>titl. Gfrt.</socecStatus>
                <residence>
                   <settlement>Abstal</settlement>
                   <region>Radkersburg</region>
@@ -21508,7 +21508,7 @@
                   <addName>(retce Paternjek)</addName>
                   <forename>Emil</forename>
                </persName>
-               <socecStatus>Jnf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Straß</settlement>
                   <region>Leibnitz</region>
@@ -21831,7 +21831,7 @@
                <residence>
                   <settlement>Nezdic</settlement>
                   <region>Schüttenhofen</region>
-                  <country>Bohmen</country>
+                  <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1880">1880</date></birth>
                <death>gef. <date when="1916-10-10">10. Okt. 1916</date> <placeName>am Monte Gabriele, Görz, Küstenland</placeName></death>
@@ -22929,7 +22929,7 @@
                   <surname>Prattl</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>LInf-</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>St. Martin</settlement>
                   <region>Deutschlandsberg</region>
@@ -23330,7 +23330,7 @@
                   <surname>Pucher</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>titl.Kpl.</socecStatus>
+               <socecStatus>titl. Kpl.</socecStatus>
                <residence>
                   <settlement>Draßling</settlement>
                </residence>
@@ -25382,7 +25382,7 @@
                   <surname>Rois</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Maslau</settlement>
                   <region>Marburg</region>
@@ -25770,7 +25770,7 @@
                   <surname>Rumpf</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Unter-Premstätten</settlement>
                   <region>Deutschlandsberg</region>
@@ -25982,7 +25982,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1894">1894</date></birth>
-               <death>gef. <date when="1917-04-11">11. April 1917</date> <placeName>bei Hudilog, Sesana, Küstenlsand</placeName> <note>(durch Granate zerrissen)</note></death>
+               <death>gef. <date when="1917-04-11">11. April 1917</date> <placeName>bei Hudilog, Sesana, Küstenland</placeName> <note>(durch Granate zerrissen)</note></death>
                <event>
                   <desc>beerd. <date when="1917-04-12">12. April 1917</date>, <placeName>Militärfriedhof III, Grab Nr. 827, Berje, Sesana</placeName></desc>
                </event>
@@ -26334,7 +26334,7 @@
                   <surname>Seemann</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>LJnf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Rottenberg</settlement>
                </residence>
@@ -27452,7 +27452,7 @@
                   <surname>Smurik</surname>
                   <forename>Emmerich</forename>
                </persName>
-               <socecStatus>. Gfr.</socecStatus>
+               <socecStatus>Gfr.</socecStatus>
                <residence>
                   <settlement>Nagyrona</settlement>
                   <region>Komitat Nagy-Retsž</region>
@@ -27522,7 +27522,7 @@
                   <surname>Sommer</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kadetz i. d. Res.</socecStatus>
+               <socecStatus>Kadett i. d. Res.</socecStatus>
                <residence>
                   <settlement>Graz</settlement>
                   <country>Steiermark</country>
@@ -28283,7 +28283,7 @@
                   <surname>Schachter</surname>
                   <forename>Martin</forename>
                </persName>
-               <socecStatus>LI)nf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Kehlberg</settlement>
                   <region>Marburg</region>
@@ -28675,7 +28675,7 @@
                   <surname>Scheucher</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Burgfried</settlement>
                   <region>Feldbach</region>
@@ -29537,7 +29537,7 @@
                   <surname>Schubert</surname>
                   <forename>Rudolf</forename>
                </persName>
-               <socecStatus>Fhnr.i.d.Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Osseg</settlement>
                   <country>Böhmen</country>
@@ -29624,7 +29624,7 @@
                   <surname>Schulze</surname>
                   <forename>Wilhelm</forename>
                </persName>
-               <socecStatus>Fhnr.i.d.Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -30478,7 +30478,7 @@
                   <surname>Sternad</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Juf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Unterhaag bei Arnfels</settlement>
                   <region>Leibnitz</region>
@@ -30541,7 +30541,7 @@
                   <term>Heimatsort</term>
                   <settlement>Orenzdorf</settlement>
                   <region>Mährichs-Weißkirchen</region>
-                  <country>Möhren</country>
+                  <country>Mähren</country>
                </residence>
                <birth>geb. <date when="1891">1891</date></birth>
                <death>gef. <date when="1918-07-20">20. Juli 1918</date> <placeName>am Monte Asolone, Belluno, Italien </placeName> <note>(Schrapnellkopfschuß)</note></death>
@@ -31519,7 +31519,7 @@
                   <surname>Theißl</surname>
                   <forename>Andreas</forename>
                </persName>
-               <socecStatus>titl. KpL</socecStatus>
+               <socecStatus>titl. Kpl.</socecStatus>
                <residence>
                   <settlement>Kaag</settlement>
                   <region>Feldbach</region>
@@ -31863,7 +31863,7 @@
                   <surname>Torkar</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Grahova</settlement>
                   <region>Tolmein</region>
@@ -33121,7 +33121,7 @@
                <residence>
                   <settlement>Ratschitz</settlement>
                   <region>Brüx</region>
-                  <country>Bohmen</country>
+                  <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1896">1896</date></birth>
                <death>gef. <date when="1916-10-10">10. Okt. 1916</date> <placeName>bei Oppacchiasella, Görz, Küstenland</placeName> <note>(8. Isonzoschlacht)</note></death>
@@ -33763,7 +33763,7 @@
                   <surname>Weber</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>St. Margarethen a. M.</settlement>
                </residence>
@@ -33801,7 +33801,7 @@
                   <surname>Weber</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>LInf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Dornau</settlement>
                </residence>
@@ -34130,7 +34130,7 @@
                   <surname>Weiß</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Kadetti.d.Res.</socecStatus>
+               <socecStatus>Kadett i. d. Res.</socecStatus>
                <residence>
                   <settlement>Arnfels</settlement>
                   <region>Leibnitz</region>
@@ -35144,14 +35144,14 @@
                   <surname>Zach</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Auersbach</settlement>
                   <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
-               <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>beim Sturmangriff auf Pietra-Rossa, Monfalcone, Küstenlsand </placeName> <note>(3. Isonzoschlacht)</note></death>
+               <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>beim Sturmangriff auf Pietra-Rossa, Monfalcone, Küstenland </placeName> <note>(3. Isonzoschlacht)</note></death>
                <event>
                   <desc>beerd. <date when="1915-10-22">22. Okt. 1915</date> <placeName>am See Pietra-Rossa (Massensgrab), Monfalcone</placeName></desc>
                </event>
@@ -35161,7 +35161,7 @@
                   <surname>Zacharius</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Gosdorf</settlement>
                   <region>Radkersburg</region>
@@ -35634,7 +35634,7 @@
                   <surname>Zirkl</surname>
                   <forename>Rupert</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Waltendorf</settlement>
                </residence>
@@ -35672,7 +35672,7 @@
                   <surname>Zirngast</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Pöls</settlement>
                   <region>Leibnitz</region>
@@ -35989,7 +35989,7 @@
                   <surname>Zogler</surname>
                   <forename>Martin</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Maxau</settlement>
                   <region>Marburg</region>
@@ -36123,7 +36123,7 @@
          </div>
          <div type="chapter" xml:id="ch02">
             <head xml:id="ch02-head-1">Aus dem Archiv des Bundeskanzleramtes</head>
-            <p xml:id="ch02-p-1">Reihenfolge der <ref target="#ch01-head-1">Angaben</ref>: Name; Charge; Heimats- respektive Geburtsort; gefallen wann und wo; beerdigt wann und wo.</p>
+            <p xml:id="ch02-p-1">Reihenfolge der Angaben: Name; Charge; Heimats- respektive Geburtsort; gefallen wann und wo; beerdigt wann und wo.</p>
             <listPerson type="data">
             <person xml:id="pers.AčkoBartholomäus1885">
                <persName>
@@ -36561,7 +36561,7 @@
                </persName>
                <socecStatus>LInf.</socecStatus>
                <residence>
-                  <country>Neudörfl</country>
+                  <settlement>Neudörfl</settlement>
                </residence>
                <birth>geb. <date when="1889">1889</date></birth>
                <death>gest. <date when="1917-12-30">30. Dez. 1917</date>, <placeName>Udine, Italien</placeName> <note>(Tuberkulose)</note></death>
@@ -37322,7 +37322,7 @@
                   <surname>Blažič</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Charge unbekannt</socecStatus>
+               <note>Charge unbekannt</note>
                <residence>
                   <settlement>Unter Pulsgau</settlement>
                   <region>Marburg</region>
@@ -38206,7 +38206,7 @@
                   <surname>Damm</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>ERes-</socecStatus>
+               <socecStatus>ERes.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -38774,7 +38774,7 @@
                   <surname>Ehmann</surname>
                   <forename>Simon</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-08-26" notAfter="1914-09-01">zwischen 26. Aug. und 1. Sept. 1914</date> <placeName>bei Busk, Lemberg, Galizien</placeName></death>
                <event>
@@ -38847,7 +38847,7 @@
                   <surname>Emich</surname>
                   <forename>Ferdinand</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-10-15" notAfter="1914-11-05">zwischen 15. Okt. und 5. Nov. 1914</date> <placeName>bei Wolcza-Dolna, Lemberg, Galizien</placeName></death>
                <event>
@@ -39123,7 +39123,7 @@
                   <surname>Faustner</surname>
                   <forename>Florian</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Fehring</settlement>
                   <region>Feldbach</region>
@@ -39586,7 +39586,7 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <residence>
-                  <country>Medea</country>
+                  <settlement>Medea</settlement>
                </residence>
                <birth>geb. <date when="1885">1885</date></birth>
                <death>gef. <date when="1918-03-17">17. März 1918</date> <placeName>in Cormonos, Küstenland</placeName></death>
@@ -39698,7 +39698,7 @@
                   <surname>Frietl</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Rothleiten. Graz</settlement>
                   <country>Steiermark</country>
@@ -40986,7 +40986,7 @@
                   <surname>Großschädl</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Juf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Seibuttendorf</settlement>
                   <region>Feldbach</region>
@@ -42425,7 +42425,7 @@
                   <surname>Hölzl</surname>
                   <forename>Fanz</forename>
                </persName>
-               <socecStatus>ERes</socecStatus>
+               <socecStatus>ERes.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -43884,7 +43884,7 @@
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
-               <death>gest. <date when="1916-03-10">10. März 1916</date> <placeName>in der Kriegsgefangenschaft in Kataw, Ivanovska, Rußlsand</placeName></death>
+               <death>gest. <date when="1916-03-10">10. März 1916</date> <placeName>in der Kriegsgefangenschaft in Kataw, Ivanovska, Rußland</placeName></death>
                <event>
                   <desc>beerdigt <placeName>im Friedhof dortselbst</placeName></desc>
                </event>
@@ -44103,7 +44103,7 @@
                   <surname>Klapš</surname>
                   <forename>August</forename>
                </persName>
-               <socecStatus>KpL</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -45001,7 +45001,7 @@
                   <surname>Kos</surname>
                   <forename>Cyrill</forename>
                </persName>
-               <socecStatus>Zgf</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <residence>
                   <settlement>Salzaberg</settlement>
                   <region>Marburg</region>
@@ -45384,7 +45384,7 @@
                   <surname>Kranier</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Wies</settlement>
                   <region>Deutschlandsberg</region>
@@ -45672,7 +45672,7 @@
                   <surname>Kukowetz</surname>
                   <forename>Paul</forename>
                </persName>
-               <socecStatus>Charge, unbekannt</socecStatus>
+               <note>Charge, unbekannt</note>
                <residence>
                   <settlement>Graz</settlement>
                   <country>Steiermark</country>
@@ -45769,7 +45769,7 @@
                <residence>
                   <settlement>Bierbaum</settlement>
                   <region>Feldbach</region>
-                  <country>Steieramrk</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1883">1883</date></birth>
                <death>gef. <date when="1914-12-21">21. Dez. 1914</date> <placeName>beim Vormarsch in den Karpathen gegen Jaslo, Galizien</placeName></death>
@@ -46528,7 +46528,7 @@
                   <surname>Lenz</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -47117,7 +47117,7 @@
                   <surname>Maček</surname>
                   <forename>Eduard</forename>
                </persName>
-               <socecStatus>EinjFreiw., Kpl</socecStatus>
+               <socecStatus>EinjFreiw., Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -47594,7 +47594,7 @@
                   <surname>Maßwohl</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-10-15" notAfter="1914-11-05">zwischen 15. Okt. und 5. Nov. 1914</date> <placeName>bei Wolcza-Dolna, Lemberg, Galizien</placeName></death>
                <event>
@@ -48846,7 +48846,7 @@
                   <surname>Nickl</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Charge unbekannt</socecStatus>
+               <note>Charge unbekannt</note>
                <residence>
                   <settlement>St. Rind</settlement>
                   <region>Gemeinde Breitenfeld</region>
@@ -49101,7 +49101,7 @@
                   <surname>Ornig</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Gsrt.</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>St. Jakob</settlement>
                   <region>Marburg</region>
@@ -49666,7 +49666,7 @@
                   <surname>Peer</surname>
                   <forename>Roman</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -50413,7 +50413,7 @@
                   <surname>Polz</surname>
                   <forename>Heinrich</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-08-29" notAfter="1914-08-31">zwischen 29. und 31. Aug. 1914</date> <placeName>bei Turkocin, Galizien</placeName></death>
                <event>
@@ -50533,7 +50533,7 @@
                   <surname>Posch</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Wildbach</settlement>
                   <region>Deutschlandsberg</region>
@@ -50965,7 +50965,7 @@
                   <surname>Pretner</surname>
                   <forename>Vlasius</forename>
                </persName>
-               <socecStatus>EinjFreiw. KpL</socecStatus>
+               <socecStatus>EinjFreiw., Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -51176,7 +51176,7 @@
                   <surname>Puklič</surname>
                   <forename>Bartholomäus</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>St. Martin</settlement>
                   <region>Marburg</region>
@@ -51234,7 +51234,7 @@
                   <surname>Puntigam</surname>
                   <forename>Friedrich</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Radkersburg</settlement>
                   <country>Steiermark</country>
@@ -51469,7 +51469,7 @@
                   <surname>Rath</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Liebing</settlement>
                </residence>
@@ -51518,7 +51518,7 @@
                   <surname>Rathkolb</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Zsgf.</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1915-06-11" notAfter="1915-06-20">zwischen 11. und 20. Juni 1915</date></death>
                <note>weiteres unbekannt</note>
@@ -51657,7 +51657,7 @@
                   <surname>Rebernik</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -52090,7 +52090,7 @@
                   <surname>Riegelbauer</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Iaf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Kornberg</settlement>
                   <region>Feldbach</region>
@@ -52740,7 +52740,7 @@
                   <surname>Salamon</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>LInf</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Laasen</settlement>
                   <region>Radkersburg</region>
@@ -53375,7 +53375,7 @@
                   <surname>Simonitsch</surname>
                   <forename>Gabriel</forename>
                </persName>
-               <socecStatus>LKpl</socecStatus>
+               <socecStatus>LKpl.</socecStatus>
                <residence>
                   <settlement>Wölling</settlement>
                   <region>Radkersburg</region>
@@ -53445,7 +53445,7 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
-               <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>beim Gegenangriff auf Pietra Rossa, Monfalcone, Küstenlsand</placeName></death>
+               <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>beim Gegenangriff auf Pietra Rossa, Monfalcone, Küstenland</placeName></death>
                <event>
                   <desc>beerd. <placeName>auf dem Schlachtfeld</placeName></desc>
                </event>
@@ -54151,7 +54151,7 @@
                   <forename>Franz</forename>
                </persName>
                <note><ref target="#pers.SzaboFranz1890a">(ist mit den am 24. Okt. 1914 in der Schlacht bei Wolcza-Dolna gefallenen Szabo Franz der M.K. 7/47 des I. Teiles identisch)</ref></note>
-               <socecStatus>EResInf.</socecStatus>
+               <socecStatus>ERes., Inf.</socecStatus>
                <residence>
                   <settlement>Franach</settlement>
                   <region>Feldbach</region>
@@ -54602,7 +54602,7 @@
                   <surname>Schilli</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Pölten</settlement>
                   <region>Radkersburg</region>
@@ -54634,7 +54634,7 @@
                   <surname>Schilly</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1915-06-05">5. Juni 1915</date> <placeName>bei Mlodiatyn, Kolomea, Galizien</placeName></death>
                <event>
@@ -55330,7 +55330,7 @@
                   <surname>Schrei</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>St. Peter i. S.</settlement>
                   <region>Deutschlandsberg</region>
@@ -56718,7 +56718,7 @@
                   <surname>Thaller</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Gfrt</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>St. Veith am Vogau</settlement>
                   <region>Leibnitz</region>
@@ -56842,7 +56842,7 @@
                   <surname>Tinauer</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>, Inf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Gamlitz</settlement>
                   <region>Leibnitz</region>
@@ -56926,7 +56926,7 @@
                   <surname>Toth</surname>
                   <forename>Alexander</forename>
                </persName>
-               <socecStatus>EinjFreiw. Mediziner</socecStatus>
+               <socecStatus>EinjFreiw., Mediziner</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -57364,7 +57364,7 @@
                   <surname>Ulrich</surname>
                   <forename>Julius</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-08-26">26. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -57393,7 +57393,7 @@
                   <surname>Ulz</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Kpl</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Wittmannsdorf</settlement>
                   <country>Steiermark</country>
@@ -58488,7 +58488,7 @@
                   <surname>Wieser</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Inf</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-10-15" notAfter="1914-11">zwischen 15. Okt. und Nov. 1914</date> <placeName>bei Wolcza-Dolna, Lemberg, Galizien</placeName></death>
                <event>
@@ -58556,7 +58556,7 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <residence>
-                  <country>Speisenegg</country>
+                  <settlement>Speisenegg</settlement>
                </residence>
                <birth>geb. <date when="1886">1886</date></birth>
                <death>gest. <date when="1915-01-17">17. Jänner 1915</date> <placeName>in Kaschau, Ungarn,</placeName> <note>(Sepsis)</note></death>
@@ -58708,7 +58708,7 @@
                   <surname>Wolf</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Gfrt</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>Zirknitz</settlement>
                   <region>Deutschlandsberg</region>
@@ -58843,7 +58843,7 @@
                   <surname>Wurzinger</surname>
                   <forename>Christian</forename>
                </persName>
-               <socecStatus>EinjFreiw. Zgf.</socecStatus>
+               <socecStatus>EinjFreiw., Zgf.</socecStatus>
                <residence>
                   <settlement>Birnbaum</settlement>
                   <region>Radkersburg</region>
@@ -59139,7 +59139,7 @@
                   <surname>Zemljič</surname>
                   <forename>Konrad</forename>
                </persName>
-               <socecStatus>.Kpl.</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-08-26" notAfter="1914-09-01">zwischen 26. Aug. und 1. Sept. 1914</date> <placeName>bei Busk, Lemberg, Galizien</placeName></death>
                <event>
