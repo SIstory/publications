@@ -68,7 +68,7 @@
                     </p>
                 </availability>
                 <pubPlace>Ljubljana</pubPlace>
-                <idno type="PID">sistory.36113</idno>
+                <idno type="sistory" corresp="#ojs-pnz-2015-3">36113</idno>
                 <idno type="ISSN">
                     <idno type="print">ISBN 0353-0329 (Tiskana izd.)</idno>
                     <idno type="www">ISBN 2463-7807 (Spletna izd.)</idno>
