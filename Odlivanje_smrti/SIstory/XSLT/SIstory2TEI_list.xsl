@@ -27,7 +27,7 @@
     <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/sources/</xsl:param>
     
     <xsl:variable name="osebe">
-        <xsl:for-each select=" document('../../Odlivanje_smrti.xml')/tei:TEI/tei:text/tei:body/tei:div/tei:listPerson/tei:person/tei:persName">
+        <xsl:for-each select="document('../../Odlivanje_smrti.xml')/tei:TEI/tei:text/tei:body/tei:div/tei:listPerson/tei:person/tei:persName">
             <xsl:variable name="ime">
                 <xsl:for-each select="tei:forename">
                     <xsl:value-of select="."/>
@@ -90,6 +90,16 @@
                                                 <ref target="#pers.unknown">
                                                     <xsl:value-of select="$upodobljenec"/>
                                                 </ref>
+                                            </xsl:when>
+                                            <!-- če vsebuje vejico, za katero npr. stoji genName kot Josip Vilfan, mlajši
+                                                 potem procesiramo samo ime in priimek pred vejico
+                                            -->
+                                            <xsl:when test="contains(.,',')">
+                                                <xsl:for-each select="$osebe/sistory:oseba[. = substring-before($upodobljenec,',')]">
+                                                    <ref target="{concat('#',@xml:id)}">
+                                                        <xsl:value-of select="$upodobljenec"/>
+                                                    </ref>
+                                                </xsl:for-each>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:for-each select="$osebe/sistory:oseba[. = $upodobljenec]">

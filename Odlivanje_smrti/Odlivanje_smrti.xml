@@ -27,7 +27,7 @@
                   >http://hdl.handle.net/11686/37475</ref>
             </pubPlace>
             <idno type="sistory"
-               corresp="#sistory.37475 #cip #teiHeader #lido #listPerson #objects #persons #occupations"
+               corresp="#sistory.37475 #cip #teiHeader #lido #listPerson #objects #persons #representation #representation-persons #occupations"
                >37475</idno>
          </publicationStmt>
          <sourceDesc>
@@ -3388,1744 +3388,2133 @@
          </divGen>
       </front>
       <body>
-         <div type="lido" xml:id="lido">
-            <head>Posmrtne maske</head>
-            <list rend="ordered" type="deathMask">
-               <item xml:id="sistory-37721">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Alojz Kraigher (Notranjski muzej Postojna)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KraigherAlojz1877">Alojz Kraigher</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37721"
-                           >http://hdl.handle.net/11686/37721</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37721/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37144">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Anton Aškerc (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KraljFrance1895">France Kralj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.AškercAnton1856">Anton Aškerc</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37144"
-                           >http://hdl.handle.net/11686/37144</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37144/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37405">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Anton Sovre (SAZU)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.SovrèAnton1885">Anton Sovre</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37405"
-                           >http://hdl.handle.net/11686/37405</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37405/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37473">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Blaž Arnič (Glasbena matica)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ArničBlaž1901">Blaž Arnič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37473"
-                           >http://hdl.handle.net/11686/37473</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37473/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37228">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Boris Kalin (MG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KeršičMarjan1920">Marjan Keršič-Belač</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37228"
-                           >http://hdl.handle.net/11686/37228</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37228/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37270">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Etbin Kristan (MNZS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KristanEtbin1867">Etbin Kristan</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37270"
-                           >http://hdl.handle.net/11686/37270</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37270/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37407">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Fran Ramovš (SAZU)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.RamovšFran1890">Fran Ramovš</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37407"
-                           >http://hdl.handle.net/11686/37407</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37407/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37150">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Fran Suher (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.SuherFran1861">Fran Suher</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37150"
-                           >http://hdl.handle.net/11686/37150</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37150/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37411">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>France Kidrič (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KidričFrance1880">France Kidrič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37411"
-                           >http://hdl.handle.net/11686/37411</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37411/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37718">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>France Kotnik (Pokrajinski muzej Celje)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.LipičnikAdalbert1913">Adalbert Lipičnik</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KotnikFran1882">France Kotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37718"
-                           >http://hdl.handle.net/11686/37718</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37718/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37402">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>France Kotnik (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.LipičnikAdalbert1913">Adalbert Lipičnik</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KotnikFran1882">France Kotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37402"
-                           >http://hdl.handle.net/11686/37402</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37402/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37476">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>France Mihelič (LM)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.ProkofjevBoris1943">Boris Prokofjev</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.MiheličFrance1907">France Mihelič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37476"
-                           >http://hdl.handle.net/11686/37476</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37476/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37477">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Franja Tavčar (LM)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.TavčarFranja1868">Franja Tavčar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37477"
-                           >http://hdl.handle.net/11686/37477</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37477/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37226">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Friedrich Nietzsche (MMK)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SaudekRudolf1880">Rudolf Saudek</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.NietzscheFriedrich">Friedrich Nietzsche</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37226"
-                           >http://hdl.handle.net/11686/37226</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37226/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37151">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Gregor Žerjav (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŽerjavGregor1882">Gregor Žerjav</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37151"
-                           >http://hdl.handle.net/11686/37151</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37151/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37296">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Cankar (CD)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37296"
-                           >http://hdl.handle.net/11686/37296</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37296/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37146">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Cankar (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37146"
-                           >http://hdl.handle.net/11686/37146</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37146/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37415">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Cankar (MKL)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37415"
-                           >http://hdl.handle.net/11686/37415</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37415/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37719">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Cankar (Notranjski muzej Postojna)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37719"
-                           >http://hdl.handle.net/11686/37719</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37719/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37298">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Cankar (Vrhnika)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37298"
-                           >http://hdl.handle.net/11686/37298</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37298/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37227">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Grohar (MG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.LobodaPeter1894">Peter Loboda</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GroharIvan1867">Ivan Grohar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37227"
-                           >http://hdl.handle.net/11686/37227</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37227/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37147">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Lah (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SeverAnton1886">Anton Sever</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.LahIvan1881">Ivan Lah</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37147"
-                           >http://hdl.handle.net/11686/37147</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37147/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37273">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Levar (MNZS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37273"
-                           >http://hdl.handle.net/11686/37273</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37273/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37293">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Napotnik (1) (NG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KojcViktor1925">Viktor Kojc</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.NapotnikIvan1888">Ivan Napotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37293"
-                           >http://hdl.handle.net/11686/37293</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37293/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37294">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Napotnik (2) (NG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KojcViktor1925">Viktor Kojc</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.NapotnikIvan1888">Ivan Napotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37294"
-                           >http://hdl.handle.net/11686/37294</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37294/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37148">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Oražen (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.OraženIvan1869">Ivan Oražen</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37148"
-                           >http://hdl.handle.net/11686/37148</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37148/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37722">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Prijatelj (Notranjski muzej Postojna)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.PrijateljIvan1875">Ivan Prijatelj</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37722"
-                           >http://hdl.handle.net/11686/37722</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37722/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37401">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Sojč (POMUM)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KolbičGabriel1913">Gabriel Kolbič</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.SojčIvan1879">Ivan Sojč</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37401"
-                           >http://hdl.handle.net/11686/37401</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37401/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37274">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivan Vavpotič (MNZS)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.VavpotičIvan1877">Ivan Vavpotič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37274"
-                           >http://hdl.handle.net/11686/37274</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37274/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37292">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ivana Kobilca (NG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.RepičAlojzij1866">Alojzij Repič</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KobilcaIvana1862">Ivana Kobilca</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37292"
-                           >http://hdl.handle.net/11686/37292</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37292/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37295">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Janez Šubic (NG)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŠubicJanez1850">Janez Šubic</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37295"
-                           >http://hdl.handle.net/11686/37295</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37295/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37142">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Josip Broz-Tito (MNZS)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.BrozJosip1892">Josip Broz-Tito</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37142"
-                           >http://hdl.handle.net/11686/37142</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37142/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37715">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Josip Vilfan, mlajši (Goriški muzej)</item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37715"
-                           >http://hdl.handle.net/11686/37715</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37715/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37173">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Jože Plečnik (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.PlečnikJože1872">Jože Plečnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37173"
-                           >http://hdl.handle.net/11686/37173</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37173/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37406">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Jože Plečnik (SAZU)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.PlečnikJože1872">Jože Plečnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37406"
-                           >http://hdl.handle.net/11686/37406</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37406/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37349">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Jurij Šubic (NMS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŠubicJurij1855">Jurij Šubic</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37349"
-                           >http://hdl.handle.net/11686/37349</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37349/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37165">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Karol Kotnik (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37165"
-                           >http://hdl.handle.net/11686/37165</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37165/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37350">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Karol Kotnik (NMS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37350"
-                           >http://hdl.handle.net/11686/37350</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37350/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37474">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Ludwig van Beethoven (Glasbena matica)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DanhauserJosef1805">Josef Danhauser</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.BeethovenLudwig1770">Ludwig van Beethoven</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37474"
-                           >http://hdl.handle.net/11686/37474</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37474/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37404">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Marjan Mušič (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.MušičMarjan1904">Marjan Mušič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37404"
-                           >http://hdl.handle.net/11686/37404</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37404/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37412">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Matija Jama (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JamaMatija1872">Matija Jama</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37412"
-                           >http://hdl.handle.net/11686/37412</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37412/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37180">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Mihajlo Rostohar (MMK)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.RostoharMihajlo1878">Mihajlo Rostohar</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37180"
-                           >http://hdl.handle.net/11686/37180</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37180/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37409">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Milan Škerlj (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŠkerljMilan1875">Milan Škerlj</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37409"
-                           >http://hdl.handle.net/11686/37409</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37409/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37403">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Miško Kranjec (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KranjecMiško1908">Miško Kranjec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37403"
-                           >http://hdl.handle.net/11686/37403</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37403/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37153">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (1) (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37153"
-                           >http://hdl.handle.net/11686/37153</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37153/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37181">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (1) (MMK)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37181"
-                           >http://hdl.handle.net/11686/37181</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37181/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37275">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (1) (MNZS)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37275"
-                           >http://hdl.handle.net/11686/37275</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37275/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37154">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (2) (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37154"
-                           >http://hdl.handle.net/11686/37154</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37154/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37156">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (3) (MGML)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37156"
-                           >http://hdl.handle.net/11686/37156</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37156/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37155">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznan upodobljenec (4) (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SmerduFrančišek1908">Frančišek Smerdu</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznan upodobljenec</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37155"
-                           >http://hdl.handle.net/11686/37155</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37155/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37225">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Neznana upodobljenka (MMK)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.unknown">Neznana upodobljenka</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37225"
-                           >http://hdl.handle.net/11686/37225</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37225/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37271">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Oton Župančič (1) (MNZS)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37271"
-                           >http://hdl.handle.net/11686/37271</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37271/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37272">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Oton Župančič (2) (MNZS)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37272"
-                           >http://hdl.handle.net/11686/37272</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37272/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37152">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Oton Župančič (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37152"
-                           >http://hdl.handle.net/11686/37152</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37152/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37408">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Oton Župančič (SAZU)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37408"
-                           >http://hdl.handle.net/11686/37408</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37408/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37714">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Piero Marussig (Goriški muzej)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.MarussigPiero1879">Piero Marussig</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37714"
-                           >http://hdl.handle.net/11686/37714</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37714/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37174">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (1) (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37174"
-                           >http://hdl.handle.net/11686/37174</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37174/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37175">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (2) (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37175"
-                           >http://hdl.handle.net/11686/37175</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37175/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37176">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (3) (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37176"
-                           >http://hdl.handle.net/11686/37176</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37176/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37299">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (NG)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37299"
-                           >http://hdl.handle.net/11686/37299</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37299/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37720">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (Notranjski muzej Postojna)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37720"
-                           >http://hdl.handle.net/11686/37720</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37720/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37410">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Rihard Jakopič (SAZU)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-                     </item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37410"
-                           >http://hdl.handle.net/11686/37410</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37410/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37414">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Risto Savin (SKZAL)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SalesinEdvard1910">Edvard Salesin</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.ŠircaFriderik1859">Risto Savin</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37414"
-                           >http://hdl.handle.net/11686/37414</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37414/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37717">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Simon Gregorčič (Goriški muzej)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37717"
-                           >http://hdl.handle.net/11686/37717</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37717/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37145">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Simon Gregorčič (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KregarRado1893">Rado Kregar</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37145"
-                           >http://hdl.handle.net/11686/37145</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37145/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37300">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Simon Gregorčič (NUK)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37300"
-                           >http://hdl.handle.net/11686/37300</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37300/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37297">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Simon Gregorčič (Tolminski muzej)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37297"
-                           >http://hdl.handle.net/11686/37297</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37297/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37149">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Slavko Osterc (MGML)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.SajovicIvan">Ivan Sajovic</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.OstercSlavko1895">Slavko Osterc</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37149"
-                           >http://hdl.handle.net/11686/37149</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37149/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37413">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Tone Kralj (Galerija Velenje)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KraljAnton1900">Tone Kralj</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37413"
-                           >http://hdl.handle.net/11686/37413</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37413/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37716">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Tone Kralj (Goriški muzej)</item>
-                     <label>Avtor</label>
-                     <item>
-                        <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
-                     </item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.KraljAnton1900">Tone Kralj</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37716"
-                           >http://hdl.handle.net/11686/37716</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37716/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37267">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Vito Globočnik (1) (MNZS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37267"
-                           >http://hdl.handle.net/11686/37267</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37267/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37268">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Vito Globočnik (2) (MNZS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37268"
-                           >http://hdl.handle.net/11686/37268</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37268/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-               <item xml:id="sistory-37269">
-                  <list type="gloss">
-                     <label>Naziv</label>
-                     <item>Vito Globočnik (3) (MNZS)</item>
-                     <label>Upodobljenec</label>
-                     <item>
-                        <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
-                     </item>
-                     <label>SIstory</label>
-                     <item>
-                        <ref target="http://www.sistory.si/11686/37269"
-                           >http://hdl.handle.net/11686/37269</ref>
-                     </item>
-                     <label>LIDO metapodatki</label>
-                     <item>
-                        <ptr
-                           target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37269/metadata.xml"
-                           type="LIDO"/>
-                     </item>
-                  </list>
-               </item>
-            </list>
-         </div>
+<div type="lido" xml:id="lido">
+   <head>Posmrtne maske</head>
+   <list rend="ordered" type="deathMask">
+      <item xml:id="sistory-37721">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Alojz Kraigher (Notranjski muzej Postojna)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KraigherAlojz1877">Alojz Kraigher</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37721">http://hdl.handle.net/11686/37721</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37721/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37990">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Alojzij Gangl (Belokranjski muzej)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GanglAlojzij1859">Alojzij Gangl</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37990">http://hdl.handle.net/11686/37990</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37990/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37144">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Anton Aškerc (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KraljFrance1895">France Kralj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.AškercAnton1856">Anton Aškerc</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37144">http://hdl.handle.net/11686/37144</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37144/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37405">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Anton Sovre (SAZU)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.SovrèAnton1885">Anton Sovre</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37405">http://hdl.handle.net/11686/37405</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37405/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37473">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Blaž Arnič (Glasbena matica)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ArničBlaž1901">Blaž Arnič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37473">http://hdl.handle.net/11686/37473</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37473/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37228">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Boris Kalin (MG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37228">http://hdl.handle.net/11686/37228</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37228/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37270">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Etbin Kristan (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KristanEtbin1867">Etbin Kristan</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37270">http://hdl.handle.net/11686/37270</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37270/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37407">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Fran Ramovš (SAZU)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.RamovšFran1890">Fran Ramovš</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37407">http://hdl.handle.net/11686/37407</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37407/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37150">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Fran Suher (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.SuherFran1861">Fran Suher</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37150">http://hdl.handle.net/11686/37150</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37150/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37411">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>France Kidrič (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KidričFrance1880">France Kidrič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37411">http://hdl.handle.net/11686/37411</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37411/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37718">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>France Kotnik (Pokrajinski muzej Celje)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.LipičnikAdalbert1913">Adalbert Lipičnik</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KotnikFran1882">France Kotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37718">http://hdl.handle.net/11686/37718</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37718/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37402">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>France Kotnik (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.LipičnikAdalbert1913">Adalbert Lipičnik</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KotnikFran1882">France Kotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37402">http://hdl.handle.net/11686/37402</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37402/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37476">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>France Mihelič (LM)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.ProkofjevBoris1943">Boris Prokofjev</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.MiheličFrance1907">France Mihelič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37476">http://hdl.handle.net/11686/37476</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37476/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37477">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Franja Tavčar (LM)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.TavčarFranja1868">Franja Tavčar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37477">http://hdl.handle.net/11686/37477</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37477/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37226">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Friedrich Nietzsche (MMK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SaudekRudolf1880">Rudolf Saudek</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.NietzscheFriedrich">Friedrich Nietzsche</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37226">http://hdl.handle.net/11686/37226</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37226/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37151">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Gregor Žerjav (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽerjavGregor1882">Gregor Žerjav</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37151">http://hdl.handle.net/11686/37151</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37151/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37919">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Gregorij Rožman (Studia slovenica)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.GoršeFrance1897">France Gorše</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.RožmanGregorij1883">Gregorij Rožman</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37919">http://hdl.handle.net/11686/37919</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37919/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37916">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (AGRFT)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37916">http://hdl.handle.net/11686/37916</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37916/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37296">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (CD)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37296">http://hdl.handle.net/11686/37296</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37296/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37146">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37146">http://hdl.handle.net/11686/37146</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37146/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37415">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (MKL)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37415">http://hdl.handle.net/11686/37415</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37415/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38020">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (NUK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MaherMarko">Marko Maher</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38020">http://hdl.handle.net/11686/38020</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38020/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37719">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (Notranjski muzej Postojna)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37719">http://hdl.handle.net/11686/37719</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37719/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37996">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37996">http://hdl.handle.net/11686/37996</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37996/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37992">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (SLOGI)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37992">http://hdl.handle.net/11686/37992</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37992/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37298">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Cankar (Vrhnika)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIvan1876">Ivan Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37298">http://hdl.handle.net/11686/37298</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37298/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37227">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Grohar (MG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.LobodaPeter1894">Peter Loboda</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GroharIvan1867">Ivan Grohar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37227">http://hdl.handle.net/11686/37227</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37227/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37147">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Lah (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SeverAnton1886">Anton Sever</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LahIvan1881">Ivan Lah</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37147">http://hdl.handle.net/11686/37147</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37147/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37918">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Levar (AGRFT)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37918">http://hdl.handle.net/11686/37918</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37918/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37273">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Levar (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37273">http://hdl.handle.net/11686/37273</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37273/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37994">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Levar (SLOGI)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37994">http://hdl.handle.net/11686/37994</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37994/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37293">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Napotnik (1) (NG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KojcViktor1925">Viktor Kojc</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.NapotnikIvan1888">Ivan Napotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37293">http://hdl.handle.net/11686/37293</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37293/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37294">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Napotnik (2) (NG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KojcViktor1925">Viktor Kojc</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.NapotnikIvan1888">Ivan Napotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37294">http://hdl.handle.net/11686/37294</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37294/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37148">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Oražen (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DolinarLojze1893">Lojze Dolinar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.OraženIvan1869">Ivan Oražen</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37148">http://hdl.handle.net/11686/37148</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37148/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38018">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Prijatelj (NUK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PrijateljIvan1875">Ivan Prijatelj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38018">http://hdl.handle.net/11686/38018</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38018/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37722">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Prijatelj (Notranjski muzej Postojna)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PrijateljIvan1875">Ivan Prijatelj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37722">http://hdl.handle.net/11686/37722</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37722/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38000">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Prijatelj (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PrijateljIvan1875">Ivan Prijatelj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38000">http://hdl.handle.net/11686/38000</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38000/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37401">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Sojč (POMUM)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KolbičGabriel1913">Gabriel Kolbič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.SojčIvan1879">Ivan Sojč</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37401">http://hdl.handle.net/11686/37401</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37401/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37274">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Vavpotič (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.VavpotičIvan1877">Ivan Vavpotič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37274">http://hdl.handle.net/11686/37274</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37274/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38003">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Vavpotič (Novo mesto)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.VavpotičIvan1877">Ivan Vavpotič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38003">http://hdl.handle.net/11686/38003</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38003/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37292">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivana Kobilca (NG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.RepičAlojzij1866">Alojzij Repič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KobilcaIvana1862">Ivana Kobilca</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37292">http://hdl.handle.net/11686/37292</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37292/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37915">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Izidor Cankar (AGRFT)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MaherMarko">Marko Maher</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIzidor1886">Izidor Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37915">http://hdl.handle.net/11686/37915</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37915/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38019">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Izidor Cankar (NUK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MaherMarko">Marko Maher</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.CankarIzidor1886">Izidor Cankar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38019">http://hdl.handle.net/11686/38019</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38019/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37991">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Jan Oeltjen (PMPO)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KolbičGabriel1913">Gabriel Kolbič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.OeltjenJan1880">Jan Oeltjen</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37991">http://hdl.handle.net/11686/37991</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37991/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37295">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Janez Šubic (NG)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŠubicJanez1850">Janez Šubic</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37295">http://hdl.handle.net/11686/37295</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37295/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37142">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Josip Broz-Tito (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.BrozJosip1892">Josip Broz-Tito</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37142">http://hdl.handle.net/11686/37142</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37142/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37715">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Josip Vilfan, mlajši (Goriški muzej)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.VilfanJosip1878">Josip Vilfan, mlajši</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37715">http://hdl.handle.net/11686/37715</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37715/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37173">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Jože Plečnik (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PlečnikJože1872">Jože Plečnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37173">http://hdl.handle.net/11686/37173</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37173/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38002">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Jože Plečnik (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PlečnikJože1872">Jože Plečnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38002">http://hdl.handle.net/11686/38002</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38002/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37406">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Jože Plečnik (SAZU)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.PlečnikJože1872">Jože Plečnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37406">http://hdl.handle.net/11686/37406</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37406/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37349">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Jurij Šubic (NMS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŠubicJurij1855">Jurij Šubic</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37349">http://hdl.handle.net/11686/37349</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37349/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37165">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Karol Kotnik (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37165">http://hdl.handle.net/11686/37165</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37165/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37350">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Karol Kotnik (NMS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KotnikKarel1875">Karol Kotnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37350">http://hdl.handle.net/11686/37350</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37350/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37993">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ludvig van Beethoven (SLOGI)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KleinFranz1779">Franz Klein</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.BeethovenLudwig1770">Ludvig van Beethoven</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37993">http://hdl.handle.net/11686/37993</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37993/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37474">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ludwig van Beethoven (Glasbena matica)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DanhauserJosef1805">Josef Danhauser</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.BeethovenLudwig1770">Ludwig van Beethoven</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37474">http://hdl.handle.net/11686/37474</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37474/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37995">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Marjan Kozina (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KozinaMarjan1907">Marjan Kozina</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37995">http://hdl.handle.net/11686/37995</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37995/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37404">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Marjan Mušič (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.MušičMarjan1904">Marjan Mušič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37404">http://hdl.handle.net/11686/37404</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37404/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37412">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Matija Jama (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JamaMatija1872">Matija Jama</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37412">http://hdl.handle.net/11686/37412</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37412/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37180">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Mihajlo Rostohar (MMK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.RostoharMihajlo1878">Mihajlo Rostohar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37180">http://hdl.handle.net/11686/37180</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37180/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37409">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Milan Škerlj (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŠkerljMilan1875">Milan Škerlj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37409">http://hdl.handle.net/11686/37409</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37409/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37403">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Miško Kranjec (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.MercinaLojze">Lojze Mercina</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KranjecMiško1908">Miško Kranjec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37403">http://hdl.handle.net/11686/37403</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37403/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37153">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (1) (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37153">http://hdl.handle.net/11686/37153</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37153/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37181">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (1) (MMK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37181">http://hdl.handle.net/11686/37181</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37181/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37275">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (1) (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37275">http://hdl.handle.net/11686/37275</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37275/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37154">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (2) (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37154">http://hdl.handle.net/11686/37154</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37154/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37156">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (3) (MGML)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37156">http://hdl.handle.net/11686/37156</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37156/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37155">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznan upodobljenec (4) (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SmerduFrančišek1908">Frančišek Smerdu</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznan upodobljenec</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37155">http://hdl.handle.net/11686/37155</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37155/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37225">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Neznana upodobljenka (MMK)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.StovičekVladimir1896">Vladimir Štoviček</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.unknown">Neznana upodobljenka</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37225">http://hdl.handle.net/11686/37225</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37225/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37271">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (1) (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37271">http://hdl.handle.net/11686/37271</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37271/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37272">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (2) (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37272">http://hdl.handle.net/11686/37272</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37272/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37989">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (Belokranjski muzej)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37989">http://hdl.handle.net/11686/37989</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37989/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37152">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37152">http://hdl.handle.net/11686/37152</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37152/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37998">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37998">http://hdl.handle.net/11686/37998</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37998/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37408">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Oton Župančič (SAZU)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37408">http://hdl.handle.net/11686/37408</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37408/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37714">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Piero Marussig (Goriški muzej)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.MarussigPiero1879">Piero Marussig</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37714">http://hdl.handle.net/11686/37714</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37714/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37876">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Prežihov Voranc</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.VorancPrežihov1893">Prežihov Voranc</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37876">http://hdl.handle.net/11686/37876</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37876/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37999">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Prežihov Voranc (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.VorancPrežihov1893">Prežihov Voranc</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37999">http://hdl.handle.net/11686/37999</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37999/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37997">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rajko Nahtigal (Novo mesto)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.NahtigalRajko1877">Rajko Nahtigal</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37997">http://hdl.handle.net/11686/37997</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37997/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37174">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (1) (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37174">http://hdl.handle.net/11686/37174</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37174/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37175">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (2) (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37175">http://hdl.handle.net/11686/37175</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37175/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37176">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (3) (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37176">http://hdl.handle.net/11686/37176</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37176/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37299">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (NG)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37299">http://hdl.handle.net/11686/37299</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37299/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37720">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (Notranjski muzej Postojna)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37720">http://hdl.handle.net/11686/37720</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37720/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37410">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Rihard Jakopič (SAZU)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PutrihKarel1910">Karel Putrih</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.JakopičRihard1869">Rihard Jakopič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37410">http://hdl.handle.net/11686/37410</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37410/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37414">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Risto Savin (SKZAL)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SalesinEdvard1910">Edvard Salesin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.ŠircaFriderik1859">Risto Savin</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37414">http://hdl.handle.net/11686/37414</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37414/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37717">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (Goriški muzej)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37717">http://hdl.handle.net/11686/37717</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37717/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37145">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KregarRado1893">Rado Kregar</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37145">http://hdl.handle.net/11686/37145</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37145/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37300">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (NUK)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37300">http://hdl.handle.net/11686/37300</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37300/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38001">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (Novo mesto)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38001">http://hdl.handle.net/11686/38001</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38001/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37297">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (Tolminski muzej)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37297">http://hdl.handle.net/11686/37297</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37297/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37149">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Slavko Osterc (MGML)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.SajevicIvan1891">Ivan Sajevic</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.OstercSlavko1895">Slavko Osterc</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37149">http://hdl.handle.net/11686/37149</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37149/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37917">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Stane Sever (AGRFT)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinBoris1905">Boris Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.SeverStane1914">Stane Sever</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37917">http://hdl.handle.net/11686/37917</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37917/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37988">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Stane Sever (Kamnik)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.SeverStane1914">Stane Sever</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37988">http://hdl.handle.net/11686/37988</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37988/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37413">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Tone Kralj (Galerija Velenje)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KraljAnton1900">Tone Kralj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37413">http://hdl.handle.net/11686/37413</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37413/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37716">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Tone Kralj (Goriški muzej)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KeršičMarjan1920">Marjan Keršič</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.KraljAnton1900">Tone Kralj</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37716">http://hdl.handle.net/11686/37716</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37716/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37267">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Vito Globočnik (1) (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37267">http://hdl.handle.net/11686/37267</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37267/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37268">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Vito Globočnik (2) (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37268">http://hdl.handle.net/11686/37268</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37268/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37269">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Vito Globočnik (3) (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GlobočnikVito1920">Vito Globočnik</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37269">http://hdl.handle.net/11686/37269</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37269/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+   </list>
+</div>
          <div type="listPerson" xml:id="listPerson">
             <head>Osebe</head>
             <listPerson xml:id="persons-deathMask">
@@ -5198,6 +5587,11 @@
                      <forename>Ludwig</forename>
                      <nameLink>van</nameLink>
                   </persName>
+                  <persName>
+                     <surname>Beethoven</surname>
+                     <forename>Ludvig</forename>
+                     <nameLink>van</nameLink>
+                  </persName>
                   <sex value="M"/>
                   <occupation scheme="#occupation" code="#skladatelj"/>
                   <birth>
@@ -5266,6 +5660,36 @@
                      </placeName>
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi155071/</idno>
+               </person>
+               <person xml:id="pers.CankarIzidor1886">
+                  <persName>
+                     <forename>Izidor</forename>
+                     <surname>Cankar</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#umetnostni-zgodovinar"/>
+                  <occupation scheme="#occupation" code="#umetnostni-kritik"/>
+                  <occupation source="#es" scheme="#occupation" code="#pisatelj"/>
+                  <occupation source="#es" scheme="#occupation" code="#prevajalec"/>
+                  <occupation source="#es" scheme="#occupation" code="#diplomat"/>
+                  <birth>
+                     <date when="1886-04-22"/>
+                     <placeName>
+                        <settlement>Šid</settlement>
+                        <region>Vojvodina</region>
+                        <country>Srbija</country>
+                        <geo>45.1283333 19.2263889</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1958-09-22"/>
+                     <placeName source="#es">
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi155611/</idno>
                </person>
                <person xml:id="pers.DanhauserJosef1805">
                   <persName>
@@ -5341,6 +5765,36 @@
                   <occupation scheme="#occupation" code="#kipar"/>
                   <idno type="URL">https://sl.wikipedia.org/wiki/Stane_Dremelj</idno>
                </person>
+               <person xml:id="pers.GanglAlojzij1859">
+                  <persName>
+                     <forename>Alojzij</forename>
+                     <surname>Gangl</surname>
+                  </persName>
+                  <persName>
+                     <forename>Alojz</forename>
+                     <surname>Gangl</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#kipar"/>
+                  <birth>
+                     <date when="1859-06-08"/>
+                     <placeName>
+                        <settlement>Metlika</settlement>
+                        <country>Slovenija</country>
+                        <geo>45.6473994 15.3176752</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1935-10-02"/>
+                     <placeName>
+                        <settlement>Praga</settlement>
+                        <settlement xml:lang="cs">Praha</settlement>
+                        <country>Češka</country>
+                        <geo>50.0755381 14.4378005</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi196550/</idno>
+               </person>
                <person xml:id="pers.GlobočnikVito1920">
                   <persName>
                      <surname>Globočnik</surname>
@@ -5364,6 +5818,25 @@
                   <occupation scheme="#occupation" code="#slikar"/>
                   <occupation scheme="#occupation" code="#grafik"/>
                   <idno type="URL">https://sl.wikipedia.org/wiki/Vito_Globo%C4%8Dnik</idno>
+               </person>
+               <person xml:id="pers.GoršeFrance1897">
+                  <persName>
+                     <forename>France</forename>
+                     <surname>Gorše</surname>
+                  </persName>
+                  <sex value="1"/>
+                  <occupation scheme="#occupation" code="#kipar"/>
+                  <occupation scheme="#occupation" code="#grafik"/>
+                  <birth>
+                     <date when="1897-09-26"/>
+                     <placeName>v Zamostecu pri Sodražici na Dolenjskem</placeName>
+                  </birth>
+                  <death>
+                     <date when="1986-08-02"/>
+                     <placeName>Golnik</placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi1010390/</idno>
+                  <idno type="URL">https://sl.wikipedia.org/wiki/France_Gor%C5%A1e</idno>
                </person>
                <person xml:id="pers.GregorčičSimon1844">
                   <persName>
@@ -5579,6 +6052,20 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi273316/</idno>
                </person>
+               <person xml:id="pers.KleinFranz1779">
+                  <persName>
+                     <surname>Klein</surname>
+                     <forename>Franz</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <birth>
+                     <date when="1779"/>
+                  </birth>
+                  <death>
+                     <date when="1840"/>
+                  </death>
+                  <idno type="URL">https://en.wikipedia.org/wiki/Franz_Klein_(sculptor)</idno>
+               </person>
                <person xml:id="pers.KobilcaIvana1862">
                   <persName>
                      <surname>Kobilca</surname>
@@ -5702,6 +6189,29 @@
                   </death>
                   <occupation scheme="#occupation" code="#podjetnik"/>
                   <idno type="URL">https://sl.wikipedia.org/wiki/Karel_Kotnik</idno>
+               </person>
+               <person xml:id="pers.KozinaMarjan1907">
+                  <persName>
+                     <surname>Kozina</surname>
+                     <forename>Marjan</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <birth>
+                     <date when="1907-06-04"/>
+                     <placeName>
+                        <settlement>Novo mesto</settlement>
+                        <country>Slovenija</country>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1966-06-19"/>
+                     <placeName>
+                        <settlement>Novo mesto</settlement>
+                        <country>Slovenija</country>
+                     </placeName>
+                  </death>
+                  <occupation scheme="#occupation" code="#skladatelj"/>
+                  <idno type="URL">https://sl.wikipedia.org/wiki/Marjan_Kozina</idno>
                </person>
                <person xml:id="pers.KraigherAlojz1877">
                   <persName>
@@ -5973,6 +6483,14 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi333102/</idno>
                </person>
+               <person xml:id="pers.MaherMarko">
+                  <persName>
+                     <surname>Maher</surname>
+                     <forename>Marko</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#akademski-kipar"/>
+               </person>
                <person xml:id="pers.MarussigPiero1879">
                   <persName>
                      <surname>Marussig</surname>
@@ -6090,6 +6608,33 @@
                      <date when="1900-08-15"/>
                   </death>
                   <idno type="URL">https://sl.wikipedia.org/wiki/Friedrich_Wilhelm_Nietzsche</idno>
+               </person>
+               <person xml:id="pers.OeltjenJan1880">
+                  <persName>
+                     <forename>Jan</forename>
+                     <surname>Oeltjen</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#slikar"/>
+                  <occupation scheme="#occupation" code="#grafik"/>
+                  <birth>
+                     <date when="1880-08-15"/>
+                     <placeName>
+                        <settlement>Jaderberg</settlement>
+                        <region>Spodnja Saška</region>
+                        <country>Nemčija</country>
+                        <geo>53.3330131 8.1855889</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1968-02-13"/>
+                     <placeName>
+                        <settlement>Ptuj</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.4199535 15.8696884</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi393295/</idno>
                </person>
                <person xml:id="pers.OraženIvan1869">
                   <persName>
@@ -6271,6 +6816,35 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi477562/</idno>
                </person>
+               <person xml:id="pers.NahtigalRajko1877">
+                  <persName>
+                     <forename>Rajko</forename>
+                     <surname>Nahtigal</surname>
+                  </persName>
+                  <persName>
+                     <forename>Rajko</forename>
+                     <surname xml:lang="de">Nachtigall</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#jezikoslovec"/>
+                  <birth>
+                     <date when="1877-04-14"/>
+                     <placeName>
+                        <settlement>Novo mesto</settlement>
+                        <country>Slovenija</country>
+                        <geo>45.8010824 15.1710089</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1958-03-29"/>
+                     <placeName source="#es">
+                        <settlement>Ljubljana</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.0564509 14.5080702</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi384232/</idno>
+               </person>
                <person xml:id="pers.RamovšFran1890">
                   <persName>
                      <surname>Ramovš</surname>
@@ -6348,6 +6922,35 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi518905/</idno>
                </person>
+               <person xml:id="pers.RožmanGregorij1883">
+                  <persName>
+                     <forename>Gregorij</forename>
+                     <surname>Rožman</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#duhovnik"/>
+                  <occupation scheme="#occupation" code="#skof"/>
+                  <birth>
+                     <date when="1883-03-09">9. marca 1883</date>
+                     <placeName>
+                        <settlement>Dolinčice</settlement>
+                        <settlement xml:lang="de">Dolintschach</settlement>
+                        <region>Koroška</region>
+                        <country>Avstrija</country>
+                        <geo>46.55655 14.7775</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1959-11-16">16. nov. 1959</date>
+                     <placeName>
+                        <settlement>Cleveland</settlement>
+                        <region>Ohio</region>
+                        <country>Združene države Amerike</country>
+                        <geo>41.4994954 -81.6954088</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi523031/</idno>
+               </person>
                <person xml:id="pers.SajevicIvan1891">
                   <persName>
                      <forename>Ivan</forename>
@@ -6373,12 +6976,6 @@
                      </placeName>
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi531731/</idno>
-               </person>
-               <person xml:id="pers.SajovicIvan">
-                  <persName>
-                     <surname>Sajovic</surname>
-                     <forename>Ivan</forename>
-                  </persName>
                </person>
                <person xml:id="pers.SalesinEdvard1910">
                   <persName>
@@ -6455,6 +7052,33 @@
                      </placeName>
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi564542/</idno>
+               </person>
+               <person xml:id="pers.SeverStane1914">
+                  <persName>
+                     <forename>Stane</forename>
+                     <surname>Sever</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#gledaliski-igralec"/>
+                  <occupation scheme="#occupation" code="#filmski-igralec"/>
+                  <birth>
+                     <date when="1914-11-20"/>
+                     <placeName>
+                        <settlement>Ljubljana</settlement>
+                        <district>Vič</district>
+                        <country>Slovenija</country>
+                        <geo>46.025078 14.4641067</geo>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1970-12-18"/>
+                     <placeName>
+                        <settlement>Ribnica na Pohorju</settlement>
+                        <country>Slovenija</country>
+                        <geo>46.5356403 15.2675136</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi565682/</idno>
                </person>
                <person xml:id="pers.SmerduFrančišek1908">
                   <persName>
@@ -6765,6 +7389,59 @@
                   </death>
                   <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi764889/</idno>
                </person>
+               <person xml:id="pers.VilfanJosip1878">
+                  <persName>
+                     <forename>Josip</forename>
+                     <surname>Vilfan</surname>
+                     <genName>mlajši</genName>
+                  </persName>
+                  <persName>
+                     <forename>Josip</forename>
+                     <surname xml:lang="de">Wilfan</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#politik"/>
+                  <occupation scheme="#occupation" code="#pravnik"/>
+                  <occupation scheme="#occupation" code="#odvetnik"/>
+                  <birth>
+                     <date when="1878-08-30"/>
+                     <placeName>
+                        <settlement>Trst</settlement>
+                        <region>Furlanija - Julijska krajina</region>
+                        <country>Italija</country>
+                     </placeName>
+                  </birth>
+                  <death>
+                     <date when="1955-03-08"/>
+                     <placeName>
+                        <settlement>Beograd</settlement>
+                        <country>Srbija</country>
+                        <geo>44.8205556 20.4622222</geo>
+                     </placeName>
+                  </death>
+                  <idno type="URL">http://www.slovenska-biografija.si/oseba/sbi787963/</idno>
+               </person>
+               <person xml:id="pers.VorancPrežihov1893">
+                  <persName>
+                     <surname>Voranc</surname>
+                     <forename>Prežihov</forename>
+                  </persName>
+                  <persName>
+                     <surname>Kuhar</surname>
+                     <forename>Lovro</forename>
+                  </persName>
+                  <sex value="M"/>
+                  <occupation scheme="#occupation" code="#pisatelj"/>
+                  <occupation scheme="#occupation" code="#politik"/>
+                  <birth>
+                     <date when="1893-08-10"/>
+                     <placeName>Podgora</placeName>
+                  </birth>
+                  <death>
+                     <date when="1950-02-18"/>
+                     <placeName>Maribor</placeName>
+                  </death>
+               </person>
                <person xml:id="pers.ŽerjavGregor1882">
                   <persName>
                      <surname>Žerjav</surname>
@@ -6826,16 +7503,119 @@
                </person>
             </listPerson>
          </div>
+         <!--<div type="listOrg" xml:id="listOrg">
+            <head>Ustanove</head>
+            <!-\- kratice sem poobral iz naslovov (zapisane v oklepaju) -\->
+            <listOrg xml:id="organizations-deathMask">
+               <org>
+                  <orgName>Cankarjev dom</orgName>
+                  <orgName full="abb">CD</orgName>
+               </org>
+               <org>
+                  <orgName>Galerije Velenje</orgName>
+               </org>
+               <org>
+                  <orgName>Glasbena matica Ljubljana</orgName>
+                  <orgName full="abb">Glasbena matica</orgName>
+               </org>
+               <org>
+                  <orgName>Goriški muzej</orgName>
+               </org>
+               <org>
+                  <orgName>Loški muzej Škofja Loka</orgName>
+                  <orgName full="abb">LM</orgName>
+               </org>
+               <org>
+                  <orgName>Medobčinska splošna knjižnica Žalec</orgName>
+                  <orgName full="abb">SKZAL</orgName>
+               </org>
+               <org>
+                  <orgName>Mestni muzej Krško</orgName>
+                  <orgName full="abb">MMK</orgName>
+               </org>
+               <org>
+                  <orgName>Mestni muzej Ljubljana</orgName>
+                  <orgName full="abb">MGML</orgName>
+               </org>
+               <org>
+                  <orgName>Moderna galerija</orgName>
+                  <orgName full="abb">MG</orgName>
+               </org>
+               <org>
+                  <orgName>Muzej novejše zgodovine Slovenije</orgName>
+                  <orgName full="abb">MNZS</orgName>
+               </org>
+               <org>
+                  <orgName>Muzej za arhitekturo in oblikovanje</orgName>
+               </org>
+               <org>
+                  <orgName>Narodna galerija</orgName>
+                  <orgName full="abb">NG</orgName>
+               </org>
+               <org>
+                  <orgName>Narodna in univerzitetna knjižnica</orgName>
+                  <orgName full="abb">NUK</orgName>
+               </org>
+               <org>
+                  <orgName>Narodni muzej Slovenije</orgName>
+                  <orgName full="abb">NMS</orgName>
+               </org>
+               <org>
+                  <orgName>Notranjski muzej Postojna</orgName>
+               </org>
+               <org>
+                  <orgName>Pokrajinski muzej Celje</orgName>
+               </org>
+               <org>
+                  <orgName>Pokrajinski muzej Maribor</orgName>
+                  <orgName full="abb">POMUM</orgName>
+               </org>
+               <org>
+                  <orgName>Slovanska knjižnica</orgName>
+                  <orgName full="abb">MKL</orgName>
+               </org>
+               <org>
+                  <orgName>Slovenska akademija znanosti in umetnosti</orgName>
+                  <orgName full="abb">SAZU</orgName>
+               </org>
+               <org>
+                  <orgName>Tolminski muzej</orgName>
+               </org>
+               <org>
+                  <orgName>Zavod Ivana Cankarja Vrhnika</orgName>
+                  <orgName full="abb">Vrhnika</orgName>
+               </org>
+            </listOrg>
+         </div>-->
       </body>
       <back>
          <divGen type="index" xml:id="objects">
-            <head>Tabela: posmrtne maske</head>
+            <head>Posmrtne maske</head>
          </divGen>
          <divGen type="index" xml:id="persons">
-            <head>Tabela: osebe</head>
+            <head>Osebe</head>
+         </divGen>
+         <!-- Bi se dalo v to tabelo dodat še leto smrti in rojstva upodobljenca ter poklic?
+            Nameravamo namreč na razstavi predstaviti časovnico z maskami in bi ob vsaki zapisali
+            še te podatke. Zelo bi nam prišlo prav, da bi vse imeli na enem mestu.
+          
+            Ideja je ta, da bi iz baze potegnili podatke, katere maske so nastale v določenem obdobju
+            (ki bi ga izbrali sami) in da bi bilo ob teh maskah zapisano, kdo je upodobljenec,
+            njegov poklic ter leto rojstva in smrti. Načeloma bi to za izdelavo infografike za celotno bazo zadostovalo.
+          
+            Koliko mask je nastalo v določenem času (po stoletjih, dekadah),
+            top 5 institucij, ki hranijo največ mask,
+            top 5 upodobljencev, ki imajo največ kopij in
+            top 5 poklicev.
+         -->
+         <divGen type="index" xml:id="representation">
+            <head>Posmrtne maske z znanimi upodobljenci</head>
+         </divGen>
+         <divGen type="index" xml:id="representation-persons">
+            <head>Upodobljenci posmrtnih mask</head>
          </divGen>
          <divGen type="index" xml:id="occupations">
-            <head>Poklici in dejavnosti</head>
+            <head>Poklici in dejavnosti oseb</head>
          </divGen>
       </back>
    </text>

@@ -253,7 +253,14 @@
                   <xsl:if test="tei:death">
                      <li>
                         <xsl:text>Smrt: </xsl:text>
-                        <xsl:value-of select="format-date(tei:death/tei:date/@when,'[D]. [M]. [Y]','en',(),())"/>
+                        <xsl:choose>
+                           <xsl:when test="contains(tei:death/tei:date/@when,'-')">
+                              <xsl:value-of select="format-date(tei:death/tei:date/@when,'[D]. [M]. [Y]','en',(),())"/>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="tei:death/tei:date/@when"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
                         <xsl:if test="tei:death/tei:placeName">
                            <xsl:text> (</xsl:text>
                            <xsl:for-each select="tei:death/tei:placeName[1]/*[not(self::tei:geo)]">
@@ -403,6 +410,14 @@
       <xsl:if test="self::tei:divGen[@type='index'][@xml:id='persons']">
          <xsl:call-template name="datatables-persons"/>
       </xsl:if>
+      <!-- za generiranje datateble mask z znanimi upodobljenci -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='representation']">
+         <xsl:call-template name="datatables-representation"/>
+      </xsl:if>
+      <!-- za generiranje datateble upodobljencev posmrtnih mask -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='representation-persons']">
+         <xsl:call-template name="datatables-representation-persons"/>
+      </xsl:if>
       <!-- za generiranje seznama poklicev -->
       <xsl:if test="self::tei:divGen[@type='index'][@xml:id='occupations']">
          <xsl:call-template name="occupations"/>
@@ -495,200 +510,244 @@
    </xsl:template>
    
    <xsl:template name="datatables-masks">
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css"/>
-      
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<style>
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
          *, *::after, *::before {
-    box-sizing: border-box;
-}
-.pagination .current {
-    background: #8e130b;
-}
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
       </style>
-
-         ]]></xsl:text>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<script>
-            $(document).ready(function() {
-    $('#datatableMasks').DataTable( {
-        initComplete: function () {
-            this.api().columns().every( function () {
-                var column = this;
-                var select = $('<select><option value=""></option></select>')
-                    .appendTo( $(column.footer()).empty() )
-                    .on( 'change', function () {
-                        var val = $.fn.dataTable.util.escapeRegex(
-                            $(this).val()
-                        );
- 
-                        column
-                            .search( val ? '^'+val+'$' : '', true, false )
-                            .draw();
-                    } );
- 
-                column.data().unique().sort().each( function ( d, j ) {
-                    select.append( '<option value="'+d+'">'+d+'</option>' )
-                } );
-            } );
-        },
-        "oLanguage": {
-						"sProcessing": "Obdelujem...",
-                            "sLengthMenu": "Prikaži _MENU_ zapisov",
-                            "sZeroRecords": "Noben zapis ni bil najden",
-                            "sInfo": "Prikazanih od _START_ do _END_ od skupno _TOTAL_ zapisov",
-                            "sInfoEmpty": "Prikazanih od 0 do 0 od skupno 0 zapisov",
-                            "sInfoFiltered": "(filtrirano po vseh _MAX_ zapisih)",
-                            "sInfoPostFix": "",
-                            "sSearch": "Išči po vseh stolpcih:",
-                            "sUrl": "",
-                            "oPaginate": {
-                                "sFirst": "Prva",
-                                "sPrevious": "Nazaj",
-                                "sNext": "Naprej",
-                                "sLast": "Zadnja"
-                                }
-					}
-    } );
-} );
-        </script>]]></xsl:text>
+      <script>
+         var columnIDs = [2, 3, 4];
+      </script>
       
-      <div class="table-scroll">
-         <table id="datatableMasks" class="display" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
-            <thead>
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu nastanka maske</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu nastanka od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto nastanka (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto nastanka (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <table id="datatableMasks" class="display responsive nowrap targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Zaporedje</th>
+               <th>Naziv</th>
+               <th>Leto</th>
+               <th>Upodobljenec</th>
+               <th>Ustanova</th>
+            </tr>
+         </thead>
+         <tfoot>
+            <tr>
+               <th></th>
+               <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+            </tr>
+         </tfoot>
+         <tbody>
+            <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type='lido']/tei:list[@type='deathMask']/tei:item">
+               <xsl:variable name="maskID" select="@xml:id"/>
+               <xsl:variable name="sistoryID" select="substring-after(@xml:id,'sistory-')"/>
+               <xsl:variable name="path2lido" select="concat('../../LIDO/',$sistoryID,'/metadata.xml')"/>
                <tr>
-                  <th>Zaporedje</th>
-                  <th>Naziv</th>
-                  <th>Leto</th>
-                  <th>Upodobljenec</th>
-                  <th>Ustanova</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th>Zaporedje</th>
-                  <th>Naziv</th>
-                  <th>Leto</th>
-                  <th>Upodobljenec</th>
-                  <th>Ustanova</th>
-               </tr>
-            </tfoot>
-            <tbody>
-               <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type='lido']/tei:list[@type='deathMask']/tei:item">
-                  <xsl:variable name="maskID" select="@xml:id"/>
-                  <xsl:variable name="sistoryID" select="substring-after(@xml:id,'sistory-')"/>
-                  <xsl:variable name="path2lido" select="concat('../../LIDO/',$sistoryID,'/metadata.xml')"/>
-                  <tr>
-                     <!-- Zaporedje -->
-                     <td data-order="{position()}">
-                        <xsl:variable name="chapterID" select="ancestor::tei:div[@type ='lido']/@xml:id"/>
-                        <a>
-                           <xsl:attribute name="href">
-                              <!-- dodana relativna pot v okviru SIstory -->
-                              <xsl:variable name="sistoryPath">
-                                 <xsl:if test="$chapterAsSIstoryPublications='true'">
-                                    <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1000,'/',$SISTORYID,'/')"/>
-                                    <!--<xsl:call-template name="sistoryPath">
+                  <!-- Zaporedje -->
+                  <td data-order="{position()}">
+                     <xsl:variable name="chapterID" select="ancestor::tei:div[@type ='lido']/@xml:id"/>
+                     <a>
+                        <xsl:attribute name="href">
+                           <!-- dodana relativna pot v okviru SIstory -->
+                           <xsl:variable name="sistoryPath">
+                              <xsl:if test="$chapterAsSIstoryPublications='true'">
+                                 <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1000,'/',$SISTORYID,'/')"/>
+                                 <!--<xsl:call-template name="sistoryPath">
                                        <xsl:with-param name="chapterID" select="@chapterID"/>
                                     </xsl:call-template>-->
-                                 </xsl:if>
-                              </xsl:variable>
-                              <xsl:sequence select="concat($sistoryPath,$chapterID,$standardSuffix,'#',$maskID)"/>
-                           </xsl:attribute>
-                           <xsl:value-of select="position()"/>
-                        </a>
-                     </td>
-                     <!-- Naziv -->
-                     <td>
-                        <xsl:value-of select="tei:list/tei:item[1]"/>
-                     </td>
-                     <!-- Leto -->
-                     <td>
-                        <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventDate/lido:date/lido:earliestDate"/>
-                     </td>
-                     <!-- Upodobljenec -->
-                     <td>
-                        <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification/lido:term"/>
-                     </td>
-                     <!-- Ustanova -->
-                     <td>
-                        <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryName/lido:legalBodyName/lido:appellationValue"/>
-                     </td>
-                  </tr>
-               </xsl:for-each>
-            </tbody>
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
+                              </xsl:if>
+                           </xsl:variable>
+                           <xsl:sequence select="concat($sistoryPath,$chapterID,$standardSuffix,'#',$maskID)"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="position()"/>
+                     </a>
+                  </td>
+                  <!-- Naziv -->
+                  <td>
+                     <xsl:value-of select="tei:list/tei:item[1]"/>
+                  </td>
+                  <!-- Leto -->
+                  <td>
+                     <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventDate/lido:date/lido:earliestDate"/>
+                  </td>
+                  <!-- Upodobljenec -->
+                  <td>
+                     <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification/lido:term"/>
+                  </td>
+                  <!-- Ustanova -->
+                  <td>
+                     <xsl:value-of select="document($path2lido)/lido:lidoWrap/lido:lido/lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryName/lido:legalBodyName/lido:appellationValue"/>
+                  </td>
+               </tr>
+            </xsl:for-each>
+         </tbody>
+      </table>
+      <br/>
+      <br/>
+      <br/>
    </xsl:template>
    
-   
-   
    <xsl:template name="datatables-persons">
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css"/>
-      
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<style>
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
          *, *::after, *::before {
-    box-sizing: border-box;
-}
-.pagination .current {
-    background: #8e130b;
-}
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
       </style>
-
-         ]]></xsl:text>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<script>
-            $(document).ready(function() {
-    $('#datatablePersons').DataTable( {
-        initComplete: function () {
-            this.api().columns().every( function () {
-                var column = this;
-                var select = $('<select><option value=""></option></select>')
-                    .appendTo( $(column.footer()).empty() )
-                    .on( 'change', function () {
-                        var val = $.fn.dataTable.util.escapeRegex(
-                            $(this).val()
-                        );
- 
-                        column
-                            .search( val ? '^'+val+'$' : '', true, false )
-                            .draw();
-                    } );
- 
-                column.data().unique().sort().each( function ( d, j ) {
-                    select.append( '<option value="'+d+'">'+d+'</option>' )
-                } );
-            } );
-        },
-        "oLanguage": {
-						"sProcessing": "Obdelujem...",
-                            "sLengthMenu": "Prikaži _MENU_ zapisov",
-                            "sZeroRecords": "Noben zapis ni bil najden",
-                            "sInfo": "Prikazanih od _START_ do _END_ od skupno _TOTAL_ zapisov",
-                            "sInfoEmpty": "Prikazanih od 0 do 0 od skupno 0 zapisov",
-                            "sInfoFiltered": "(filtrirano po vseh _MAX_ zapisih)",
-                            "sInfoPostFix": "",
-                            "sSearch": "Išči po vseh stolpcih:",
-                            "sUrl": "",
-                            "oPaginate": {
-                                "sFirst": "Prva",
-                                "sPrevious": "Nazaj",
-                                "sNext": "Naprej",
-                                "sLast": "Zadnja"
-                                }
-					}
-    } );
-} );
-        </script>]]></xsl:text>
+      <script>
+         var columnIDs = [4, 5, 6, 7, 8];
+      </script>
       
-      <div class="table-scroll">
-         <table id="datatablePersons" class="display" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+      <div>
+         <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item="">
+               <a href="#" class="accordion-title">Filtriraj po datumu rojstva</a>
+               <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
+                  <div class="row">
+                     <div class="small-3 columns">
+                        <label for="middle-label" class="text-right middle">Filtriraj od datuma rojstva</label>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinDay" maxlength="2" placeholder="Dan"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Mesec"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinYear" maxlength="4" placeholder="Leto"/>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="small-3 columns">
+                        <label for="middle-label" class="text-right middle">do datuma rojstva</label>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Dan"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Mesec"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Leto"/>
+                     </div>
+                     <div class="small-12 columns" style="text-align: right;">
+                        <a class="clearRangeFilter" href="#">Počisti filter</a>
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li class="accordion-item" data-accordion-item="">
+               <a href="#" class="accordion-title">Filtriraj po datumu smrti</a>
+               <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
+                  <div class="row">
+                     <div class="small-3 columns">
+                        <label for="middle-label" class="text-right middle">Filtriraj od datuma smrti</label>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinDay" maxlength="2" placeholder="Dan"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Mesec"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMinYear" maxlength="4" placeholder="Leto"/>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="small-3 columns">
+                        <label for="middle-label" class="text-right middle">do datuma smrti</label>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Dan"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Mesec"/>
+                     </div>
+                     <div class="small-3 columns">
+                        <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Leto"/>
+                     </div>
+                     <div class="small-12 columns" style="text-align: right;">
+                        <a class="clearRangeFilter" href="#">Počisti filter</a>
+                     </div>
+                  </div>
+               </div>
+            </li>
+         </ul>
+         
+         <table id="datatablePersons" class="display responsive nowrap targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
             <thead>
                <tr>
                   <th>Zaporedje</th>
@@ -704,15 +763,15 @@
             </thead>
             <tfoot>
                <tr>
-                  <th>Zaporedje</th>
-                  <th>Priimek in ime</th>
-                  <th>Datum rojstva</th>
-                  <th>Datum smrti</th>
-                  <th>Spol</th>
-                  <th>Avtor maske</th>
-                  <th>Upodobljenec</th>
-                  <th>Poklic 1</th>
-                  <th>Poklic 2</th>
+                  <th></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="LLLL-MM-DD" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="LLLL-MM-DD" type="text"/></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
                </tr>
             </tfoot>
             <tbody>
@@ -767,12 +826,26 @@
                         </xsl:for-each>
                      </td>
                      <!-- datum rojstva -->
-                     <td>
-                        <xsl:value-of select="tei:birth/tei:date/@when"/>
+                     <td data-search="{tei:birth/tei:date/@when}">
+                        <xsl:attribute name="data-order">
+                           <xsl:for-each select="tei:birth/tei:date/@when">
+                              <xsl:call-template name="sort-date"/>
+                           </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:for-each select="tei:birth/tei:date/@when">
+                           <xsl:call-template name="format-date"/>
+                        </xsl:for-each>
                      </td>
                      <!-- datum smrti -->
-                     <td>
-                        <xsl:value-of select="tei:death/tei:date/@when"/>
+                     <td data-search="{tei:death/tei:date/@when}">
+                        <xsl:attribute name="data-order">
+                           <xsl:for-each select="tei:death/tei:date/@when">
+                              <xsl:call-template name="sort-date"/>
+                           </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:for-each select="tei:death/tei:date/@when">
+                           <xsl:call-template name="format-date"/>
+                        </xsl:for-each>
                      </td>
                      <!-- spol -->
                      <td>
@@ -817,7 +890,409 @@
       </div>
    </xsl:template>
    
+   <xsl:template name="datatables-representation">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
+      <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [1, 2, 3, 4];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu rojstva upodobljenca</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu rojstva od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto rojstva (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto rojstva (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu smrti upodobljenca</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu smrti od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto smrti (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto smrti (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <table id="datatableRepresentation" class="display responsive nowrap targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Maska</th>
+               <th>Upodobljenec</th>
+               <th>Rojstvo</th>
+               <th>Smrt</th>
+               <th>Poklic</th>
+            </tr>
+         </thead>
+         <tfoot>
+            <tr>
+               <th></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+            </tr>
+         </tfoot>
+         <tbody>
+            <!-- izpiše vse maske, pri kateri upodobljenec ni neznana oseba -->
+            <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@xml:id='lido']/tei:list[@type='deathMask']/tei:item">
+               <xsl:variable name="position" select="position()"/>
+               <xsl:variable name="upodobljenecId" select="substring-after(tei:list/tei:item[contains(preceding-sibling::tei:label[1],'Upodobljenec')]/tei:ref/@target,'#')"/>
+               <xsl:if test="not(tei:list/tei:item/tei:ref/@target='#pers.unknown')">
+                  <tr>
+                     <!-- zaporedje maske -->
+                     <xsl:variable name="maskID" select="@xml:id"/>
+                     <xsl:variable name="sistoryID" select="substring-after(@xml:id,'sistory-')"/>
+                     <xsl:variable name="path2lido" select="concat('../../LIDO/',$sistoryID,'/metadata.xml')"/>
+                     <td data-order="{$position}">
+                        <xsl:variable name="chapterID" select="ancestor::tei:div[@type ='lido']/@xml:id"/>
+                        <a>
+                           <xsl:attribute name="href">
+                              <!-- dodana relativna pot v okviru SIstory -->
+                              <xsl:variable name="sistoryPath">
+                                 <xsl:if test="$chapterAsSIstoryPublications='true'">
+                                    <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1000,'/',$SISTORYID,'/')"/>
+                                    <!--<xsl:call-template name="sistoryPath">
+                                       <xsl:with-param name="chapterID" select="@chapterID"/>
+                                    </xsl:call-template>-->
+                                 </xsl:if>
+                              </xsl:variable>
+                              <xsl:sequence select="concat($sistoryPath,$chapterID,$standardSuffix,'#',$maskID)"/>
+                           </xsl:attribute>
+                           <xsl:value-of select="$position"/>
+                        </a>
+                     </td>
+                     <!-- podatki o osebi -->
+                     <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type ='listPerson']/tei:listPerson/tei:person[@xml:id=$upodobljenecId]">
+                        <!-- Priimek in ime -->
+                        <td>
+                           <xsl:for-each select="tei:persName[1]">
+                              <xsl:choose>
+                                 <xsl:when test="not(child::*)">
+                                    <xsl:value-of select="."/>
+                                 </xsl:when>
+                                 <xsl:otherwise>
+                                    <xsl:value-of select="tei:surname"/>
+                                    <xsl:text>, </xsl:text>
+                                    <xsl:value-of select="tei:forename"/>
+                                    <xsl:if test="tei:addName">
+                                       <xsl:value-of select="concat(' - ',tei:addName)"/>
+                                    </xsl:if>
+                                    <xsl:if test="tei:genName">
+                                       <xsl:value-of select="concat(' ',tei:genName)"/>
+                                    </xsl:if>
+                                 </xsl:otherwise>
+                              </xsl:choose>
+                           </xsl:for-each>
+                        </td>
+                        <!-- leto rojstva -->
+                        <td>
+                           <xsl:value-of select="tokenize(tei:birth/tei:date/@when,'-')[1]"/>
+                        </td>
+                        <!-- leto smrti -->
+                        <td>
+                           <xsl:value-of select="tokenize(tei:death/tei:date/@when,'-')[1]"/>
+                        </td>
+                        <!-- poklic (samo prvi) -->
+                        <td>
+                           <xsl:variable name="poklic1" select="substring-after(tei:occupation[1]/@code,'#')"/>
+                           <xsl:for-each select="//tei:category[@xml:id = $poklic1]">
+                              <xsl:value-of select="tei:desc[1]"/>
+                           </xsl:for-each>
+                        </td>
+                     </xsl:for-each>
+                  </tr>
+               </xsl:if>
+            </xsl:for-each>
+         </tbody>
+      </table>
+   </xsl:template>
    
+   <xsl:template name="datatables-representation-persons">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
+      <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [2, 3, 4, 5];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu rojstva upodobljenca</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu rojstva od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto rojstva (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto rojstva (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu smrti upodobljenca</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu smrti od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto smrti (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto smrti (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <table id="datatableRepresentationPersons" class="display responsive nowrap targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Oseba</th>
+               <th>Upodobljenec</th>
+               <th>Rojstvo</th>
+               <th>Smrt</th>
+               <th>Poklic</th>
+               <th>Št. mask</th>
+            </tr>
+         </thead>
+         <tfoot>
+            <tr>
+               <th></th>
+               <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+            </tr>
+         </tfoot>
+         <tbody>
+            <xsl:for-each-group select="ancestor::tei:text/tei:body/tei:div[@xml:id='lido']/tei:list[@type='deathMask']/tei:item" group-by="tei:list/tei:item[contains(preceding-sibling::tei:label[1],'Upodobljenec')]/tei:ref/@target">
+               <xsl:if test="not(current-grouping-key() = '#pers.unknown')">
+                  <xsl:variable name="upodobljenecId" select="substring-after(current-grouping-key(),'#')"/>
+                  <xsl:variable name="stMask" select="count(current-group())"/>
+                  <tr>
+                     <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type ='listPerson']/tei:listPerson/tei:person">
+                        <xsl:variable name="position" select="position()"/>
+                        <xsl:if test="@xml:id = $upodobljenecId">
+                           <!-- Zaporedje -->
+                           <td data-order="{$position}">
+                              <xsl:variable name="chapterID" select="ancestor::tei:div[@type ='listPerson']/@xml:id"/>
+                              <a>
+                                 <xsl:attribute name="href">
+                                    <!-- dodana relativna pot v okviru SIstory -->
+                                    <xsl:variable name="sistoryPath">
+                                       <xsl:if test="$chapterAsSIstoryPublications='true'">
+                                          <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($SISTORYID)) div 1000) * 1000) + 1000,'/',$SISTORYID,'/')"/>
+                                          <!--<xsl:call-template name="sistoryPath">
+                                       <xsl:with-param name="chapterID" select="@chapterID"/>
+                                    </xsl:call-template>-->
+                                       </xsl:if>
+                                    </xsl:variable>
+                                    <xsl:sequence select="concat($sistoryPath,$chapterID,$standardSuffix,'#',$upodobljenecId)"/>
+                                 </xsl:attribute>
+                                 <xsl:value-of select="$position"/>
+                              </a>
+                           </td>
+                           <!-- Priimek in ime -->
+                           <td>
+                              <xsl:for-each select="tei:persName[1]">
+                                 <xsl:choose>
+                                    <xsl:when test="not(child::*)">
+                                       <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                       <xsl:value-of select="tei:surname"/>
+                                       <xsl:text>, </xsl:text>
+                                       <xsl:value-of select="tei:forename"/>
+                                       <xsl:if test="tei:addName">
+                                          <xsl:value-of select="concat(' - ',tei:addName)"/>
+                                       </xsl:if>
+                                       <xsl:if test="tei:genName">
+                                          <xsl:value-of select="concat(' ',tei:genName)"/>
+                                       </xsl:if>
+                                    </xsl:otherwise>
+                                 </xsl:choose>
+                              </xsl:for-each>
+                           </td>
+                           <!-- leto rojstva -->
+                           <td>
+                              <xsl:value-of select="tokenize(tei:birth/tei:date/@when,'-')[1]"/>
+                           </td>
+                           <!-- leto smrti -->
+                           <td>
+                              <xsl:value-of select="tokenize(tei:death/tei:date/@when,'-')[1]"/>
+                           </td>
+                           <!-- poklic (samo prvi) -->
+                           <td>
+                              <xsl:variable name="poklic1" select="substring-after(tei:occupation[1]/@code,'#')"/>
+                              <xsl:for-each select="//tei:category[@xml:id = $poklic1]">
+                                 <xsl:value-of select="tei:desc[1]"/>
+                              </xsl:for-each>
+                           </td>
+                           <!-- št. mask -->
+                           <td>
+                              <xsl:value-of select="$stMask"/>
+                           </td>
+                        </xsl:if>
+                     </xsl:for-each>
+                  </tr>
+               </xsl:if>
+            </xsl:for-each-group>
+         </tbody>
+      </table>
+      
+   </xsl:template>
+   
+   <xsl:template name="format-date">
+      <xsl:variable name="meseci">
+         <mesec n="01">januar</mesec>
+         <mesec n="02">februar</mesec>
+         <mesec n="03">marec</mesec>
+         <mesec n="04">april</mesec>
+         <mesec n="05">maj</mesec>
+         <mesec n="06">junij</mesec>
+         <mesec n="07">julij</mesec>
+         <mesec n="08">avgust</mesec>
+         <mesec n="09">september</mesec>
+         <mesec n="10">oktober</mesec>
+         <mesec n="11">november</mesec>
+         <mesec n="12">december</mesec>
+      </xsl:variable>
+      <xsl:choose>
+         <!-- samo letnica -->
+         <xsl:when test="not(contains(.,'-'))">
+            <xsl:value-of select="."/>
+         </xsl:when>
+         <!-- celoten datum -->
+         <xsl:when test="matches(.,'\d{4}-\d{2}-\d{2}')">
+            <xsl:value-of select="format-date(.,'[D]. [M]. [Y]')"/>
+         </xsl:when>
+         <!-- drugače je samo mesec -->
+         <xsl:otherwise>
+            <xsl:variable name="month" select="tokenize(.,'-')[2]"/>
+            <xsl:value-of select="concat($meseci/html:mesec[@n = $month],' ',tokenize(.,'-')[1])"/>
+         </xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
+   
+   <xsl:template name="sort-date">
+      <xsl:choose>
+         <!-- samo letnica -->
+         <xsl:when test="not(contains(.,'-'))">
+            <xsl:value-of select="concat(.,'0000')"/>
+         </xsl:when>
+         <!-- celoten datum -->
+         <xsl:when test="matches(.,'\d{4}-\d{2}-\d{2}')">
+            <xsl:value-of select="translate(.,'-','')"/>
+         </xsl:when>
+         <!-- drugače je samo mesec -->
+         <xsl:otherwise>
+            <xsl:value-of select="concat(translate(.,'-',''),'00')"/>
+         </xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
    
    <!-- Ker sta pri body poglavjih samo dva div z vsebino, poenostavim prvotni template -->
    <xsl:template name="nav-body-head">Seznama</xsl:template>

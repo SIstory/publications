@@ -182,7 +182,11 @@
                                                     <lido:actor>
                                                         <lido:nameActorSet>
                                                             <lido:appellationValue>
-                                                                <xsl:value-of select="concat(sistory:PRIIMEK,' ',sistory:IME)"/>
+                                                                <xsl:value-of select="sistory:PRIIMEK"/>
+                                                                <xsl:if test=" string-length(sistory:PRIIMEK) gt 0 and string-length(sistory:IME) gt 0">
+                                                                    <xsl:text> </xsl:text>
+                                                                </xsl:if>
+                                                                <xsl:value-of select="sistory:IME"/>
                                                             </lido:appellationValue>
                                                         </lido:nameActorSet>
                                                     </lido:actor>
