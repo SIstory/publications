@@ -163,153 +163,645 @@
       </li>
    </xsl:template>
    
+   <xsl:template name="divGen-main-content">
+      <!-- kolofon CIP -->
+      <xsl:if test="self::tei:divGen[@type='cip']">
+         <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc" mode="kolofon"/>
+      </xsl:if>
+      <!-- TEI kolofon -->
+      <xsl:if test="self::tei:divGen[@type='teiHeader']">
+         <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader"/>
+      </xsl:if>
+      <!-- kazalo vsebine toc -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='toc'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='toc']">
+         <xsl:call-template name="mainTOC"/>
+      </xsl:if>
+      <!-- kazalo slik -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='images'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='images']">
+         <xsl:call-template name="images"/>
+      </xsl:if>
+      <!-- kazalo grafikonov -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='charts'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='charts']">
+         <xsl:call-template name="charts"/>
+      </xsl:if>
+      <!-- kazalo tabel -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='tables'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='tables']">
+         <xsl:call-template name="tables"/>
+      </xsl:if>
+      <!-- kazalo vsebine toc, ki izpiše samo glavne naslove poglavij, skupaj z imeni avtorjev poglavij -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='titleAuthor'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='titleAuthor']">
+         <xsl:call-template name="TOC-title-author"/>
+      </xsl:if>
+      <!-- kazalo vsebine toc, ki izpiše samo naslove poglavij, kjer ima div atributa type in xml:id -->
+      <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='titleType'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='titleType']">
+         <xsl:call-template name="TOC-title-type"/>
+      </xsl:if>
+      <!-- toogle, ker sem spodaj dodal novo pretvorbo za persons -->
+      <!-- seznam (indeks) oseb -->
+      <!--<xsl:if test="self::tei:divGen[@type='index'][@xml:id='persons'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='persons']">
+         <xsl:call-template name="persons"/>
+      </xsl:if>-->
+      <!-- seznam (indeks) krajev -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='places'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='places']">
+         <xsl:call-template name="places"/>
+      </xsl:if>
+      <!-- seznam (indeks) organizacij -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='organizations'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='organizations']">
+         <xsl:call-template name="organizations"/>
+      </xsl:if>
+      <!-- iskalnik -->
+      <xsl:if test="self::tei:divGen[@type='search']">
+         <xsl:call-template name="search"/>
+      </xsl:if>
+      <!-- DODAL SPODNJE SAMO ZA TO PRETVORBO! -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='datatable']">
+         <xsl:call-template name="datatable"/>
+      </xsl:if>
+      <!-- za generiranje datateble posmrtnih mask (digitalnih objektov) -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='ius-esa']">
+         <xsl:call-template name="ius-esa"/>
+      </xsl:if>
+      <!-- za generiranje datateble oseb -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='ius-as']">
+         <xsl:call-template name="ius-as"/>
+      </xsl:if>
+      <!-- za generiranje seznama poklicev -->
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='ius-epa']">
+         <xsl:call-template name="ius-epa"/>
+      </xsl:if>
+   </xsl:template>
+   
    <xsl:template name="datatable">
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css"/>
-      
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<style>
-         *, *::after, *::before {
-    box-sizing: border-box;
-}
-.pagination .current {
-    background: #8e130b;
-}
-      </style>
-
-         ]]></xsl:text>
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
       
-      <xsl:text disable-output-escaping="yes"><![CDATA[<script>
-            $(document).ready(function() {
-    $('#datatablePorocevalec').DataTable( {
-        initComplete: function () {
-            this.api().columns().every( function () {
-                var column = this;
-                var select = $('<select><option value=""></option></select>')
-                    .appendTo( $(column.footer()).empty() )
-                    .on( 'change', function () {
-                        var val = $.fn.dataTable.util.escapeRegex(
-                            $(this).val()
-                        );
- 
-                        column
-                            .search( val ? '^'+val+'$' : '', true, false )
-                            .draw();
-                    } );
- 
-                column.data().unique().sort().each( function ( d, j ) {
-                    select.append( '<option value="'+d+'">'+d+'</option>' )
-                } );
-            } );
-        },
-        "oLanguage": {
-						"sProcessing": "Obdelujem...",
-                            "sLengthMenu": "Prikaži _MENU_ zapisov",
-                            "sZeroRecords": "Noben zapis ni bil najden",
-                            "sInfo": "Prikazanih od _START_ do _END_ od skupno _TOTAL_ zapisov",
-                            "sInfoEmpty": "Prikazanih od 0 do 0 od skupno 0 zapisov",
-                            "sInfoFiltered": "(filtrirano po vseh _MAX_ zapisih)",
-                            "sInfoPostFix": "",
-                            "sSearch": "Išči po vseh stolpcih:",
-                            "sUrl": "",
-                            "oPaginate": {
-                                "sFirst": "Prva",
-                                "sPrevious": "Nazaj",
-                                "sNext": "Naprej",
-                                "sLast": "Zadnja"
-                                }
-					}
-    } );
-} );
-        </script>]]></xsl:text>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [0, 1, 2, 3, 4, 5, 6];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po letu izdaje</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj po letu izdaje od</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto izdaje (min)"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-center middle">do</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto izdaje (max)"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <table id="datatablePorocevalec" class="display responsive nowrap targetTable" data-order="[[ 4, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Naslov</th>
+               <th>Letnik</th>
+               <th>Številka</th>
+               <th>Leto izdaje</th>
+               <th>Datum izdaje</th>
+               <th>Založnik</th>
+               <th>ISSN</th>
+               <th>Povezava</th>
+            </tr>
+         </thead>
+         <tfoot>
+            <tr>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+               <th></th>
+            </tr>
+         </tfoot>
+         <tbody>
+            <xsl:for-each select="ancestor::tei:TEI/tei:text/tei:body/tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct">
+               <xsl:sort select="tei:monogr/tei:imprint/tei:date/@when"/>
+               <xsl:variable name="sistoryID" select="tei:monogr/tei:idno[@type='sistory']"/>
+               <tr>
+                  <td>
+                     <xsl:for-each select="tei:monogr/tei:title[@level='j']">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="position() != last()">: </xsl:if>
+                     </xsl:for-each>
+                  </td>
+                  <td>
+                     <xsl:value-of select="concat(tei:monogr/tei:biblScope[@unit='volume'],' ')"/>
+                  </td>
+                  <td>
+                     <xsl:value-of select="tei:monogr/tei:biblScope[@unit='issue']"/>
+                  </td>
+                  <td>
+                     <xsl:value-of select="tokenize(tei:monogr/tei:imprint/tei:date/@when,'-')[1]"/>
+                  </td>
+                  <!-- datum -->
+                  <xsl:variable name="date" select="tei:monogr/tei:imprint/tei:date/@when"/>
+                  <xsl:variable name="year" select="tokenize($date,'-')[1]"/>
+                  <xsl:variable name="month" select="tokenize($date,'-')[2]"/>
+                  <xsl:variable name="day" select="tokenize($date,'-')[3]"/>
+                  <xsl:variable name="dateDisplay">
+                     <xsl:if test="string-length($day) gt 0">
+                        <xsl:value-of select="concat(number($day),'. ')"/>
+                     </xsl:if>
+                     <xsl:if test="string-length($month) gt 0">
+                        <xsl:value-of select="concat(number($month),'. ')"/>
+                     </xsl:if>
+                     <xsl:if test="string-length($year) gt 0">
+                        <xsl:value-of select="$year"/>
+                     </xsl:if>
+                  </xsl:variable>
+                  <td data-order="{$date}">
+                     <xsl:value-of select="$dateDisplay"/>
+                  </td>
+                  <td>
+                     <xsl:for-each select="tei:monogr/tei:imprint/tei:publisher">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="position() != last()">, </xsl:if>
+                     </xsl:for-each>
+                  </td>
+                  <td>
+                     <xsl:value-of select="tei:monogr/tei:idno[@type='issn']"/>
+                  </td>
+                  <td data-order="{$sistoryID}">
+                     <a href="{concat('http://sistory.si/11686/',$sistoryID)}" target="_blank">SIstory</a>
+                  </td>
+               </tr>
+            </xsl:for-each>
+         </tbody>
+      </table>
+      <br/>
+      <br/>
+      <br/>
+   </xsl:template>
+   
+   <xsl:template name="ius-esa">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
+      <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [2];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po datumu izdaje</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="1" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj od datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">do datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
       
       <div class="table-scroll">
-         <table id="datatablePorocevalec" class="display" data-order="[[ 4, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+         <table id="datatable-ESA" class="display targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
             <thead>
                <tr>
                   <th>Naslov</th>
-                  <th>Letnik</th>
-                  <th>Številka</th>
-                  <th>Leto izdaje</th>
-                  <th>Datum izdaje</th>
-                  <th>Založnik</th>
-                  <th>ISSN</th>
+                  <th>Datum</th>
+                  <th>ESA</th>
                   <th>Povezava</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
-                  <th>Naslov</th>
-                  <th>Letnik</th>
-                  <th>Številka</th>
-                  <th>Leto izdaje</th>
-                  <th>Datum izdaje</th>
-                  <th>Založnik</th>
-                  <th>ISSN</th>
-                  <th>Povezava</th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="LLLL-MM-DD" type="text"/></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th></th>
                </tr>
             </tfoot>
             <tbody>
-               <xsl:for-each select="ancestor::tei:TEI/tei:text/tei:body/tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct">
-                  <xsl:sort select="tei:monogr/tei:imprint/tei:date/@when"/>
-                  <xsl:variable name="sistoryID" select="tei:monogr/tei:idno[@type='sistory']"/>
+               <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'ESA')]">
+                  <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
+                  <xsl:variable name="sistoryPathToPDF">
+                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                  </xsl:variable>
                   <tr>
                      <td>
-                        <xsl:for-each select="tei:monogr/tei:title[@level='j']">
-                           <xsl:value-of select="."/>
-                           <xsl:if test="position() != last()">: </xsl:if>
+                        <xsl:apply-templates select="parent::tei:title"/>
+                     </td>
+                     <td data-search="{ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when}">
+                        <xsl:attribute name="data-order">
+                           <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                              <xsl:call-template name="sort-date"/>
+                           </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                           <xsl:call-template name="format-date"/>
                         </xsl:for-each>
                      </td>
                      <td>
-                        <xsl:value-of select="concat(tei:monogr/tei:biblScope[@unit='volume'],' ')"/>
+                        <xsl:choose>
+                           <xsl:when test="contains(normalize-space(.),'ESA ')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'ESA ')"/>
+                           </xsl:when>
+                           <xsl:when test="contains(.,'ESA-')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'ESA-')"/>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="normalize-space(.)"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
                      </td>
                      <td>
-                        <xsl:value-of select="tei:monogr/tei:biblScope[@unit='issue']"/>
-                     </td>
-                     <td>
-                        <xsl:value-of select="tokenize(tei:monogr/tei:imprint/tei:date/@when,'-')[1]"/>
-                     </td>
-                     <!-- datum -->
-                     <xsl:variable name="date" select="tei:monogr/tei:imprint/tei:date/@when"/>
-                     <xsl:variable name="year" select="tokenize($date,'-')[1]"/>
-                     <xsl:variable name="month" select="tokenize($date,'-')[2]"/>
-                     <xsl:variable name="day" select="tokenize($date,'-')[3]"/>
-                     <xsl:variable name="dateDisplay">
-                        <xsl:if test="string-length($day) gt 0">
-                           <xsl:value-of select="concat(number($day),'. ')"/>
-                        </xsl:if>
-                        <xsl:if test="string-length($month) gt 0">
-                           <xsl:value-of select="concat(number($month),'. ')"/>
-                        </xsl:if>
-                        <xsl:if test="string-length($year) gt 0">
-                           <xsl:value-of select="$year"/>
-                        </xsl:if>
-                     </xsl:variable>
-                     <td data-order="{$date}">
-                        <xsl:value-of select="$dateDisplay"/>
-                     </td>
-                     <td>
-                        <xsl:for-each select="tei:monogr/tei:imprint/tei:publisher">
-                           <xsl:value-of select="."/>
-                           <xsl:if test="position() != last()">, </xsl:if>
-                        </xsl:for-each>
-                     </td>
-                     <td>
-                        <xsl:value-of select="tei:monogr/tei:idno[@type='issn']"/>
-                     </td>
-                     <td data-order="{$sistoryID}">
-                        <a href="{concat('http://sistory.si/11686/',$sistoryID)}" target="_blank">SIstory</a>
+                        <a href="{concat($sistoryPathToPDF,$sistoryPDF,'#page=',$page)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
                      </td>
                   </tr>
                </xsl:for-each>
             </tbody>
+            <br/>
+            <br/>
+            <br/>
          </table>
-         <br/>
-         <br/>
-         <br/>
       </div>
    </xsl:template>
    
+   <xsl:template name="ius-as">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
+      <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [2];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po datumu izdaje</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="1" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj od datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">do datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <div class="table-scroll">
+         <table id="datatable-AS" class="display targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+            <thead>
+               <tr>
+                  <th>Naslov</th>
+                  <th>Datum</th>
+                  <th>AS</th>
+                  <th>Povezava</th>
+               </tr>
+            </thead>
+            <tfoot>
+               <tr>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="LLLL-MM-DD" type="text"/></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th></th>
+               </tr>
+            </tfoot>
+            <tbody>
+               <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'AS')]">
+                  <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
+                  <xsl:variable name="sistoryPathToPDF">
+                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                  </xsl:variable>
+                  <tr>
+                     <td>
+                        <xsl:apply-templates select="parent::tei:title"/>
+                     </td>
+                     <td data-search="{ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when}">
+                        <xsl:attribute name="data-order">
+                           <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                              <xsl:call-template name="sort-date"/>
+                           </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                           <xsl:call-template name="format-date"/>
+                        </xsl:for-each>
+                     </td>
+                     <td>
+                        <xsl:choose>
+                           <xsl:when test="contains(normalize-space(.),'AS ')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'AS ')"/>
+                           </xsl:when>
+                           <xsl:when test="contains(.,'AS-')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'AS-')"/>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="normalize-space(.)"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
+                     </td>
+                     <td>
+                        <a href="{concat($sistoryPathToPDF,$sistoryPDF,'#page=',$page)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
+                     </td>
+                  </tr>
+               </xsl:for-each>
+            </tbody>
+            <br/>
+            <br/>
+            <br/>
+         </table>
+      </div>
+   </xsl:template>
+   
+   <xsl:template name="ius-epa">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
+      <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js"></script>
+      
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      
+      <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [2, 3];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filtriraj po datumu izdaje</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="1" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filtriraj od datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">do datuma izdaje</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Dan"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Mesec"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Leto"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Počisti filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <div class="table-scroll">
+         <table id="datatable-EPA" class="display targetTable" data-order="[[ 1, &quot;asc&quot; ]]" width="100%" cellspacing="0">
+            <thead>
+               <tr>
+                  <th>Naslov</th>
+                  <th>Datum</th>
+                  <th>EPA</th>
+                  <th>Kratica</th>
+                  <th>Povezava</th>
+               </tr>
+            </thead>
+            <tfoot>
+               <tr>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="LLLL-MM-DD" type="text"/></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <th></th>
+               </tr>
+            </tfoot>
+            <tbody>
+               <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'EPA')]">
+                  <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
+                  <xsl:variable name="sistoryPathToPDF">
+                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                  </xsl:variable>
+                  <tr>
+                     <td>
+                        <xsl:apply-templates select="parent::tei:title"/>
+                     </td>
+                     <td data-search="{ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when}">
+                        <xsl:attribute name="data-order">
+                           <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                              <xsl:call-template name="sort-date"/>
+                           </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:for-each select="ancestor::tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when">
+                           <xsl:call-template name="format-date"/>
+                        </xsl:for-each>
+                     </td>
+                     <td>
+                        <xsl:choose>
+                           <xsl:when test="contains(normalize-space(.),'EPA ')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'EPA ')"/>
+                           </xsl:when>
+                           <xsl:when test="contains(.,'EPA-')">
+                              <xsl:value-of select="substring-after(normalize-space(.),'EPA-')"/>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="normalize-space(.)"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
+                     </td>
+                     <td>
+                        <xsl:for-each select="normalize-space(preceding-sibling::tei:idno[1])">
+                           <xsl:choose>
+                              <xsl:when test="starts-with(.,'EPA')">
+                                 <!-- ne procesiram -->
+                              </xsl:when>
+                              <xsl:otherwise>
+                                 <xsl:value-of select="."/>
+                              </xsl:otherwise>
+                           </xsl:choose>
+                        </xsl:for-each>
+                     </td>
+                     <td>
+                        <a href="{concat($sistoryPathToPDF,$sistoryPDF,'#page=',$page)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
+                     </td>
+                  </tr>
+               </xsl:for-each>
+            </tbody>
+            <br/>
+            <br/>
+            <br/>
+         </table>
+      </div>
+   </xsl:template>
    
    <!-- dopolnim iskalnik, tako da procesira tudi //tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct kot samostojne enote -->
    <xsl:template name="search">
@@ -393,312 +885,53 @@
         </script>]]></xsl:text>
    </xsl:template>
    
-   <!-- dodam divGen datatable -->
-   <xsl:template match="tei:divGen">
-      <xsl:variable name="datoteka" select="concat($outputDir,ancestor::tei:TEI/@xml:id,'/',@xml:id,'.html')"/>
-      <xsl:result-document href="{$datoteka}" doctype-system="" omit-xml-declaration="yes">
-         <!-- vključimo HTML5 deklaracijo, skupaj z kodo za delovanje starejših verzij Internet Explorerja -->
-         <xsl:value-of select="$HTML5_declaracion" disable-output-escaping="yes"/>
-         <html>
-            <xsl:call-template name="addLangAtt"/>
-            <!-- vključimo statični head -->
-            <xsl:variable name="pagetitle">
-               <xsl:choose>
-                  <xsl:when test="tei:head">
-                     <xsl:apply-templates select="tei:head" mode="plain"/>
-                  </xsl:when>
-                  <xsl:when test="self::tei:TEI">
-                     <xsl:value-of select="tei:generateTitle(.)"/>
-                  </xsl:when>
-                  <xsl:when test="self::tei:text">
-                     <xsl:value-of select="tei:generateTitle(ancestor::tei:TEI)"/>
-                     <xsl:value-of select="concat('[', position(), ']')"/>
-                  </xsl:when>
-                  <xsl:otherwise>&#160;</xsl:otherwise>
-               </xsl:choose>
-            </xsl:variable>
-            <xsl:sequence select="tei:htmlHead($pagetitle, 2)"/>
-            <!-- začetek body -->
-            <body id="TOP">
-               <xsl:call-template name="bodyMicroData"/>
-               <xsl:call-template name="bodyJavascriptHook"/>
-               <xsl:call-template name="bodyHook"/>
-               <!-- začetek vsebine -->
-               <div class="column row">
-                  <xsl:if test="self::tei:divGen[@type='cip']">
-                     <!-- Microdata - schema.org - dodam itemscope -->
-                     <xsl:attribute name="itemscope"/>
-                     <!-- in itemtype za knjige -->
-                     <xsl:attribute name="itemtype">http://schema.org/Book</xsl:attribute>
-                  </xsl:if>
-                  <!-- vstavim svoj header -->
-                  <xsl:call-template name="html-header">
-                     <xsl:with-param name="thisChapter-id">
-                        <xsl:value-of select="@xml:id"/>
-                     </xsl:with-param>
-                  </xsl:call-template>
-                  <!-- GLAVNA VSEBINA -->
-                  <section>
-                     <div class="row">
-                        <div class="medium-2 columns show-for-medium">
-                           <xsl:call-template name="previous-divGen-Link">
-                              <xsl:with-param name="thisDivGenType" select="@type"/>
-                           </xsl:call-template>
-                        </div>
-                        <div class="medium-8 small-12 columns">
-                           <xsl:call-template name="stdheader">
-                              <xsl:with-param name="title">
-                                 <xsl:call-template name="header"/>
-                              </xsl:with-param>
-                           </xsl:call-template>
-                        </div>
-                        <div class="medium-2 columns show-for-medium text-right">
-                           <xsl:call-template name="next-divGen-Link">
-                              <xsl:with-param name="thisDivGenType" select="@type"/>
-                           </xsl:call-template>
-                        </div>
-                     </div>
-                     <div class="row hide-for-medium">
-                        <div class="small-6 columns text-center">
-                           <xsl:call-template name="previous-divGen-Link">
-                              <xsl:with-param name="thisDivGenType" select="@type"/>
-                           </xsl:call-template>
-                        </div>
-                        <div class="small-6 columns text-center">
-                           <xsl:call-template name="next-divGen-Link">
-                              <xsl:with-param name="thisDivGenType" select="@type"/>
-                           </xsl:call-template>
-                        </div>
-                     </div>
-                     <!--<xsl:if test="$topNavigationPanel = 'true'">
-                                                <xsl:element name="{if ($outputTarget='html5') then 'nav' else 'div'}">
-                                                    <xsl:call-template name="xrefpanel">
-                                                         <xsl:with-param name="homepage" select="concat($BaseFile, $standardSuffix)"/>
-                                                         <xsl:with-param name="mode" select="local-name(.)"/>
-                                                    </xsl:call-template>
-                                                </xsl:element>
-                                            </xsl:if>-->
-                     <xsl:if test="$subTocDepth >= 0">
-                        <xsl:call-template name="subtoc"/>
-                     </xsl:if>
-                     <xsl:call-template name="startHook"/>
-                     <!-- VSTAVI VSEBINO divGen strani -->
-                     <!-- kolofon CIP -->
-                     <xsl:if test="self::tei:divGen[@type='cip']">
-                        <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc" mode="kolofon"/>
-                     </xsl:if>
-                     <!-- TEI kolofon -->
-                     <xsl:if test="self::tei:divGen[@type='teiHeader']">
-                        <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader"/>
-                     </xsl:if>
-                     <!-- kazalo vsebine toc -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='toc'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='toc']">
-                        <xsl:call-template name="mainTOC"/>
-                     </xsl:if>
-                     <!-- kazalo slik -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='images'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='images']">
-                        <xsl:call-template name="images"/>
-                     </xsl:if>
-                     <!-- kazalo grafikonov -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='charts'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='charts']">
-                        <xsl:call-template name="charts"/>
-                     </xsl:if>
-                     <!-- kazalo tabel -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='tables'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='tables']">
-                        <xsl:call-template name="tables"/>
-                     </xsl:if>
-                     <!-- kazalo vsebine toc, ki izpiše samo glavne naslove poglavij, skupaj z imeni avtorjev poglavij -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='titleAuthor'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='titleAuthor']">
-                        <xsl:call-template name="TOC-title-author"/>
-                     </xsl:if>
-                     <!-- kazalo vsebine toc, ki izpiše samo naslove poglavij, kjer ima div atributa type in xml:id -->
-                     <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='titleType'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='titleType']">
-                        <xsl:call-template name="TOC-title-type"/>
-                     </xsl:if>
-                     <!-- seznam (indeks) oseb -->
-                     <xsl:if test="self::tei:divGen[@type='index'][@xml:id='persons'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='persons']">
-                        <xsl:call-template name="persons"/>
-                     </xsl:if>
-                     <!-- seznam (indeks) krajev -->
-                     <xsl:if test="self::tei:divGen[@type='index'][@xml:id='places'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='places']">
-                        <xsl:call-template name="places"/>
-                     </xsl:if>
-                     <!-- seznam (indeks) organizacij -->
-                     <xsl:if test="self::tei:divGen[@type='index'][@xml:id='organizations'] | self::tei:divGen[@type='index'][tokenize(@xml:id,'-')[last()]='organizations']">
-                        <xsl:call-template name="organizations"/>
-                     </xsl:if>
-                     <!-- iskalnik -->
-                     <xsl:if test="self::tei:divGen[@type='search']">
-                        <xsl:call-template name="search"/>
-                     </xsl:if>
-                     <!-- SAMO TOLE SEM DODAL -->
-                     <xsl:if test="self::tei:divGen[@type='datatable']">
-                        <xsl:call-template name="datatable"/>
-                     </xsl:if>
-                     
-                     <!--<xsl:call-template name="makeDivBody">
-                                                <xsl:with-param name="depth" select="count(ancestor::tei:div) + 1"/>
-                                            </xsl:call-template>-->
-                     <xsl:call-template name="printNotes"/>
-                     <!--<xsl:if test="$bottomNavigationPanel = 'true'">
-                                                    <xsl:element name="{if ($outputTarget='html5') then 'nav' else 'div'}">
-                                                        <xsl:call-template name="xrefpanel">
-                                                            <xsl:with-param name="homepage" select="concat($BaseFile, $standardSuffix)"/>
-                                                            <xsl:with-param name="mode" select="local-name(.)"/>
-                                                        </xsl:call-template>
-                                                     </xsl:element>
-                                            </xsl:if>-->
-                     <xsl:call-template name="stdfooter"/>
-                  </section>
-               </div>
-               <xsl:call-template name="bodyEndHook"/>
-            </body>
-         </html>
-      </xsl:result-document>
+   <xsl:template name="format-date">
+      <xsl:variable name="meseci">
+         <mesec n="01">januar</mesec>
+         <mesec n="02">februar</mesec>
+         <mesec n="03">marec</mesec>
+         <mesec n="04">april</mesec>
+         <mesec n="05">maj</mesec>
+         <mesec n="06">junij</mesec>
+         <mesec n="07">julij</mesec>
+         <mesec n="08">avgust</mesec>
+         <mesec n="09">september</mesec>
+         <mesec n="10">oktober</mesec>
+         <mesec n="11">november</mesec>
+         <mesec n="12">december</mesec>
+      </xsl:variable>
+      <xsl:choose>
+         <!-- samo letnica -->
+         <xsl:when test="not(contains(.,'-'))">
+            <xsl:value-of select="."/>
+         </xsl:when>
+         <!-- celoten datum -->
+         <xsl:when test="matches(.,'\d{4}-\d{2}-\d{2}')">
+            <xsl:value-of select="format-date(.,'[D]. [M]. [Y]')"/>
+         </xsl:when>
+         <!-- drugače je samo mesec -->
+         <xsl:otherwise>
+            <xsl:variable name="month" select="tokenize(.,'-')[2]"/>
+            <xsl:value-of select="concat($meseci/html:mesec[@n = $month],' ',tokenize(.,'-')[1])"/>
+         </xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
-   <!-- dodam divGen datatable -->
-   <xsl:template name="title-bar-list-of-contents">
-      <xsl:param name="thisChapter-id"/>
-      <xsl:param name="title-bar-type"/>
-      <xsl:variable name="sistoryParentPath">
-         <xsl:choose>
-            <xsl:when test="self::tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='sistory']">
-               <xsl:variable name="teiParentId" select="self::tei:teiCorpus/@xml:id"/>
-               <xsl:if test="$chapterAsSIstoryPublications='true'">
-                  <xsl:call-template name="sistoryPath">
-                     <xsl:with-param name="chapterID" select="$teiParentId"/>
-                  </xsl:call-template>
-               </xsl:if>
-            </xsl:when>
-            <xsl:when test="ancestor-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='sistory']">
-               <xsl:variable name="teiParentId" select="ancestor-or-self::tei:TEI/@xml:id"/>
-               <xsl:if test="$chapterAsSIstoryPublications='true'">
-                  <xsl:call-template name="sistoryPath">
-                     <xsl:with-param name="chapterID" select="$teiParentId"/>
-                  </xsl:call-template>
-               </xsl:if>
-            </xsl:when>
-         </xsl:choose>
-      </xsl:variable>
-      
-      <!-- Poiščemo vse možne dele publikacije -->
-      <!-- Naslovnica - index.html je vedno, kadar ni procesirano iz teiCorpus in ima hkrati TEI svoj xml:id -->
-      <li>
-         <xsl:if test="$thisChapter-id = 'index'">
-            <xsl:attribute name="class">active</xsl:attribute>
-         </xsl:if>
-         <a>
-            <xsl:attribute name="href">
-               <xsl:choose>
-                  <xsl:when test="ancestor::tei:teiCorpus and ancestor-or-self::tei:TEI[@xml:id]">
-                     <xsl:value-of select="concat($sistoryParentPath,ancestor-or-self::tei:TEI/@xml:id,'.html')"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                     <xsl:value-of select="concat($sistoryParentPath,'index.html')"/>
-                  </xsl:otherwise>
-               </xsl:choose>
-            </xsl:attribute>
-            <xsl:choose>
-               <xsl:when test="tei:text[@type = 'article'] or ancestor::tei:text[@type = 'article'] or self::tei:teiCorpus/tei:TEI/tei:text[@type = 'article']">
-                  <xsl:sequence select="tei:i18n('Naslov')"/>
-               </xsl:when>
-               <xsl:otherwise>
-                  <xsl:sequence select="tei:i18n('Naslovnica')"/>
-               </xsl:otherwise>
-            </xsl:choose>
-         </a>
-      </li>
-      <!-- kolofon CIP -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:front/tei:divGen[@type='cip']">
-         <xsl:call-template name="header-cip">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- TEI kolofon -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:front/tei:divGen[@type='teiHeader']">
-         <xsl:call-template name="header-teiHeader">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- kazalo toc -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:front/tei:divGen[@type='toc']">
-         <xsl:call-template name="header-toc">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- Uvodna poglavja v tei:front -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:front/tei:div">
-         <xsl:call-template name="header-front">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- Osrednji del besedila v tei:body - Poglavja -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:body/tei:div">
-         <xsl:call-template name="header-body">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- viri in literatura v tei:back -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:div[@type='bibliogr']">
-         <xsl:call-template name="header-bibliogr">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- Priloge v tei:back -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:div[@type='appendix']">
-         <xsl:call-template name="header-appendix">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- povzetki -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:div[@type='summary']">
-         <xsl:call-template name="header-summary">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- Indeksi (oseb, krajev in organizacij) v divGen -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:divGen[@type='index']">
-         <xsl:call-template name="header-back-index">
-            <xsl:with-param name="thisChapter-id" select="$thisChapter-id"/>
-            <xsl:with-param name="title-bar-type" select="$title-bar-type"/>
-            <xsl:with-param name="sistoryParentPath" select="$sistoryParentPath"/>
-         </xsl:call-template>
-      </xsl:if>
-      <!-- DODANO za datatable -->
-      <xsl:if test="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:divGen[@type='datatable']">
-         <xsl:variable name="sistoryPath-datatable">
-            <xsl:if test="$chapterAsSIstoryPublications='true'">
-               <xsl:call-template name="sistoryPath">
-                  <xsl:with-param name="chapterID" select="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:divGen[@type='datatable']/@xml:id"/>
-               </xsl:call-template>
-            </xsl:if>
-         </xsl:variable>
-         <li>
-            <xsl:if test=".[@type='datatable']">
-               <xsl:attribute name="class">active</xsl:attribute>
-            </xsl:if>
-            <a href="{concat($sistoryPath-datatable,ancestor-or-self::tei:TEI/tei:text/tei:back/tei:divGen[@type='datatable']/@xml:id,'.html')}">
-               <xsl:value-of select="ancestor-or-self::tei:TEI/tei:text/tei:back/tei:divGen[@type='datatable']/tei:head[1]"/>
-            </a>
-         </li>
-      </xsl:if>
+   <xsl:template name="sort-date">
+      <xsl:choose>
+         <!-- samo letnica -->
+         <xsl:when test="not(contains(.,'-'))">
+            <xsl:value-of select="concat(.,'0000')"/>
+         </xsl:when>
+         <!-- celoten datum -->
+         <xsl:when test="matches(.,'\d{4}-\d{2}-\d{2}')">
+            <xsl:value-of select="translate(.,'-','')"/>
+         </xsl:when>
+         <!-- drugače je samo mesec -->
+         <xsl:otherwise>
+            <xsl:value-of select="concat(translate(.,'-',''),'00')"/>
+         </xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
    <!-- Ker je pri body poglavjih samo eden div z vsebino, poenostavim prvotni template -->
