@@ -49,6 +49,28 @@
                   <lido:descriptiveNoteValue>Maska je v dobrem stanju.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements>d: 23 cm; v: 16 cm; š: 19 cm;</lido:displayObjectMeasurements>
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Dolžina</lido:measurementType>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>23</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Višina</lido:measurementType>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>16</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Širina</lido:measurementType>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>19</lido:measurementValue>
+                     </lido:measurementsSet>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
          </lido:objectIdentificationWrap>
          <lido:eventWrap>
             <lido:eventSet>

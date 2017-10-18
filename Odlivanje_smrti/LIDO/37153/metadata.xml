@@ -48,9 +48,6 @@
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je dobro ohranjena; na posameznih delih je nekoliko okrušena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
-               <lido:objectDescriptionSet lido:type="conditionNote">
-                  <lido:descriptiveNoteValue>Brez oznak</lido:descriptiveNoteValue>
-               </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
          </lido:objectIdentificationWrap>
          <lido:eventWrap>

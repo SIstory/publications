@@ -57,7 +57,39 @@
             </lido:objectDescriptionWrap>
             <lido:objectMeasurementsWrap>
                <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>v=30,5 cm; b=20,5 cm; a= 10,5 cm</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>v: 30,5 cm; b: 20,5 cm; a: 10,5 cm</lido:displayObjectMeasurements>
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Višina</lido:measurementType>
+                        <lido:measurementUnit/>
+                        <lido:measurementValue>30</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>5</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit/>
+                        <lido:measurementValue>20</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>5</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit/>
+                        <lido:measurementValue>10</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>5</lido:measurementValue>
+                     </lido:measurementsSet>
+                  </lido:objectMeasurements>
                </lido:objectMeasurementsSet>
             </lido:objectMeasurementsWrap>
          </lido:objectIdentificationWrap>
@@ -86,7 +118,7 @@
                   <lido:eventMaterialsTech>
                      <lido:materialsTech>
                         <lido:termMaterialsTech>
-                           <lido:term>Mavec, patiniran</lido:term>
+                           <lido:term>Mavec, polikromiran</lido:term>
                         </lido:termMaterialsTech>
                      </lido:materialsTech>
                   </lido:eventMaterialsTech>

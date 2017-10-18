@@ -60,11 +60,11 @@
             </lido:objectDescriptionWrap>
             <lido:objectMeasurementsWrap>
                <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>v: 27.6cm; g: 17cm; d: 20cm.</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>v: 27.6 cm; g: 17cm; d: 20cm.</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                      <lido:measurementsSet>
                         <lido:measurementType>Višina</lido:measurementType>
-                        <lido:measurementUnit/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
                         <lido:measurementValue>276</lido:measurementValue>
                      </lido:measurementsSet>
                      <lido:measurementsSet>

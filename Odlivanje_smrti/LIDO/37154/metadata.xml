@@ -49,6 +49,28 @@
                   <lido:descriptiveNoteValue>Maska je v slabem stanju. Na več mestih je odrgnjena; polihromacija je odluščena.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements>v: 25 cm; b: 15.5 cm; a: 12 cm;</lido:displayObjectMeasurements>
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Višina</lido:measurementType>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>25</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>155</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:measurementsSet>
+                        <lido:measurementType/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
+                        <lido:measurementValue>12</lido:measurementValue>
+                     </lido:measurementsSet>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
          </lido:objectIdentificationWrap>
          <lido:eventWrap>
             <lido:eventSet>

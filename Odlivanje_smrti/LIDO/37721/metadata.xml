@@ -45,7 +45,7 @@
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
                <lido:objectDescriptionSet lido:type="description">
-                  <lido:descriptiveNoteValue>V Kraigherjevi zbirki, ki jo je muzeju darovala pokojnikova hči, so tri posmrtne maske.</lido:descriptiveNoteValue>
+                  <lido:descriptiveNoteValue>V Kraigherjevi zbirki, ki jo je muzeju darovala Ana Kraigher, so tri posmrtne maske.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
          </lido:objectIdentificationWrap>
@@ -69,12 +69,28 @@
             <lido:eventSet>
                <lido:event>
                   <lido:eventType>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
+                     <lido:term xml:lang="en">Commissioning</lido:term>
+                     <lido:term>Naročilo</lido:term>
+                  </lido:eventType>
+                  <lido:eventDate>
+                     <lido:displayDate>1959</lido:displayDate>
+                     <lido:date>
+                        <lido:earliestDate>1959</lido:earliestDate>
+                        <lido:latestDate>1959</lido:latestDate>
+                     </lido:date>
+                  </lido:eventDate>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
                      <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00227</lido:conceptID>
                      <lido:term xml:lang="en">Provenance</lido:term>
                      <lido:term>Provenienca</lido:term>
                   </lido:eventType>
                   <lido:eventDescriptionSet>
-                     <lido:descriptiveNoteValue>Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001.</lido:descriptiveNoteValue>
+                     <lido:descriptiveNoteValue>Leta 2001 je masko muzeju darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher.</lido:descriptiveNoteValue>
                   </lido:eventDescriptionSet>
                </lido:event>
             </lido:eventSet>

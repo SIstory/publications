@@ -54,21 +54,21 @@
             </lido:objectDescriptionWrap>
             <lido:objectMeasurementsWrap>
                <lido:objectMeasurementsSet>
-                  <lido:displayObjectMeasurements>v: 33cm; š: 20cm; g:18cm.</lido:displayObjectMeasurements>
+                  <lido:displayObjectMeasurements>v: 33 cm; š: 20 cm; g:18 cm.</lido:displayObjectMeasurements>
                   <lido:objectMeasurements>
                      <lido:measurementsSet>
                         <lido:measurementType>Višina</lido:measurementType>
-                        <lido:measurementUnit/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
                         <lido:measurementValue>33</lido:measurementValue>
                      </lido:measurementsSet>
                      <lido:measurementsSet>
                         <lido:measurementType>Širina</lido:measurementType>
-                        <lido:measurementUnit/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
                         <lido:measurementValue>20</lido:measurementValue>
                      </lido:measurementsSet>
                      <lido:measurementsSet>
                         <lido:measurementType>Globina</lido:measurementType>
-                        <lido:measurementUnit/>
+                        <lido:measurementUnit>cm</lido:measurementUnit>
                         <lido:measurementValue>18</lido:measurementValue>
                      </lido:measurementsSet>
                   </lido:objectMeasurements>
@@ -130,7 +130,7 @@
                      <lido:term>Provenienca</lido:term>
                   </lido:eventType>
                   <lido:eventDescriptionSet>
-                     <lido:descriptiveNoteValue>Darilo T. Maechitga, 29.11 2006.</lido:descriptiveNoteValue>
+                     <lido:descriptiveNoteValue>T. Maechitg 29.11 2006 masko podari muzeju.</lido:descriptiveNoteValue>
                   </lido:eventDescriptionSet>
                </lido:event>
             </lido:eventSet>

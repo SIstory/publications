@@ -38,7 +38,7 @@
                   </lido:repositoryName>
                   <lido:repositoryLocation>
                      <lido:namePlaceSet>
-                        <lido:appellationValue xml:lang="slv">Depo</lido:appellationValue>
+                        <lido:appellationValue xml:lang="slv">NUK; zbirka rokopisov, redkih in starih tiskov; depo.</lido:appellationValue>
                      </lido:namePlaceSet>
                   </lido:repositoryLocation>
                </lido:repositorySet>
@@ -75,17 +75,13 @@
             <lido:eventSet>
                <lido:event>
                   <lido:eventType>
-                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00226</lido:conceptID>
-                     <lido:term xml:lang="en">Commissioning</lido:term>
-                     <lido:term>Naročilo</lido:term>
+                     <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00227</lido:conceptID>
+                     <lido:term xml:lang="en">Provenance</lido:term>
+                     <lido:term>Provenienca</lido:term>
                   </lido:eventType>
-                  <lido:eventDate>
-                     <lido:displayDate>1906</lido:displayDate>
-                     <lido:date>
-                        <lido:earliestDate>1906</lido:earliestDate>
-                        <lido:latestDate>1906</lido:latestDate>
-                     </lido:date>
-                  </lido:eventDate>
+                  <lido:eventDescriptionSet>
+                     <lido:descriptiveNoteValue>V NUK zelo verjetno prišla z Vrhovnikovo zapuščino.</lido:descriptiveNoteValue>
+                  </lido:eventDescriptionSet>
                </lido:event>
             </lido:eventSet>
          </lido:eventWrap>

@@ -92,10 +92,10 @@
                      <lido:term>Naročilo</lido:term>
                   </lido:eventType>
                   <lido:eventDate>
-                     <lido:displayDate>1910</lido:displayDate>
+                     <lido:displayDate>Pred 1938</lido:displayDate>
                      <lido:date>
-                        <lido:earliestDate>1910</lido:earliestDate>
-                        <lido:latestDate>1910</lido:latestDate>
+                        <lido:earliestDate>Pred 1938</lido:earliestDate>
+                        <lido:latestDate>Pred 1938</lido:latestDate>
                      </lido:date>
                   </lido:eventDate>
                </lido:event>

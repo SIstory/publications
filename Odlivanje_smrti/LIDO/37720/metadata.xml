@@ -45,7 +45,7 @@
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
                <lido:objectDescriptionSet lido:type="description">
-                  <lido:descriptiveNoteValue>V Kraigherjevi zbirki, ki jo je muzeju darovala pokojnikova hči, so tri posmrtne maske.</lido:descriptiveNoteValue>
+                  <lido:descriptiveNoteValue>V Kraigherjevi zbirki, ki jo je muzeju darovala Ana Kraigher, so tri posmrtne maske.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
          </lido:objectIdentificationWrap>
@@ -74,7 +74,7 @@
                      <lido:term>Provenienca</lido:term>
                   </lido:eventType>
                   <lido:eventDescriptionSet>
-                     <lido:descriptiveNoteValue>Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001</lido:descriptiveNoteValue>
+                     <lido:descriptiveNoteValue>Muzeju jo je darovala zdaj že pokojna pisateljeva hčerka Ana Kraigher leta 2001.</lido:descriptiveNoteValue>
                   </lido:eventDescriptionSet>
                </lido:event>
             </lido:eventSet>
