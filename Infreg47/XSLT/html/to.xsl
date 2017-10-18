@@ -293,13 +293,27 @@
                      </td>
                      <!-- Datum smrti -->
                      <td>
-                        <xsl:value-of select="tei:death/tei:date/@when"/>
-                        <!-- če pa ni @when, damo prvi možen datum -->
-                        <xsl:value-of select="tei:death/tei:date/@notBefore"/>
+                        <xsl:if test="tei:death/tei:date/@when or tei:death/tei:date/@notBefore">
+                           <xsl:attribute name="data-search">
+                              <xsl:value-of select="tei:death/tei:date/@when"/>
+                              <!-- če pa ni @when, damo prvi možen datum -->
+                              <xsl:value-of select="tei:death/tei:date/@notBefore"/>
+                           </xsl:attribute>
+                           <xsl:for-each select="tei:death/tei:date/@when">
+                              <xsl:call-template name="format-date"/>
+                           </xsl:for-each>
+                        </xsl:if>
                      </td>
                      <!-- Umrl najkasneje -->
                      <td>
-                        <xsl:value-of select="tei:death/tei:date/@notAfter"/>
+                        <xsl:if test="tei:death/tei:date/@notAfter">
+                           <xsl:attribute name="data-search">
+                              <xsl:value-of select="tei:death/tei:date/@notAfter"/>
+                           </xsl:attribute>
+                           <xsl:for-each select="tei:death/tei:date/@notAfter">
+                              <xsl:call-template name="format-date"/>
+                           </xsl:for-each>
+                        </xsl:if>
                      </td>
                      <!-- Kraj smrti -->
                      <td>
@@ -307,7 +321,14 @@
                      </td>
                      <!-- Datum pogreba -->
                      <td>
-                        <xsl:value-of select="tei:event/tei:desc/tei:date/@when"/>
+                        <xsl:if test="tei:event/tei:desc/tei:date/@when">
+                           <xsl:attribute name="data-search">
+                              <xsl:value-of select="tei:event/tei:desc/tei:date/@when"/>
+                           </xsl:attribute>
+                           <xsl:for-each select="tei:event/tei:desc/tei:date/@when">
+                              <xsl:call-template name="format-date"/>
+                           </xsl:for-each>
+                        </xsl:if>
                      </td>
                      <!-- Kraj pogreba -->
                      <td>
@@ -323,5 +344,36 @@
       </div>
    </xsl:template>
    
+   <xsl:template name="format-date">
+      <xsl:variable name="meseci">
+         <mesec n="01">januar</mesec>
+         <mesec n="02">februar</mesec>
+         <mesec n="03">marec</mesec>
+         <mesec n="04">april</mesec>
+         <mesec n="05">maj</mesec>
+         <mesec n="06">junij</mesec>
+         <mesec n="07">julij</mesec>
+         <mesec n="08">avgust</mesec>
+         <mesec n="09">september</mesec>
+         <mesec n="10">oktober</mesec>
+         <mesec n="11">november</mesec>
+         <mesec n="12">december</mesec>
+      </xsl:variable>
+      <xsl:choose>
+         <!-- samo letnica -->
+         <xsl:when test="not(contains(.,'-'))">
+            <xsl:value-of select="."/>
+         </xsl:when>
+         <!-- celoten datum -->
+         <xsl:when test="matches(.,'\d{4}-\d{2}-\d{2}')">
+            <xsl:value-of select="format-date(.,'[D]. [M]. [Y]')"/>
+         </xsl:when>
+         <!-- drugače je samo mesec -->
+         <xsl:otherwise>
+            <xsl:variable name="month" select="tokenize(.,'-')[2]"/>
+            <xsl:value-of select="concat($meseci/html:mesec[@n = $month],' ',tokenize(.,'-')[1])"/>
+         </xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
    
 </xsl:stylesheet>
