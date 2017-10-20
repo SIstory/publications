@@ -51,6 +51,8 @@
       </desc>
    </doc>
    
+   <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>
+   
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
@@ -58,8 +60,6 @@
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/my-html_param.xsl -->
    <xsl:param name="title-bar-sticky">false</xsl:param>
-   
-   <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>
    
    <!-- V html/head izpisani metapodatki -->
    <xsl:param name="description">Poročevalec Državnega zbora na portalu Zgodovina Slovenije - SIstory</xsl:param>
@@ -79,48 +79,10 @@
       <xsl:variable name="sistoryID" select="tei:monogr/tei:idno[@type='sistory']"/>
       <xsl:variable name="sistoryFile" select="tei:ref/@target"/>
       <li id="{@xml:id}">
-         <!-- naslov serijske publikacije -->
-         <em>
-            <xsl:for-each select="tei:monogr/tei:title[@level='j'][1]">
-               <xsl:value-of select="."/>
-            </xsl:for-each>
-            <xsl:for-each select="tei:monogr/tei:title[@level='j'][2]">
-               <xsl:text>: </xsl:text>
-               <xsl:value-of select="."/>
-            </xsl:for-each>
-         </em>
-         <xsl:text> </xsl:text>
-         <!-- letnik -->
-         <xsl:value-of select="concat(tei:monogr/tei:biblScope[@unit='volume'],' ')"/>
-         <!-- številka -->
-         <xsl:if test="tei:monogr/tei:biblScope[@unit='issue']">
-            <xsl:variable name="issue" select="tei:monogr/tei:biblScope[@unit='issue']"/>
-            <xsl:choose>
-               <xsl:when test="matches($issue,'\d+')">
-                  <xsl:value-of select="concat(', št. ',$issue,' ')"/>
-               </xsl:when>
-               <xsl:otherwise>
-                  <xsl:value-of select="concat(', ',$issue,' ')"/>
-               </xsl:otherwise>
-            </xsl:choose>
-         </xsl:if>
-         <!-- datum izdaje -->
-         <xsl:variable name="date" select="tei:monogr/tei:imprint/tei:date/@when"/>
-         <xsl:variable name="year" select="tokenize($date,'-')[1]"/>
-         <xsl:variable name="month" select="tokenize($date,'-')[2]"/>
-         <xsl:variable name="day" select="tokenize($date,'-')[3]"/>
-         <xsl:variable name="dateDisplay">
-            <xsl:if test="string-length($day) gt 0">
-               <xsl:value-of select="concat(number($day),'. ')"/>
-            </xsl:if>
-            <xsl:if test="string-length($month) gt 0">
-               <xsl:value-of select="concat(number($month),'. ')"/>
-            </xsl:if>
-            <xsl:if test="string-length($year) gt 0">
-               <xsl:value-of select="$year"/>
-            </xsl:if>
-         </xsl:variable>
-         <xsl:value-of select="concat('(',$dateDisplay,')')"/>
+         <!-- standardidizani izpis naslova/naziva Poročevalca -->
+         <b>
+            <xsl:call-template name="porocevalec-naziv"/>
+         </b>
          <!-- povezava na SIstory publikacijo -->
          <xsl:text> [</xsl:text>
          <a href="{concat('http://sistory.si/11686/',$sistoryID)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
@@ -138,6 +100,49 @@
             </ul>
          </xsl:if>
       </li>
+   </xsl:template>
+   
+   <xsl:template name="porocevalec-naziv">
+      <!-- naslov serijske publikacije -->
+      <xsl:for-each select="tei:monogr/tei:title[@level='j'][1]">
+         <xsl:value-of select="."/>
+      </xsl:for-each>
+      <xsl:for-each select="tei:monogr/tei:title[@level='j'][2]">
+         <xsl:text>: </xsl:text>
+         <xsl:value-of select="."/>
+      </xsl:for-each>
+      <xsl:text>, letnik </xsl:text>
+      <!-- letnik -->
+      <xsl:value-of select="tei:monogr/tei:biblScope[@unit='volume']"/>
+      <!-- številka -->
+      <xsl:if test="tei:monogr/tei:biblScope[@unit='issue']">
+         <xsl:variable name="issue" select="tei:monogr/tei:biblScope[@unit='issue']"/>
+         <xsl:choose>
+            <xsl:when test="matches($issue,'\d+')">
+               <xsl:value-of select="concat(', št. ',$issue,' ')"/>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:value-of select="concat(', ',$issue,' ')"/>
+            </xsl:otherwise>
+         </xsl:choose>
+      </xsl:if>
+      <!-- datum izdaje -->
+      <xsl:variable name="date" select="tei:monogr/tei:imprint/tei:date/@when"/>
+      <xsl:variable name="year" select="tokenize($date,'-')[1]"/>
+      <xsl:variable name="month" select="tokenize($date,'-')[2]"/>
+      <xsl:variable name="day" select="tokenize($date,'-')[3]"/>
+      <xsl:variable name="dateDisplay">
+         <xsl:if test="string-length($day) gt 0">
+            <xsl:value-of select="concat(number($day),'. ')"/>
+         </xsl:if>
+         <xsl:if test="string-length($month) gt 0">
+            <xsl:value-of select="concat(number($month),'. ')"/>
+         </xsl:if>
+         <xsl:if test="string-length($year) gt 0">
+            <xsl:value-of select="$year"/>
+         </xsl:if>
+      </xsl:variable>
+      <xsl:value-of select="concat('(',$dateDisplay,')')"/>
    </xsl:template>
    
    <xsl:template name="PorocevalecContent">
@@ -809,8 +814,8 @@
       <xsl:variable name="sistoryAbsolutePath">
          <xsl:if test="$chapterAsSIstoryPublications='true'">http://www.sistory.si</xsl:if>
       </xsl:variable>
-      <div class="tipue_search_content">
-         <xsl:text> </xsl:text>
+      <div id="tipue_search_content">
+         <xsl:text></xsl:text>
          <xsl:variable name="datoteka-js" select="concat($outputDir,ancestor::tei:TEI/@xml:id,'/','tipuesearch_content.js')"/>
          <xsl:result-document href="{$datoteka-js}" method="text" encoding="UTF-8">
             <!-- ZAČETEK JavaScript dokumenta -->
@@ -819,27 +824,39 @@
             
             <!-- procesira samo div[@type='listBibl]' -->
             <xsl:for-each select="//tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct">
-               <!--<xsl:variable name="ancestorChapter-id" select="ancestor::tei:div[@xml:id][parent::tei:front | parent::tei:body | parent::tei:back]/@xml:id"/>-->
                <xsl:variable name="generatedLink">
                   <xsl:apply-templates mode="generateLink" select="."/>
                </xsl:variable>
-               <xsl:variable name="besedilo">
-                  <xsl:apply-templates mode="besedilo"/>
+               <xsl:variable name="porocevalec-naziv">
+                  <xsl:call-template name="porocevalec-naziv"/>
                </xsl:variable>
+               <!-- najprej obdelam standardiziran naziv -->
                <xsl:text>{ "title": "</xsl:text>
-               <xsl:value-of select="normalize-space(translate(translate(parent::tei:div/tei:head[1],'&#xA;',' '),'&quot;',''))"/>
-               <!--<xsl:value-of select="normalize-space(translate(translate(ancestor::tei:div[@xml:id][parent::tei:front | parent::tei:body | parent::tei:back]/tei:head[1],'&#xA;',' '),'&quot;',''))"/>-->
+               <xsl:value-of select="normalize-space(translate(translate($porocevalec-naziv,'&#xA;',' '),'&quot;',''))"/>
                <xsl:text>", "text": "</xsl:text>
-               <xsl:value-of select="normalize-space(translate($besedilo,'&#xA;&quot;','&#x20;'))"/>
+               <xsl:value-of select="normalize-space(translate($porocevalec-naziv,'&#xA;&quot;','&#x20;'))"/>
                <xsl:text>", "tags": "</xsl:text>
-               <xsl:text>", "loc": "</xsl:text>
+               <xsl:text>", "url": "</xsl:text>
                <xsl:value-of select="concat($sistoryAbsolutePath,$generatedLink)"/>
-               <!--<xsl:value-of select="concat($ancestorChapter-id,'.html#',@xml:id)"/>-->
                <xsl:text>" }</xsl:text>
-               <!--<xsl:if test="position() != last()">-->
-                  <xsl:text>,</xsl:text>
-               <!--</xsl:if>-->
+               <xsl:text>,</xsl:text>
                <xsl:text>&#xA;</xsl:text>
+               <!-- potem pa obdelam vsebino kazal -->
+               <xsl:for-each select="tei:relatedItem">
+                  <xsl:variable name="besedilo">
+                     <xsl:apply-templates mode="besedilo"/>
+                  </xsl:variable>
+                  <xsl:text>{ "title": "</xsl:text>
+                  <xsl:value-of select="normalize-space(translate(translate($porocevalec-naziv,'&#xA;',' '),'&quot;',''))"/>
+                  <xsl:text>", "text": "</xsl:text>
+                  <xsl:value-of select="normalize-space(translate($besedilo,'&#xA;&quot;','&#x20;'))"/>
+                  <xsl:text>", "tags": "</xsl:text>
+                  <xsl:text>", "url": "</xsl:text>
+                  <xsl:value-of select="concat($sistoryAbsolutePath,$generatedLink)"/>
+                  <xsl:text>" }</xsl:text>
+                  <xsl:text>,</xsl:text>
+                  <xsl:text>&#xA;</xsl:text>
+               </xsl:for-each>
             </xsl:for-each>
             
             <!-- vsa ostala vsebina : isto kot v originalnem search template -->
@@ -857,7 +874,8 @@
                <xsl:text>", "text": "</xsl:text>
                <xsl:value-of select="normalize-space(translate($besedilo,'&#xA;&quot;','&#x20;'))"/>
                <xsl:text>", "tags": "</xsl:text>
-               <xsl:text>", "loc": "</xsl:text>
+               <!-- po novem url namesto loc -->
+               <xsl:text>", "url": "</xsl:text>
                <xsl:value-of select="concat($sistoryAbsolutePath,$generatedLink)"/>
                <!--<xsl:value-of select="concat($ancestorChapter-id,'.html#',@xml:id)"/>-->
                <xsl:text>" }</xsl:text>
@@ -876,13 +894,14 @@
       
       <!-- JavaScript, s katerim se požene iskanje -->
       <xsl:text disable-output-escaping="yes"><![CDATA[<script>
-            $(document).ready(function() {
-            $('.tipue_search_input').tipuesearch({
-            'show': 10,
-            'highlightEveryTerm': true,
-            'descriptiveWords': 250});
-            });
-        </script>]]></xsl:text>
+       $(document).ready(function() {
+          $('#tipue_search_input').tipuesearch({
+          'show': 10,
+          'descriptiveWords': 250,
+          'wholeWords': false
+        });
+      });
+</script>]]></xsl:text>
    </xsl:template>
    
    <xsl:template name="format-date">
