@@ -36,18 +36,33 @@
                         <lido:appellationValue>Tolminski muzej</lido:appellationValue>
                      </lido:legalBodyName>
                   </lido:repositoryName>
+                  <lido:workID>510:TOL;TMU-0000387</lido:workID>
                   <lido:repositoryLocation>
                      <lido:namePlaceSet>
-                        <lido:appellationValue xml:lang="slv">Spominska soba Simona Gregorčiča, Vrsno</lido:appellationValue>
+                        <lido:appellationValue xml:lang="slv">Tolminski muzej, knjižnica</lido:appellationValue>
                      </lido:namePlaceSet>
                   </lido:repositoryLocation>
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
-               <lido:objectDescriptionSet lido:type="condition">
-                  <lido:descriptiveNoteValue>Maska je odlično ohranjena.</lido:descriptiveNoteValue>
+               <lido:objectDescriptionSet lido:type="description">
+                  <lido:descriptiveNoteValue>Kopija originalne maske, ki jo hranijo v v rojstni hiši Simona Gregorčiča na Vrsnem.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <lido:objectDescriptionSet lido:type="conditionNote">
+                  <lido:descriptiveNoteValue>Na vrhu vdelana kovinska prečka za obešanje.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <lido:objectDescriptionSet lido:type="conditionNote">
+                  <lido:descriptiveNoteValue>Znotraj odtisnjen napis: "PONAREDBA PREPOVEDANA"</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <lido:objectDescriptionSet lido:type="conditionNote">
+                  <lido:descriptiveNoteValue>Mavec je na zunanji strani umazan.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
             </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements>V: 23 cm; Š: 16.5 cm; debelina: 3 cm</lido:displayObjectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
          </lido:objectIdentificationWrap>
          <lido:eventWrap>
             <lido:eventSet>
@@ -57,20 +72,6 @@
                      <lido:term xml:lang="en">Production</lido:term>
                      <lido:term>Izdelovanje</lido:term>
                   </lido:eventType>
-                  <lido:eventActor>
-                     <lido:actorInRole>
-                        <lido:actor>
-                           <lido:nameActorSet>
-                              <lido:appellationValue>Peruzzi Svitoslav</lido:appellationValue>
-                           </lido:nameActorSet>
-                        </lido:actor>
-                        <lido:roleActor>
-                           <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00163</lido:conceptID>
-                           <lido:term xml:lang="en">Person</lido:term>
-                           <lido:term>Oseba</lido:term>
-                        </lido:roleActor>
-                     </lido:actorInRole>
-                  </lido:eventActor>
                   <lido:eventMaterialsTech>
                      <lido:materialsTech>
                         <lido:termMaterialsTech>
@@ -88,7 +89,10 @@
                      <lido:term>Provenienca</lido:term>
                   </lido:eventType>
                   <lido:eventDescriptionSet>
-                     <lido:descriptiveNoteValue>L. 2015 je bila maska na razstavi sodobne intermedijske umetnosti Pixxelpoint v Novi Gorici.</lido:descriptiveNoteValue>
+                     <lido:descriptiveNoteValue>Predstavljena na razstavi »OBJEKT« v okviru 16. festivala medijskih umetnosti Pixxelpoint 2015 od 27. 11. 2015 do 4. 12. 2015.</lido:descriptiveNoteValue>
+                  </lido:eventDescriptionSet>
+                  <lido:eventDescriptionSet>
+                     <lido:descriptiveNoteValue>V muzej prišla 1. 12. 1961 (dar).</lido:descriptiveNoteValue>
                   </lido:eventDescriptionSet>
                </lido:event>
             </lido:eventSet>

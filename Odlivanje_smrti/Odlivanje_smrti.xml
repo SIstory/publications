@@ -3991,6 +3991,48 @@
             </item>
          </list>
       </item>
+      <item xml:id="sistory-37273">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Levar (1) (MNZS)</item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37273">http://hdl.handle.net/11686/37273</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37273/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-37275">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Ivan Levar (2) (MNZS)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/37275">http://hdl.handle.net/11686/37275</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37275/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
       <item xml:id="sistory-37918">
          <list type="gloss">
             <label>Naziv</label>
@@ -4010,25 +4052,6 @@
             <label>LIDO metapodatki</label>
             <item>
                <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37918/metadata.xml"
-                    type="LIDO"/>
-            </item>
-         </list>
-      </item>
-      <item xml:id="sistory-37273">
-         <list type="gloss">
-            <label>Naziv</label>
-            <item>Ivan Levar (MNZS)</item>
-            <label>Upodobljenec</label>
-            <item>
-               <ref target="#pers.LevarIvan1888">Ivan Levar</ref>
-            </item>
-            <label>SIstory</label>
-            <item>
-               <ref target="http://www.sistory.si/11686/37273">http://hdl.handle.net/11686/37273</ref>
-            </item>
-            <label>LIDO metapodatki</label>
-            <item>
-               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37273/metadata.xml"
                     type="LIDO"/>
             </item>
          </list>
@@ -4214,9 +4237,7 @@
             <label>Naziv</label>
             <item>Ivan Vavpotič (MNZS)</item>
             <label>Avtor</label>
-            <item>
-               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-            </item>
+            <item/>
             <label>Upodobljenec</label>
             <item>
                <ref target="#pers.VavpotičIvan1877">Ivan Vavpotič</ref>
@@ -4744,29 +4765,6 @@
             </item>
          </list>
       </item>
-      <item xml:id="sistory-37275">
-         <list type="gloss">
-            <label>Naziv</label>
-            <item>Neznan upodobljenec (1) (MNZS)</item>
-            <label>Avtor</label>
-            <item>
-               <ref target="#pers.KalinZdenko1911">Zdenko Kalin</ref>
-            </item>
-            <label>Upodobljenec</label>
-            <item>
-               <ref target="#pers.unknown">Neznan upodobljenec</ref>
-            </item>
-            <label>SIstory</label>
-            <item>
-               <ref target="http://www.sistory.si/11686/37275">http://hdl.handle.net/11686/37275</ref>
-            </item>
-            <label>LIDO metapodatki</label>
-            <item>
-               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37275/metadata.xml"
-                    type="LIDO"/>
-            </item>
-         </list>
-      </item>
       <item xml:id="sistory-37154">
          <list type="gloss">
             <label>Naziv</label>
@@ -4856,9 +4854,7 @@
             <label>Naziv</label>
             <item>Oton Župančič (1) (MNZS)</item>
             <label>Avtor</label>
-            <item>
-               <ref target="#pers.DremeljStane1906">Stane Dremelj</ref>
-            </item>
+            <item/>
             <label>Upodobljenec</label>
             <item>
                <ref target="#pers.ŽupančičOton1878">Oton Župančič</ref>
@@ -5326,10 +5322,6 @@
          <list type="gloss">
             <label>Naziv</label>
             <item>Simon Gregorčič (Tolminski muzej)</item>
-            <label>Avtor</label>
-            <item>
-               <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
-            </item>
             <label>Upodobljenec</label>
             <item>
                <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
@@ -5341,6 +5333,29 @@
             <label>LIDO metapodatki</label>
             <item>
                <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/37297/metadata.xml"
+                    type="LIDO"/>
+            </item>
+         </list>
+      </item>
+      <item xml:id="sistory-38070">
+         <list type="gloss">
+            <label>Naziv</label>
+            <item>Simon Gregorčič (Vrsno)</item>
+            <label>Avtor</label>
+            <item>
+               <ref target="#pers.PeruzziSvitoslav1881">Svitoslav Peruzzi</ref>
+            </item>
+            <label>Upodobljenec</label>
+            <item>
+               <ref target="#pers.GregorčičSimon1844">Simon Gregorčič</ref>
+            </item>
+            <label>SIstory</label>
+            <item>
+               <ref target="http://www.sistory.si/11686/38070">http://hdl.handle.net/11686/38070</ref>
+            </item>
+            <label>LIDO metapodatki</label>
+            <item>
+               <ptr target="https://raw.githubusercontent.com/SIstory/publications/master/Odlivanje_smrti/LIDO/38070/metadata.xml"
                     type="LIDO"/>
             </item>
          </list>

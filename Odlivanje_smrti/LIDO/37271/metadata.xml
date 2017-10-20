@@ -45,6 +45,9 @@
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
+               <lido:objectDescriptionSet lido:type="description">
+                  <lido:descriptiveNoteValue>Številni viri navajajo kot avtorja Župančičeve posmrtne maske Staneta Dremlja. Za dotično masko v Muzeju novejše zgodovine Slovenije ne hranijo podatka o avtorstvu.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska se nahaja v dobrem stanju.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
@@ -65,7 +68,7 @@
                      <lido:actorInRole>
                         <lido:actor>
                            <lido:nameActorSet>
-                              <lido:appellationValue>Dremelj Stane</lido:appellationValue>
+                              <lido:appellationValue>Dremelj Stane ?</lido:appellationValue>
                            </lido:nameActorSet>
                         </lido:actor>
                         <lido:roleActor>

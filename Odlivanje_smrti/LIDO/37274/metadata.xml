@@ -45,6 +45,9 @@
                </lido:repositorySet>
             </lido:repositoryWrap>
             <lido:objectDescriptionWrap>
+               <lido:objectDescriptionSet lido:type="description">
+                  <lido:descriptiveNoteValue>Ni povsem jasno, ali maska pripada Ivanu Vavpotiču.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
                <lido:objectDescriptionSet lido:type="condition">
                   <lido:descriptiveNoteValue>Maska je v slabem stanju.</lido:descriptiveNoteValue>
                </lido:objectDescriptionSet>
@@ -62,7 +65,7 @@
                      <lido:actorInRole>
                         <lido:actor>
                            <lido:nameActorSet>
-                              <lido:appellationValue>Kalin Zdenko</lido:appellationValue>
+                              <lido:appellationValue>Kalin Zdenko ?</lido:appellationValue>
                            </lido:nameActorSet>
                         </lido:actor>
                         <lido:roleActor>

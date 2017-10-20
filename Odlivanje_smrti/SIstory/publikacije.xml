@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns="http://www.sistory.si/schemas/sistory/">
     <publication>
+        <ID>38070</ID>
+        <URN>11686/38070</URN>
+        <CHILD_ORDER>1</CHILD_ORDER>
+        <CREATOR>
+            <IME>Svitoslav</IME>
+            <PRIIMEK>Peruzzi</PRIIMEK>
+        </CREATOR>
+        <MENU_ID id="196">Odlivanje smrti</MENU_ID>
+        <LANGUAGE lang="zxx">45</LANGUAGE>
+        <PAGE>0</PAGE>
+        <TYPE title="Slika">3</TYPE>
+        <TYPE_DC title="Physical Object">7</TYPE_DC>
+        <RELATION relationType="isReferencedBy" relationAttr="xml:lang" lang="slv">http://www.tol-muzej.si/?id=120</RELATION>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Tolminski muzej; Vrsno, rojstna hiša Simona Gregorčiča.</RIGHTS>
+        <TITLE titleType="Title" lang="slv">Simon Gregorčič (Vrsno)</TITLE>
+        <SUBJECT lang="slv">Simon Gregorčič</SUBJECT>
+        <COLLECTION>Tolminski muzej</COLLECTION>
+        <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
+        <STATUS>1</STATUS>
+        <LOCK>0</LOCK>
+        <DATETIME_ADDED>2017-10-18 12:09:20</DATETIME_ADDED>
+        <DATETIME_MODIFIED>2017-10-18 12:23:14</DATETIME_MODIFIED>
+        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="VZ-55 posmrtna maska Simon Gregorcic  (1).jpg">
+            <ATTRIBUTE type="">Posmrtna maska Simona Gregorčiča; Rojstna hiša (Vrsno).</ATTRIBUTE>
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Tolminski muzej</ATTRIBUTE>
+        </PUBLICATION>
+    </publication>
+    <publication>
         <ID>38020</ID>
         <URN>11686/38020</URN>
         <CHILD_ORDER>1</CHILD_ORDER>
@@ -26,8 +56,8 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-10-12 15:49:24</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-10-12 15:49:24</DATETIME_MODIFIED>
-        <USER_ID_ADDED>115</USER_ID_ADDED>
+        <DATETIME_MODIFIED>2017-10-17 22:52:00</DATETIME_MODIFIED>
+        <USER_ID_ADDED>11</USER_ID_ADDED>
         <PUBLICATION file="Posmrtna maska Ivana Cankarja v NUKu--.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
             <ATTRIBUTE type="">Posmrtna maska Ivana Cankarja; NUK.</ATTRIBUTE>
@@ -1225,19 +1255,20 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-04-04 11:23:28</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-06-12 09:36:27</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 16:02:23</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="20170216_111214.jpg">
-            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+        <PUBLICATION file="IMG_9871.JPG">
             <ATTRIBUTE type="">Posmrtna maska Ivana Cankarja; Slovanska knjižnica.</ATTRIBUTE>
-        </PUBLICATION>
-        <PUBLICATION file="20170216_110917.jpg">
+            <ATTRIBUTE type="digitalRights">Slovanska knjižnica</ATTRIBUTE>
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Ivana Cankarja - hrbtna stran; Slovanska knjižnica.</ATTRIBUTE>
         </PUBLICATION>
         <PUBLICATION file="20170216_111043.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
             <ATTRIBUTE type="">Posmrtna maska Ivana Cankarja - Cankarjev brk; Slovanska knjižnica.</ATTRIBUTE>
+        </PUBLICATION>
+        <PUBLICATION file="20170216_110917.jpg">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Ivana Cankarja - hrbtna stran; Slovanska knjižnica.</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
@@ -1956,28 +1987,30 @@
         <ID>37297</ID>
         <URN>11686/37297</URN>
         <CHILD_ORDER>1</CHILD_ORDER>
-        <CREATOR>
-            <IME>Svitoslav</IME>
-            <PRIIMEK>Peruzzi</PRIIMEK>
-        </CREATOR>
         <MENU_ID id="196">Odlivanje smrti</MENU_ID>
         <LANGUAGE lang="zxx">45</LANGUAGE>
         <PAGE>0</PAGE>
         <TYPE title="Slika">3</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
-        <RELATION relationType="isReferencedBy" relationAttr="xml:lang" lang="slv">http://www.tol-muzej.si/?id=120</RELATION>
-        <RELATION relationType="isReferencedBy" relationAttr="xml:lang" lang="slv">http://www.os-tolmin.si/files/images/Nova%20slika%20(6)_2.png</RELATION>
-        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Spominska soba Simona Gregorčiča, Vrsno</RIGHTS>
+        <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Tolminski muzej, knjižnica</RIGHTS>
         <TITLE titleType="Title" lang="slv">Simon Gregorčič (Tolminski muzej)</TITLE>
         <SUBJECT lang="slv">Simon Gregorčič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Kopija originalne maske, ki jo hranijo v v rojstni hiši Simona Gregorčiča na Vrsnem.
+        </DESCRIPTION>
         <COLLECTION>Tolminski muzej</COLLECTION>
-        <OTHER otherType="provenance" lang="slv">L. 2015 je bila maska na razstavi sodobne intermedijske umetnosti Pixxelpoint v Novi Gorici.</OTHER>
+        <IDENTIFIER identifierType="Identifier">510:TOL;TMU-0000387</IDENTIFIER>
+        <OTHER otherType="provenance" lang="slv">Predstavljena na razstavi »OBJEKT« v okviru 16. festivala medijskih umetnosti Pixxelpoint 2015 od 27. 11. 2015 do 4. 12. 2015.</OTHER>
+        <OTHER otherType="provenance" lang="slv">V muzej prišla 1. 12. 1961 (dar).</OTHER>
         <SLIKOVNI slikovniElType="visTechnique">Mavec</SLIKOVNI>
-        <SLIKOVNI slikovniElType="visTechAttribute">Maska je odlično ohranjena.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Na vrhu vdelana kovinska prečka za obešanje.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Znotraj odtisnjen napis: "PONAREDBA PREPOVEDANA"</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visTechAttribute">Mavec je na zunanji strani umazan.</SLIKOVNI>
+        <SLIKOVNI slikovniElType="visDimensions">V: 23 cm; Š: 16.5 cm; debelina: 3 cm</SLIKOVNI>
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-03-13 19:48:56</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-06-12 09:07:52</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 12:04:43</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="gregorcic_pixelpoint.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
@@ -2204,8 +2237,11 @@
         <TYPE title="Analogno">8</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
-        <TITLE titleType="Title" lang="slv">Neznan upodobljenec (1) (MNZS)</TITLE>
-        <SUBJECT lang="slv">Neznan upodobljenec</SUBJECT>
+        <TITLE titleType="Title" lang="slv">Ivan Levar (2) (MNZS)</TITLE>
+        <SUBJECT lang="slv">Ivan Levar</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Na podlagi primerjave z drugimi maskami identificiran kot Ivan Levar.
+        </DESCRIPTION>
         <COLLECTION>Muzej novejše zgodovine Slovenije</COLLECTION>
         <IDENTIFIER identifierType="Identifier">745:LJU;KI-0000238</IDENTIFIER>
         <OTHER otherType="provenance" lang="slv">Darilo T. Maechtiga, 29.11. 2006.</OTHER>
@@ -2214,15 +2250,20 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-03-13 11:14:02</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-04-22 16:42:36</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 11:04:45</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="K-238a.JPG">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Ivana Levarja; depo MNZS.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">MNZS</ATTRIBUTE>
+        </PUBLICATION>
     </publication>
     <publication>
         <ID>37274</ID>
         <URN>11686/37274</URN>
         <CHILD_ORDER>1</CHILD_ORDER>
         <CREATOR>
-            <IME>Zdenko</IME>
+            <IME>Zdenko ?</IME>
             <PRIIMEK>Kalin</PRIIMEK>
         </CREATOR>
         <DATE type="Date">1943</DATE>
@@ -2234,6 +2275,9 @@
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
         <TITLE titleType="Title" lang="slv">Ivan Vavpotič (MNZS)</TITLE>
         <SUBJECT lang="slv">Ivan Vavpotič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Ni povsem jasno, ali maska pripada Ivanu Vavpotiču.
+        </DESCRIPTION>
         <COLLECTION>Muzej novejše zgodovine Slovenije</COLLECTION>
         <IDENTIFIER identifierType="Identifier">745:LJU;KI-0000234</IDENTIFIER>
         <OTHER otherType="provenance" lang="slv">T. Maechtig 29.11. 2006 masko podari MNZS.</OTHER>
@@ -2243,11 +2287,12 @@
         <LOCK>0</LOCK>
         <YEAR>1943</YEAR>
         <DATETIME_ADDED>2017-03-13 11:05:16</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-13 11:06:37</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 16:08:23</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="Posmrtna_maska_Ivana_Vaupotica.jpg">
+        <PUBLICATION file="VAVPOTIC_MNZS.JPG">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Ivana Vavpotiča; depo MNZS.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">MNZS</ATTRIBUTE>
+            <ATTRIBUTE type="">Maska pripisana I. Vavpotiču; depo MNZS.</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
@@ -2261,7 +2306,7 @@
         <TYPE title="Slika">3</TYPE>
         <TYPE_DC title="Physical Object">7</TYPE_DC>
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo</RIGHTS>
-        <TITLE titleType="Title" lang="slv">Ivan Levar (MNZS)</TITLE>
+        <TITLE titleType="Title" lang="slv">Ivan Levar (1) (MNZS)</TITLE>
         <SUBJECT lang="slv">Ivan Levar</SUBJECT>
         <DESCRIPTION descriptionType="Description" lang="slv">
             Po pričevanju zaposlenih v MNZS naj bi bila to posmrtna maska Ivana Levarja.
@@ -2276,7 +2321,7 @@
         <LOCK>0</LOCK>
         <YEAR>1950</YEAR>
         <DATETIME_ADDED>2017-03-13 10:58:12</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-06-06 09:41:10</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 11:05:16</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
         <PUBLICATION file="Posmrtna_maska_Ivana_Levarja.jpg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
@@ -2314,15 +2359,20 @@
         <LOCK>0</LOCK>
         <YEAR>1949</YEAR>
         <DATETIME_ADDED>2017-03-13 10:47:16</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-06-08 12:42:21</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 11:08:29</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="K-97a.JPG">
+            <ATTRIBUTE type="">Posmrtna maska Otona Župančiča; MNZS.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">MNZS</ATTRIBUTE>
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+        </PUBLICATION>
     </publication>
     <publication>
         <ID>37271</ID>
         <URN>11686/37271</URN>
         <CHILD_ORDER>1</CHILD_ORDER>
         <CREATOR>
-            <IME>Stane</IME>
+            <IME>Stane ?</IME>
             <PRIIMEK>Dremelj</PRIIMEK>
         </CREATOR>
         <MENU_ID id="196">Odlivanje smrti</MENU_ID>
@@ -2334,6 +2384,9 @@
         <RIGHTS rightsType="accessRights" rightsAttr="xml:lang" lang="slv">Depo; S I</RIGHTS>
         <TITLE titleType="Title" lang="slv">Oton Župančič (1) (MNZS)</TITLE>
         <SUBJECT lang="slv">Oton Župančič</SUBJECT>
+        <DESCRIPTION descriptionType="Description" lang="slv">
+            Številni viri navajajo kot avtorja Župančičeve posmrtne maske Staneta Dremlja. Za dotično masko v Muzeju novejše zgodovine Slovenije ne hranijo podatka o avtorstvu.
+        </DESCRIPTION>
         <COLLECTION>Muzej novejše zgodovine Slovenije</COLLECTION>
         <IDENTIFIER identifierType="Identifier">745:LJU;KI-0000097</IDENTIFIER>
         <IDENTIFIER identifierType="Bibliographic citation">Divjak (1949). Oton Župančič (1878-1949). URN:NBN:SI:IMG-WBU3KDQV from http://www.dlib.si</IDENTIFIER>
@@ -2344,11 +2397,12 @@
         <STATUS>1</STATUS>
         <LOCK>0</LOCK>
         <DATETIME_ADDED>2017-03-13 10:35:06</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-06-09 17:32:32</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 15:56:52</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="Zupancic_Oton_MNZS.jpg">
+        <PUBLICATION file="K-97a.JPG">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
             <ATTRIBUTE type="">Posmrtna maska Otona Župančiča; depo MNZS.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">NMZS</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
@@ -2375,11 +2429,12 @@
         <LOCK>0</LOCK>
         <YEAR>1953</YEAR>
         <DATETIME_ADDED>2017-03-13 10:27:36</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-13 10:27:36</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 15:58:52</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
-        <PUBLICATION file="Etbin_Kristan.jpg">
+        <PUBLICATION file="KRISTAN_MNZS.JPG">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
-            <ATTRIBUTE type="">Posmrtna maska Etbina Kristana; depo MNZS.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">MNZS</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska E. Kristana; depo MNZS.</ATTRIBUTE>
         </PUBLICATION>
     </publication>
     <publication>
@@ -2546,8 +2601,13 @@
         <LOCK>0</LOCK>
         <YEAR>1911</YEAR>
         <DATETIME_ADDED>2017-03-11 17:36:15</DATETIME_ADDED>
-        <DATETIME_MODIFIED>2017-03-11 17:44:20</DATETIME_MODIFIED>
+        <DATETIME_MODIFIED>2017-10-18 16:05:07</DATETIME_MODIFIED>
         <USER_ID_ADDED>115</USER_ID_ADDED>
+        <PUBLICATION file="Grohar_MG.jpg">
+            <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
+            <ATTRIBUTE type="">Posmrtna maska Ivana Groharja; depo Moderne galerije.</ATTRIBUTE>
+            <ATTRIBUTE type="digitalRights">Moderna galerija</ATTRIBUTE>
+        </PUBLICATION>
         <PUBLICATION file="Grohar_Ivan.jpeg">
             <ATTRIBUTE type="digitalFormat">image/jpeg</ATTRIBUTE>
             <ATTRIBUTE type="">Posmrtna maska Ivana Groharja; depo Moderne galerije.</ATTRIBUTE>
