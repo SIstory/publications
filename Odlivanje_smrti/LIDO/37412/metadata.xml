@@ -148,6 +148,25 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg Posmrtna maska Matije Jama; SAZU.">http://www.sistory.si/cdn/publikacije/37001-38000/37412/IMG_20170330_104929.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37412/20170330_103137.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Matije Jama - detajl (1); SAZU.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37412/IMG_20170330_105700.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Matije Jama - detajl (2); SAZU.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

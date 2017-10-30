@@ -98,6 +98,19 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37916/2_Ivan_Cankar009.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Ivana Cankarja; (Arhiv CTF UL AGRFT)</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Arhiv CTF UL AGRFT</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

@@ -106,6 +106,14 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37154/Posmrtna _Maska_neznanega_moža_levo_in_Franc_Suher_desno.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Na levi posmrtna maska neidentificiranega moža srednjih let, na desni posmrtna maska F. Suherja; depo MGML.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

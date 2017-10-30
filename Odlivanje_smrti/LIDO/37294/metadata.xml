@@ -101,6 +101,20 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37294/Ivan_Napotnik_bron.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Bronast odlitek posmrtne maske Ivana Napotnika; depo NG.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37294/Napotnik_bron_2.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Mavčni in bronast odlitek posmrtne maske Ivana Napotnika; depo NG.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

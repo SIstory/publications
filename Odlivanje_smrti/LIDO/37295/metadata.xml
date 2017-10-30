@@ -100,6 +100,26 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37295/Janez_Subic.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Janeza Šubica; depo NG.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37295/Subic_1.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Janeza Šubica; depo NG.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37295/Subic_3.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Janeza Šubica - zadnja stran; depo NG.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

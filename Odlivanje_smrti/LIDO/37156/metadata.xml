@@ -120,6 +120,14 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37156/Posmrtna_maska_neznanega_moza_1957.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Rumeno patiniran mavčni odlitek posmrtne maske neznanega starejšega moškega z brki.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

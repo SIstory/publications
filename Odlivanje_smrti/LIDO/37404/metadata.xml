@@ -155,6 +155,20 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37404/20170330_102939.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Marjana Mušiča; SAZU.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37404/20170330_103055.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Marjana Mušiča - hrbtna stran, napisi; SAZU.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

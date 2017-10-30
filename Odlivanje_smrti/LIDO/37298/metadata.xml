@@ -128,6 +128,20 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37298/Vrhnika_Cankarjeva_spominska_hisa.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Ivana Cankarja v spominski hiši na Vrhniki.</lido:resourceDescription>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37298/Vrhnika_Cankarjeva_spominska hisa_2.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Napis v vitrini ob posmrtni maski Ivana Cankarja; spominska hiša na Vrhniki.</lido:resourceDescription>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

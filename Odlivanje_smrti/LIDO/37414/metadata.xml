@@ -128,6 +128,19 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37414/20170302_081745.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Rista Savina; SKZAL.</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Medobčinska splošna knjižnica Žalec</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

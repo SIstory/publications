@@ -136,6 +136,41 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37991/DSC_0801.JPG</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Jana Oeltjena (frontalni pogled).</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Pokrajinski muzej Ptuj - Ormož</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37991/DSC_0803.JPG</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Jana Oeltjena (profil).</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Pokrajinski muzej Ptuj - Ormož</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37991/DSC_0799.JPG</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Jana Oeltjena (vidni lasje pokojnika).</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Pokrajinski muzej Ptuj - Ormož</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>

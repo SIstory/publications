@@ -127,6 +127,19 @@
                <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
             </lido:recordSource>
          </lido:recordWrap>
+         <lido:resourceWrap>
+            <lido:resourceSet>
+               <lido:resourceRepresentation>
+                  <lido:linkResource lido:formatResource="image/jpeg">http://www.sistory.si/cdn/publikacije/37001-38000/37476/UZ359.jpg</lido:linkResource>
+               </lido:resourceRepresentation>
+               <lido:resourceDescription>Posmrtna maska Franceta Miheliča; Loški muzej.</lido:resourceDescription>
+               <lido:resourceSource>
+                  <lido:legalBodyName>
+                     <lido:appellationValue>Loški muzej Škofja Loka</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:resourceSource>
+            </lido:resourceSet>
+         </lido:resourceWrap>
       </lido:administrativeMetadata>
    </lido:lido>
 </lido:lidoWrap>
