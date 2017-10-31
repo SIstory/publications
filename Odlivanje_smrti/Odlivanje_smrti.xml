@@ -5530,6 +5530,9 @@
       </item>
    </list>
 </div>
+         <divGen type="content" xml:id="mask">
+            <head>Metapodatki posmrtne maske</head>
+         </divGen>
          <div type="listPerson" xml:id="listPerson">
             <head>Osebe</head>
             <listPerson xml:id="persons-deathMask">

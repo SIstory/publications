@@ -73,116 +73,39 @@
    <xsl:param name="keywords">posmrtne maske, Slovenija</xsl:param>
    <xsl:param name="title">Odlivanje smrti</xsl:param>
    
-   <!-- LIDO metadata -->
+   
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc> LIDO metadata </xsldoc:desc>
+   </xsldoc:doc>
    <xsl:template match="tei:ptr[@type='LIDO']">
       <xsl:variable name="sistoryID" select="substring-after(ancestor::tei:list[@type='gloss']/parent::tei:item/@xml:id,'sistory-')"/>
-      <xsl:variable name="path2lido" select="concat('../../LIDO/',$sistoryID,'/metadata.xml')"/>
-      <a href="{@target}"><xsl:value-of select="@target"/></a>
-      <dl>
-         <xsl:for-each select="document($path2lido)/lido:lidoWrap/lido:lido">
-            <xsl:for-each select="lido:descriptiveMetadata">
-               <dt>Opisni metapodatki</dt>
-               <dd>
-                  <xsl:for-each select="lido:objectIdentificationWrap">
-                     <dl>
-                        <dt>Identifikacija objekta</dt>
-                        <dd>
-                           <dl>
-                              <xsl:for-each select="lido:repositoryWrap/lido:repositorySet">
-                                 <dt>Repozitorij</dt>
-                                 <dd>
-                                    <xsl:value-of select="lido:repositoryName/lido:legalBodyName/lido:appellationValue"/>
-                                    <xsl:if test="lido:workID or lido:repositoryLocation">
-                                       <dl>
-                                          <xsl:for-each select="lido:workID">
-                                             <dt>Identifikator dela</dt>
-                                             <dd><xsl:value-of select="."/></dd>
-                                          </xsl:for-each>
-                                          <xsl:for-each select="lido:repositoryLocation">
-                                             <dt>Nahajališče</dt>
-                                             <dd><xsl:value-of select="lido:namePlaceSet/lido:appellationValue"/></dd>
-                                          </xsl:for-each>
-                                       </dl>
-                                    </xsl:if>
-                                 </dd>
-                              </xsl:for-each>
-                              <xsl:for-each select="lido:objectDescriptionWrap">
-                                 <dt>Opisi</dt>
-                                 <dd>
-                                    <dl>
-                                       <xsl:for-each select="lido:objectDescriptionSet">
-                                          <dt>
-                                             <xsl:if test="@lido:type = 'description'">Opis</xsl:if>
-                                             <xsl:if test="@lido:type = 'condition'">Stanje predmeta</xsl:if>
-                                             <xsl:if test="@lido:type = 'conditionNote'">Oznake</xsl:if>
-                                          </dt>
-                                          <dd><xsl:value-of select="lido:descriptiveNoteValue"/></dd>
-                                       </xsl:for-each>
-                                    </dl>
-                                 </dd>
-                              </xsl:for-each>
-                              <xsl:for-each select="lido:objectMeasurementsWrap">
-                                 <dt>Mere objekta</dt>
-                                 <dd>
-                                    <xsl:choose>
-                                       <xsl:when test="lido:objectMeasurementsSet/lido:objectMeasurements">
-                                          <xsl:for-each select="lido:objectMeasurementsSet/lido:objectMeasurements">
-                                             <dl>
-                                                <xsl:for-each select="lido:measurementsSet">
-                                                   <dt><xsl:value-of select="lido:measurementType"/></dt>
-                                                   <dd><xsl:value-of select="concat(lido:measurementValue,' ',lido:measurementUnit)"/></dd>
-                                                </xsl:for-each>
-                                             </dl>
-                                          </xsl:for-each>
-                                       </xsl:when>
-                                       <xsl:otherwise>
-                                          <xsl:value-of select="lido:objectMeasurementsSet/lido:displayObjectMeasurements"/>
-                                       </xsl:otherwise>
-                                    </xsl:choose>
-                                 </dd>
-                              </xsl:for-each>
-                           </dl>
-                        </dd>
-                     </dl>
-                  </xsl:for-each>
-                  <xsl:for-each select="lido:eventWrap">
-                     <dl>
-                        <dt>Dogodki</dt>
-                        <dd>
-                           <xsl:for-each select="lido:eventSet/lido:event">
-                              <dl>
-                                 <dt><xsl:value-of select="lido:eventType/lido:term[not(@xml:lang)]"/></dt>
-                                 <dd>
-                                    <dl>
-                                       <xsl:for-each select="lido:eventActor/lido:actorInRole">
-                                          <dt><xsl:value-of select="lido:roleActor/lido:term[not(@xml:lang)]"/></dt>
-                                          <dd><xsl:value-of select="lido:actor/lido:nameActorSet/lido:appellationValue"/></dd>
-                                       </xsl:for-each>
-                                       <xsl:for-each select="lido:eventMaterialsTech/lido:materialsTech">
-                                          <dt>Material in tehnika</dt>
-                                          <dd><xsl:value-of select="lido:termMaterialsTech/lido:term"/></dd>
-                                       </xsl:for-each>
-                                       <xsl:for-each select="lido:eventDate">
-                                          <dt>Datum</dt>
-                                          <dd><xsl:value-of select="lido:displayDate"/></dd>
-                                       </xsl:for-each>
-                                       <xsl:for-each select="lido:eventDescriptionSet">
-                                          <dt>Opis</dt>
-                                          <dd><xsl:value-of select="lido:descriptiveNoteValue"/></dd>
-                                       </xsl:for-each>
-                                    </dl>
-                                 </dd>
-                              </dl>
-                           </xsl:for-each>
-                        </dd>
-                     </dl>
-                  </xsl:for-each>
-               </dd>
-            </xsl:for-each>
-         </xsl:for-each>
-      </dl>
+      <xsl:variable name="path2mask" select="concat('/cdn/publikacije/37001-38000/37475/mask.html?id=',$sistoryID)"/>
+      <a href="{$path2mask}" target="_blank">Vsi metapodatki</a>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
+   <xsl:template name="divGen-process-content">
+      <xsl:if test="self::tei:divGen[@xml:id='mask']">
+         <script type="text/javascript" src="SaxonJS.min.js"></script>
+         <xsl:text disable-output-escaping="yes"><![CDATA[<script>
+            window.onload = function() {
+            SaxonJS.transform({
+            stylesheetLocation: "mask.sef",
+            sourceLocation: "Odlivanje_smrti.xml"
+            });
+            }     
+         </script>]]></xsl:text>
+         
+         <div id="maska"/>
+         
+      </xsl:if>
+   </xsl:template>
+   
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template match="tei:listPerson[@xml:id = 'persons-deathMask']">
       <xsl:variable name="maske">
          <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type='lido']/tei:list[@type='deathMask']/tei:item[@xml:id]">
@@ -351,6 +274,9 @@
       </ol>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="divGen-main-content">
       <!-- kolofon CIP -->
       <xsl:if test="self::tei:divGen[@type='cip']">
@@ -383,6 +309,10 @@
       <!-- kazalo vsebine toc, ki izpiše samo naslove poglavij, kjer ima div atributa type in xml:id -->
       <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='titleType'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='titleType']">
          <xsl:call-template name="TOC-title-type"/>
+      </xsl:if>
+      <!-- prazen divGen, v katerem lahko naknadno poljubno procesiramo vsebino -->
+      <xsl:if test="self::tei:divGen[@type='content']">
+         <xsl:call-template name="divGen-process-content"/>
       </xsl:if>
       <!-- toogle, ker sem spodaj dodal novo pretvorbo za persons -->
       <!-- seznam (indeks) oseb -->
@@ -424,6 +354,9 @@
       </xsl:if>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="occupations">
       <xsl:variable name="poklici">
          <xsl:for-each select="ancestor::tei:text/tei:body/tei:div[@type='listPerson']/tei:listPerson/tei:person">
@@ -450,6 +383,11 @@
       </ul>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+      <xsldoc:param name="poklici"/>
+      <xsldoc:param name="categoryPosition"/>
+   </xsldoc:doc>
    <xsl:template name="occupations-list">
       <xsl:param name="poklici"/>
       <xsl:param name="categoryPosition"/>
@@ -478,6 +416,11 @@
       </xsl:if>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+      <xsldoc:param name="poklici"/>
+      <xsldoc:param name="occupationID"/>
+   </xsldoc:doc>
    <xsl:template name="occupation-persons">
       <xsl:param name="poklici"/>
       <xsl:param name="occupationID"/>
@@ -509,6 +452,9 @@
       </xsl:for-each-group>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="datatables-masks">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -637,6 +583,9 @@
       <br/>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="datatables-persons">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -890,6 +839,9 @@
       </div>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="datatables-representation">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -1065,6 +1017,9 @@
       </table>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="datatables-representation-persons">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -1245,6 +1200,9 @@
       
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="format-date">
       <xsl:variable name="meseci">
          <mesec n="01">januar</mesec>
@@ -1277,6 +1235,9 @@
       </xsl:choose>
    </xsl:template>
    
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc/>
+   </xsldoc:doc>
    <xsl:template name="sort-date">
       <xsl:choose>
          <!-- samo letnica -->
@@ -1294,7 +1255,10 @@
       </xsl:choose>
    </xsl:template>
    
-   <!-- Ker sta pri body poglavjih samo dva div z vsebino, poenostavim prvotni template -->
+   
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc> Ker sta pri body poglavjih samo dva div z vsebino, poenostavim prvotni template </xsldoc:desc>
+   </xsldoc:doc>
    <xsl:template name="nav-body-head">Seznama</xsl:template>
    
 </xsl:stylesheet>

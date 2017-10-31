@@ -304,6 +304,34 @@
                                     <lido:legalBodyWeblink>http://ddr.si</lido:legalBodyWeblink>
                                 </lido:recordSource>
                             </lido:recordWrap>
+                            <xsl:if test="sistory:PUBLICATION">
+                                <lido:resourceWrap>
+                                    <xsl:for-each select="sistory:PUBLICATION">
+                                        <lido:resourceSet>
+                                            <lido:resourceRepresentation>
+                                                <lido:linkResource lido:formatResource="{sistory:ATTRIBUTE[@type='digitalFormat']}">
+                                                    <xsl:value-of select="concat('http://www.sistory.si/cdn/publikacije/',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1000,'/',$sistoryID,'/')"/>
+                                                    <xsl:value-of select="@file"/>
+                                                </lido:linkResource>
+                                            </lido:resourceRepresentation>
+                                            <xsl:if test="sistory:ATTRIBUTE[@type='']">
+                                                <lido:resourceDescription>
+                                                    <xsl:value-of select="sistory:ATTRIBUTE[@type='']"/>
+                                                </lido:resourceDescription>
+                                            </xsl:if>
+                                            <xsl:if test="sistory:ATTRIBUTE[@type='digitalRights']">
+                                                <lido:resourceSource>
+                                                    <lido:legalBodyName>
+                                                        <lido:appellationValue>
+                                                            <xsl:value-of select="sistory:ATTRIBUTE[@type='digitalRights']"/>
+                                                        </lido:appellationValue>
+                                                    </lido:legalBodyName>
+                                                </lido:resourceSource>
+                                            </xsl:if>
+                                        </lido:resourceSet>
+                                    </xsl:for-each>
+                                </lido:resourceWrap>
+                            </xsl:if>
                         </lido:administrativeMetadata>
                     </lido:lido>
                 </lido:lidoWrap>

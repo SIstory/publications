@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://ns.saxonica.com/xslt/export" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vv="http://saxon.sf.net/generated-variable" xmlns:java-type="http://saxon.sf.net/java-type" version="30" packageVersion="1" saxonVersion="9.7.0.19" timeStamp="2017-10-31T10:35:27.619+01:00" target="JS">
+ <co id="0" binds="">
+  <template name="Q{}lido" flags="os" line="60" module="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl" slots="0">
+   <forEach role="body" vn="31" baseUri="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl" ns="xsl=http://www.w3.org/1999/XSL/Transform tei=http://www.tei-c.org/ns/1.0 ixsl=http://saxonica.com/ns/interactiveXSLT lido=http://www.lido-schema.org xs=http://www.w3.org/2001/XMLSchema" line="61">
+    <slash>
+     <slash simple="1">
+      <treat as="node()" jsTest="return SaxonJS.U.isNode(item);" diag="14|3|XPTY0020|">
+       <dot flags="a"/>
+      </treat>
+      <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lidoWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lidoWrap';"/>
+     </slash>
+     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lido)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lido';"/>
+    </slash>
+    <forEach line="62">
+     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}descriptiveMetadata)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='descriptiveMetadata';"/>
+     <sequence line="63">
+      <elem name="dt">
+       <valueOf flags="l">
+        <str val="Opisni metapodatki"/>
+       </valueOf>
+      </elem>
+      <elem line="65" name="dd">
+       <sequence>
+        <forEach>
+         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectIdentificationWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectIdentificationWrap';"/>
+         <elem line="67" name="dl" flags="l">
+          <sequence>
+           <elem name="dt" flags="l">
+            <valueOf flags="l">
+             <str val="Identifikacija objekta"/>
+            </valueOf>
+           </elem>
+           <elem line="70" name="dd" flags="l">
+            <elem name="dl" flags="l">
+             <sequence>
+              <forEach>
+               <slash>
+                <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}repositoryWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='repositoryWrap';"/>
+                <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}repositorySet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='repositorySet';"/>
+               </slash>
+               <sequence line="71">
+                <elem name="dt" flags="l">
+                 <valueOf flags="Sl">
+                  <str val="Repozitorij"/>
+                 </valueOf>
+                </elem>
+                <elem line="73" name="dd" flags="l">
+                 <sequence>
+                  <valueOf flags="l">
+                   <fn name="string-join">
+                    <convert from="xs:untypedAtomic" to="xs:string">
+                     <data>
+                      <slash>
+                       <slash>
+                        <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}repositoryName)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='repositoryName';"/>
+                        <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}legalBodyName)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='legalBodyName';"/>
+                       </slash>
+                       <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}appellationValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='appellationValue';"/>
+                      </slash>
+                     </data>
+                    </convert>
+                    <str val=" "/>
+                   </fn>
+                  </valueOf>
+                  <choose line="74">
+                   <or op="or">
+                    <fn name="exists">
+                     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}workID)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='workID';"/>
+                    </fn>
+                    <fn name="exists">
+                     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}repositoryLocation)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='repositoryLocation';"/>
+                    </fn>
+                   </or>
+                   <elem line="76" name="dl" flags="l">
+                    <sequence>
+                     <forEach>
+                      <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}workID)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='workID';"/>
+                      <sequence line="77">
+                       <elem name="dt" flags="l">
+                        <valueOf flags="l">
+                         <str val="Identifikator dela"/>
+                        </valueOf>
+                       </elem>
+                       <elem line="78" name="dd" flags="l">
+                        <valueOf flags="l">
+                         <convert from="xs:untypedAtomic" to="xs:string">
+                          <data>
+                           <dot type="element(Q{http://www.lido-schema.org}workID)"/>
+                          </data>
+                         </convert>
+                        </valueOf>
+                       </elem>
+                      </sequence>
+                     </forEach>
+                     <forEach line="80">
+                      <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}repositoryLocation)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='repositoryLocation';"/>
+                      <sequence line="81">
+                       <elem name="dt" flags="l">
+                        <valueOf flags="l">
+                         <str val="Nahajališče"/>
+                        </valueOf>
+                       </elem>
+                       <elem line="82" name="dd" flags="l">
+                        <valueOf flags="l">
+                         <fn name="string-join">
+                          <convert from="xs:untypedAtomic" to="xs:string">
+                           <data>
+                            <slash>
+                             <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}namePlaceSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='namePlaceSet';"/>
+                             <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}appellationValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='appellationValue';"/>
+                            </slash>
+                           </data>
+                          </convert>
+                          <str val=" "/>
+                         </fn>
+                        </valueOf>
+                       </elem>
+                      </sequence>
+                     </forEach>
+                    </sequence>
+                   </elem>
+                  </choose>
+                 </sequence>
+                </elem>
+               </sequence>
+              </forEach>
+              <forEach line="88">
+               <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectDescriptionWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectDescriptionWrap';"/>
+               <sequence line="89">
+                <elem name="dt" flags="l">
+                 <valueOf flags="Sl">
+                  <str val="Opisi"/>
+                 </valueOf>
+                </elem>
+                <elem line="92" name="dd" flags="l">
+                 <elem name="dl" flags="l">
+                  <forEach>
+                   <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectDescriptionSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectDescriptionSet';"/>
+                   <sequence line="94">
+                    <elem name="dt" flags="l">
+                     <sequence>
+                      <choose>
+                       <gc op="=" card="1:1" comp="CCC">
+                        <data>
+                         <axis name="attribute" nodeTest="attribute(Q{http://www.lido-schema.org}type)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='type';"/>
+                        </data>
+                        <str val="description"/>
+                       </gc>
+                       <valueOf flags="Sl">
+                        <str val="Opis"/>
+                       </valueOf>
+                      </choose>
+                      <choose line="95">
+                       <gc op="=" card="1:1" comp="CCC">
+                        <data>
+                         <axis name="attribute" nodeTest="attribute(Q{http://www.lido-schema.org}type)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='type';"/>
+                        </data>
+                        <str val="condition"/>
+                       </gc>
+                       <valueOf flags="l">
+                        <str val="Stanje predmeta"/>
+                       </valueOf>
+                      </choose>
+                      <choose line="96">
+                       <gc op="=" card="1:1" comp="CCC">
+                        <data>
+                         <axis name="attribute" nodeTest="attribute(Q{http://www.lido-schema.org}type)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='type';"/>
+                        </data>
+                        <str val="conditionNote"/>
+                       </gc>
+                       <valueOf flags="Sl">
+                        <str val="Oznake"/>
+                       </valueOf>
+                      </choose>
+                     </sequence>
+                    </elem>
+                    <elem line="98" name="dd" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}descriptiveNoteValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='descriptiveNoteValue';"/>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                   </sequence>
+                  </forEach>
+                 </elem>
+                </elem>
+               </sequence>
+              </forEach>
+              <forEach line="103">
+               <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurementsWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurementsWrap';"/>
+               <sequence line="104">
+                <elem name="dt" flags="l">
+                 <valueOf flags="l">
+                  <str val="Mere objekta"/>
+                 </valueOf>
+                </elem>
+                <elem line="107" name="dd" flags="l">
+                 <choose>
+                  <fn name="exists">
+                   <slash>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurementsSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurementsSet';"/>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurements)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurements';"/>
+                   </slash>
+                  </fn>
+                  <forEach line="108">
+                   <slash>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurementsSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurementsSet';"/>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurements)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurements';"/>
+                   </slash>
+                   <elem line="110" name="dl" flags="l">
+                    <forEach>
+                     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}measurementsSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='measurementsSet';"/>
+                     <sequence line="111">
+                      <elem name="dt" flags="l">
+                       <valueOf flags="l">
+                        <fn name="string-join">
+                         <convert from="xs:untypedAtomic" to="xs:string">
+                          <data>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}measurementType)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='measurementType';"/>
+                          </data>
+                         </convert>
+                         <str val=" "/>
+                        </fn>
+                       </valueOf>
+                      </elem>
+                      <elem line="112" name="dd" flags="l">
+                       <valueOf flags="l">
+                        <fn name="concat">
+                         <atomSing card="?" diag="0|0||concat">
+                          <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}measurementValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='measurementValue';"/>
+                         </atomSing>
+                         <str val=" "/>
+                         <atomSing card="?" diag="0|2||concat">
+                          <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}measurementUnit)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='measurementUnit';"/>
+                         </atomSing>
+                        </fn>
+                       </valueOf>
+                      </elem>
+                     </sequence>
+                    </forEach>
+                   </elem>
+                  </forEach>
+                  <true/>
+                  <valueOf line="118" flags="l">
+                   <fn name="string-join">
+                    <convert from="xs:untypedAtomic" to="xs:string">
+                     <data>
+                      <slash>
+                       <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}objectMeasurementsSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='objectMeasurementsSet';"/>
+                       <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}displayObjectMeasurements)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='displayObjectMeasurements';"/>
+                      </slash>
+                     </data>
+                    </convert>
+                    <str val=" "/>
+                   </fn>
+                  </valueOf>
+                 </choose>
+                </elem>
+               </sequence>
+              </forEach>
+             </sequence>
+            </elem>
+           </elem>
+          </sequence>
+         </elem>
+        </forEach>
+        <forEach line="127">
+         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventWrap';"/>
+         <elem line="129" name="dl" flags="l">
+          <sequence>
+           <elem name="dt" flags="l">
+            <valueOf flags="Sl">
+             <str val="Dogodki"/>
+            </valueOf>
+           </elem>
+           <elem line="131" name="dd" flags="l">
+            <forEach>
+             <slash>
+              <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventSet';"/>
+              <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}event)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='event';"/>
+             </slash>
+             <elem line="133" name="dl" flags="l">
+              <sequence>
+               <elem name="dt" flags="l">
+                <valueOf flags="l">
+                 <fn name="string-join">
+                  <convert from="xs:untypedAtomic" to="xs:string">
+                   <data>
+                    <filter flags="b">
+                     <slash>
+                      <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventType)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventType';"/>
+                      <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}term)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='term';"/>
+                     </slash>
+                     <fn name="empty">
+                      <axis name="attribute" nodeTest="attribute(Q{http://www.w3.org/XML/1998/namespace}lang)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.w3.org/XML/1998/namespace'&amp;&amp;q.local=='lang';"/>
+                     </fn>
+                    </filter>
+                   </data>
+                  </convert>
+                  <str val=" "/>
+                 </fn>
+                </valueOf>
+               </elem>
+               <elem line="136" name="dd" flags="l">
+                <elem name="dl" flags="l">
+                 <sequence>
+                  <forEach>
+                   <slash>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventActor)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventActor';"/>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}actorInRole)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='actorInRole';"/>
+                   </slash>
+                   <sequence line="137">
+                    <elem name="dt" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <filter flags="b">
+                          <slash>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}roleActor)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='roleActor';"/>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}term)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='term';"/>
+                          </slash>
+                          <fn name="empty">
+                           <axis name="attribute" nodeTest="attribute(Q{http://www.w3.org/XML/1998/namespace}lang)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.w3.org/XML/1998/namespace'&amp;&amp;q.local=='lang';"/>
+                          </fn>
+                         </filter>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                    <elem line="138" name="dd" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <slash>
+                          <slash>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}actor)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='actor';"/>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}nameActorSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='nameActorSet';"/>
+                          </slash>
+                          <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}appellationValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='appellationValue';"/>
+                         </slash>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                   </sequence>
+                  </forEach>
+                  <forEach line="140">
+                   <slash>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventMaterialsTech)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventMaterialsTech';"/>
+                    <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}materialsTech)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='materialsTech';"/>
+                   </slash>
+                   <sequence line="141">
+                    <elem name="dt" flags="l">
+                     <valueOf flags="l">
+                      <str val="Material in tehnika"/>
+                     </valueOf>
+                    </elem>
+                    <elem line="142" name="dd" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <slash>
+                          <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}termMaterialsTech)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='termMaterialsTech';"/>
+                          <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}term)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='term';"/>
+                         </slash>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                   </sequence>
+                  </forEach>
+                  <forEach line="144">
+                   <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventDate)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventDate';"/>
+                   <sequence line="145">
+                    <elem name="dt" flags="l">
+                     <valueOf flags="Sl">
+                      <str val="Datum"/>
+                     </valueOf>
+                    </elem>
+                    <elem line="146" name="dd" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}displayDate)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='displayDate';"/>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                   </sequence>
+                  </forEach>
+                  <forEach line="148">
+                   <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}eventDescriptionSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='eventDescriptionSet';"/>
+                   <sequence line="149">
+                    <elem name="dt" flags="l">
+                     <valueOf flags="Sl">
+                      <str val="Opis"/>
+                     </valueOf>
+                    </elem>
+                    <elem line="150" name="dd" flags="l">
+                     <valueOf flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}descriptiveNoteValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='descriptiveNoteValue';"/>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </elem>
+                   </sequence>
+                  </forEach>
+                 </sequence>
+                </elem>
+               </elem>
+              </sequence>
+             </elem>
+            </forEach>
+           </elem>
+          </sequence>
+         </elem>
+        </forEach>
+       </sequence>
+      </elem>
+     </sequence>
+    </forEach>
+   </forEach>
+  </template>
+ </co>
+ <co id="1" binds="0 0">
+  <mode onNo="TC" flags="dW" patternSlots="0">
+   <templateRule prec="0" prio="-0.5" seq="0" rank="0" minImp="0" slots="3" flags="os" line="12" module="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl">
+    <p.nodeTest role="match" test="document-node()" jsTest="return SaxonJS.U.isNode(item) &amp;&amp; (item.nodeType==9||item.nodeType==11);"/>
+    <let role="action" vn="31" baseUri="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl" ns="xsl=http://www.w3.org/1999/XSL/Transform tei=http://www.tei-c.org/ns/1.0 ixsl=http://saxonica.com/ns/interactiveXSLT lido=http://www.lido-schema.org xs=http://www.w3.org/2001/XMLSchema" line="13" var="ident" as="item()*" slot="0" eval="3">
+     <ifCall xmlns:map="http://www.w3.org/2005/xpath-functions/map" name="map:get" type="item()*">
+      <ifCall xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT" name="ixsl:query-params" type="map(*)"/>
+      <str val="id"/>
+     </ifCall>
+     <forEach line="14">
+      <let var="vv:loc1013599192" as="xs:anyAtomicType*" slot="1" eval="3">
+       <data>
+        <varRef name="ident" slot="0"/>
+       </data>
+       <filter flags="b">
+        <slash>
+         <filter flags="b">
+          <slash>
+           <fn name="key">
+            <str val="Q{http://saxon.sf.net/}kk101"/>
+            <str val="lido"/>
+            <dot type="document-node()"/>
+           </fn>
+           <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}list)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='list';"/>
+          </slash>
+          <gc op="=" card="1:1" comp="CCC">
+           <data>
+            <axis name="attribute" nodeTest="attribute(Q{}type)" jsTest="return item.name=='type'"/>
+           </data>
+           <str val="deathMask"/>
+          </gc>
+         </filter>
+         <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}item)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='item';"/>
+        </slash>
+        <indexedLookup comp="GAC|http://www.w3.org/2005/xpath-functions/collation/codepoint">
+         <varRef name="vv:loc1013599192" slot="1"/>
+         <fn name="substring-after">
+          <cvUntyped to="xs:string">
+           <data>
+            <axis name="attribute" nodeTest="attribute(Q{http://www.w3.org/XML/1998/namespace}id)" jsTest="var q=SaxonJS.U.nameOfNode(item); return q.uri=='http://www.w3.org/XML/1998/namespace'&amp;&amp;q.local=='id';"/>
+           </data>
+          </cvUntyped>
+          <str val="sistory-"/>
+         </fn>
+        </indexedLookup>
+       </filter>
+      </let>
+      <resultDoc line="15" global="#&#xA;#Tue Oct 31 10:35:27 CET 2017&#xA;" local="#&#xA;#Tue Oct 31 10:35:27 CET 2017&#xA;method={http\://saxonica.com/ns/interactiveXSLT}replace-content&#xA;">
+       <str role="href" val="#maska"/>
+       <sequence role="content" line="16">
+        <elem name="h3">
+         <sequence>
+          <att name="class" flags="l">
+           <str val="text-center"/>
+          </att>
+          <valueOf line="17" flags="l">
+           <fn name="string-join">
+            <convert from="xs:untypedAtomic" to="xs:string">
+             <data>
+              <filter flags="b">
+               <slash>
+                <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}list)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='list';"/>
+                <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}item)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='item';"/>
+               </slash>
+               <gc op="=" card="1:1" comp="CCC">
+                <data>
+                 <first>
+                  <axis name="preceding-sibling" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}label)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='label';"/>
+                 </first>
+                </data>
+                <str val="Naziv"/>
+               </gc>
+              </filter>
+             </data>
+            </convert>
+            <str val=" "/>
+           </fn>
+          </valueOf>
+         </sequence>
+        </elem>
+        <forEach line="19">
+         <fn name="document">
+          <slash>
+           <slash>
+            <slash>
+             <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}list)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='list';"/>
+             <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}item)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='item';"/>
+            </slash>
+            <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}ptr)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='ptr';"/>
+           </slash>
+           <axis name="attribute" nodeTest="attribute(Q{}target)" jsTest="return item.name=='target'"/>
+          </slash>
+         </fn>
+         <choose line="22">
+          <fn name="exists">
+           <slash>
+            <slash>
+             <slash>
+              <slash>
+               <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lidoWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lidoWrap';"/>
+               <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lido)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lido';"/>
+              </slash>
+              <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}administrativeMetadata)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='administrativeMetadata';"/>
+             </slash>
+             <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceWrap';"/>
+            </slash>
+            <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceSet';"/>
+           </slash>
+          </fn>
+          <elem line="23" name="div">
+           <sequence>
+            <att name="class" flags="l">
+             <str val="row"/>
+            </att>
+            <elem line="24" name="div" flags="l">
+             <sequence>
+              <att name="class" flags="l">
+               <str val="medium-6 columns"/>
+              </att>
+              <forEach line="25">
+               <slash>
+                <slash>
+                 <slash>
+                  <slash>
+                   <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lidoWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lidoWrap';"/>
+                   <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}lido)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='lido';"/>
+                  </slash>
+                  <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}administrativeMetadata)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='administrativeMetadata';"/>
+                 </slash>
+                 <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceWrap)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceWrap';"/>
+                </slash>
+                <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceSet)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceSet';"/>
+               </slash>
+               <let line="26" var="filePath" as="element(Q{http://www.lido-schema.org}linkResource)*" slot="2" eval="3">
+                <slash>
+                 <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceRepresentation)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceRepresentation';"/>
+                 <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}linkResource)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='linkResource';"/>
+                </slash>
+                <sequence line="27">
+                 <elem name="figure" flags="l">
+                  <sequence>
+                   <att name="class" flags="l">
+                    <str val="figure"/>
+                   </att>
+                   <elem line="28" name="figcaption" flags="l">
+                    <sequence>
+                     <att name="class" flags="l">
+                      <str val="caption"/>
+                     </att>
+                     <valueOf line="29" flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceDescription)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceDescription';"/>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </valueOf>
+                    </sequence>
+                   </elem>
+                   <elem line="31" name="a" flags="l">
+                    <sequence>
+                     <att name="class" flags="l">
+                      <str val="image-popup"/>
+                     </att>
+                     <att name="href" flags="l">
+                      <fn name="string-join">
+                       <convert from="xs:untypedAtomic" to="xs:string">
+                        <data>
+                         <varRef name="filePath" slot="2"/>
+                        </data>
+                       </convert>
+                       <str val=" "/>
+                      </fn>
+                     </att>
+                     <att name="target" flags="l">
+                      <str val="_blank"/>
+                     </att>
+                     <elem line="32" name="img" flags="l">
+                      <sequence>
+                       <att name="src" flags="l">
+                        <fn name="string-join">
+                         <convert from="xs:untypedAtomic" to="xs:string">
+                          <data>
+                           <varRef name="filePath" slot="2"/>
+                          </data>
+                         </convert>
+                         <str val=" "/>
+                        </fn>
+                       </att>
+                       <att name="alt" flags="l">
+                        <str val="Slika"/>
+                       </att>
+                       <att name="style" flags="l">
+                        <str val="height:350px"/>
+                       </att>
+                      </sequence>
+                     </elem>
+                    </sequence>
+                   </elem>
+                   <choose line="34">
+                    <fn name="exists">
+                     <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceSource)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceSource';"/>
+                    </fn>
+                    <elem line="37" name="p" flags="l">
+                     <sequence>
+                      <valueOf flags="l">
+                       <str val="Pravice: "/>
+                      </valueOf>
+                      <valueOf flags="l">
+                       <fn name="string-join">
+                        <convert from="xs:untypedAtomic" to="xs:string">
+                         <data>
+                          <slash>
+                           <slash>
+                            <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}resourceSource)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='resourceSource';"/>
+                            <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}legalBodyName)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='legalBodyName';"/>
+                           </slash>
+                           <axis name="child" nodeTest="element(Q{http://www.lido-schema.org}appellationValue)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.lido-schema.org'&amp;&amp;q.local=='appellationValue';"/>
+                          </slash>
+                         </data>
+                        </convert>
+                        <str val=" "/>
+                       </fn>
+                      </valueOf>
+                     </sequence>
+                    </elem>
+                   </choose>
+                  </sequence>
+                 </elem>
+                 <choose line="41">
+                  <isLast test="0"/>
+                  <elem name="br" flags="l">
+                   <empty/>
+                  </elem>
+                 </choose>
+                </sequence>
+               </let>
+              </forEach>
+             </sequence>
+            </elem>
+            <elem line="46" name="div" flags="l">
+             <sequence>
+              <att name="class" flags="l">
+               <str val="medium-6 columns"/>
+              </att>
+              <callT line="47" name="lido" bSlot="0"/>
+             </sequence>
+            </elem>
+           </sequence>
+          </elem>
+          <true/>
+          <callT line="52" name="lido" bSlot="1"/>
+         </choose>
+        </forEach>
+       </sequence>
+      </resultDoc>
+     </forEach>
+    </let>
+   </templateRule>
+  </mode>
+ </co>
+ <overridden/>
+ <key name="Q{http://saxon.sf.net/}kk101" line="0" binds="">
+  <p.nodeSet>
+   <slash vn="31" baseUri="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl" ns="xsl=http://www.w3.org/1999/XSL/Transform tei=http://www.tei-c.org/ns/1.0 ixsl=http://saxonica.com/ns/interactiveXSLT lido=http://www.lido-schema.org xs=http://www.w3.org/2001/XMLSchema" line="14">
+    <slash>
+     <slash>
+      <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}TEI)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='TEI';"/>
+      <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}text)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='text';"/>
+     </slash>
+     <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}body)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='body';"/>
+    </slash>
+    <axis name="child" nodeTest="element(Q{http://www.tei-c.org/ns/1.0}div)" jsTest="var q=SaxonJS.U.nameOfNode(item); return item.nodeType==1 &amp;&amp; q.uri=='http://www.tei-c.org/ns/1.0'&amp;&amp;q.local=='div';"/>
+   </slash>
+  </p.nodeSet>
+  <data vn="31" baseUri="file:/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/XSLT/html/mask.xsl" ns="xsl=http://www.w3.org/1999/XSL/Transform tei=http://www.tei-c.org/ns/1.0 ixsl=http://saxonica.com/ns/interactiveXSLT lido=http://www.lido-schema.org xs=http://www.w3.org/2001/XMLSchema" line="14">
+   <axis name="attribute" nodeTest="attribute(Q{}type)" jsTest="return item.name=='type'"/>
+  </data>
+ </key>
+ <output>
+  <property name="{http://saxon.sf.net/}stylesheet-version" value="30"/>
+ </output>
+ <decimalFormat decimal-separator="46" grouping-separator="44" digit="35" minus-sign="45" percent="37" per-mille="8240" zero-digit="48" exponent-separator="101" pattern-separator="59" infinity="Infinity" NaN="NaN"/>
+</package>
+<?Σ 74cde168?>
