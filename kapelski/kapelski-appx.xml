@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="kapelski-appx" xml:lang="sl" type="part">
+    <head>Velikonočna pejsem<note place="foot" xml:id="note.141" n="141">
+            <p xml:id="kapelski-appx.1" n="1">Prolog Tretjega dela Pasijona v verzu 1813 napove, da
+                se bo prikaz Jezusovega vstajenja sklenil z velikonočno pesmijo: <hi rend="italic"
+                    >Kader žiə vse bode minulu / inu s tej velikunačni pesmi se sklenilu …</hi>
+                Napove jo tudi sv. Janez v repliki 479, ko pravi: <hi rend="italic">Pujte od gar
+                    vstajanja vsi z mano</hi> (verz 2568) in sledeča didaskalija. To je bila
+                najverjetneje stara <hi rend="italic">Velikonočna pejsem,</hi> ki v rokopisu
+                Kapelskega pasijona ni zapisana, ker so jo ljudje znali na pamet, saj je bila ena
+                najbolj znanih in razširjenih pesmi iz srednjeveške pesemske tradicije. Kakor navaja
+                Ivan Grafenauer v študiji <hi rend="italic">Ta stara velikonočna pejsen in še
+                    kaj</hi> za njeno nemško predlogo, se je tudi slovenska velikonočna pesem
+                verjetno pela »pri obredu vstajenja, splošno pa pri obrednem prizoru obiska pri
+                praznem božjem grobu, pri slovesni maši ob velikonočnih praznikih; pela se je za
+                tedeumom pri velikonočnih jutranjicah, pred pridigo in po pridigi v velikonočnem
+                času, izmenično s kiticami Marijine antifone <hi rend="italic">Regina coeli
+                    laetare</hi> pri slovesnih večernicah – pri teh pač s pripevom aleluja (nam.
+                Kyrie eleison) – pa tudi pri velikonočnih igrah in procesijah zunaj cerkve in ob
+                drugih priložnostih, tudi zgolj posvetnih.« (Grafenauer 1980: 246)</p>
+            <p xml:id="kapelski-appx.2" n="2">Poleg tega, da so verniki to pesem peli tako pogosto
+                med liturgijo in drugimi obredi v cerkvi, je pomembna Grafenauerjeva navedba, da je
+                velikonočna pesem prestopila cerkveni obseg in so jo kot ljudsko pesem peli tudi
+                »pri velikonočnih igrah in procesijah zunaj cerkve«, kar natanko ustreza kontekstu
+                Kapelskega pasijona. Poleg tega je zanimiva njegova omemba prepletanja z antifono
+                    <hi rend="italic">Regina coeli laetare,</hi> katere priredbo Kapelski pasijon
+                vsebuje v pesmi angelov ob vstajenju (verzi 2266–2284). Zato je Marijan Smolik lahko
+                zapisal, da je »starodavna prazniška pesem« povsem obvladovala velikonočni praznik
+                (prim. opombo <ref target="#note.124">124</ref> k didaskaliji ob koncu vstajenjskega
+                prizora).</p>
+            <p xml:id="kapelski-appx.3" n="3"><hi rend="italic">Velikonočna pejsem</hi> je zato
+                organski in historično pristen del Kapelskega pasijona kot igre, čeravno ni <hi
+                    rend="italic">verbatim</hi> navzoča v samem rokopisu kot tekst, je pa napovedana
+                v prologu in omenjena v didaskaliji in s tema referencama posredno navzoča kot obče
+                mesto velikonočnega praznovanja.</p>
+            <p xml:id="kapelski-appx.4" n="4">Tu jo objavljamo v redakciji Ivana Grafenauerja, ki je
+                v omenjeni študiji raziskal njen nastanek na prehodu iz 12. v 13. stoletje in
+                zgodovinski razvoj do protestantov – v Trubarjevi redakciji ima naslov <hi
+                    rend="italic">Ta stara velikonočna pejsen</hi> (DC 1584) – in nato v katoliških
+                tiskih 17. stoletja. Naša objava prevzema Grafenauerjevo redakcijo izdaje pesmi po
+                Schönlebnu (EvL 1672), v kateri je bila najbolj splošno razširjena in kjer ima
+                naslov <hi rend="italic">Velikonočna pejsem.</hi> Upoštevali smo tudi Grafenauerjevi
+                rekonstrukciji dodatne 3. kitice (sprejel jo je iz t.i. Muzejskega rkp.) in dveh
+                verzov v 6. kitici (sprejel ju je iz Kalobskega rkp.).</p>
+        </note>
+    </head>
+
+    <lg>
+        <label>1</label>
+        <l>Jezus je od smrti vstal,</l>
+        <l>od njega bridke martre;</l>
+        <l>obtu se veselimo</l>
+        <l>inu Boga hvalimo.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>2</label>
+        <l>De bi ne bil od smrti vstal,</l>
+        <l>vus volen svet pogublen bil;</l>
+        <l>nam se je veseliti,</l>
+        <l>nam hoče k troštu priti.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>M<note place="foot" xml:id="note.142" n="142">M pomeni Muzejski rokopis (gl. <ref
+                    target="#kapelski-studija-MO.3">Vire</ref>), od koder je Iv. Grafenauer to
+                kitico sprejel v svojo redakcijo zaradi pomena, ki jo je v razvoju pesmi imela
+                resnica o izvirnem grehu – človekovi nagnjenosti k slabemu.</note>
+        </label>
+        <l>Hudič je bil človestvu vzel,</l>
+        <l>s sabo je je v peku zajeu,</l>
+        <l>ondi je milu plakalu,</l>
+        <l>božje milosti čakalu.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>3</label>
+        <l>Bug je taku milostiv bil,</l>
+        <l>svojga Sinka mej nas spustil;</l>
+        <l>od Marije je rojen bil,</l>
+        <l>vus volen svet obveselil.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>4</label>
+        <l>Začel Jude vučiti,</l>
+        <l>de bi bogu služili;</l>
+        <l>Judje so ze zlo vzeli,</l>
+        <l>na križ so ga rezpeli.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>5</label>
+        <l>Na križu je to smrt podjel,</l>
+        <l>sveti Jožef ga je doli snel,</l>
+        <l>Marija prejemala,</l>
+        <l>vse kušuvala.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>6</label>
+        <l>Noter v grob je položen bil,</l>
+        <l>en velik kamen gori djan;</l>
+        <l>(K:<note place="foot" xml:id="note.143" n="143">K – verza sta sprejeta iz Kalobskega
+                rokopisa, ki edini vsebuje varianto z Jezusovim sestopom v predpekel, od koder je
+                odrešil duše vernih (prim. Legiša 1973: 122). To temo v uvodu k vstajenjskemu
+                prizoru intenzivno tematizira tudi Kapelski pasijon v verzih 2241, 2250, 2279, 2283,
+                2288.</note> doli je pred pekel šel,</l>
+        <l>vse verne duše vun spelal.</l>
+        <l> Aleluja, aleluja.)</l>
+        <l>Na tretji dan je gori vstal</l>
+        <l>Inu je v Galilejo šel.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>7</label>
+        <l>Ta angel je k tèm ženam djal,</l>
+        <l>de je Jezus od smrti vstàl:</l>
+        <l>»Pojdite, jogrom pravite,</l>
+        <l>prvič Petru oznanite.«</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>8</label>
+        <l>Marija Magdalena,</l>
+        <l>ta je ta prva bila,</l>
+        <l>kir je Jezusa vidila</l>
+        <l>s svojima dvejma sestrama.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>9</label>
+        <l>Sveti Tomaž neoveren bil;</l>
+        <l>saj je kumaj tega dobil,</l>
+        <l>de je Jezus od smrti vstal,</l>
+        <l>nu mu je segel v desno stran.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>10</label>
+        <l>Marija Divica,</l>
+        <l>bodi naša pomočnica</l>
+        <l>pruti Bogu nebeškimu</l>
+        <l>nu usmilenimu Jezusu.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>11</label>
+        <l>Aleluja pojemo,</l>
+        <l>Kristusa Jezusa hvalimo,</l>
+        <l>lubo Divico Marijo</l>
+        <l>tèr vso nebeško družino.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+
+    <lg>
+        <label>12</label>
+        <l>Aleluja, aleluja,</l>
+        <l>aleluja.</l>
+        <l>Nam se je veseliti,</l>
+        <l>nam hoče k troštu priti.</l>
+        <l>Kyrie eleison, Christe eleison.</l>
+    </lg>
+</div>

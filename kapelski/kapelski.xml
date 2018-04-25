@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_ezrc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kapelski" xml:lang="sl">
+   <teiHeader xml:lang="sl">
+      <fileDesc>
+         <titleStmt>
+            <title>Kapelski pasijon</title>
+            <title>Komedija od Kristusoviga trplinja, katiro so nekidej na te veliki četrtək inu na
+               te velikonočni pondelək v Kapli špilali</title>
+            <title>Elektronska znanstvenokritična izdaja</title>
+            <respStmt>
+               <resp>Diplomatični in kritični prepis, filološki komentar</resp>
+               <name xml:id="EPR">Erich Prunč</name>
+            </respStmt>
+            <respStmt>
+               <resp>Ekdotični in kodikološki komentar, opombe</resp>
+               <name xml:id="MOG">Matija Ogrin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Elektronski zapis TEI uredil</resp>
+               <name xml:id="TER">Tomaž Erjavec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Uredila</resp>
+               <name>Matija Ogrin</name>
+               <name>Erich Prunč</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Verzija 0.6</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ZRC SAZU</publisher>
+            <date>2017-01-10</date>
+            <availability>
+               <p xml:lang="sl">Avtorske pravice za besedilo te izdaje določa licenca CC BY-ND-NC
+                  1.0: <ref target="https://creativecommons.org/licenses/by-nd-nc/1.0/">Creative
+                     Commons Priznanje avtorstva–Brez predelav–Nekomercialno 1.0</ref></p>
+               <p xml:lang="en">Licenced under CC BY-ND-NC 1.0: <ref
+                     target="https://creativecommons.org/licenses/by-nd-nc/1.0/">Creative Commons
+                     Attribution-NoDerivatives-NonCommercial 1.0 Generic</ref></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Elektronska izdaja je pripravljena po izvirniku, ki je predstavljen v digitalnem
+               faksimilu.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="h1" scribe="Glavni_pisec">Napisal je celoten prvotni rokopis, konec
+               18. stoletja.</handNote>
+            <handNote xml:id="h2" scribe="Drugi_pisec">Z neznane kopije je prepisal manjkajoče ali
+               uničene dele besedila, sreda 19. stoletja. </handNote>
+            <handNote xml:id="h3" scribe="Tretji_pisec"> ...? </handNote>
+            <handNote xml:id="h4" scribe="Neznana_roka">Nekaj drobnih vpisov, v katerih ni
+               prepoznana katera od prvih treh rok, je označenih kot poseg neznane roke.</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="sl">slovenščina</language>
+            <language ident="la">latinščina</language>
+            <language ident="de">nemščina</language>
+            <language ident="en">angleščina</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change><date>2017-06-15</date><name>Matija Ogrin</name> Začel preurejati študije in
+            opombe, prirejene za tiskano izdajo, za e-izdajo; dodajanje kazalk za
+            sklicevanja.</change>
+         <change><date>2017-01-10</date><name>Tomaž Erjavec</name> Čiščenje.</change>
+         <change><date>2017-01-08</date><name>Matija Ogrin</name> Odstranil preostala neveljavna
+            mesta (ostanki nepravilnih slogov v tabelah); čistil ostanke pretvorbe.</change>
+         <change><date>2017-01-03</date><name>Tomaž Erjavec</name> Preimenovanje delov,
+            preštevilčenje opomb, popravki hi/text()[. = ' '] mesta presledkov, nov vzporedni
+            prikaz, brisanje (neveljavnih! p/@xml:id) in p/@rend, validacija. (na novo postavljen
+            kapelski pod noSkE@nl.ijs.si.)</change>
+         <change><date>2017-01-03</date><name>Matija Ogrin</name> Dodal Appendix in Komentar s
+            spreminimi študijami, povzetki, seznami. Problemi s številčenjem opomb.</change>
+         <change><date>2016-06-28</date><name>Matija Ogrin</name> Dokončal opombe in urejanje
+            kritičnega prepisa.</change>
+         <change><date>2016-06-19</date><name>Matija Ogrin</name> Preuredil tekst strani 34 kot del
+            Prologa k II. delu, premik naslova II dela.</change>
+         <change><date>2016-05-25</date><name>Matija Ogrin</name> Začel z domnevno zadnjim krogom
+            urejanja; nove opombe, uskladitev s tiskano izdajo.</change>
+         <change><date>2016-05-20</date><name>Matija Ogrin</name> Dodal razdelek Judeževa smrt v
+            dipl in crit; dodal oznake in govorce pri štetju srebrnikov v crit.</change>
+         <change><date>2016-05-14</date><name>Tomaž Erjavec</name> Generiranje dipl prepisa z vsemi
+            nadrejenimi elementi. Popravki za boljšo poravnavo med dipl in crit. Dodal testni prikaz
+            faksimila. </change>
+         <change><date>2016-02-10</date><name>Matija Ogrin</name> Končal urejanje glavnega teksta in
+            oddal v prelom za tiskano izdajo.</change>
+         <change><date>2016-02-05</date><name>Tomaž Erjavec</name> Diplomatični prepis zamenjan z
+            lematiziranim; popravil @xml:id in @n v kritičnem prepisu.</change>
+         <change><date>2016-02-02</date><name>Matija Ogrin</name> Zadnji krog urejanja: uskladitev
+            vsebine ab; imena govorcev; popravki označevanja; opombe.</change>
+         <change><date>2015-12-17</date><name>Tomaž Erjavec</name> Merge z Matijinimi
+            popravki.</change>
+         <change><date>2015-12-13</date><name>Tomaž Erjavec</name> Popravki v dipl. prepisu glede na
+            zadnje konkordance.</change>
+         <change><date>2015-12-01</date><name>Tomaž Erjavec</name> Dokument razdeljen na več
+            datotek.</change>
+         <change><date>2015-11-03</date><name>Tomaž Erjavec</name> Popravki na novo vnešenih
+            korektur in usklajevanje konkordanc.</change>
+         <change><date>2015-11-02</date><name>Matija Ogrin</name> Vnesel korekture <name>Ericha
+               Prunča</name>; dodatno urejanje okrajšav in razvezav, naslovov; pisanje
+            opomb.</change>
+         <change><date>2015-09-07</date><name>Tomaž Erjavec</name> vstavil 5x seg[@type='fix'] za
+            tiste dele diplomatičnega prepisa, kjer program sicer ni zadosti pameten, da bi pravilno
+            naredil jezikosloveno označevanje z lemami glede na konkordance.</change>
+         <change><date>2015-08-31</date><name>Tomaž Erjavec</name> dodal lb/@break.</change>
+         <change><date>2015-08-29</date><name>Tomaž Erjavec</name> Mnogo manjših popravkov, da se
+            uskladi excel konkordance z besedilom.</change>
+         <change><date>2015-08-12</date><name>Tomaž Erjavec</name>Dodajanje milestone elementov in
+            @xml:lang="de", dodajanje @xml:id, manjši popravki.</change>
+         <change><date>2015-08-07</date><name>Tomaž Erjavec</name> Popravki oznak v diplomatičnem
+            prepisu glede na primerjavo konkordanc in prepisa.</change>
+         <change><date>2015-08-01</date><name>Tomaž Erjavec</name> Popravil kolofon. Vstavil
+            faksimile. Poenotil strukturo. Mnogo manjših popravkov: foreign -&gt; @xml:lang;
+            handNote/@scribe</change>
+         <change><date>2015-07-24</date><name>Matija Ogrin</name> Dokončal drugi krog urejanja,
+            podrobnosti v elementih sic, corr, orig, reg. Uskladil ab v obeh prepish za vzporedno
+            sklicevanje. Napisal tekstnokritične opombe h KP. </change>
+         <change><date>2015-04-21</date><name>Matija Ogrin</name> Uredil strukturo obeh prepisov do
+            konca. </change>
+         <change><date>2014-12-23</date><name>Matija Ogrin</name> Daljše urejanje strukture in
+            teksta; podrobno urejeno do fol. 64, splošna struktura KP do konca.</change>
+         <change><date>2013-08-15</date><name>Tomaž Erjavec</name> Urejanje in popravki strukture:
+            uporaba XInclude namesto entitet SGML, DP in KP sta sedaj tudi dokumenta TEI s svojim
+            (malim) kolofonom; kode jezikov spremenjene v dvočrkovne; popravil pb in fw; v DP
+            spremenil sp/l v sp/p; labele a la "No 99" prestavil v ab</change>
+         <change><date>2013-08-13</date><name>Matija Ogrin</name> Urejanje strukture obeh prepisov,
+            do prve tretjine.</change>
+         <change><date>2013-07-29</date><name>Matija Ogrin</name> Začel urejati strukturo.</change>
+         <change><date>2013-06-19</date><name>Matija Ogrin</name> Strojno pretvoril v TEI.</change>
+         <change><date>2013-06-19</date><name>Erich Prunč</name> Dokončal diplomatični in kritični
+            prepis.</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface xml:id="kpl-00_01">
+         <desc xml:lang="sl">Faksimile 01</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/00_01.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/00_01.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/00_01.jpg"/>
+      </surface>
+      <surface xml:id="kpl-00_02">
+         <desc xml:lang="sl">Faksimile 02</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/00_02.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/00_02.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/00_02.jpg"/>
+      </surface>
+      <surface xml:id="kpl-00_03">
+         <desc xml:lang="sl">Faksimile 03</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/00_03.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/00_03.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/00_03.jpg"/>
+      </surface>
+      <surface xml:id="kpl-00_04">
+         <desc xml:lang="sl">Faksimile 04</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/00_04.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/00_04.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/00_04.jpg"/>
+      </surface>
+      <surface xml:id="kpl-000r">
+         <desc xml:lang="sl">Faksimile 000r</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/000r.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/000r.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/000r.jpg"/>
+      </surface>
+      <surface xml:id="kpl-000v">
+         <desc xml:lang="sl">Faksimile 000v</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/000v.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/000v.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/000v.jpg"/>
+      </surface>
+      <surface xml:id="kpl-001">
+         <desc xml:lang="sl">Faksimile 001</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/001.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/001.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/001.jpg"/>
+      </surface>
+      <surface xml:id="kpl-002">
+         <desc xml:lang="sl">Faksimile 002</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/002.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/002.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/002.jpg"/>
+      </surface>
+      <surface xml:id="kpl-003">
+         <desc xml:lang="sl">Faksimile 003</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/003.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/003.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/003.jpg"/>
+      </surface>
+      <surface xml:id="kpl-004">
+         <desc xml:lang="sl">Faksimile 004</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/004.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/004.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/004.jpg"/>
+      </surface>
+      <surface xml:id="kpl-005">
+         <desc xml:lang="sl">Faksimile 005</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/005.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/005.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/005.jpg"/>
+      </surface>
+      <surface xml:id="kpl-006">
+         <desc xml:lang="sl">Faksimile 006</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/006.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/006.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/006.jpg"/>
+      </surface>
+      <surface xml:id="kpl-007">
+         <desc xml:lang="sl">Faksimile 007</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/007.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/007.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/007.jpg"/>
+      </surface>
+      <surface xml:id="kpl-008">
+         <desc xml:lang="sl">Faksimile 008</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/008.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/008.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/008.jpg"/>
+      </surface>
+      <surface xml:id="kpl-009">
+         <desc xml:lang="sl">Faksimile 009</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/009.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/009.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/009.jpg"/>
+      </surface>
+      <surface xml:id="kpl-010">
+         <desc xml:lang="sl">Faksimile 010</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/010.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/010.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/010.jpg"/>
+      </surface>
+      <surface xml:id="kpl-011">
+         <desc xml:lang="sl">Faksimile 011</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/011.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/011.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/011.jpg"/>
+      </surface>
+      <surface xml:id="kpl-012">
+         <desc xml:lang="sl">Faksimile 012</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/012.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/012.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/012.jpg"/>
+      </surface>
+      <surface xml:id="kpl-013">
+         <desc xml:lang="sl">Faksimile 013</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/013.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/013.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/013.jpg"/>
+      </surface>
+      <surface xml:id="kpl-014">
+         <desc xml:lang="sl">Faksimile 014</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/014.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/014.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/014.jpg"/>
+      </surface>
+      <surface xml:id="kpl-015">
+         <desc xml:lang="sl">Faksimile 015</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/015.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/015.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/015.jpg"/>
+      </surface>
+      <surface xml:id="kpl-016">
+         <desc xml:lang="sl">Faksimile 016</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/016.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/016.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/016.jpg"/>
+      </surface>
+      <surface xml:id="kpl-017">
+         <desc xml:lang="sl">Faksimile 017</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/017.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/017.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/017.jpg"/>
+      </surface>
+      <surface xml:id="kpl-018">
+         <desc xml:lang="sl">Faksimile 018</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/018.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/018.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/018.jpg"/>
+      </surface>
+      <surface xml:id="kpl-019">
+         <desc xml:lang="sl">Faksimile 019</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/019.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/019.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/019.jpg"/>
+      </surface>
+      <surface xml:id="kpl-020">
+         <desc xml:lang="sl">Faksimile 020</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/020.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/020.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/020.jpg"/>
+      </surface>
+      <surface xml:id="kpl-021">
+         <desc xml:lang="sl">Faksimile 021</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/021.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/021.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/021.jpg"/>
+      </surface>
+      <surface xml:id="kpl-022">
+         <desc xml:lang="sl">Faksimile 022</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/022.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/022.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/022.jpg"/>
+      </surface>
+      <surface xml:id="kpl-023">
+         <desc xml:lang="sl">Faksimile 023</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/023.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/023.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/023.jpg"/>
+      </surface>
+      <surface xml:id="kpl-024">
+         <desc xml:lang="sl">Faksimile 024</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/024.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/024.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/024.jpg"/>
+      </surface>
+      <surface xml:id="kpl-025">
+         <desc xml:lang="sl">Faksimile 025</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/025.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/025.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/025.jpg"/>
+      </surface>
+      <surface xml:id="kpl-026">
+         <desc xml:lang="sl">Faksimile 026</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/026.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/026.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/026.jpg"/>
+      </surface>
+      <surface xml:id="kpl-027">
+         <desc xml:lang="sl">Faksimile 027</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/027.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/027.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/027.jpg"/>
+      </surface>
+      <surface xml:id="kpl-028">
+         <desc xml:lang="sl">Faksimile 028</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/028.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/028.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/028.jpg"/>
+      </surface>
+      <surface xml:id="kpl-029">
+         <desc xml:lang="sl">Faksimile 029</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/029.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/029.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/029.jpg"/>
+      </surface>
+      <surface xml:id="kpl-030">
+         <desc xml:lang="sl">Faksimile 030</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/030.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/030.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/030.jpg"/>
+      </surface>
+      <surface xml:id="kpl-031">
+         <desc xml:lang="sl">Faksimile 031</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/031.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/031.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/031.jpg"/>
+      </surface>
+      <surface xml:id="kpl-032">
+         <desc xml:lang="sl">Faksimile 032</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/032.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/032.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/032.jpg"/>
+      </surface>
+      <surface xml:id="kpl-033">
+         <desc xml:lang="sl">Faksimile 033</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/033.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/033.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/033.jpg"/>
+      </surface>
+      <surface xml:id="kpl-034">
+         <desc xml:lang="sl">Faksimile 034</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/034.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/034.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/034.jpg"/>
+      </surface>
+      <surface xml:id="kpl-035">
+         <desc xml:lang="sl">Faksimile 035</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/035.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/035.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/035.jpg"/>
+      </surface>
+      <surface xml:id="kpl-036">
+         <desc xml:lang="sl">Faksimile 036</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/036.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/036.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/036.jpg"/>
+      </surface>
+      <surface xml:id="kpl-037">
+         <desc xml:lang="sl">Faksimile 037</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/037.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/037.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/037.jpg"/>
+      </surface>
+      <surface xml:id="kpl-038">
+         <desc xml:lang="sl">Faksimile 038</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/038.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/038.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/038.jpg"/>
+      </surface>
+      <surface xml:id="kpl-039">
+         <desc xml:lang="sl">Faksimile 039</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/039.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/039.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/039.jpg"/>
+      </surface>
+      <surface xml:id="kpl-040">
+         <desc xml:lang="sl">Faksimile 040</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/040.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/040.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/040.jpg"/>
+      </surface>
+      <surface xml:id="kpl-041">
+         <desc xml:lang="sl">Faksimile 041</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/041.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/041.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/041.jpg"/>
+      </surface>
+      <surface xml:id="kpl-042">
+         <desc xml:lang="sl">Faksimile 042</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/042.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/042.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/042.jpg"/>
+      </surface>
+      <surface xml:id="kpl-043">
+         <desc xml:lang="sl">Faksimile 043</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/043.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/043.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/043.jpg"/>
+      </surface>
+      <surface xml:id="kpl-044">
+         <desc xml:lang="sl">Faksimile 044</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/044.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/044.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/044.jpg"/>
+      </surface>
+      <surface xml:id="kpl-045">
+         <desc xml:lang="sl">Faksimile 045</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/045.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/045.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/045.jpg"/>
+      </surface>
+      <surface xml:id="kpl-046">
+         <desc xml:lang="sl">Faksimile 046</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/046.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/046.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/046.jpg"/>
+      </surface>
+      <surface xml:id="kpl-047">
+         <desc xml:lang="sl">Faksimile 047</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/047.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/047.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/047.jpg"/>
+      </surface>
+      <surface xml:id="kpl-048">
+         <desc xml:lang="sl">Faksimile 048</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/048.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/048.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/048.jpg"/>
+      </surface>
+      <surface xml:id="kpl-049">
+         <desc xml:lang="sl">Faksimile 049</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/049.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/049.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/049.jpg"/>
+      </surface>
+      <surface xml:id="kpl-050">
+         <desc xml:lang="sl">Faksimile 050</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/050.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/050.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/050.jpg"/>
+      </surface>
+      <surface xml:id="kpl-051">
+         <desc xml:lang="sl">Faksimile 051</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/051.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/051.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/051.jpg"/>
+      </surface>
+      <surface xml:id="kpl-052">
+         <desc xml:lang="sl">Faksimile 052</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/052.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/052.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/052.jpg"/>
+      </surface>
+      <surface xml:id="kpl-053">
+         <desc xml:lang="sl">Faksimile 053</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/053.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/053.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/053.jpg"/>
+      </surface>
+      <surface xml:id="kpl-054">
+         <desc xml:lang="sl">Faksimile 054</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/054.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/054.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/054.jpg"/>
+      </surface>
+      <surface xml:id="kpl-055">
+         <desc xml:lang="sl">Faksimile 055</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/055.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/055.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/055.jpg"/>
+      </surface>
+      <surface xml:id="kpl-056">
+         <desc xml:lang="sl">Faksimile 056</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/056.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/056.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/056.jpg"/>
+      </surface>
+      <surface xml:id="kpl-057">
+         <desc xml:lang="sl">Faksimile 057</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/057.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/057.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/057.jpg"/>
+      </surface>
+      <surface xml:id="kpl-058">
+         <desc xml:lang="sl">Faksimile 058</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/058.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/058.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/058.jpg"/>
+      </surface>
+      <surface xml:id="kpl-059">
+         <desc xml:lang="sl">Faksimile 059</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/059.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/059.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/059.jpg"/>
+      </surface>
+      <surface xml:id="kpl-060">
+         <desc xml:lang="sl">Faksimile 060</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/060.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/060.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/060.jpg"/>
+      </surface>
+      <surface xml:id="kpl-061">
+         <desc xml:lang="sl">Faksimile 061</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/061.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/061.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/061.jpg"/>
+      </surface>
+      <surface xml:id="kpl-062">
+         <desc xml:lang="sl">Faksimile 062</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/062.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/062.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/062.jpg"/>
+      </surface>
+      <surface xml:id="kpl-063">
+         <desc xml:lang="sl">Faksimile 063</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/063.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/063.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/063.jpg"/>
+      </surface>
+      <surface xml:id="kpl-064">
+         <desc xml:lang="sl">Faksimile 064</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/064.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/064.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/064.jpg"/>
+      </surface>
+      <surface xml:id="kpl-065">
+         <desc xml:lang="sl">Faksimile 065</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/065.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/065.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/065.jpg"/>
+      </surface>
+      <surface xml:id="kpl-066">
+         <desc xml:lang="sl">Faksimile 066</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/066.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/066.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/066.jpg"/>
+      </surface>
+      <surface xml:id="kpl-067">
+         <desc xml:lang="sl">Faksimile 067</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/067.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/067.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/067.jpg"/>
+      </surface>
+      <surface xml:id="kpl-068">
+         <desc xml:lang="sl">Faksimile 068</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/068.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/068.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/068.jpg"/>
+      </surface>
+      <surface xml:id="kpl-069">
+         <desc xml:lang="sl">Faksimile 069</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/069.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/069.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/069.jpg"/>
+      </surface>
+      <surface xml:id="kpl-070">
+         <desc xml:lang="sl">Faksimile 070</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/070.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/070.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/070.jpg"/>
+      </surface>
+      <surface xml:id="kpl-071">
+         <desc xml:lang="sl">Faksimile 071</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/071.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/071.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/071.jpg"/>
+      </surface>
+      <surface xml:id="kpl-072">
+         <desc xml:lang="sl">Faksimile 072</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/072.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/072.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/072.jpg"/>
+      </surface>
+      <surface xml:id="kpl-073">
+         <desc xml:lang="sl">Faksimile 073</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/073.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/073.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/073.jpg"/>
+      </surface>
+      <surface xml:id="kpl-074">
+         <desc xml:lang="sl">Faksimile 074</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/074.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/074.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/074.jpg"/>
+      </surface>
+      <surface xml:id="kpl-075">
+         <desc xml:lang="sl">Faksimile 075</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/075.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/075.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/075.jpg"/>
+      </surface>
+      <surface xml:id="kpl-076">
+         <desc xml:lang="sl">Faksimile 076</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/076.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/076.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/076.jpg"/>
+      </surface>
+      <surface xml:id="kpl-077">
+         <desc xml:lang="sl">Faksimile 077</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/077.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/077.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/077.jpg"/>
+      </surface>
+      <surface xml:id="kpl-078">
+         <desc xml:lang="sl">Faksimile 078</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/078.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/078.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/078.jpg"/>
+      </surface>
+      <surface xml:id="kpl-079">
+         <desc xml:lang="sl">Faksimile 079</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/079.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/079.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/079.jpg"/>
+      </surface>
+      <surface xml:id="kpl-080">
+         <desc xml:lang="sl">Faksimile 080</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/080.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/080.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/080.jpg"/>
+      </surface>
+      <surface xml:id="kpl-081">
+         <desc xml:lang="sl">Faksimile 081</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/081.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/081.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/081.jpg"/>
+      </surface>
+      <surface xml:id="kpl-082">
+         <desc xml:lang="sl">Faksimile 082</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/082.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/082.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/082.jpg"/>
+      </surface>
+      <surface xml:id="kpl-087">
+         <desc xml:lang="sl">Faksimile 087</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/087.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/087.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/087.jpg"/>
+      </surface>
+      <surface xml:id="kpl-088">
+         <desc xml:lang="sl">Faksimile 088</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/088.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/088.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/088.jpg"/>
+      </surface>
+      <surface xml:id="kpl-089">
+         <desc xml:lang="sl">Faksimile 089</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/089.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/089.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/089.jpg"/>
+      </surface>
+      <surface xml:id="kpl-090">
+         <desc xml:lang="sl">Faksimile 090</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/090.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/090.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/090.jpg"/>
+      </surface>
+      <surface xml:id="kpl-091">
+         <desc xml:lang="sl">Faksimile 091</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/091.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/091.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/091.jpg"/>
+      </surface>
+      <surface xml:id="kpl-092">
+         <desc xml:lang="sl">Faksimile 092</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/092.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/092.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/092.jpg"/>
+      </surface>
+      <surface xml:id="kpl-093">
+         <desc xml:lang="sl">Faksimile 093</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/093.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/093.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/093.jpg"/>
+      </surface>
+      <surface xml:id="kpl-094">
+         <desc xml:lang="sl">Faksimile 094</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/094.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/094.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/094.jpg"/>
+      </surface>
+      <surface xml:id="kpl-095">
+         <desc xml:lang="sl">Faksimile 095</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/095.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/095.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/095.jpg"/>
+      </surface>
+      <surface xml:id="kpl-096">
+         <desc xml:lang="sl">Faksimile 096</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/096.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/096.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/096.jpg"/>
+      </surface>
+      <surface xml:id="kpl-097">
+         <desc xml:lang="sl">Faksimile 097</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/097.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/097.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/097.jpg"/>
+      </surface>
+      <surface xml:id="kpl-098">
+         <desc xml:lang="sl">Faksimile 098</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/098.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/098.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/098.jpg"/>
+      </surface>
+      <surface xml:id="kpl-099">
+         <desc xml:lang="sl">Faksimile 099</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/099.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/099.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/099.jpg"/>
+      </surface>
+      <surface xml:id="kpl-100">
+         <desc xml:lang="sl">Faksimile 100</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/100.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/100.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/100.jpg"/>
+      </surface>
+      <surface xml:id="kpl-101">
+         <desc xml:lang="sl">Faksimile 101</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/101.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/101.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/101.jpg"/>
+      </surface>
+      <surface xml:id="kpl-102">
+         <desc xml:lang="sl">Faksimile 102</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/102.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/102.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/102.jpg"/>
+      </surface>
+      <surface xml:id="kpl-103">
+         <desc xml:lang="sl">Faksimile 103</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/103.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/103.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/103.jpg"/>
+      </surface>
+      <surface xml:id="kpl-104">
+         <desc xml:lang="sl">Faksimile 104</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/104.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/104.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/104.jpg"/>
+      </surface>
+      <surface xml:id="kpl-105">
+         <desc xml:lang="sl">Faksimile 105</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/105.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/105.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/105.jpg"/>
+      </surface>
+      <surface xml:id="kpl-106">
+         <desc xml:lang="sl">Faksimile 106</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/106.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/106.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/106.jpg"/>
+      </surface>
+      <surface xml:id="kpl-107">
+         <desc xml:lang="sl">Faksimile 107</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/107.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/107.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/107.jpg"/>
+      </surface>
+      <surface xml:id="kpl-108">
+         <desc xml:lang="sl">Faksimile 108</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/108.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/108.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/108.jpg"/>
+      </surface>
+      <surface xml:id="kpl-109">
+         <desc xml:lang="sl">Faksimile 109</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/109.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/109.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/109.jpg"/>
+      </surface>
+      <surface xml:id="kpl-110">
+         <desc xml:lang="sl">Faksimile 110</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/110.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/110.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/110.jpg"/>
+      </surface>
+      <surface xml:id="kpl-111">
+         <desc xml:lang="sl">Faksimile 111</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/111.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/111.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/111.jpg"/>
+      </surface>
+      <surface xml:id="kpl-112">
+         <desc xml:lang="sl">Faksimile 112</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/112.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/112.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/112.jpg"/>
+      </surface>
+      <surface xml:id="kpl-113">
+         <desc xml:lang="sl">Faksimile 113</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/113.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/113.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/113.jpg"/>
+      </surface>
+      <surface xml:id="kpl-114">
+         <desc xml:lang="sl">Faksimile 114</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/114.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/114.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/114.jpg"/>
+      </surface>
+      <surface xml:id="kpl-115">
+         <desc xml:lang="sl">Faksimile 115</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/115.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/115.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/115.jpg"/>
+      </surface>
+      <surface xml:id="kpl-116">
+         <desc xml:lang="sl">Faksimile 116</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/116.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/116.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/116.jpg"/>
+      </surface>
+      <surface xml:id="kpl-117">
+         <desc xml:lang="sl">Faksimile 117</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/117.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/117.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/117.jpg"/>
+      </surface>
+      <surface xml:id="kpl-118">
+         <desc xml:lang="sl">Faksimile 118</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/118.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/118.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/118.jpg"/>
+      </surface>
+      <surface xml:id="kpl-119">
+         <desc xml:lang="sl">Faksimile 119</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/119.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/119.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/119.jpg"/>
+      </surface>
+      <surface xml:id="kpl-120">
+         <desc xml:lang="sl">Faksimile 120</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/120.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/120.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/120.jpg"/>
+      </surface>
+      <surface xml:id="kpl-121">
+         <desc xml:lang="sl">Faksimile 121</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/121.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/121.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/121.jpg"/>
+      </surface>
+      <surface xml:id="kpl-122">
+         <desc xml:lang="sl">Faksimile 122</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/122.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/122.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/122.jpg"/>
+      </surface>
+      <surface xml:id="kpl-123">
+         <desc xml:lang="sl">Faksimile 123</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/123.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/123.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/123.jpg"/>
+      </surface>
+      <surface xml:id="kpl-124">
+         <desc xml:lang="sl">Faksimile 124</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/124.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/124.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/124.jpg"/>
+      </surface>
+      <surface xml:id="kpl-125">
+         <desc xml:lang="sl">Faksimile 125</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/125.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/125.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/125.jpg"/>
+      </surface>
+      <surface xml:id="kpl-126">
+         <desc xml:lang="sl">Faksimile 126</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/126.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/126.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/126.jpg"/>
+      </surface>
+      <surface xml:id="kpl-127">
+         <desc xml:lang="sl">Faksimile 127</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/127.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/127.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/127.jpg"/>
+      </surface>
+      <surface xml:id="kpl-128">
+         <desc xml:lang="sl">Faksimile 128</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/128.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/128.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/128.jpg"/>
+      </surface>
+      <surface xml:id="kpl-129">
+         <desc xml:lang="sl">Faksimile 129</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/129.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/129.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/129.jpg"/>
+      </surface>
+      <surface xml:id="kpl-130">
+         <desc xml:lang="sl">Faksimile 130</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/130.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/130.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/130.jpg"/>
+      </surface>
+      <surface xml:id="kpl-131">
+         <desc xml:lang="sl">Faksimile 131</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/131.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/131.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/131.jpg"/>
+      </surface>
+      <surface xml:id="kpl-132">
+         <desc xml:lang="sl">Faksimile 132</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/132.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/132.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/132.jpg"/>
+      </surface>
+      <surface xml:id="kpl-133">
+         <desc xml:lang="sl">Faksimile 133</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/133.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/133.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/133.jpg"/>
+      </surface>
+      <surface xml:id="kpl-134">
+         <desc xml:lang="sl">Faksimile 134</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/134.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/134.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/134.jpg"/>
+      </surface>
+      <surface xml:id="kpl-135">
+         <desc xml:lang="sl">Faksimile 135</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/135.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/135.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/135.jpg"/>
+      </surface>
+      <surface xml:id="kpl-136">
+         <desc xml:lang="sl">Faksimile 136</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/136.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/136.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/136.jpg"/>
+      </surface>
+      <surface xml:id="kpl-137">
+         <desc xml:lang="sl">Faksimile 137</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/137.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/137.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/137.jpg"/>
+      </surface>
+      <surface xml:id="kpl-138">
+         <desc xml:lang="sl">Faksimile 138</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/138.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/138.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/138.jpg"/>
+      </surface>
+      <surface xml:id="kpl-139">
+         <desc xml:lang="sl">Faksimile 139</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/139.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/139.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/139.jpg"/>
+      </surface>
+      <surface xml:id="kpl-140">
+         <desc xml:lang="sl">Faksimile 140</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/140.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/140.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/140.jpg"/>
+      </surface>
+      <surface xml:id="kpl-141">
+         <desc xml:lang="sl">Faksimile 141</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/141.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/141.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/141.jpg"/>
+      </surface>
+      <surface xml:id="kpl-142">
+         <desc xml:lang="sl">Faksimile 142</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/142.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/142.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/142.jpg"/>
+      </surface>
+      <surface xml:id="kpl-143">
+         <desc xml:lang="sl">Faksimile 143</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/143.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/143.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/143.jpg"/>
+      </surface>
+      <surface xml:id="kpl-144">
+         <desc xml:lang="sl">Faksimile 144</desc>
+         <graphic n="orig" url="http://nl.ijs.si/e-zrc/kapelski/facs/orig/144.jpg"/>
+         <graphic n="small" url="http://nl.ijs.si/e-zrc/kapelski/facs/small/144.jpg"/>
+         <graphic n="thumb" url="http://nl.ijs.si/e-zrc/kapelski/facs/thumb/144.jpg"/>
+      </surface>
+   </facsimile>
+
+   <text xml:lang="sl" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>Kapelski pasijon</titlePart>
+               <titlePart>Komedija od Kristusoviga trplinja, katiro so nekidej na te veliki četrtək
+                  inu na te velikonočni pondelək v Kapli špilali</titlePart>
+               <titlePart>
+                  <ref target="http://nl.ijs.si/e-zrc/kapelski/">Elektronska znanstvenokritična
+                     izdaja</ref>
+               </titlePart>
+            </docTitle>
+            <lb/>
+            <byline>Diplomatični in kritični prepis s komentarjem pripravil <docAuthor>Erich Prunč
+               </docAuthor>
+            </byline>
+            <byline>Kodikološki opis rokopisa in opombe k prepisu pripravil <docAuthor>Matija Ogrin
+               </docAuthor>
+            </byline>
+            <byline>Redakcijo zapisa TEI in pretvorbo v HTML opravil <docAuthor>Tomaž
+                  Erjavec</docAuthor>
+            </byline>
+            <byline>Uredila Matija Ogrin in Erich Prunč</byline>
+            <lb/>
+            <docImprint>
+               <ref target="http://nl.ijs.si/e-zrc/">Elektronske znanstvenokritične izdaje
+                  slovenskega slovstva</ref>
+               <lb/>
+               <publisher>Inštitut za slovensko literaturo in literarne vede ZRC SAZU; </publisher>
+               <publisher>Odsek za tehnologije znanja, Institut "Jožef Stefan"</publisher>
+               <lb/>
+               <pubPlace>Ljubljana</pubPlace>
+               <date>2016</date>
+            </docImprint>
+         </titlePage>
+         <divGen type="teiHeader"/>
+         <divGen type="toc"/>
+      </front>
+
+      <body>
+         <!--xi:include href="kapelski-facs.xml"/-->
+         <xi:include href="kapelski-dipl.xml"/>
+         <xi:include href="kapelski-crit.xml"/>
+         <!--xi:include href="kapelski-para.xml"/-->
+      </body>
+      <back>
+         <xi:include href="kapelski-appx.xml"/>
+         <xi:include href="kapelski-comm.xml"/>
+      </back>
+   </text>
+</TEI>
