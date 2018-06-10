@@ -53,9 +53,6 @@
       </desc>
    </doc>
    
-   <!-- Zaradi pravilnega izpisa tei:w, tei:pc in tei:c sem moral dodati strip-space -->
-    <xsl:strip-space elements="*"/>
-    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    
    <xsl:param name="path-general">../../../</xsl:param>
@@ -97,9 +94,11 @@
       <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet" type="text/css" />
       <link href="{concat($path-general,'publikacije/themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
       <link href="{concat($path-general,'publikacije/themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
-      <!-- dodan imageViewer -->
-      <link href="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.css')}" rel="stylesheet" type="text/css" />
-      <!-- dodam projektno specifičen css, ki se nahaja v istem direktoriju kot ostali HTML dokumenti -->
+       <!-- dodan imageViewer -->
+       <link href="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.css')}" rel="stylesheet" type="text/css" />
+       <!-- dodan viewerjs -->
+       <link href="{concat($path-general,'publikacije/themes/plugin/viewerjs/1.0.0/dist/viewer.css')}" rel="stylesheet" type="text/css" />
+       <!-- dodam projektno specifičen css, ki se nahaja v istem direktoriju kot ostali HTML dokumenti -->
       <link href="project.css" rel="stylesheet" type="text/css"/>
    </xsl:template>
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
@@ -115,8 +114,10 @@
       </xsl:if>
       <!-- za back-to-top in highcharts je drugače potrebno dati jquery, vendar sedaj ne rabim dodajati jquery kodo,
          ker je že vsebovana zgoraj -->
-      <!-- dodan imageViewer -->
-      <script src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.js')}"></script>
+       <!-- dodan imageViewer -->
+       <script src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.js')}"></script>
+       <!-- dodan viewerjs -->
+       <script src="{concat($path-general,'publikacije/themes/plugin/viewerjs/1.0.0/dist/viewer.js')}"></script>
        <!-- dodan css jstree (mora biti za jquery.js -->
        <link href="{concat($path-general,'publikacije/themes/plugin/jstree/3.3.5/dist/themes/default/style.min.css')}" rel="stylesheet" type="text/css" />
        <!-- dodan jstree -->
@@ -272,20 +273,21 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
     
    
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
-      <xsldoc:desc>Dodam zaključni javascript za ImageViewer</xsldoc:desc>
+      <xsldoc:desc>Dodam javascript za ImageViewer (pogled tei:pb)</xsldoc:desc>
    </xsldoc:doc>
    <xsl:template name="bodyEndHook">
-      <script type="text/javascript">
-         $(function () {
-         var viewer = ImageViewer();
-         $('.imageviewer').click(function () {
-         var imgSrc = this.src,
-         highResolutionImage = $(this).data('high-res-src');
-         
-         viewer.show(imgSrc, highResolutionImage);
-         });
-         });
-      </script>
+       <script type="text/javascript">
+           $(function () {
+             var viewer = ImageViewer();
+             $('.imageviewer').click(function () {
+               var imgSrc = this.src,
+               highResolutionImage = $(this).data('high-res-src');
+           
+               viewer.show(imgSrc, highResolutionImage);
+             });
+           });
+       </script>
+       
       <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/what-input.js')}"></script>
       <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/foundation.min.js')}"></script>
       <script src="{concat($path-general,'publikacije/themes/foundation/6/js/app.js')}"></script>
@@ -297,102 +299,53 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
       <desc></desc>
    </doc>
    <xsl:template match="tei:divGen[@type='facsimile']">
-      <style>
-         #image-gallery {
-         width: 100%;
-         position: relative;
-         height: 650px;
-         background: #000;
-         }
-         #image-gallery .image-container {
-         position: absolute;
-         top: 0;
-         left: 0;
-         right: 0;
-         bottom: 50px;
-         }
-         #image-gallery .prev,
-         #image-gallery .next {
-         position: absolute;
-         height: 32px;
-         margin-top: -66px;
-         top: 50%;
-         }
-         #image-gallery .prev {
-         left: 20px;
-         }
-         #image-gallery .next {
-         right: 20px;
-         cursor: pointer;
-         }
-         #image-gallery .footer-info {
-         position: absolute;
-         height: 50px;
-         width: 100%;
-         left: 0;
-         bottom: 0;
-         line-height: 50px;
-         font-size: 24px;
-         text-align: center;
-         color: white;
-         border-top: 1px solid #FFF;
-         }
-      </style>
-      <div id="image-gallery">
-         <div class="image-container"></div>
-          <img src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/images/left.svg')}" class="prev"/>
-          <img src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/images/right.svg')}"  class="next"/>
-         <div class="footer-info">
-            <span class="current"></span>/<span class="total"></span>
-         </div>
-      </div>
-      
-       <script type="text/javascript">
-           <xsl:text>$(function () {
-    var images = [</xsl:text>
-           <xsl:for-each select="ancestor::tei:TEI/tei:facsimile/tei:surface">
-               <xsl:text>{
-        small : 'facs/small/</xsl:text><xsl:value-of select="tokenize(tei:graphic[@n='small']/@url,'/')[last()]"/><xsl:text>',
-        big : 'facs/orig/</xsl:text><xsl:value-of select="tokenize(tei:graphic[@n='orig']/@url,'/')[last()]"/><xsl:text>'
-    }</xsl:text>
-               <xsl:if test="position() != last()">
-                   <xsl:text>,</xsl:text>
-               </xsl:if>
-           </xsl:for-each>
-           <xsl:text disable-output-escaping="yes"><![CDATA[
-               ];
-    
-    var curImageIdx = 1,
-        total = images.length;
-    var wrapper = $('#image-gallery'),
-        curSpan = wrapper.find('.current');
-    var viewer = ImageViewer(wrapper.find('.image-container'));
- 
-    //display total count
-    wrapper.find('.total').html(total);
-    
-    function showImage(){
-        var imgObj = images[curImageIdx - 1];
-        viewer.load(imgObj.small, imgObj.big);
-        curSpan.html(curImageIdx);
-    }
- 
-    wrapper.find('.next').click(function(){
-         curImageIdx++;
-        if(curImageIdx > total) curImageIdx = 1;
-        showImage();
-    });
- 
-    wrapper.find('.prev').click(function(){
-         curImageIdx--;
-        if(curImageIdx < 0) curImageIdx = total;
-        showImage();
-    });
- 
-    //initially show image
-    showImage();
-});]]></xsl:text>
+       <h3 class="text-center">Galerija faksimilov</h3>
+       <!-- Sem dodal hidden atribut, da se ne prikažejo vse slike na strani: s klikom na prvo sliko tako sprožiš galerijo -->
+       <div id="galley">
+           <ul class="pictures text-center">
+               <xsl:for-each select="ancestor::tei:TEI/tei:facsimile/tei:surface">
+                   <li>
+                       <xsl:if test="position() != last()">
+                           <xsl:attribute name="hidden">hidden</xsl:attribute>
+                       </xsl:if>
+                       <!-- lokalni dostop do slik -->
+                       <!--<img data-original="facs/orig/{tokenize(tei:graphic[@n='orig']/@url,'/')[last()]}" src="facs/thumb/{tokenize(tei:graphic[@n='thumb']/@url,'/')[last()]}" alt="{tei:desc}"/>-->
+                       <!-- IJS dostop do slik -->
+                       <img data-original="{tei:graphic[@n='orig']/@url}" src="{tei:graphic[@n='thumb']/@url}" alt="{tei:desc}"/>
+                   </li>
+               </xsl:for-each>
+           </ul>
+       </div>
+       <script>
+           window.addEventListener('DOMContentLoaded', function () {
+             var galley = document.getElementById('galley');
+             var viewer = new Viewer(galley, {
+               url: 'data-original',
+               toolbar: {
+                 zoomIn: true,
+                 zoomOut: true,
+                 oneToOne: true,
+                 prev: function() {
+                   viewer.prev(true);
+                 },
+                 play: true,
+                 next: function() {
+                   viewer.next(true);
+                 },
+                 rotateLeft: true,
+                 rotateRight: true,
+               },
+             });
+           });
        </script>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
    </xsl:template>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -400,18 +353,28 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
    </doc>
    <xsl:template name="divGen-process-content">
       <script type="text/javascript" src="SaxonJS.min.js"></script>
-      <xsl:text disable-output-escaping="yes"><![CDATA[<script>
-            window.onload = function() {
-            SaxonJS.transform({
-            stylesheetLocation: "para.sef",
-            sourceLocation: "kapelski.xml"
-            });
-            }     
-         </script>]]></xsl:text>
-      
-      <!-- dinamična para vsebina -->
-      <div id="para"/>
-      
+       <script>
+           window.onload = function() {
+           SaxonJS.transform({
+           stylesheetLocation: "para.sef",
+           sourceLocation: "kapelski.xml"
+           });
+           }     
+       </script>
+       <!-- dodam svoj preloader: ko nalaga stran, se vrti krogec -->
+       <div class="preloader"></div>
+       <!-- dinamična para vsebina -->
+       <div id="para"/>
+       <!-- js za preloader -->
+       <script type="text/javascript">
+           $(document).ready(function () {
+             // preloader
+             $(window).load(function(){
+               $('.preloader').delay(400).fadeOut(500);
+             })
+           })
+       </script>
+       
    </xsl:template>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -513,29 +476,44 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
         <desc>Prelome strani izkoristim za povezave na dinamično stran para.html</desc>
     </doc>
     <xsl:template match="tei:pb">
+        <xsl:variable name="facs-id" select="substring-after(@facs,'#')"/>
         <xsl:variable name="type">
             <xsl:choose>
                 <xsl:when test="contains(@xml:id,'dipl')">dipl</xsl:when>
                 <xsl:otherwise>crit</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <div class="dropdown pb" id="{@xml:id}">
-            <button class="alert hollow tiny dropdown button">
-                <xsl:text>Stran </xsl:text>
-                <xsl:value-of select="@n"/>
-            </button>
-            <div class="dropdown-content">
-                <xsl:if test="$type='dipl'">
-                    <a href="{concat('para.html?type=page&amp;mode=facs-dipl&amp;page=',@n,'&amp;lb=1')}">faksimile</a>
-                    <a href="{concat('para.html?type=page&amp;mode=dipl-crit&amp;page=',@n,'&amp;lb=1')}">kritični</a>
-                    <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vsi</a>
-                </xsl:if>
-                <xsl:if test="$type='crit'">
-                    <a href="{concat('para.html?type=page&amp;mode=facs-crit&amp;page=',@n,'&amp;lb=1')}">faksimile</a>
-                    <a href="{concat('para.html?type=page&amp;mode=dipl-crit&amp;page=',@n,'&amp;lb=1')}">diplomatični</a>
-                    <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vsi</a>
-                </xsl:if>
+        <xsl:variable name="image-thumb" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$facs-id]/tei:graphic[@n='thumb']/@url"/>
+        <xsl:variable name="image-large" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$facs-id]/tei:graphic[@n='orig']/@url"/>
+        <div class="border-content pb" id="{@xml:id}">
+            <div class="dropdown">
+                <button class="small dropdown button text-center">
+                    <xsl:text>Stran </xsl:text>
+                    <xsl:value-of select="@n"/>
+                </button>
+                <div class="dropdown-content">
+                    <xsl:if test="$type='dipl'">
+                        <a href="#{@xml:id}" class="border-content">diplomatični</a>
+                        <a href="crit.html{@corresp}">kritični</a>
+                        <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vzporedni</a>
+                        <a href="{$image-large}">faksimile</a>
+                        <a>
+                            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}" height="50" width="50"/>
+                        </a>
+                    </xsl:if>
+                    <xsl:if test="$type='crit'">
+                        <a href="dipl.html{@corresp}">diplomatični</a>
+                        <a href="#{@xml:id}" class="border-content">kritični</a>
+                        <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vzporedni</a>
+                        <a href="{$image-large}">faksimile</a>
+                        <a>
+                            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}" height="50" width="50"/>
+                        </a>
+                    </xsl:if>
+                </div>
             </div>
+            <br/>
+            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}"/>
         </div>
     </xsl:template>
     
@@ -550,16 +528,20 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
             </xsl:choose>
         </xsl:variable>
         <div class="dropdown milestone" id="{@xml:id}">
-            <button class="alert hollow tiny dropdown button">
+            <button class="small dropdown button">
                 <xsl:text>Mejnik </xsl:text>
                 <xsl:value-of select="@n"/>
             </button>
             <div class="dropdown-content">
                 <xsl:if test="$type='dipl'">
-                    <a href="{concat('para.html?type=section&amp;mode=dipl-crit&amp;section=',@n,'&amp;lb=1')}">kritični</a>
+                    <a href="#{@xml:id}" class="border-content">diplomatični</a>
+                    <a href="crit.html{tokenize(@corresp,' ')[contains(.,'crit')]}">kritični</a>
+                    <a href="{concat('para.html?type=section&amp;mode=dipl-crit&amp;section=',@n,'&amp;lb=1')}">vzporedni</a>
                 </xsl:if>
                 <xsl:if test="$type='crit'">
-                    <a href="{concat('para.html?type=section&amp;mode=dipl-crit&amp;section=',@n,'&amp;lb=1')}">diplomatični</a>
+                    <a href="dipl.html{tokenize(@corresp,' ')[contains(.,'dipl')]}">diplomatični</a>
+                    <a href="#{@xml:id}" class="border-content">kritični</a>
+                    <a href="{concat('para.html?type=section&amp;mode=dipl-crit&amp;section=',@n,'&amp;lb=1')}">vzporedni</a>
                 </xsl:if>
             </div>
         </div>

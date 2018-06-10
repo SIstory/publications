@@ -16,8 +16,6 @@
     <xsl:param name="firstPB">0r</xsl:param>
     <xsl:param name="firstMilestone">1</xsl:param>
     
-    <xsl:strip-space elements="*"/>
-    
     <xsl:template match="/">
         <!-- type = prikaz po straneh (page) ali prikaz po vsebinskih sklopih (section) -->
         <xsl:variable name="type" select="(ixsl:query-params()?type)"/>
@@ -201,7 +199,7 @@
                             </p>
                         </div>
                         <div class="small-6 columns">
-                            <form action="para.html">
+                            <form action="para.html" autocomplete="off">
                                 <div class="row collapse">
                                     <div class="small-4 columns text-right">
                                         <button class="button" type="submit">stran</button>
@@ -209,11 +207,19 @@
                                     <div class="small-8 columns text-left">
                                         <input type="hidden" name="type" value="{$type}"/>
                                         <input type="hidden" name="mode" value="{$mode}"/>
-                                        <input type="text" name="page" value="{$page}"/>
+                                        <input type="text" name="page" list="pages" placeholder="{$page}"/>
                                         <input type="hidden" name="lb" value="{$lb}"/>
                                     </div>
                                 </div>
                             </form>
+                            <!-- autocomplete list -->
+                            <datalist id="pages">
+                                <xsl:for-each select="$pages/page">
+                                    <option>
+                                        <xsl:value-of select="."/>
+                                    </option>
+                                </xsl:for-each>
+                            </datalist>
                         </div>
                         <div class="small-3 columns text-right">
                             <p>
@@ -641,12 +647,15 @@
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
-        <div id="image-gallery" class="cf">
-            <img src="facs/large/{$image-name}.jpg" data-high-res-src="facs/orig/{$image-name}.jpg" class="pannable-image"/>
-        </div>
-        <script type="text/javascript">
-            $(function () {
-            $('.pannable-image').ImageViewer();
+        <img id="image" src="http://nl.ijs.si/e-zrc/kapelski/facs/orig/{$image-name}.jpg"/>
+        <!--<img id="image" src="facs/orig/{$image-name}.jpg"/>-->
+        <script>
+            var image = document.getElementById('image');
+            var viewer = new Viewer(image, {
+              inline: true,
+              navbar: false,
+              title: false,
+              toolbar: false
             });
         </script>
     </xsl:template>
@@ -670,7 +679,17 @@
             </xsl:apply-templates>
         </xsl:variable>
         <!-- Vsebina -->
-        <xsl:copy-of select="$content"/>
+        <xsl:choose>
+            <xsl:when test="$type='page' and string-length($content) = 0">
+                <div class="warning callout">
+                    <h5>Stran ne obstaja!</h5>
+                    <p>Izbrana stran ne obstaja. Iz spustnega seznama strani izberite obstoječo stran.</p>
+                </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:copy-of select="$content"/>
+            </xsl:otherwise>
+        </xsl:choose>
             
         <!-- Opombe -->
         <xsl:if test="$processNotes='true'">
@@ -965,6 +984,11 @@
             <xsl:choose>
                 <xsl:when test="if ($content-end='') then (preceding::tei:pb[1][@xml:id=$content-start]) else (preceding::tei:pb[1][@xml:id=$content-start]  and following::tei:pb[1][@xml:id=$content-end])">
                     <blockquote>
+                        <xsl:if test="@rend='linenumber' and $lb='1'">
+                            <span class="numberParagraph">
+                                <xsl:value-of select="@n"/>
+                            </span>
+                        </xsl:if>
                         <xsl:apply-templates>
                             <xsl:with-param name="type" select="$type"/>
                             <xsl:with-param name="mode" select="$mode"/>
@@ -995,6 +1019,11 @@
             <xsl:choose>
                 <xsl:when test="if ($content-end='') then (preceding::tei:milestone[1][@xml:id=$content-start]) else (preceding::tei:milestone[1][@xml:id=$content-start]  and following::tei:milestone[1][@xml:id=$content-end])">
                     <blockquote>
+                        <xsl:if test="@rend='linenumber' and $lb='1'">
+                            <span class="numberParagraph">
+                                <xsl:value-of select="@n"/>
+                            </span>
+                        </xsl:if>
                         <xsl:apply-templates>
                             <xsl:with-param name="type" select="$type"/>
                             <xsl:with-param name="mode" select="$mode"/>
@@ -1142,6 +1171,11 @@
             <xsl:choose>
                 <xsl:when test="if ($content-end='') then (preceding::tei:pb[1][@xml:id=$content-start]) else (preceding::tei:pb[1][@xml:id=$content-start]  and following::tei:pb[1][@xml:id=$content-end])">
                     <blockquote>
+                        <xsl:if test="@rend='linenumber' and $lb='1'">
+                            <span class="numberParagraph">
+                                <xsl:value-of select="@n"/>
+                            </span>
+                        </xsl:if>
                         <xsl:apply-templates>
                             <xsl:with-param name="type" select="$type"/>
                             <xsl:with-param name="mode" select="$mode"/>
@@ -1171,6 +1205,11 @@
         <xsl:if test="$type='section'">
             <xsl:if test="if ($content-end='') then (preceding::tei:milestone[1][@xml:id=$content-start]) else (preceding::tei:milestone[1][@xml:id=$content-start]  and following::tei:milestone[1][@xml:id=$content-end])">
                 <blockquote>
+                    <xsl:if test="@rend='linenumber' and $lb='1'">
+                        <span class="numberParagraph">
+                            <xsl:value-of select="@n"/>
+                        </span>
+                    </xsl:if>
                     <xsl:apply-templates>
                         <xsl:with-param name="type" select="$type"/>
                         <xsl:with-param name="mode" select="$mode"/>
@@ -1193,6 +1232,11 @@
         <xsl:param name="lb"/>
         <xsl:if test="$type='page'">
             <xsl:if test="if ($content-end='') then (preceding::tei:pb[1][@xml:id=$content-start]) else (preceding::tei:pb[1][@xml:id=$content-start]  and following::tei:pb[1][@xml:id=$content-end])">
+                <xsl:if test="@rend='linenumber' and $lb='1'">
+                    <span class="numberParagraph">
+                        <xsl:value-of select="@n"/>
+                    </span>
+                </xsl:if>
                 <xsl:apply-templates>
                     <xsl:with-param name="type" select="$type"/>
                     <xsl:with-param name="mode" select="$mode"/>
@@ -1201,13 +1245,27 @@
                     <xsl:with-param name="content-type" select="$content-type"/>
                     <xsl:with-param name="lb" select="$lb"/>
                 </xsl:apply-templates>
-                <xsl:if test="position() != last()">
-                    <br />
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$lb='1'">
+                        <xsl:if test="position() != last()">
+                            <br/>
+                        </xsl:if>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="position() != last()">
+                            <span class="emph"> | </span>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:if>
         </xsl:if>
         <xsl:if test="$type='section'">
             <xsl:if test="if ($content-end='') then (preceding::tei:milestone[1][@xml:id=$content-start]) else (preceding::tei:milestone[1][@xml:id=$content-start]  and following::tei:milestone[1][@xml:id=$content-end])">
+                <xsl:if test="@rend='linenumber' and $lb='1'">
+                    <span class="numberParagraph">
+                        <xsl:value-of select="@n"/>
+                    </span>
+                </xsl:if>
                 <xsl:apply-templates>
                     <xsl:with-param name="type" select="$type"/>
                     <xsl:with-param name="mode" select="$mode"/>
@@ -1216,9 +1274,18 @@
                     <xsl:with-param name="content-type" select="$content-type"/>
                     <xsl:with-param name="lb" select="$lb"/>
                 </xsl:apply-templates>
-                <xsl:if test="position() != last()">
-                    <br />
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$lb='1'">
+                        <xsl:if test="position() != last()">
+                            <br/>
+                        </xsl:if>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="position() != last()">
+                            <span class="emph"> | </span>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:if>
         </xsl:if>
     </xsl:template>
