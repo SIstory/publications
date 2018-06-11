@@ -60,7 +60,8 @@
                             </xsl:choose>
                         </button>
                         <div class="dropdown-content">
-                            <a href="para.html?type=page">
+                            <!-- privzeto prikaže facs-dipl-crit -->
+                            <a href="para.html?type=page&amp;mode=facs-dipl-crit&amp;page={if ($page) then $page else $firstPB}&amp;lb={if ($lb) then $lb else '1'}">
                                 <xsl:if test="$type = 'page'">
                                     <xsl:attribute name="class">active</xsl:attribute>
                                 </xsl:if>

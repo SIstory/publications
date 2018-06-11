@@ -23,7 +23,7 @@
     </doc>
     <xsl:template match="tei:handShift">
         <xsl:variable name="hand" select="key('id', substring-after(@new, '#'))"/>
-        <span class="handShift">
+        <span data-tooltip="" class="handShift has-tip" data-disable-hover="false">
             <xsl:attribute name="title">
                 <xsl:call-template name="glosstext">
                     <xsl:with-param name="element" select="name(.)"/>
@@ -153,7 +153,7 @@
         <xsl:param name="title">
             <xsl:apply-templates select="self::tei:*" mode="explain"/>
         </xsl:param>
-        <span class="subst" title="{$title}">
+        <span data-tooltip="" class="subst has-tip" data-disable-hover="false" title="{$title}">
             <strike>
                 <xsl:apply-templates/>
             </strike>
@@ -169,7 +169,7 @@
             <xsl:apply-templates select="self::tei:*" mode="explain"/>
         </xsl:param>
         <xsl:variable name="element">
-            <span class="subst" title="{$title}">
+            <span data-tooltip="" class="subst has-tip" data-disable-hover="false" title="{$title}">
                 <xsl:apply-templates/>
             </span>
         </xsl:variable>
@@ -201,7 +201,7 @@
         <xsl:param name="title">
             <xsl:apply-templates select="self::tei:*" mode="explain"/>
         </xsl:param>
-        <span class="choice" title="{$title}">
+        <span data-tooltip="" class="choice has-tip" data-disable-hover="false" title="{$title}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -214,7 +214,7 @@
         <xsl:param name="title">
             <xsl:apply-templates select="self::tei:*" mode="explain"/>
         </xsl:param>
-        <span class="choice" title="{$title}">
+        <span data-tooltip="" class="choice has-tip" data-disable-hover="false" title="{$title}">
             <xsl:text>[...]</xsl:text>
         </span>
     </xsl:template>
@@ -229,7 +229,7 @@
                 <xsl:with-param name="element" select="name(.)"/>
             </xsl:call-template>
         </xsl:param>
-        <span class="unclear" title="{$title}">
+        <span data-tooltip="" class="unclear has-tip" data-disable-hover="false" title="{$title}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

@@ -54,8 +54,8 @@
    </doc>
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
-   
-   <xsl:param name="path-general">../../../</xsl:param>
+    <!-- ../../../  -->
+    <xsl:param name="path-general">http://www2.sistory.si/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
    <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/kapelski/</xsl:param>
@@ -484,7 +484,9 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="image-thumb" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$facs-id]/tei:graphic[@n='thumb']/@url"/>
+        <xsl:variable name="image-small" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$facs-id]/tei:graphic[@n='small']/@url"/>
         <xsl:variable name="image-large" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id=$facs-id]/tei:graphic[@n='orig']/@url"/>
+        <hr/>
         <div class="border-content pb" id="{@xml:id}">
             <div class="dropdown">
                 <button class="small dropdown button text-center">
@@ -513,7 +515,8 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
                 </div>
             </div>
             <br/>
-            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}"/>
+            <img class="imageviewer show-for-large" src="{$image-small}" data-high-res-src="{$image-large}"/>
+            <img class="imageviewer show-for-medium-only" src="{$image-thumb}" data-high-res-src="{$image-large}"/>
         </div>
     </xsl:template>
     
@@ -528,7 +531,7 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
             </xsl:choose>
         </xsl:variable>
         <div class="dropdown milestone" id="{@xml:id}">
-            <button class="small dropdown button">
+            <button class="tiny dropdown button">
                 <xsl:text>Mejnik </xsl:text>
                 <xsl:value-of select="@n"/>
             </button>

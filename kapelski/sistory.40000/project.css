@@ -148,6 +148,12 @@ span.unclear {
     background-color: #C0C0C0;
 }
 
+span.has-tip {
+    text-indent: 0em;
+    border-bottom: none;
+    display: initial;
+}
+
 /* loader */
 .preloader {
   position: absolute;
