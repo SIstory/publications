@@ -52,7 +52,7 @@
    </doc>
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
-   
+   <!-- ../../../  -->
    <xsl:param name="path-general">http://www2.sistory.si/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
@@ -174,10 +174,8 @@
                                  <xsl:otherwise>orbit-slide</xsl:otherwise>
                               </xsl:choose>
                            </xsl:attribute>
-                           <figure class="orbit-figure" style="height: 400px; width: 700px;">
-                              <!--<a href="{tei:graphic[contains(@url,'normal')]/@url}" target="_blank">-->
-                              <img class="orbit-image imageviewer" src="{tei:graphic[contains(@url,'normal')]/@url}" data-high-res-src="{tei:graphic[contains(@url,'normal')]/@url}" alt="{normalize-space(tei:head)}"/>
-                              <!--</a>-->
+                           <figure class="orbit-figure" style="height: 400px; width: 600px;">
+                              <img class="orbit-image imageviewer" src="{tei:graphic[contains(@url,'slide')]/@url}" data-high-res-src="{tei:graphic[contains(@url,'normal')]/@url}" alt="{normalize-space(tei:head)}"/>
                               <figcaption class="orbit-caption">
                                  <xsl:value-of select="normalize-space(tei:head)"/>
                               </figcaption>
@@ -210,14 +208,13 @@
       <script type="text/javascript">
          
          $(function () {
-         var viewer = ImageViewer();
-         $('.imageviewer').click(function () {
-         var imgSrc = this.src,
-         highResolutionImage = $(this).data('high-res-img');
-         
-         viewer.show(imgSrc, highResolutionImage);
-         });
-         });
+           var viewer = ImageViewer();
+             $('.imageviewer').click(function () {
+               var imgSrc = this.src,
+               highResolutionImage = $(this).data('high-res-src');
+               viewer.show(imgSrc, highResolutionImage);
+            });
+          });
       </script>
       <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/what-input.js')}"></script>
       <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/foundation.min.js')}"></script>

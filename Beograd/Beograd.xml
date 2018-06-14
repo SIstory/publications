@@ -58,6 +58,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Inštitut za novejšo zgodovino / Institute of Contemporary History</publisher>
+            <publisher>Istorijski arhiv Beograda / Историјски архив Београда / Historical Archives of Belgrade</publisher>
             <date when="2017">2017</date>
             <availability>
                <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
@@ -66,13 +67,15 @@
                      Priznanje avtorstva-Nekomercialno-Brez predelav 4.0 Mednarodna licenco</ref>
                </p>
             </availability>
-            <idno type="sistory"
-               corresp="#sistory.38099 #cip #sr-cip #en-cip #teiHeader #sr-teiHeader #en-teiHeader #toc #sr-toc #en-toc #images #sr-images #en-images #search #sr-search #en-search #preface #sr-preface #en-preface #ch01 #sr-ch01 #en-ch01 #ch02 #sr-ch02 #en-ch02 #ch03 #sr-ch03 #en-ch03 #ch04 #sr-ch04 #en-ch04 #ch05 #sr-ch05 #en-ch05 #ch06 #sr-ch06 #en-ch06 #ch07 #sr-ch07 #en-ch07 #ch08 #sr-ch08 #en-ch08 #ch09 #sr-ch09 #en-ch09 #ch10 #sr-ch10 #en-ch10 #ch11 #sr-ch11 #en-ch11 #ch12 #sr-ch12 #en-ch12 #ch13 #sr-ch13 #en-ch13 #ch14 #sr-ch14 #en-ch14 #ch15 #sr-ch15 #en-ch15"
-               >38099</idno>
-            <pubPlace>Dostopno na / Доступно на / Available at <ref
-                  target=" http://hdl.handle.net/11686/38099"
-                  >http://hdl.handle.net/11686/38099</ref>
-            </pubPlace>
+            <!-- parent publication -->
+            <idno type="sistory" corresp="#search #sr-search #en-search">38099</idno>
+            <!-- slovensko -->
+            <idno type="sistory" corresp="#sistory.38099 #cip #teiHeader #toc #images #preface #ch01 #ch02 #ch03 #ch04 #ch05 #ch06 #ch07 #ch08 #ch09 #ch10 #ch11 #ch12 #ch13 #ch14 #ch15">38754</idno>
+            <!-- srbsko -->
+            <idno type="sistory" corresp="#sr-cip #sr-teiHeader #sr-toc #sr-images #sr-preface #sr-ch01 #sr-ch02 #sr-ch03 #sr-ch04 #sr-ch05 #sr-ch06 #sr-ch07 #sr-ch08 #sr-ch09 #sr-ch10 #sr-ch11 #sr-ch12 #sr-ch13 #sr-ch14 #sr-ch15">38755</idno>
+            <!-- angleško -->
+            <idno type="sistory" corresp="#en-cip #en-teiHeader #en-toc #en-images #en-preface #en-ch01 #en-ch02 #en-ch03 #en-ch04 #en-ch05 #en-ch06 #en-ch07 #en-ch08 #en-ch09 #en-ch10 #en-ch11 #en-ch12 #en-ch13 #en-ch14 #en-ch15">38756</idno>
+            <pubPlace>Dostopno na / Доступно на / Available at <ref target=" http://hdl.handle.net/11686/38099">http://hdl.handle.net/11686/38099</ref></pubPlace>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
