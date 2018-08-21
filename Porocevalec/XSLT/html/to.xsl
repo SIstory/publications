@@ -53,6 +53,9 @@
    
    <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>
    
+   <!--<xsl:param name="path-general">../../../</xsl:param>-->
+   <xsl:param name="path-general">http://www2.sistory.si/</xsl:param>
+   
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
@@ -66,7 +69,9 @@
    <xsl:param name="keywords">Slovenija, Jugoslavija, parlament, skupščina, državni zbor, zakonodaja</xsl:param>
    <xsl:param name="title">Poročevalec Državnega zbora na portalu Zgodovina Slovenije - SIstory</xsl:param>
    
-   
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template match="tei:listBibl">
       <ol itemscope="" itemtype="https://schema.org/Periodical">
          <xsl:apply-templates mode="porocevalec">
@@ -75,6 +80,9 @@
       </ol>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template match="tei:biblStruct" mode="porocevalec">
       <xsl:variable name="sistoryID" select="tei:monogr/tei:idno[@type='sistory']"/>
       <xsl:variable name="sistoryFile" select="tei:ref/@target"/>
@@ -92,9 +100,75 @@
             <xsl:text>:</xsl:text>
             <ul>
                <xsl:for-each select="tei:relatedItem/tei:biblStruct">
+                  <xsl:choose>
+                     <xsl:when test="parent::tei:relatedItem[@type='included']">
+                        <xsl:call-template name="porocevalec-included">
+                           <xsl:with-param name="sistoryID" select="$sistoryID"/>
+                           <xsl:with-param name="sistoryFile" select="$sistoryFile"/>
+                           <xsl:with-param name="secondSIstoryFile" select="tei:ref"/>
+                        </xsl:call-template>
+                     </xsl:when>
+                     <xsl:otherwise>
+                        <xsl:call-template name="PorocevalecContent">
+                           <xsl:with-param name="sistoryID" select="$sistoryID"/>
+                           <xsl:with-param name="sistoryFile" select="$sistoryFile"/>
+                        </xsl:call-template>
+                     </xsl:otherwise>
+                  </xsl:choose>
+               </xsl:for-each>
+            </ul>
+         </xsl:if>
+      </li>
+   </xsl:template>
+   
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Procesira Poročevalce Državnega sveta, ki so izhajale kot priloge Poročevalca Državnega zbora</desc>
+      <param name="sistoryID"></param>
+      <param name="sistoryFile"></param>
+      <param name="secondSIstoryFile"></param>
+   </doc>
+   <xsl:template name="porocevalec-included">
+      <xsl:param name="sistoryID"/>
+      <xsl:param name="sistoryFile"/>
+      <xsl:param name="secondSIstoryFile"/>
+      <!-- Poročevalec Državenga sveta lahko obstaja kot samostojna (druga) PDF datoteka
+           ali pa je vključena v prvo (edino) PDF datoteko -->
+      <xsl:variable name="rightSistoryFile">
+         <xsl:choose>
+            <xsl:when test="string-length($secondSIstoryFile) gt 0">
+               <xsl:value-of select="$secondSIstoryFile"/>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:value-of select="$sistoryFile"/>
+            </xsl:otherwise>
+         </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="pdfPage">
+         <xsl:choose>
+            <xsl:when test="tei:monogr/tei:biblScope[@unit='page']">
+               <xsl:value-of select="tei:monogr/tei:biblScope[@unit='page']"/>
+            </xsl:when>
+            <xsl:otherwise>1</xsl:otherwise>
+         </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="sistoryPath" select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1000,'/',$sistoryID,'/')"/>      
+      <li id="{@xml:id}">
+         <!-- standardidizani izpis naslova/naziva Poročevalca -->
+         <b>
+            <xsl:call-template name="porocevalec-naziv"/>
+         </b>
+         <!-- povezava na SIstory publikacijo -->
+         <xsl:text> [</xsl:text>
+         <a href="{concat('http://www.sistory.si',$sistoryPath,$rightSistoryFile,'#page=',$pdfPage)}" title="Zgodovina Slovenije - SIstory" target="_blank">PDF</a>
+         <xsl:text>]</xsl:text>
+         <!-- Vsebina: -->
+         <xsl:if test="tei:relatedItem">
+            <xsl:text>:</xsl:text>
+            <ul>
+               <xsl:for-each select="tei:relatedItem/tei:biblStruct">
                   <xsl:call-template name="PorocevalecContent">
                      <xsl:with-param name="sistoryID" select="$sistoryID"/>
-                     <xsl:with-param name="sistoryFile" select="$sistoryFile"/>
+                     <xsl:with-param name="sistoryFile" select="$rightSistoryFile"/>
                   </xsl:call-template>
                </xsl:for-each>
             </ul>
@@ -102,6 +176,9 @@
       </li>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template name="porocevalec-naziv">
       <!-- naslov serijske publikacije -->
       <xsl:for-each select="tei:monogr/tei:title[@level='j'][1]">
@@ -145,6 +222,11 @@
       <xsl:value-of select="concat('(',$dateDisplay,')')"/>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+      <param name="sistoryID"></param>
+      <param name="sistoryFile"></param>
+   </doc>
    <xsl:template name="PorocevalecContent">
       <xsl:param name="sistoryID"/>
       <xsl:param name="sistoryFile"/>
@@ -152,7 +234,7 @@
       <li>
          <xsl:value-of select="tei:analytic/tei:title[@level='a']"/>
          <xsl:text> [</xsl:text>
-         <a href="{concat($sistoryPath,$sistoryFile,'#page=',tei:monogr/tei:imprint/tei:biblScope)}" title="Zgodovina Slovenije - SIstory" target="_blank">PDF</a>
+         <a href="{concat('http://www.sistory.si',$sistoryPath,$sistoryFile,'#page=',tei:monogr/tei:imprint/tei:biblScope)}" title="Zgodovina Slovenije - SIstory" target="_blank">PDF</a>
          <xsl:text>]</xsl:text>
          <xsl:if test="tei:relatedItem">
             <xsl:text>:</xsl:text>
@@ -168,7 +250,12 @@
       </li>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+      <param name="thisLanguage"></param>
+   </doc>
    <xsl:template name="divGen-main-content">
+      <xsl:param name="thisLanguage"/>
       <!-- kolofon CIP -->
       <xsl:if test="self::tei:divGen[@type='cip']">
          <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc" mode="kolofon"/>
@@ -236,6 +323,9 @@
       </xsl:if>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template name="datatable">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -321,9 +411,18 @@
             </tr>
          </tfoot>
          <tbody>
-            <xsl:for-each select="ancestor::tei:TEI/tei:text/tei:body/tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct">
+            <xsl:for-each select="ancestor::tei:TEI/tei:text/tei:body/tei:div[@type='listBibl']/tei:listBibl//tei:biblStruct[tei:monogr/tei:title[@level='j']]">
                <xsl:sort select="tei:monogr/tei:imprint/tei:date/@when"/>
-               <xsl:variable name="sistoryID" select="tei:monogr/tei:idno[@type='sistory']"/>
+               <xsl:variable name="sistoryID">
+                  <xsl:choose>
+                     <xsl:when test="parent::tei:relatedItem[@type='included']">
+                        <xsl:value-of select="ancestor::tei:biblStruct[@xml:id]/tei:monogr/tei:idno[@type='sistory']"/>
+                     </xsl:when>
+                     <xsl:otherwise>
+                        <xsl:value-of select="tei:monogr/tei:idno[@type='sistory']"/>
+                     </xsl:otherwise>
+                  </xsl:choose>
+               </xsl:variable>
                <tr>
                   <td>
                      <xsl:for-each select="tei:monogr/tei:title[@level='j']">
@@ -369,7 +468,33 @@
                      <xsl:value-of select="tei:monogr/tei:idno[@type='issn']"/>
                   </td>
                   <td data-order="{$sistoryID}">
-                     <a href="{concat('http://sistory.si/11686/',$sistoryID)}" target="_blank">SIstory</a>
+                     <xsl:choose>
+                        <xsl:when test="parent::tei:relatedItem[@type='included']">
+                           <xsl:variable name="sistoryFile">
+                              <xsl:choose>
+                                 <xsl:when test="tei:ref">
+                                    <xsl:value-of select="tei:ref"/>
+                                 </xsl:when>
+                                 <xsl:otherwise>
+                                    <xsl:value-of select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                                 </xsl:otherwise>
+                              </xsl:choose>
+                           </xsl:variable>
+                           <xsl:variable name="pdfPage">
+                              <xsl:choose>
+                                 <xsl:when test="tei:monogr/tei:biblScope[@unit='page']">
+                                    <xsl:value-of select="tei:monogr/tei:biblScope[@unit='page']"/>
+                                 </xsl:when>
+                                 <xsl:otherwise>1</xsl:otherwise>
+                              </xsl:choose>
+                           </xsl:variable>
+                           <xsl:variable name="sistoryPath" select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1000,'/',$sistoryID,'/')"/>      
+                           <a href="{concat('http://www.sistory.si',$sistoryPath,$sistoryFile,'#page=',$pdfPage)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
+                        </xsl:when>
+                        <xsl:otherwise>
+                           <a href="{concat('http://sistory.si/11686/',$sistoryID)}" target="_blank">SIstory</a>
+                        </xsl:otherwise>
+                     </xsl:choose>
                   </td>
                </tr>
             </xsl:for-each>
@@ -380,6 +505,9 @@
       <br/>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template name="ius-esa">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -473,10 +601,10 @@
             <tbody>
                <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'ESA')]">
                   <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
-                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[tei:ref][1]/tei:ref"/>
                   <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
                   <xsl:variable name="sistoryPathToPDF">
-                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                     <xsl:value-of select="concat('http://www.sistory.si/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
                   </xsl:variable>
                   <tr>
                      <td>
@@ -518,6 +646,9 @@
       </div>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template name="ius-as">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -611,10 +742,10 @@
             <tbody>
                <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'AS')]">
                   <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
-                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[tei:ref][1]/tei:ref"/>
                   <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
                   <xsl:variable name="sistoryPathToPDF">
-                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                     <xsl:value-of select="concat('http://www.sistory.si/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
                   </xsl:variable>
                   <tr>
                      <td>
@@ -656,6 +787,9 @@
       </div>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
    <xsl:template name="ius-epa">
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css" />
       <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js"></script>
@@ -751,10 +885,10 @@
             <tbody>
                <xsl:for-each select="//tei:idno[parent::tei:title][starts-with(normalize-space(.),'EPA')]">
                   <xsl:variable name="sistoryPDFpubID" select="substring-after(ancestor::tei:biblStruct[@xml:id]/@xml:id,'sistory.')"/>
-                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
+                  <xsl:variable name="sistoryPDF" select="ancestor::tei:biblStruct[tei:ref][1]/tei:ref"/>
                   <xsl:variable name="page" select="ancestor::tei:biblStruct[1]/tei:monogr/tei:imprint/tei:biblScope[@unit='page']"/>
                   <xsl:variable name="sistoryPathToPDF">
-                     <xsl:value-of select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
+                     <xsl:value-of select="concat('http://www.sistory.si/cdn/publikacije/',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryPDFpubID)) div 1000) * 1000) + 1000,'/',$sistoryPDFpubID,'/')"/>
                   </xsl:variable>
                   <tr>
                      <td>
@@ -808,7 +942,9 @@
       </div>
    </xsl:template>
    
-   <!-- dopolnim iskalnik, tako da procesira tudi //tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct kot samostojne enote -->
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>dopolnim iskalnik, tako da procesira tudi //tei:div[@type='listBibl']/tei:listBibl/tei:biblStruct kot samostojne enote</desc>
+   </doc>
    <xsl:template name="search">
       <xsl:variable name="tei-id" select="ancestor::tei:TEI/@xml:id"/>
       <xsl:variable name="sistoryAbsolutePath">
@@ -904,6 +1040,9 @@
 </script>]]></xsl:text>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Zapis datuma</desc>
+   </doc>
    <xsl:template name="format-date">
       <xsl:variable name="meseci">
          <mesec n="01">januar</mesec>
@@ -936,6 +1075,9 @@
       </xsl:choose>
    </xsl:template>
    
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Datumski zapis za sortiranje datatable: YYYYMMDD</desc>
+   </doc>
    <xsl:template name="sort-date">
       <xsl:choose>
          <!-- samo letnica -->
@@ -953,7 +1095,22 @@
       </xsl:choose>
    </xsl:template>
    
-   <!-- Ker je pri body poglavjih samo eden div z vsebino, poenostavim prvotni template -->
-   <xsl:template name="nav-body-head">Vsebina</xsl:template>
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Dodam poljuben naziv za glavno vsebino: poenostavim prvotni template</desc>
+      <param name="thisLanguage"></param>
+   </doc>
+   <xsl:template name="nav-body-head">
+      <xsl:param name="thisLanguage"/>
+      <xsl:text>Kazala</xsl:text>
+   </xsl:template>
+   
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Dodam poljuben naziv za indekse: poenostavim prvotni template</desc>
+      <param name="thisLanguage"></param>
+   </doc>
+   <xsl:template name="nav-index-head">
+      <xsl:param name="thisLanguage"/>
+      <xsl:text>Izbirno iskanje</xsl:text>
+   </xsl:template>
    
 </xsl:stylesheet>
