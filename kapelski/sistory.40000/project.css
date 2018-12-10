@@ -43,7 +43,7 @@
     margin: 0;
    }
 
-.explain {
+/*.explain {
     display: none;
     position: absolute;
     color: #0a0a0a;
@@ -54,13 +54,22 @@
     font-size: 0.8rem;
     font-weight: normal;
     z-index: 1;
-   }
+   }*/
+   
+.explain {
+    display: none;
+    position: relative;
+    color: #0a0a0a;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    padding: 5px;
+    text-indent: 0em;
+    font-size: 0.8rem;
+    font-weight: normal;
+    z-index: 1;
+}
 
 .explain {background-color: #ddd}
-                                
-.term:hover .explain {
-    display: block;
-   }
                 
 .term:hover {
     border-style: solid;

@@ -55,7 +55,7 @@
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
     <!-- ../../../  -->
-    <xsl:param name="path-general">http://www2.sistory.si/</xsl:param>
+    <xsl:param name="path-general">http://www2.sistory.si/publikacije/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
    <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/kapelski/</xsl:param>
@@ -85,19 +85,17 @@
     
    
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
-      <xsldoc:desc>V css in javascript Hook dodam imageViewer</xsldoc:desc>
+      <xsldoc:desc>V css in javascript Hook dodam viewerjs</xsldoc:desc>
    </xsldoc:doc>
    <xsl:template name="cssHook">
       <xsl:if test="$title-bar-sticky = 'true'">
-         <xsl:value-of select="concat($path-general,'publikacije/themes/css/foundation/6/sistory-sticky_title_bar.css')"/>
+         <xsl:value-of select="concat($path-general,'themes/css/foundation/6/sistory-sticky_title_bar.css')"/>
       </xsl:if>
       <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet" type="text/css" />
-      <link href="{concat($path-general,'publikacije/themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
-      <link href="{concat($path-general,'publikacije/themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
-       <!-- dodan imageViewer -->
-       <link href="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.css')}" rel="stylesheet" type="text/css" />
+      <link href="{concat($path-general,'themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
+      <link href="{concat($path-general,'themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
        <!-- dodan viewerjs -->
-       <link href="{concat($path-general,'publikacije/themes/plugin/viewerjs/1.0.0/dist/viewer.css')}" rel="stylesheet" type="text/css" />
+       <link href="{concat($path-general,'themes/plugin/viewerjs/1.2.0/dist/viewer.css')}" rel="stylesheet" type="text/css" />
        <!-- dodam projektno specifičen css, ki se nahaja v istem direktoriju kot ostali HTML dokumenti -->
       <link href="project.css" rel="stylesheet" type="text/css"/>
    </xsl:template>
@@ -105,7 +103,7 @@
       <xsldoc:desc>[html] Hook where extra Javascript functions can be defined</xsldoc:desc>
    </xsldoc:doc>
    <xsl:template name="javascriptHook">
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/jquery.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/jquery.js')}"></script>
       <!-- za highcharts -->
       <xsl:if test="//tei:figure[@type = 'chart'][tei:graphic[@mimeType = 'application/javascript']]">
          <xsl:variable name="jsfile" select="//tei:figure[@type = 'chart'][tei:graphic[@mimeType = 'application/javascript']][1]/tei:graphic[@mimeType = 'application/javascript']/@url"/>
@@ -114,14 +112,12 @@
       </xsl:if>
       <!-- za back-to-top in highcharts je drugače potrebno dati jquery, vendar sedaj ne rabim dodajati jquery kodo,
          ker je že vsebovana zgoraj -->
-       <!-- dodan imageViewer -->
-       <script src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.js')}"></script>
        <!-- dodan viewerjs -->
-       <script src="{concat($path-general,'publikacije/themes/plugin/viewerjs/1.0.0/dist/viewer.js')}"></script>
+       <script src="{concat($path-general,'themes/plugin/viewerjs/1.2.0/dist/viewer.js')}"></script>
        <!-- dodan css jstree (mora biti za jquery.js -->
-       <link href="{concat($path-general,'publikacije/themes/plugin/jstree/3.3.5/dist/themes/default/style.min.css')}" rel="stylesheet" type="text/css" />
+       <link href="{concat($path-general,'themes/plugin/jstree/3.3.5/dist/themes/default/style.min.css')}" rel="stylesheet" type="text/css" />
        <!-- dodan jstree -->
-      <script src="{concat($path-general,'publikacije/themes/plugin/jstree/3.3.5/dist/jstree.min.js')}"></script>
+      <script src="{concat($path-general,'themes/plugin/jstree/3.3.5/dist/jstree.min.js')}"></script>
    </xsl:template>
     <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" class="hook">
         <desc>[html] Hook where Javascript calls can be inserted  just after &lt;body&gt;</desc>
@@ -136,7 +132,7 @@
             <!-- dodal bom pa poseben tipuesearch_set.js za samo ta projekt!!! Glej spodaj template[@name='tipuesearch_content'], kjer poleg zgornjega tipuesearch_content.js generiram še tipuesearch_set.js -->
             <script src="tipuesearch_set.js"></script>
             <!-- to pa ostane kot pri običajnem -->
-            <script src="{concat($path-general,'publikacije/themes/plugin/TipueSearch/6.1/tipuesearch/tipuesearch.min.js')}"></script>
+            <script src="{concat($path-general,'themes/plugin/TipueSearch/6.1/tipuesearch/tipuesearch.min.js')}"></script>
         </xsl:if>
     </xsl:template>
     <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -273,26 +269,28 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
     
    
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
-      <xsldoc:desc>Dodam javascript za ImageViewer (pogled tei:pb)</xsldoc:desc>
+      <xsldoc:desc>Dodam javascript za viewerjs (pogled tei:pb)</xsldoc:desc>
    </xsldoc:doc>
    <xsl:template name="bodyEndHook">
        <script type="text/javascript">
-           $(function () {
-             var viewer = ImageViewer();
-             $('.imageviewer').click(function () {
-               var imgSrc = this.src,
-               highResolutionImage = $(this).data('high-res-src');
+           var allImages = document.getElementsByClassName('image');
            
-               viewer.show(imgSrc, highResolutionImage);
-             });
-           });
+           var image = Array.prototype.filter.call(allImages, function(element){
+               var viewer = new Viewer(element, {
+                   url: 'data-original',
+                   toolbar: false,
+                   navbar: false,
+                   title: false,
+                   backdrop: true
+                });
+              });
        </script>
        
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/what-input.js')}"></script>
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/foundation.min.js')}"></script>
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/app.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/what-input.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/foundation.min.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/app.js')}"></script>
       <!-- back-to-top -->
-      <script src="{concat($path-general,'publikacije/themes/js/plugin/back-to-top/back-to-top.js')}"></script>
+      <script src="{concat($path-general,'themes/js/plugin/back-to-top/back-to-top.js')}"></script>
    </xsl:template>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -500,7 +498,7 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
                         <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vzporedni</a>
                         <a href="{$image-large}">faksimile</a>
                         <a>
-                            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}" height="50" width="50"/>
+                            <img class="image" src="{$image-thumb}" data-original="{$image-large}" height="50" width="50"/>
                         </a>
                     </xsl:if>
                     <xsl:if test="$type='crit'">
@@ -509,14 +507,19 @@ var tipuesearch_string_15 = 'Iskanje v povezavi z';
                         <a href="{concat('para.html?type=page&amp;mode=facs-dipl-crit&amp;page=',@n,'&amp;lb=1')}">vzporedni</a>
                         <a href="{$image-large}">faksimile</a>
                         <a>
-                            <img class="imageviewer" src="{$image-thumb}" data-high-res-src="{$image-large}" height="50" width="50"/>
+                            <img class="image" src="{$image-thumb}" data-original="{$image-large}" height="50" width="50"/>
                         </a>
                     </xsl:if>
                 </div>
             </div>
             <br/>
-            <img class="imageviewer show-for-large" src="{$image-small}" data-high-res-src="{$image-large}"/>
-            <img class="imageviewer show-for-medium-only" src="{$image-thumb}" data-high-res-src="{$image-large}"/>
+            
+            <div class="show-for-large">
+                <img class="image" data-original="{$image-large}" src="{$image-small}"/>
+            </div>
+            <div class="show-for-medium-only">
+                <img class="image" data-original="{$image-large}" src="{$image-thumb}"/>
+            </div>
         </div>
     </xsl:template>
     
