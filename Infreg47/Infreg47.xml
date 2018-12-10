@@ -49,6 +49,204 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="Bataillonshornist">
+                  <catDesc><abbr>Bataillonshornist</abbr></catDesc>
+                  <catDesc xml:lang="de">Bataillonshornist</catDesc>
+               </category>
+               <category xml:id="Blessiertenträger">
+                  <catDesc><abbr>Blessiertenträger</abbr></catDesc>
+                  <catDesc><abbr>Sanitätssoldat (Blessiertenträger)</abbr></catDesc>
+                  <catDesc xml:lang="de">Blessiertenträger</catDesc>
+                  <catDesc xml:lang="de">Sanitätssoldat (Blessiertenträger)</catDesc>
+               </category>
+               <category xml:id="EinjFreiw">
+                  <catDesc><abbr>EinjFreiw.</abbr></catDesc>
+                  <catDesc xml:lang="de">Einjährig Freiwilliger</catDesc>
+               </category>
+               <category xml:id="ERes">
+                  <catDesc><abbr>ERes.</abbr></catDesc>
+                  <catDesc xml:lang="de">Ersatzreserve</catDesc>
+               </category>
+               <category xml:id="Feldw">
+                  <catDesc><abbr>Feldw.</abbr></catDesc>
+                  <catDesc xml:lang="de">Feldwebel</catDesc>
+               </category>
+               <category xml:id="Fhnr">
+                  <catDesc><abbr>Fhnr.</abbr></catDesc>
+                  <catDesc xml:lang="de">Fähnrich</catDesc>
+               </category>
+               <category xml:id="FhnrR">
+                  <catDesc><abbr>Fhnr. i. d. Res.</abbr></catDesc>
+                  <catDesc><abbr>RFhnr.</abbr></catDesc>
+                  <catDesc xml:lang="de">Fähnrich in der Reserve</catDesc>
+               </category>
+               <category xml:id="GendVizewmstr">
+                  <catDesc><abbr>Gend. Vizewmstr.</abbr></catDesc>
+                  <catDesc xml:lang="de">Gendarmerie Vize-Wachtmeister</catDesc>
+               </category>
+               <category xml:id="Gfrt">
+                  <catDesc><abbr>Gfrt.</abbr></catDesc>
+                  <catDesc><abbr>Gefr.</abbr></catDesc>
+                  <catDesc xml:lang="de">Gefreiter</catDesc>
+               </category>
+               <category xml:id="Hornist">
+                  <catDesc><abbr>Hornist</abbr></catDesc>
+                  <catDesc xml:lang="de">Hornist</catDesc>
+               </category>
+               <category xml:id="Hptm">
+                  <catDesc><abbr>Hptm.</abbr></catDesc>
+                  <catDesc xml:lang="de">Hauptmann</catDesc>
+               </category>
+               <category xml:id="Inf">
+                  <catDesc><abbr>Inf.</abbr></catDesc>
+                  <catDesc xml:lang="de">Infanterie</catDesc>
+               </category>
+               <category xml:id="KadAsp">
+                  <catDesc><abbr>KadAsp.</abbr></catDesc>
+                  <catDesc><abbr>Kadettaspir.</abbr></catDesc>
+                  <catDesc><abbr>Kadettasp.</abbr></catDesc>
+                  <catDesc xml:lang="de">Kadett Aspirant</catDesc>
+               </category>
+               <category xml:id="Kad">
+                  <catDesc><abbr>Kadett</abbr></catDesc>
+                  <catDesc xml:lang="de">Kadett</catDesc>
+               </category>
+               <category xml:id="KadRes">
+                  <catDesc><abbr>Kad. i. d. Res.</abbr></catDesc>
+                  <catDesc><abbr>Kadett i. d. Res.</abbr></catDesc>
+                  <catDesc><abbr>Kadett i. d. R.</abbr></catDesc>
+                  <catDesc xml:lang="de">Kadett in der Reserve</catDesc>
+               </category>
+               <category xml:id="KompHornist">
+                  <catDesc><abbr>KompHornist</abbr></catDesc>
+                  <catDesc><abbr>Komp. Hornist</abbr></catDesc>
+                  <catDesc><abbr>Kompagniehornist</abbr></catDesc>
+                  <catDesc xml:lang="de">Kompanie Hornist</catDesc>
+               </category>
+               <category xml:id="Kpl">
+                  <catDesc><abbr>Kpl.</abbr></catDesc>
+                  <catDesc xml:lang="de">Korporal</catDesc>
+               </category>
+               <category xml:id="Kriegsfreiw">
+                  <catDesc><abbr>Kriegsfreiw.</abbr></catDesc>
+                  <catDesc xml:lang="de">Kriegsfreiwilliger</catDesc>
+               </category>
+               <category xml:id="LGfrt">
+                  <catDesc><abbr>LGfrt.</abbr></catDesc>
+                  <catDesc xml:lang="de">Landwehr-Gefreiter</catDesc>
+               </category>
+               <category xml:id="LInf.">
+                  <catDesc><abbr>LInf.</abbr></catDesc>
+                  <catDesc xml:lang="de">Landwehr-Infanterie</catDesc>
+               </category>
+               <category xml:id="LKpl">
+                  <catDesc><abbr>LKpl.</abbr></catDesc>
+                  <catDesc xml:lang="de">Landwehr-Korporal</catDesc>
+               </category>
+               <category xml:id="Lt">
+                  <catDesc><abbr>Lt.</abbr></catDesc>
+                  <catDesc xml:lang="de">Leutnant</catDesc>
+               </category>
+               <category xml:id="LtR">
+                  <catDesc><abbr>Lt. i. d. R.</abbr></catDesc>
+                  <catDesc><abbr>Lt. i. d. Res.</abbr></catDesc>
+                  <catDesc xml:lang="de">Leutnant in der Reserve</catDesc>
+               </category>
+               <category xml:id="Major">
+                  <catDesc><abbr>Major</abbr></catDesc>
+                  <catDesc xml:lang="de">Major</catDesc>
+               </category>
+               <category xml:id="Mediziner">
+                  <catDesc><abbr>Mediziner</abbr></catDesc>
+                  <catDesc xml:lang="de">Mediziner</catDesc>
+               </category>
+               <category xml:id="Oberst">
+                  <catDesc><abbr>Oberst</abbr></catDesc>
+                  <catDesc xml:lang="de">Oberst</catDesc>
+               </category>
+               <category xml:id="Oblt">
+                  <catDesc><abbr>Oblt.</abbr></catDesc>
+                  <catDesc xml:lang="de">Oberleutnant</catDesc>
+               </category>
+               <category xml:id="ObltR">
+                  <catDesc><abbr>Oblt. i. d. Res.</abbr></catDesc>
+                  <catDesc xml:lang="de">Oberleutnant in der Reserve</catDesc>
+               </category>
+               <category xml:id="OffzDien">
+                  <catDesc><abbr>OffzDiener</abbr></catDesc>
+                  <catDesc><abbr>OffzDien.</abbr></catDesc>
+                  <catDesc><abbr>Offzdien.</abbr></catDesc>
+                  <catDesc xml:lang="de">Offizier-Diener</catDesc>
+               </category>
+               <category xml:id="OffzStellv">
+                  <catDesc><abbr>OffzStellv.</abbr></catDesc>
+                  <catDesc xml:lang="de">Offiziersstellvertreter</catDesc>
+               </category>
+               <category xml:id="Pferdewaerter">
+                  <catDesc><abbr>Pferdewärter</abbr></catDesc>
+                  <catDesc xml:lang="de">Pferdewärter</catDesc>
+               </category>
+               <category xml:id="RegKomdt">
+                  <catDesc><abbr>RegKomdt.</abbr></catDesc>
+                  <catDesc xml:lang="de">Regiment Kommandeur</catDesc>
+               </category>
+               <category xml:id="RInf">
+                  <catDesc><abbr>RInf.</abbr></catDesc>
+                  <catDesc><abbr>ResInf.</abbr></catDesc>
+                  <catDesc xml:lang="de">Reserve-Infanterie</catDesc>
+               </category>
+               <category xml:id="ResKpl">
+                  <catDesc><abbr>ResKpl.</abbr></catDesc>
+                  <catDesc xml:lang="de">Reserve-Korporal</catDesc>
+               </category>
+               <category xml:id="ResKompTambour">
+                  <catDesc><abbr>ResKompTambour</abbr></catDesc>
+                  <catDesc xml:lang="de">Reserve-Kompagnie Tambour</catDesc>
+               </category>
+               <category xml:id="ResGfrt">
+                  <catDesc><abbr>ResGfrt.</abbr></catDesc>
+                  <catDesc xml:lang="de">Reserve-Gefreiter</catDesc>
+               </category>
+               <category xml:id="ResZgf">
+                  <catDesc><abbr>ResZgf.</abbr></catDesc>
+                  <catDesc xml:lang="de">Reserve-Zugsführer</catDesc>
+               </category>
+               <category xml:id="SanFhnr">
+                  <catDesc><abbr>SanFhnr.</abbr></catDesc>
+                  <catDesc xml:lang="de">Sanitätsfähnrich</catDesc>
+               </category>
+               <category xml:id="SanFeldw">
+                  <catDesc><abbr>Sanitäts-Feldw.</abbr></catDesc>
+                  <catDesc xml:lang="de">Sanitätsfeldwebel</catDesc>
+               </category>
+               <category xml:id="SanUntOffz">
+                  <catDesc><abbr>SanUntOffz.</abbr></catDesc>
+                  <catDesc xml:lang="de"> Sanitätsunteroffizier</catDesc>
+               </category>
+               <category xml:id="StFeldw">
+                  <catDesc><abbr>StFeldw.</abbr></catDesc>
+                  <catDesc><abbr>Stabs-Feldw.</abbr></catDesc>
+                  <catDesc><abbr>Stabsfeldw.</abbr></catDesc>
+                  <catDesc xml:lang="de">Stabsfeldwebel</catDesc>
+               </category>
+               <category xml:id="Tambour">
+                  <catDesc><abbr>Tambour</abbr></catDesc>
+                  <catDesc xml:lang="de">Tambour</catDesc>
+               </category>
+               <category xml:id="Trainsoldat">
+                  <catDesc><abbr>Trainsoldat</abbr></catDesc>
+                  <catDesc xml:lang="de">Trainsoldat</catDesc>
+               </category>
+               <category xml:id="Zgf">
+                  <catDesc><abbr>Zgf.</abbr></catDesc>
+                  <catDesc xml:lang="de">Zugsführer (Chargendienstgrad)</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
    </teiHeader>
    <text>
       <front xml:lang="sl">
@@ -489,7 +687,8 @@
                </persName>
                <socecStatus>LInf.</socecStatus>
                <residence>
-                  <settlement>Sternberg Feldbach</settlement>
+                  <settlement>Sternberg</settlement>
+                  <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1896">1896</date></birth>
@@ -570,7 +769,7 @@
                   <surname>Astl</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Lt. i. d. Res</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Fürstenfeld</settlement>
                   <region>Feldbach</region>
@@ -1044,7 +1243,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Bach</settlement>
-                  <region>Baumgarten</region>
+                  <settlement>Baumgarten</settlement>
                   <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
@@ -1195,7 +1394,7 @@
                   <surname>Belčina</surname>
                   <forename>Ignaz</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Sturie</settlement>
                   <country>Krain</country>
@@ -1360,10 +1559,10 @@
                   <surname>Bernreiter</surname>
                   <forename>Rudolf</forename>
                </persName>
-               <socecStatus>lt.</socecStatus>
+               <socecStatus>Lt.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
-                  <region>Steiermark</region>
+                  <country>Steiermark</country>
                </residence>
                <residence>
                   <settlement>Krakau</settlement>
@@ -1462,7 +1661,8 @@
                   <surname>Bezonška</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>Kp. (zuget. vom JR. 28)</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
+               <affiliation>(zuget. vom JR. 28)</affiliation>
                <residence>
                   <settlement>Prag</settlement>
                   <country>Böhmen</country>
@@ -1495,7 +1695,7 @@
                   <surname>Bielohlawek</surname>
                   <forename>Vinzenz</forename>
                </persName>
-               <socecStatus>Oblt.i.d.Res.</socecStatus>
+               <socecStatus>Oblt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -1968,7 +2168,7 @@
                   <forename>Ernst</forename>
                   <addName>recte Brundula</addName>
                </persName>
-               <socecStatus>Fynr. i. d. Ref.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1915-02-16">16. Febr. 1915</date> <placeName>beim Wirtshaus Dujava, an der ung.-galiz. Grenze </placeName> <note>(Granatvolltreffer)</note></death>
                <event>
@@ -2147,7 +2347,7 @@
                   <surname>Breznar</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Rief., Gfrt.</socecStatus>
+               <socecStatus>ERes., Gfrt.</socecStatus>
                <residence>
                   <settlement>St. Georgen A. W.</settlement>
                   <region>Marburg</region>
@@ -2232,7 +2432,7 @@
                   <surname>Breznik</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>St. Nikolai</settlement>
                   <region>Marburg</region>
@@ -2550,7 +2750,7 @@
                <socecStatus>Lt.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
-                  <region>Tolmiein</region>
+                  <region>Tolmein</region>
                   <country>Küstenland</country>
                </residence>
                <birth>geb. <date when="1896">1896</date></birth>
@@ -2786,7 +2986,9 @@
                </persName>
                <socecStatus>Zgf.</socecStatus>
                <residence>
-                  <settlement>Kleinberg Wind-Graz Steiermark</settlement>
+                  <settlement>Kleinberg</settlement>
+                  <region>Wind-Graz</region>
+                  <country>Steiermark</country>
                </residence>
                <residence>
                   <term>Heimatsort</term>
@@ -3024,7 +3226,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Isola</settlement>
-                  <region>Capo D'Istira</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1880">1880</date></birth>
@@ -3830,7 +4032,10 @@
                <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Stieden</settlement>
-                  <region>zuständig nach Karla</region>
+               </residence>
+               <residence>
+                  <term>zuständig nach</term>
+                  <settlement>Karla</settlement>
                   <region>Radkersburg</region>
                   <country>Steiermark</country>
                </residence>
@@ -4019,7 +4224,10 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Polerad</settlement>
-                  <region>zuständig nach Teplitz</region>
+               </residence>
+               <residence>
+                  <term>zuständig nach</term>
+                  <settlement>Teplitz</settlement>
                   <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1876">1876</date></birth>
@@ -4147,7 +4355,7 @@
                   <surname>Erhard</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>RInf</socecStatus>
+               <socecStatus>RInf.</socecStatus>
                <residence>
                   <settlement>Perbersdorf bei Sankt Veit</settlement>
                   <region>Radkersburg</region>
@@ -4341,7 +4549,7 @@
                   <surname>Fauster</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>LInf·</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Fehring</settlement>
                   <region>Feldbach</region>
@@ -4488,9 +4696,9 @@
                   <surname>Ferk</surname>
                   <forename>Adalbert</forename>
                </persName>
-               <socecStatus>RInf, Leitersteig</socecStatus>
+               <socecStatus>RInf.</socecStatus>
                <residence>
-                  <settlement>Pößnitzshofen</settlement>
+                  <settlement>Leitersteig, Pößnitzshofen</settlement>
                   <region>Marburg</region>
                   <country>Steiermark</country>
                </residence>
@@ -4996,7 +5204,7 @@
                   <surname>Frankl</surname>
                   <forename>Walter</forename>
                </persName>
-               <socecStatus>Kabettaspir.</socecStatus>
+               <socecStatus>Kadettaspir.</socecStatus>
                <residence>
                   <settlement>Christofen bei Neulengbach</settlement>
                   <country>Niederösterreich</country>
@@ -5292,7 +5500,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Weinburg</settlement>
-                  <region>Radkeresburg</region>
+                  <region>Radkersburg</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1889">1889</date></birth>
@@ -5360,7 +5568,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Wirsdorf</settlement>
-                  <region>Radkergsburg</region>
+                  <region>Radkersburg</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1877">1877</date></birth>
@@ -5587,7 +5795,7 @@
                   <term>Heimatsort</term>
                   <settlement>Heil. Kreuz</settlement>
                   <region>Leibnitz</region>
-                  <country>Steietmark</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1891">1891</date></birth>
                <death>gef. <date when="1917-09-04">4. Sept. 1917</date> <placeName>bei Medeazza, Sesana, Küstenland</placeName> <note>(11. Isonzoschlacht, Kopfschuß)</note></death>
@@ -6025,7 +6233,7 @@
                   <surname>Geiger</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Kpl., titl. zgf.</socecStatus>
+               <socecStatus>Kpl., titl. Zgf.</socecStatus>
                <residence>
                   <settlement>Trautmannsdorf</settlement>
                   <region>Feldbach</region>
@@ -6337,7 +6545,7 @@
                   <surname>Glaser</surname>
                   <forename>Otto</forename>
                </persName>
-               <socecStatus>EiniFreiw., Gfrt.</socecStatus>
+               <socecStatus>EinjFreiw., Gfrt.</socecStatus>
                <residence>
                   <settlement>Loosdorf</settlement>
                   <region>Melk</region>
@@ -6456,7 +6664,7 @@
                   <surname>Gmeiner</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Fhr. i. d. Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Söchau</settlement>
                   <region>Feldbach</region>
@@ -6653,7 +6861,7 @@
                <residence>
                   <term>Heimatsort</term>
                   <settlement>St. Michael</settlement>
-                  <region>Rudolfswerd</region>
+                  <region>Rudolfswert</region>
                   <country>Krain</country>
                </residence>
                <birth>geb. <date when="1897">1897</date></birth>
@@ -7105,7 +7313,7 @@
                   <surname>Gregorin</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Ritz</settlement>
                   <region>Cilli</region>
@@ -7327,7 +7535,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Kappel</settlement>
-                  <region>Arnfels</region>
+                  <settlement>Arnfels</settlement>
                   <region>Leibnitz</region>
                   <country>Steiermark</country>
                </residence>
@@ -7701,7 +7909,7 @@
                   <surname>Guba</surname>
                   <forename>Ludwig</forename>
                </persName>
-               <socecStatus>Lt.i. d. Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Topolya</settlement>
                   <region>Kom. Bacs</region>
@@ -8220,7 +8428,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Risola</settlement>
-                  <region>Felbdach</region>
+                  <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1893">1893</date></birth>
@@ -8666,7 +8874,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>St. Georgen</settlement>
-                  <region>· Leibnitz</region>
+                  <region>Leibnitz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1893">1893</date></birth>
@@ -8731,7 +8939,7 @@
                   <surname>Hartinger</surname>
                   <forename>Peter</forename>
                </persName>
-               <socecStatus>EinjFreiw, Zgf.</socecStatus>
+               <socecStatus>EinjFreiw., Zgf.</socecStatus>
                <residence>
                   <settlement>Johnsdorf</settlement>
                   <region>Feldbach</region>
@@ -8894,7 +9102,7 @@
                   <surname>Haufer</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Traisoldat</socecStatus>
+               <socecStatus>Trainsoldat</socecStatus>
                <residence>
                   <settlement>Freidorf</settlement>
                   <region>Deutschlandsberg</region>
@@ -9506,7 +9714,7 @@
                   <surname>Hierzer</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>LIf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Fluttendorf</settlement>
                   <region>Hartberg</region>
@@ -9929,7 +10137,7 @@
                   <surname>Höfer</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Edelschachen</settlement>
                   <region>Weiz</region>
@@ -10505,7 +10713,7 @@
                   <term>Heimatsort</term>
                   <settlement>Waldsberg</settlement>
                   <region>Feldbach</region>
-                  <country>· Steiermark</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1894">1894</date></birth>
                <death>gest. <date when="1917-04-12">12. April 1917</date>, <placeName>Feldspital Nr. 915 in Veliki Dol, Sesana, Küstenland </placeName> <note>(Bauchschuß)</note></death>
@@ -10819,7 +11027,7 @@
                   <surname>Ilz</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Niederdorf</settlement>
                   <region>Gottschee</region>
@@ -11313,7 +11521,10 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Saggau</settlement>
-                  <region>Heimaisort St. Johann</region>
+               </residence>
+               <residence>
+                  <term>Heimatsort</term>
+                  <settlement>St. Johann</settlement>
                   <region>Leibnitz</region>
                   <country>Steiermark</country>
                </residence>
@@ -11735,7 +11946,7 @@
                   <surname>Katz</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>LInf·</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Leitersberg</settlement>
                   <region>Marburg</region>
@@ -12403,7 +12614,7 @@
                   <surname>Klick</surname>
                   <forename>Albert</forename>
                </persName>
-               <socecStatus>Lt. i. d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Horn</settlement>
                   <country>Niederösterreich</country>
@@ -12844,9 +13055,7 @@
                   <surname>Koch</surname>
                   <forename>Gabriel</forename>
                </persName>
-               <socecStatus>Näheres kann nicht angeführt werden, da dem Verfasser dieser Liste das
-                  Handbuch X beim Zusammenbruch abhanden kam und derselbe nur die alphabetische
-                  Namenliste vom selben besitzt.</socecStatus>
+               <note>Näheres kann nicht angeführt werden, da dem Verfasser dieser Liste das Handbuch X beim Zusammenbruch abhanden kam und derselbe nur die alphabetische Namenliste vom selben besitzt.</note>
             </person>
             <person xml:id="pers.KochGeorg1878">
                <persName>
@@ -12876,7 +13085,9 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <residence>
-                  <settlement>Hermsdorf Deutschlandsberg Steiermark</settlement>
+                  <settlement>Hermsdorf</settlement>
+                  <region>Deutschlandsberg</region>
+                  <country>Steiermark</country>
                </residence>
                <residence>
                   <term>Wohnort</term>
@@ -13206,7 +13417,8 @@
                   <surname>Köck</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Gend. Vizewmftr., 3./X. Marschkompagnie</socecStatus>
+               <socecStatus>Gend. Vizewmstr.</socecStatus>
+               <affiliation>3./X. Marschkompagnie</affiliation>
                <residence>
                   <settlement>Jamm</settlement>
                   <region>Feldbach</region>
@@ -13865,7 +14077,7 @@
                   <surname>Kotzbeck</surname>
                   <forename>Felix</forename>
                </persName>
-               <socecStatus>Insf.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Maria-Schnee</settlement>
                   <region>Mureck</region>
@@ -13987,7 +14199,7 @@
                   <surname>Kraft</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wisterschau</settlement>
                   <region>Teplitz</region>
@@ -14217,7 +14429,7 @@
                   <surname>Kratochwill</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>Fähyr. i. d. Res.</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -14407,7 +14619,7 @@
                   <surname>Kreiner</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>LInf., Offzdien</socecStatus>
+               <socecStatus>LInf., Offzdien.</socecStatus>
                <residence>
                   <settlement>Oberkarla</settlement>
                   <region>Feldbach</region>
@@ -14654,7 +14866,7 @@
                <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Lichtenegg</settlement>
-                  <region>Feldbbach</region>
+                  <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1891">1891</date></birth>
@@ -14950,7 +15162,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Lovrana</settlement>
-                  <region>Belosca</region>
+                  <region>Velosca</region>
                   <country>Küstenland</country>
                </residence>
                <birth>geb. <date when="1881">1881</date></birth>
@@ -17174,7 +17386,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Zirknitz</settlement>
-                  <region>Deutschlandgsberg</region>
+                  <region>Deutschlandsberg</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1875">1875</date></birth>
@@ -18141,7 +18353,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Petrisch</settlement>
-                  <region>Windisch-Feistrich</region>
+                  <region>Windisch-Feistritz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1889">1889</date></birth>
@@ -18261,7 +18473,7 @@
                   <surname>Michel</surname>
                   <forename>Fridolin</forename>
                </persName>
-               <socecStatus>Lt. i. d. Res</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Deschney</settlement>
                   <region>Neustadt a. Mettau</region>
@@ -19102,7 +19314,7 @@
                   <surname>Müller</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Lt.i. d. Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1914-11-20">20. Nov. 1914</date> <placeName>bei Mezö-Laborcz, Ungarn</placeName></death>
                <event>
@@ -19294,8 +19506,7 @@
                </persName>
                <socecStatus>LInf.</socecStatus>
                <residence>
-                  <settlement>Istria</settlement>
-                  <region>Sveta-Nedelja</region>
+                  <settlement>Sveta-Nedelja</settlement>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1895">1895</date></birth>
@@ -19428,7 +19639,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Unterlamm</settlement>
-                  <region>Feld-bach</region>
+                  <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1879">1879</date></birth>
@@ -19464,7 +19675,7 @@
                   <surname>Neuberger</surname>
                   <forename>Adolf</forename>
                </persName>
-               <socecStatus>EinjFreiw., Kl.</socecStatus>
+               <socecStatus>EinjFreiw., Kpl.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -20136,7 +20347,7 @@
                   <surname>Ogriseg</surname>
                   <forename>Egon</forename>
                </persName>
-               <socecStatus>Fhnr. i. d. Res</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -21492,7 +21703,7 @@
                   <surname>Pestitschek</surname>
                   <forename>Rudolf</forename>
                </persName>
-               <socecStatus>OffzStallv.</socecStatus>
+               <socecStatus>OffzStellv.</socecStatus>
                <residence>
                   <settlement>Brunndorf</settlement>
                   <region>Marburg</region>
@@ -21530,7 +21741,10 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>St. Anton</settlement>
-                  <settlement>Heimatort Trassenberg</settlement>
+               </residence>
+               <residence>
+                  <term>Heimatort</term>
+                  <settlement>Trassenberg</settlement>
                   <region>Radkersburg</region>
                   <country>Steiermark</country>
                </residence>
@@ -22389,7 +22603,7 @@
                <residence>
                   <term>Heimatsort</term>
                   <settlement>Stanovsko</settlement>
-                  <region>Winsdisch-Feisiritz</region>
+                  <region>Winsdisch-Feistritz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1879">1879</date></birth>
@@ -22525,7 +22739,10 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Pacholz</settlement>
-                  <region>Heimatort Stammeregg</region>
+               </residence>
+               <residence>
+                  <term>Heimatort</term>
+                  <settlement>Stammeregg</settlement>
                   <region>Deutschlandsberg</region>
                   <country>Steiermark</country>
                </residence>
@@ -22999,7 +23216,7 @@
                   <surname>Preißler</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Stefansruh</settlement>
                   <region>Gablonz a. d. N.</region>
@@ -23040,7 +23257,7 @@
                   <term>Heimatsort</term>
                   <settlement>Dobreng</settlement>
                   <region>Marburg</region>
-                  <country>Steiermark.</country>
+                  <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1888">1888</date></birth>
                <death>gef. <date when="1917-08-19">19. Aug. 1917</date> <placeName>bei Medeazza, Sesana, Küstenland</placeName> <note>(11. Isonzoschlacht)</note></death>
@@ -23110,7 +23327,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Klein-Moken</settlement>
-                  <region>Böhm. - Leipa</region>
+                  <region>Böhm.-Leipa</region>
                   <country>Böhmen</country>
                </residence>
                <birth>geb. <date when="1882">1882</date></birth>
@@ -23718,7 +23935,7 @@
                   <surname>Radkohl</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>LInf·</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Rannersdorf</settlement>
                   <region>Radkersburg</region>
@@ -23914,7 +24131,7 @@
                   <surname>Ranz</surname>
                   <forename>Gottfried</forename>
                </persName>
-               <socecStatus>Kol.</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Weichselsbaum</settlement>
                </residence>
@@ -25209,7 +25426,7 @@
                   <surname>Ritz</surname>
                   <forename>Maximilian</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Gras</settlement>
                </residence>
@@ -26028,7 +26245,7 @@
                   <surname>Saischek</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>titl. Felde</socecStatus>
+               <socecStatus>titl. Feldw.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -26524,7 +26741,7 @@
                   <surname>Seiringer</surname>
                   <forename>Ferdinand</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -26767,7 +26984,7 @@
                   <surname>Sibitz</surname>
                   <forename>Valentin</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Aich bei Grafenstein</settlement>
                   <region>Klagenfurt</region>
@@ -26784,7 +27001,7 @@
                   <surname>Sichelmann</surname>
                   <forename>Walter</forename>
                </persName>
-               <socecStatus>Kadett. i. d. Res.</socecStatus>
+               <socecStatus>Kadett i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -27297,7 +27514,10 @@
                <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Maria-Schnee</settlement>
-                  <region>Heimatort Samarko</region>
+               </residence>
+               <residence>
+                  <term>Heimatort</term>
+                  <settlement>Samarko</settlement>
                   <region>Marburg</region>
                   <country>Steiermark</country>
                </residence>
@@ -27454,7 +27674,7 @@
                   <surname>Smurik</surname>
                   <forename>Emmerich</forename>
                </persName>
-               <socecStatus>Gfr.</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>Nagyrona</settlement>
                   <region>Komitat Nagy-Retsž</region>
@@ -27815,7 +28035,7 @@
                   <surname>Spittau</surname>
                   <forename>Martin</forename>
                </persName>
-               <socecStatus>Zgf·</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -28064,7 +28284,10 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Graz</settlement>
-                  <region>Heimatort St. Bartholomä</region>
+               </residence>
+               <residence>
+                  <term>Heimatort</term>
+                  <settlement>St. Bartholomä</settlement>
                   <region>Graz</region>
                   <country>Steiermark</country>
                </residence>
@@ -29071,7 +29294,7 @@
                   <surname>Schmerhowsky</surname>
                   <forename>Hans</forename>
                </persName>
-               <socecStatus>Oblt.i.d.Res.</socecStatus>
+               <socecStatus>Oblt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wiener-Neudorf</settlement>
                </residence>
@@ -29491,7 +29714,10 @@
                <socecStatus>Lt.</socecStatus>
                <residence>
                   <settlement>Görz</settlement>
-                  <region>Heimatsart Graz</region>
+               </residence>
+               <residence>
+                  <term>Heimatsort</term>
+                  <settlement>Graz</settlement>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1894">1894</date></birth>
@@ -31127,7 +31353,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Strugnano</settlement>
-                  <region>Capo d’Istria</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <note>Alter unbekannt</note>
@@ -31489,7 +31715,7 @@
                   <surname>Theiner</surname>
                   <forename>Alfred</forename>
                </persName>
-               <socecStatus>Oblt.i.d.Res.</socecStatus>
+               <socecStatus>Oblt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -32706,7 +32932,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Pirano</settlement>
-                  <region>Capo d’Istria</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1882">1882</date></birth>
@@ -32739,7 +32965,7 @@
                </persName>
                <socecStatus>Inf.</socecStatus>
                <residence>
-                  <settlement>Capo d’Istria</settlement>
+                  <settlement>Capo d'Istria</settlement>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1890">1890</date></birth>
@@ -33423,7 +33649,7 @@
                   <surname>Wagnes</surname>
                   <forename>Karl</forename>
                </persName>
-               <socecStatus>LInf·</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Perbersdorf</settlement>
                   <region>Feldbach</region>
@@ -33975,7 +34201,7 @@
                   <surname>Weinhardt</surname>
                   <forename>Raimund</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Neualgersdorf</settlement>
                   <region>Graz</region>
@@ -34170,7 +34396,7 @@
                   <surname>Weiß</surname>
                   <forename>Michael</forename>
                </persName>
-               <socecStatus>LInf·</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Hochstraden</settlement>
                   <region>Feldbach</region>
@@ -34394,7 +34620,7 @@
                   <surname>Wildling</surname>
                   <forename>Felix</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Hieflau</settlement>
                   <country>Steiermark</country>
@@ -35196,7 +35422,7 @@
                   <surname>Zafošnik</surname>
                   <forename>Michael</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Unter- Neudorf</settlement>
                   <region>Marburg</region>
@@ -35237,7 +35463,7 @@
                <residence>
                   <term>Heimatsort</term>
                   <settlement>Isola</settlement>
-                  <region>Capo d’Istria</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1882">1882</date></birth>
@@ -35337,7 +35563,7 @@
                   <surname>Zeininger</surname>
                   <forename>Richard</forename>
                </persName>
-               <socecStatus>thr.</socecStatus>
+               <socecStatus>Fhnr.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -35749,7 +35975,7 @@
                <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Tainach</settlement>
-                  <region>Windisch- Feistritz</region>
+                  <region>Windisch-Feistritz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1882">1882</date></birth>
@@ -36200,7 +36426,8 @@
                   <surname>Adam</surname>
                   <forename>Michael</forename>
                </persName>
-               <socecStatus>Inf. (zugeteilt dem k. k. Schützenregiment Nr. 25)</socecStatus>
+               <socecStatus>Inf.</socecStatus>
+               <affiliation>(zugeteilt dem k. k. Schützenregiment Nr. 25)</affiliation>
                <residence>
                   <settlement>Seggauberg</settlement>
                   <region>Leibnitz</region>
@@ -36286,7 +36513,7 @@
                   <surname>Andrä</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Kpl·</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Wagna</settlement>
                   <region>Leibnitz</region>
@@ -36500,7 +36727,7 @@
                   <surname>Aynedter</surname>
                   <forename>August</forename>
                </persName>
-               <socecStatus>Lt.i.d.Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Skrigg</settlement>
                   <region>Wagstadt</region>
@@ -38929,7 +39156,7 @@
                   <surname>Ettl</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Hellpfau-Üttendorf</settlement>
                   <region>Braunau</region>
@@ -39369,7 +39596,7 @@
                   <surname>Fischer</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Res Kpl.</socecStatus>
+               <socecStatus>ResKpl.</socecStatus>
                <residence>
                   <settlement>Plesch</settlement>
                   <region>Feldbach</region>
@@ -39403,7 +39630,7 @@
                   <surname>Flaschner</surname>
                   <forename>Ludwig</forename>
                </persName>
-               <socecStatus>Lt. i. d. Res</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -39963,7 +40190,7 @@
                   <surname>Fuchshofer</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>GRes.</socecStatus>
+               <socecStatus>ERes.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-08-26" notAfter="1914-08-31">zwischen 26. und 31. Aug. 1914</date> <placeName>bei Krasne, Lemberg, Galizien</placeName></death>
                <event>
@@ -40201,7 +40428,7 @@
                   <surname>Geier</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Fhnr. i. d. Res</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1915-10-22" notAfter="1915-10-31">zwischen 22. und 31. Okt. 1915</date> <placeName>bei Doberdo, Monfalcone, Küstenland</placeName></death>
                <event>
@@ -40254,7 +40481,7 @@
                   <surname>Gether</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>titl. Gfrt,</socecStatus>
+               <socecStatus>titl. Gfrt.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1915-10-22">22. Okt. 1915</date> <placeName>beim Gegenangriff an Pietra-Rossa, Monfalcone, Küstenland</placeName></death>
                <event>
@@ -40314,7 +40541,7 @@
                   <surname>Glaser</surname>
                   <forename>Alois</forename>
                </persName>
-               <socecStatus>Li. i. d. Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1915-06-05">5. Juni 1915</date> <placeName>bei Mlodiatyn, Kolomea, Galizien</placeName></death>
                <event>
@@ -40491,7 +40718,7 @@
                   <surname>Gollob</surname>
                   <forename>Ferdinand</forename>
                </persName>
-               <socecStatus>GRes.</socecStatus>
+               <socecStatus>ERes.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -41570,7 +41797,7 @@
                   <surname>Harhammer</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Jan</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-10-15" notAfter="1914-11-05">zwischen 15. Okt. und 5. Nov. 1914</date> <placeName>bei Wolcza-Dolna, Lemberg, Galizien</placeName></death>
                <event>
@@ -41796,7 +42023,7 @@
                   <surname>Hebenstreit</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Linf.</socecStatus>
+               <socecStatus>LInf.</socecStatus>
                <residence>
                   <settlement>Weng</settlement>
                   <region>Braunau a. I.</region>
@@ -41935,7 +42162,7 @@
                   <surname>Herzig</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Li. i. d. R.</socecStatus>
+               <socecStatus>Lt. i. d. R.</socecStatus>
                <residence>
                   <settlement>Wien</settlement>
                   <country>Niederösterreich</country>
@@ -43071,7 +43298,7 @@
                   <surname>Jedlička</surname>
                   <forename>Hubert</forename>
                </persName>
-               <socecStatus>Fhrn.</socecStatus>
+               <socecStatus>Fhnr.</socecStatus>
                <residence>
                   <settlement>Bogkovitz</settlement>
                   <country>Mähren</country>
@@ -43944,7 +44171,7 @@
                   <surname>Kienzl</surname>
                   <forename>Guido</forename>
                </persName>
-               <socecStatus>Lt. i. d, Res.</socecStatus>
+               <socecStatus>Lt. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Sankt Pölten</settlement>
                   <country>Niederösterreich</country>
@@ -43986,7 +44213,7 @@
                   <surname>Kirchmeier</surname>
                   <forename>Max</forename>
                </persName>
-               <socecStatus>sgf.</socecStatus>
+               <socecStatus>Zgf.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-11-08" notAfter="1914-11-11">zwischen 8. und 11. Sept. 1914</date> <placeName>bei Mszan-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -44001,7 +44228,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Carcanze</settlement>
-                  <region>Capo d’Istria</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1881">1881</date></birth>
@@ -45697,7 +45924,8 @@
                   <country>Rußland</country>
                </residence>
                <residence>
-                  <region>zuständig nach Görz</region>
+                  <term>zuständig nach</term>
+                  <settlement>Görz</settlement>
                   <country>Küstenland</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
@@ -46949,7 +47177,7 @@
                   <surname>Lorenčič</surname>
                   <forename>Heinrich</forename>
                </persName>
-               <socecStatus>Gfrt·</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date notBefore="1914-09-08" notAfter="1914-09-11">zwischen 8. und 11. Septemb. 1914</date> <placeName>bei Mszana-Bojana, Grodek, Galizien</placeName></death>
                <event>
@@ -47643,7 +47871,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>St. Johann</settlement>
-                  <region>Leibniz</region>
+                  <region>Leibnitz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1884">1884</date></birth>
@@ -49833,7 +50061,7 @@
                   <surname>Pestevšek</surname>
                   <forename>Paul</forename>
                </persName>
-               <socecStatus>Fhnr. i. d. Res</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Marburg</settlement>
                   <country>Steiermark</country>
@@ -51757,7 +51985,7 @@
                   <surname>Reicht</surname>
                   <forename>Anton</forename>
                </persName>
-               <socecStatus>Ins.</socecStatus>
+               <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Baumgarten</settlement>
                   <region>Feldbach</region>
@@ -53323,7 +53551,7 @@
                   <surname>Simcic</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Fhnr. i. d. Res</socecStatus>
+               <socecStatus>Fhnr. i. d. Res.</socecStatus>
                <residence>
                   <settlement>Quisa</settlement>
                </residence>
@@ -53895,7 +54123,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Valle Oltra</settlement>
-                  <region>Capo d’Istria</region>
+                  <region>Capo d'Istria</region>
                   <country>Istrien</country>
                </residence>
                <birth>geb. <date when="1887">1887</date></birth>
@@ -54401,7 +54629,7 @@
                   <surname>Scheiden</surname>
                   <forename>Josef</forename>
                </persName>
-               <socecStatus>Zgf., BaonsHornist</socecStatus>
+               <socecStatus>Zgf., Bataillonshornist</socecStatus>
                <residence>
                   <settlement>Sulz</settlement>
                   <region>Deutschlandsberg</region>
@@ -55288,7 +55516,7 @@
                   <surname>Schöller</surname>
                   <forename>Franz</forename>
                </persName>
-               <socecStatus>Ffrt.</socecStatus>
+               <socecStatus>Gfrt.</socecStatus>
                <note>Heimatsort und Alter unbekannt</note>
                <death>gef. <date when="1915-06-04">4. Juni 1915</date> <placeName>bei Mlodiatyn, Kolomea, Galizien</placeName></death>
                <event>
@@ -57069,7 +57297,7 @@
                   <forename>Friedrich</forename>
                </persName>
                <note><ref target="#pers.TrieblFriedrich1890a">(scheint mit dem in der Schlacht bei Grodek gefallenen Infanteristen Triebl Friedrich identisch zu sein)</ref></note>
-               <socecStatus>Kpl. titl. Zgf.</socecStatus>
+               <socecStatus>Kpl., titl. Zgf.</socecStatus>
                <residence>
                   <settlement>Jörgen</settlement>
                   <region>Radkersburg</region>
@@ -58376,7 +58604,7 @@
                <socecStatus>Gfrt.</socecStatus>
                <residence>
                   <settlement>Ottenberg</settlement>
-                  <region>Leibni3</region>
+                  <region>Leibnitz</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1884">1884</date></birth>
@@ -58756,7 +58984,7 @@
                   <surname>Wolf</surname>
                   <forename>Johann</forename>
                </persName>
-               <socecStatus>Kol.</socecStatus>
+               <socecStatus>Kpl.</socecStatus>
                <residence>
                   <settlement>Plesch</settlement>
                   <region>Feldbach</region>
@@ -58885,7 +59113,7 @@
                <socecStatus>Inf.</socecStatus>
                <residence>
                   <settlement>Zerlach</settlement>
-                  <region>Fellbach</region>
+                  <region>Feldbach</region>
                   <country>Steiermark</country>
                </residence>
                <birth>geb. <date when="1888">1888</date></birth>
@@ -59498,8 +59726,8 @@
                   <surname>Zweikar</surname>
                   <forename>Friedrich</forename>
                </persName>
-               <socecStatus>Inf. (zugeteilt dem k. u. k. 1. Tiroler
-                  Kaiserjäger-Regiment)</socecStatus>
+               <socecStatus>Inf.</socecStatus>
+               <affiliation>(zugeteilt dem k. u. k. 1. Tiroler Kaiserjäger-Regiment)</affiliation>
                <residence>
                   <settlement>St. Anna am Friesenberg</settlement>
                   <region>Marburg</region>

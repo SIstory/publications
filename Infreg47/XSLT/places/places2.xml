@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Smrtne žrtve 47. štajerskega pešpolka med prvo svetovno vojno</title>
+            <title>Seznam okrajev in krajev</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Inštitut za novejšo zgodovino</publisher>
+            <date when="2017"/>
+            <availability>
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 Mednarodna licenco</ref>
+               </p>
+            </availability>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11686/37723">http://sistory.si/11686/37723</ref>
+            </pubPlace>
+            <idno type="sistory" corresp="#sistory.37723 #ch01 #ch02 #persons">37723</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Das steirische Infanterieregiment Nr. 47 im Weltkrieg</title>
+                  <author>
+                     <forename>Ludwig</forename>
+                     <surname>Vogelsang</surname>
+                     <roleName>Freiherrn von</roleName>
+                  </author>
+                  <imprint>
+                     <date when="1932">1932</date>
+                     <publisher>Leykam-Verlag</publisher>
+                     <pubPlace>Graz</pubPlace>
+                     <biblScope unit="page">805-948</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <!-- samo country in settlement -->
+            <place type="country">
+               <country>Böhmen</country>
+               <idno n="Böhmen">pers.BezonskaKarl1892 pers.BronecKarl1875 pers.BurlanFranz1890 pers.EhmigKilian1878 pers.EichlerAnton1885 pers.EckertAnton1876 pers.EmmerFranz1889 pers.GothHeinrich1878 pers.GrimmerEmil1897 pers.HornAnton1875 pers.KernLorenz1890 pers.KleinRichard1889 pers.LaglerFranz1887 pers.MondryWenzel1876 pers.NickerlAlois1896 pers.SchmidtWenzel1892 pers.SchubertRudolf1886 pers.StarkRudolf1894 pers.WeinbachAdolf1880 pers.CernyAnton1893 pers.IndrichJosef1876 pers.KantznerGustav1888 pers.MaiReinhold1881 pers.SchacherlFranz1895 pers.WardaJulius1896</idno>
+               <place type="settlement">
+                  <settlement>Brentenberg bei Prachatitz</settlement>
+                  <idno n="Brentenberg bei Prachatitz">pers.SchacherlFranz1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Bömisch-Brod</settlement>
+                  <idno n="Bömisch-Brod">pers.CernyAnton1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Dobruška Neustadt an der Mettau</settlement>
+                  <idno n="Dobruška Neustadt an der Mettau">pers.BurlanFranz1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Franzensbad</settlement>
+                  <idno n="Franzensbad">pers.KernLorenz1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Gablonz</settlement>
+                  <idno n="Gablonz">pers.MaiReinhold1881</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Groß-Merktal Deutschgabel</settlement>
+                  <idno n="Groß-Merktal Deutschgabel">pers.GothHeinrich1878</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Großvoll</settlement>
+                  <idno n="Großvoll">pers.EichlerAnton1885</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Jedanelitz</settlement>
+                  <idno n="Jedanelitz">pers.IndrichJosef1876</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Jungbunzlau</settlement>
+                  <idno n="Jungbunzlau">pers.MondryWenzel1876</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Knaben</settlement>
+                  <idno n="Knaben">pers.WardaJulius1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Kuttenberg</settlement>
+                  <idno n="Kuttenberg">pers.StarkRudolf1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Luditz</settlement>
+                  <idno n="Luditz">pers.NickerlAlois1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Neuhaus</settlement>
+                  <idno n="Neuhaus">pers.EmmerFranz1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Osseg</settlement>
+                  <idno n="Osseg">pers.SchubertRudolf1886</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pomcisl Podersam</settlement>
+                  <idno n="Pomcisl Podersam">pers.WeinbachAdolf1880</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Prag</settlement>
+                  <idno n="Prag">pers.BezonskaKarl1892 pers.KleinRichard1889 pers.SchmidtWenzel1892</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Saaz</settlement>
+                  <idno n="Saaz">pers.KantznerGustav1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Sobešlan Tabor</settlement>
+                  <idno n="Sobešlan Tabor">pers.BronecKarl1875</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Teplitz</settlement>
+                  <idno n="Teplitz">pers.EckertAnton1876 pers.HornAnton1875</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Teplitz-Schönau</settlement>
+                  <idno n="Teplitz-Schönau">pers.LaglerFranz1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Teplitzschönau</settlement>
+                  <idno n="Teplitzschönau">pers.GrimmerEmil1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Weipert</settlement>
+                  <idno n="Weipert">pers.EhmigKilian1878</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Dalmatien</country>
+               <idno n="Dalmatien">pers.KuculicaMichael1893 pers.SimoniPeter1896</idno>
+               <place type="settlement">
+                  <settlement>Ragusa</settlement>
+                  <idno n="Ragusa">pers.SimoniPeter1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Selas-Michanici</settlement>
+                  <idno n="Selas-Michanici">pers.KuculicaMichael1893</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Galizien</country>
+               <idno n="Galizien">pers.BernreiterRudolf1895 pers.GutczakNikolaus1899 pers.KaczarovskiBoguslav1891 pers.KuzmaNikolaus1895 pers.MehlemOskar1895 pers.SzowkoryFedor1899</idno>
+               <place type="settlement">
+                  <settlement>Krakau</settlement>
+                  <idno n="Krakau">pers.BernreiterRudolf1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Lemberg</settlement>
+                  <idno n="Lemberg">pers.MehlemOskar1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Oleschau</settlement>
+                  <idno n="Oleschau">pers.KuzmaNikolaus1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Podhaja</settlement>
+                  <idno n="Podhaja">pers.KaczarovskiBoguslav1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Seczenizyn</settlement>
+                  <idno n="Seczenizyn">pers.SzowkoryFedor1899</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wosackaniczne-Turka</settlement>
+                  <idno n="Wosackaniczne-Turka">pers.GutczakNikolaus1899</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Istrien</country>
+               <idno n="Istrien">pers.BlazicGeorg pers.DescovicAndreas1892 pers.GrevatinJosef1888 pers.MernikEugen1878 pers.NacinovicPeter1895 pers.SferkoAnton1895 pers.VatovazJohann1890 pers.BanovicMartin1888 pers.BastiancicAnton1888 pers.FerlugaIvan1877 pers.FonovicJohann1888 pers.MinkoJakob pers.SerficNikolaus1897 pers.SladognaMichael1874</idno>
+               <place type="settlement">
+                  <settlement>Capo d'Istria</settlement>
+                  <idno n="Capo d'Istria">pers.VatovazJohann1890 pers.MinkoJakob</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Castna Volosca</settlement>
+                  <idno n="Castna Volosca">pers.BlazicGeorg</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Dignano</settlement>
+                  <idno n="Dignano">pers.BanovicMartin1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Fianoma</settlement>
+                  <idno n="Fianoma">pers.BastiancicAnton1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Moscenice</settlement>
+                  <idno n="Moscenice">pers.DescovicAndreas1892</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Parenzo</settlement>
+                  <idno n="Parenzo">pers.SferkoAnton1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pola</settlement>
+                  <idno n="Pola">pers.MernikEugen1878 pers.FonovicJohann1888 pers.SladognaMichael1874</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Skofia</settlement>
+                  <idno n="Skofia">pers.GrevatinJosef1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Solo-jurandowo</settlement>
+                  <idno n="Solo-jurandowo">pers.SerficNikolaus1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Sveta-Nedelja</settlement>
+                  <idno n="Sveta-Nedelja">pers.NacinovicPeter1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Vrhopolje</settlement>
+                  <idno n="Vrhopolje">pers.FerlugaIvan1877</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Krain</country>
+               <idno n="Krain">pers.BelcinaIgnaz1879 pers.FifoltJohann1897 pers.GalicJakob1897 pers.HlebsFerdinand1898 pers.PessiakFritz1897 pers.PoschlHeinrich1897 pers.MihalicJohan1895</idno>
+               <place type="settlement">
+                  <settlement>Krainburg</settlement>
+                  <idno n="Krainburg">pers.HlebsFerdinand1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Laibach</settlement>
+                  <idno n="Laibach">pers.PessiakFritz1897 pers.PoschlHeinrich1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Oeisla</settlement>
+                  <idno n="Oeisla">pers.MihalicJohan1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Rudolfswert</settlement>
+                  <idno n="Rudolfswert">pers.FifoltJohann1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Sturie</settlement>
+                  <idno n="Sturie">pers.BelcinaIgnaz1879</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Weißenstein</settlement>
+                  <idno n="Weißenstein">pers.GalicJakob1897</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Kroatien</country>
+               <idno n="Kroatien">pers.KostenbauerFerdinand</idno>
+               <place type="settlement">
+                  <settlement>Samobor</settlement>
+                  <idno n="Samobor">pers.KostenbauerFerdinand</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Kärnten</country>
+               <idno n="Kärnten">pers.MayerRichard1860 pers.MennerKarl1885</idno>
+               <place type="settlement">
+                  <settlement>St. Stephan</settlement>
+                  <idno n="St. Stephan">pers.MayerRichard1860</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wolfsberg</settlement>
+                  <idno n="Wolfsberg">pers.MennerKarl1885</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Küstenland</country>
+               <idno n="Küstenland">pers.ChewatinJohann1888 pers.DevetakEmil1891 pers.DorjaJohann1895 pers.HusuKaspar1875 pers.HusuKaspar1875 pers.MarovicJohann1877 pers.RegentAlois1874 pers.RizattoJosef1878 pers.TavernaDante1887a pers.WinklerJosef1895 pers.CandottiHumbert1886 pers.CicJohann1886 pers.DaprettoGeorg1886 pers.DeanJakob1889 pers.FlorichBenjamin1892 pers.FraciacomoMathao1879 pers.HnalaEnrico1892 pers.HumerMarius1892 pers.JankoSimon1888 pers.KumbergMarzell1887 pers.RasemJosef1876 pers.RazemJosef1876 pers.TavernaDante1887b pers.UdovicJohann1878</idno>
+               <place type="settlement">
+                  <settlement>Bane</settlement>
+                  <idno n="Bane">pers.HusuKaspar1875</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Canfanaro</settlement>
+                  <idno n="Canfanaro">pers.JankoSimon1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Görz</settlement>
+                  <idno n="Görz">pers.KumbergMarzell1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Monfalcone</settlement>
+                  <idno n="Monfalcone">pers.DorjaJohann1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pola</settlement>
+                  <idno n="Pola">pers.ChewatinJohann1888 pers.DeanJakob1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Rovigno</settlement>
+                  <idno n="Rovigno">pers.MarovicJohann1877</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Tolmein</settlement>
+                  <idno n="Tolmein">pers.DevetakEmil1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Triest</settlement>
+                  <idno n="Triest">pers.HusuKaspar1875 pers.RegentAlois1874 pers.RizattoJosef1878 pers.TavernaDante1887a pers.WinklerJosef1895 pers.CandottiHumbert1886 pers.CicJohann1886 pers.DaprettoGeorg1886 pers.FlorichBenjamin1892 pers.FraciacomoMathao1879 pers.HnalaEnrico1892 pers.HumerMarius1892 pers.RasemJosef1876 pers.RazemJosef1876 pers.TavernaDante1887b pers.UdovicJohann1878</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Mähren</country>
+               <idno n="Mähren">pers.GazdikJakob1894 pers.GrmelaLeopold1894 pers.HalackaJohann1894 pers.PistelakGottlieb1888 pers.SvobodaBernhard1893 pers.SteffekFelix1893 pers.SterzEmanuel1889 pers.JedlickaHubert1891 pers.PetroiJosef1895</idno>
+               <place type="settlement">
+                  <settlement>Bogkovitz</settlement>
+                  <idno n="Bogkovitz">pers.JedlickaHubert1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Bräun</settlement>
+                  <idno n="Bräun">pers.SterzEmanuel1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Brünn</settlement>
+                  <idno n="Brünn">pers.GrmelaLeopold1894 pers.SteffekFelix1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Gorican</settlement>
+                  <idno n="Gorican">pers.GazdikJakob1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Tischnovitz</settlement>
+                  <idno n="Tischnovitz">pers.HalackaJohann1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Ungarisch-Hradisch</settlement>
+                  <idno n="Ungarisch-Hradisch">pers.PetroiJosef1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Unterkanitz Brünn</settlement>
+                  <idno n="Unterkanitz Brünn">pers.SvobodaBernhard1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wischau</settlement>
+                  <idno n="Wischau">pers.PistelakGottlieb1888</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Niederösterreich</country>
+               <idno n="Niederösterreich">pers.AßmannFiedrich1883 pers.BartschAlois1893 pers.BielohlawekVinzenz1889 pers.FranklWalter1896 pers.FranzeKarl1897 pers.JochlJosef1888 pers.KaltenbergerKarl1898 pers.KlickAlbert1890 pers.KohoutekAnton1896 pers.KeanawetterJosef1897 pers.LibrickyJosef1885 pers.MaasburgFriedrich1880 pers.NeubergerAdolf1897 pers.NeumannFranz1898 pers.PrelesnikGottfried1896 pers.SadgerEduard1897 pers.SeiringerFerdinand1891 pers.SichelmannWalter1892 pers.SiglJosef1894 pers.SimekJohann1880 pers.SchulzeWilhelm1897 pers.TheinerAlfred1891 pers.ZeiningerRichard1887 pers.BilekFranz1894 pers.DeckenbacherFerdinand1874 pers.FlaschnerLudwig1883 pers.HerzigJohann1889 pers.ImmerWalter1895 pers.KienzlGuido1883 pers.LenhardOtto1884 pers.MayerLeopold1886 pers.MenschhornJosef1894 pers.MullerHeinrich1879 pers.SchondorferAnton1891 pers.WartaJosef1896</idno>
+               <place type="settlement">
+                  <settlement>Baden</settlement>
+                  <idno n="Baden">pers.MenschhornJosef1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Christofen bei Neulengbach</settlement>
+                  <idno n="Christofen bei Neulengbach">pers.FranklWalter1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Horn</settlement>
+                  <idno n="Horn">pers.KlickAlbert1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Michelhausen Tulln</settlement>
+                  <idno n="Michelhausen Tulln">pers.KeanawetterJosef1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Sankt Pölten</settlement>
+                  <idno n="Sankt Pölten">pers.KienzlGuido1883</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Trumau</settlement>
+                  <idno n="Trumau">pers.KohoutekAnton1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wien</settlement>
+                  <idno n="Wien">pers.AßmannFiedrich1883 pers.BartschAlois1893 pers.BielohlawekVinzenz1889 pers.FranzeKarl1897 pers.JochlJosef1888 pers.KaltenbergerKarl1898 pers.LibrickyJosef1885 pers.MaasburgFriedrich1880 pers.NeubergerAdolf1897 pers.NeumannFranz1898 pers.PrelesnikGottfried1896 pers.SadgerEduard1897 pers.SeiringerFerdinand1891 pers.SichelmannWalter1892 pers.SiglJosef1894 pers.SimekJohann1880 pers.SchulzeWilhelm1897 pers.TheinerAlfred1891 pers.ZeiningerRichard1887 pers.BilekFranz1894 pers.DeckenbacherFerdinand1874 pers.FlaschnerLudwig1883 pers.HerzigJohann1889 pers.ImmerWalter1895 pers.LenhardOtto1884 pers.MayerLeopold1886 pers.MullerHeinrich1879 pers.SchondorferAnton1891 pers.WartaJosef1896</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Oberösterreich</country>
+               <idno n="Oberösterreich">pers.HaselauerHeinrich1889</idno>
+               <place type="settlement">
+                  <settlement>Marchtrenk</settlement>
+                  <idno n="Marchtrenk">pers.HaselauerHeinrich1889</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Rußland</country>
+               <idno n="Rußland">pers.KumbergMarzell1887</idno>
+               <place type="settlement">
+                  <settlement>Groß-Petersburg</settlement>
+                  <idno n="Groß-Petersburg">pers.KumbergMarzell1887</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Salzburg</country>
+               <idno n="Salzburg">pers.IrausekRichard1899</idno>
+               <place type="settlement">
+                  <settlement>Guippl i. B.</settlement>
+                  <idno n="Guippl i. B.">pers.IrausekRichard1899</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Slawonien</country>
+               <idno n="Slawonien">pers.TrostAnton1896</idno>
+               <place type="settlement">
+                  <settlement>Požega</settlement>
+                  <idno n="Požega">pers.TrostAnton1896</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Steiermark</country>
+               <idno n="Steiermark">pers.AeskoBartholomaus1885 pers.AmonMatthias1890 pers.BergerWilhelm1896 pers.BernreiterRudolf1895 pers.BertoleAdolf1898 pers.BierbacherAnton1894 pers.BrandJulius1891 pers.BraunitzerAdolf1895 pers.BrunnerFriedrich1886 pers.CernkoJosef1892 pers.DiengslederKarl1885 pers.FischerChristian1897 pers.FischerGeorg1898 pers.FluckAlexander1887 pers.FormacherMazedonius1879 pers.FraßFranz1894 pers.FreisingerAdolf1894 pers.FuchsAlois1875 pers.FuchsFranz1891 pers.FurbaßAlois1876 pers.GaichFranz1889 pers.GalliAlois1898 pers.GaudeAlois1894 pers.GeierFriedrich1895 pers.GolobicAnton1897 pers.GraßmuggFlorian1883 pers.HaasAnton1892 pers.HaringKarl1885 pers.HermannKarl1895 pers.HettlRupert pers.HirzingerJosef1898 pers.HoferAugust1894 pers.HollmannAnton1879a pers.HuberJohann1871 pers.JobMax1894 pers.JudarJohann1891 pers.JugJohann1881 pers.KaisersbergerFranz1872 pers.KapperKarl1883 pers.KaufmannAlois1896 pers.KernLudwig1889 pers.KickenweitzJohann1887 pers.KleinschusterWilhelm1880 pers.KlingensteinJakob1881 pers.KneßBonaventura1891 pers.KnoblochMichael1882 pers.KoglerAlois1894 pers.KohrerJohann1895 pers.KoineggJohann1891 pers.KoschanLudwig1887 pers.KotzbeckJosef1895 pers.KratochwillKarl1898 pers.KrausReinhold1898 pers.KriegseisenPeter1894 pers.KrischanzOskar1898 pers.KrizanJosef1876 pers.KrobathFranz1888 pers.KroisFelix1894 pers.Kupferschmied pers.KurmannVinzenz1880 pers.KurnikRudolf1898 pers.LangerholzRadoslav1898 pers.LeyrerSilvester1891 pers.LjubschaJohann1895 pers.LochniggJosef1895 pers.LukasFranz1894 pers.MahrRobert1878 pers.MajalHenrik1892 pers.MallekGeorg1877 pers.MarcsinkoKarl1894 pers.MartinMatthias1884 pers.MohorkoFranz1887 pers.MohrJosef1894 pers.MrasRudolf1895 pers.MuggenauerHermann1897 pers.MusterJohann1893 pers.NeblFranz1887 pers.NeubockAlois1887 pers.OffenbacherLeonhard1897 pers.OgrisegEgon1895 pers.PacholeStephan1894 pers.PatterAnton1895 pers.PerschonFranz1882 pers.PetzlinovskyKarl1894 pers.ProschLudwig1896 pers.PuchgraberHeinrich1893 pers.PurschlAlbrecht1877 pers.RathRupert1889 pers.ReitererFranz1897 pers.RojkoHeinrich1879a pers.SaischekFranz1888 pers.SeidlerAdolf1886 pers.SelenkoFranz1898 pers.SimonisekAnton1895 pers.SkaserMartin1894 pers.SommerFranz1893 pers.SpittauMartin1885 pers.ScheligoEmil1895 pers.SchlosserAnton pers.SchloglAnton1885 pers.SchreiJohann1893 pers.SchrittwieserOskar1894 pers.SchunkoMatthias1891 pers.SteinbauerAnton1887 pers.SteinerKarl1893 pers.StnyPeragrim1895 pers.StolzlFranz1886 pers.TercJohann1897 pers.TheislFraan1895 pers.TrabyKarl1895 pers.TrammerAlois1893 pers.TscheppeRichard1894 pers.UbbisFerdinand1897 pers.VolleritschHugo1884a pers.WeberLeopold1895 pers.WildlingFelix1891 pers.WilhelmGeorg1893 pers.WitzlerFranz1879 pers.WodopivecFerdinand1893 pers.WolfAugust1891 pers.ZadnikarPaul1891 pers.ZeilbauerJohann1887 pers.ZengerlerAdalbert1896 pers.ZenzLudwig1893 pers.ZivkoFranz1895 pers.ZweiflerJosef1887 pers.AdanitschAlois1882 pers.BauerFranz1896 pers.BaumgartnerAlois1891 pers.BaumgartnerFranz1893 pers.BaumgartnerJohann1890 pers.BracicAdolf1898 pers.BracicJohann1890 pers.BrandlFriedrich1897 pers.CerncecJohann1896 pers.DenkJosef1895 pers.EberhartAlois1883 pers.FashingLeopold1887 pers.FerschaleggAlois1884 pers.FriesJohann1879 pers.FrietlAnton1888 pers.FromeyerKarl1894 pers.GandeAlois1894 pers.GanglJosef1886 pers.GaubeAnton1877 pers.GeyerFranz1898 pers.GrentnerAlex1886 pers.GrieslerJohann1899 pers.GrillAlois1898b pers.GsellmannJohann1892 pers.HaiblJohann1889 pers.HannTheodor1895 pers.HodlJosef1888 pers.HollmannAnton1879b pers.HubnerAnton1881 pers.JellitschKarl1884 pers.KaiserbergerFranz1872 pers.KatzJosef1893 pers.KaufchlerLorenz1894 pers.KerschbaumJosef1896 pers.KnezAnton1898 pers.KolzerJohann1895 pers.KoroschetzFriedrich1886 pers.KrennFranz1893 pers.KrepekAnton1894 pers.KrottmayerFranz1895 pers.KukowetzPaul pers.KurnigHeinrich1879 pers.LebitschJohann1881 pers.LeitnerAnton1888 pers.LiewehrAlfred1886 pers.MascherTheodor1887 pers.MitzonskiAnton1867 pers.MuhlhauserAnton1883 pers.PenschekRudolf1879 pers.PestevsekPaul1895 pers.PonnegAugust1898 pers.PrahslFranz1894 pers.PraßlJohann1894 pers.PuntigamFriedrich1888 pers.ReichenbergerLeopold1871 pers.RepolusJosef1871 pers.SanpilaAlois1895 pers.SimburgerBenno1897 pers.SkoficJohan1882 pers.SchafflerJosef1894 pers.ScheinerAnton1897 pers.SchellaufAlois1884 pers.ScheucherKarl1874 pers.SchischekJosef1896 pers.SchonAdolf1890 pers.SchonbergerJosef1887 pers.SchrimpfKarl1888 pers.SchusterFranz1882 pers.SchwarzJosef1885 pers.StuhlJohann1892 pers.TeniJosef1892 pers.TometzFranz1889 pers.UlzAnton1893 pers.UrscheiMaximilian1890 pers.VodopivecFerdinand1893 pers.VosnikFranz1890 pers.WerdonigKarl1881 pers.WetzlerFranz1879 pers.WießpeinerKarl1888 pers.ZischeggKarl1897</idno>
+               <place type="settlement">
+                  <settlement>Bruck a. d. Mur</settlement>
+                  <idno n="Bruck a. d. Mur">pers.WießpeinerKarl1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Cilli</settlement>
+                  <idno n="Cilli">pers.SimonisekAnton1895 pers.SkoficJohan1882</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Deutsch-Radersdorf</settlement>
+                  <idno n="Deutsch-Radersdorf">pers.KlingensteinJakob1881</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Deutschlandsberg</settlement>
+                  <idno n="Deutschlandsberg">pers.LukasFranz1894 pers.NeblFranz1887 pers.StolzlFranz1886 pers.DenkJosef1895 pers.PonnegAugust1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Dürnberg</settlement>
+                  <idno n="Dürnberg">pers.OffenbacherLeonhard1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Eggenberg bei Graz</settlement>
+                  <idno n="Eggenberg bei Graz">pers.BertoleAdolf1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Eichberg Leibnitz</settlement>
+                  <idno n="Eichberg Leibnitz">pers.KoineggJohann1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Feldbach</settlement>
+                  <idno n="Feldbach">pers.FischerChristian1897 pers.FluckAlexander1887 pers.HuberJohann1871 pers.Kupferschmied pers.KurmannVinzenz1880 pers.PuchgraberHeinrich1893 pers.SchreiJohann1893 pers.TheislFraan1895 pers.TrammerAlois1893 pers.VolleritschHugo1884a pers.BaumgartnerAlois1891 pers.LeitnerAnton1888 pers.LiewehrAlfred1886 pers.PrahslFranz1894 pers.PraßlJohann1894 pers.ScheucherKarl1874 pers.SchonAdolf1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Frauendorf</settlement>
+                  <idno n="Frauendorf">pers.GeyerFranz1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Furesdorf</settlement>
+                  <idno n="Furesdorf">pers.ZenzLudwig1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Gams bei Marburg</settlement>
+                  <idno n="Gams bei Marburg">pers.LjubschaJohann1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Glanz</settlement>
+                  <idno n="Glanz">pers.GaubeAnton1877</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Gleichenberg Feldbach</settlement>
+                  <idno n="Gleichenberg Feldbach">pers.BaumgartnerJohann1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Glojach</settlement>
+                  <idno n="Glojach">pers.FriesJohann1879</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Gossendorf</settlement>
+                  <idno n="Gossendorf">pers.ReichenbergerLeopold1871</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Graschuh</settlement>
+                  <idno n="Graschuh">pers.MohorkoFranz1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Graupen</settlement>
+                  <idno n="Graupen">pers.KatzJosef1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Graz</settlement>
+                  <idno n="Graz">pers.BrunnerFriedrich1886 pers.FormacherMazedonius1879 pers.HaasAnton1892 pers.HaringKarl1885 pers.HollmannAnton1879a pers.KapperKarl1883 pers.KernLudwig1889 pers.MahrRobert1878 pers.SommerFranz1893 pers.SchlosserAnton pers.SchrittwieserOskar1894 pers.SteinbauerAnton1887 pers.ZadnikarPaul1891 pers.BauerFranz1896 pers.BaumgartnerFranz1893 pers.GrieslerJohann1899 pers.HollmannAnton1879b pers.KrennFranz1893 pers.KukowetzPaul pers.MitzonskiAnton1867 pers.MuhlhauserAnton1883 pers.RepolusJosef1871 pers.SimburgerBenno1897 pers.StuhlJohann1892 pers.WetzlerFranz1879</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Größing</settlement>
+                  <idno n="Größing">pers.GanglJosef1886</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Hasreith Deutschlandsberg</settlement>
+                  <idno n="Hasreith Deutschlandsberg">pers.ReitererFranz1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Hieflau</settlement>
+                  <idno n="Hieflau">pers.WildlingFelix1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Kirschbach</settlement>
+                  <idno n="Kirschbach">pers.DiengslederKarl1885</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Knittelfeld</settlement>
+                  <idno n="Knittelfeld">pers.ScheinerAnton1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Krieglach</settlement>
+                  <idno n="Krieglach">pers.CerncecJohann1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Kriosbach</settlement>
+                  <idno n="Kriosbach">pers.FashingLeopold1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Kölldorf</settlement>
+                  <idno n="Kölldorf">pers.HodlJosef1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Lassing</settlement>
+                  <idno n="Lassing">pers.KerschbaumJosef1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Lautenegg</settlement>
+                  <idno n="Lautenegg">pers.GaichFranz1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Leibnitz</settlement>
+                  <idno n="Leibnitz">pers.FuchsAlois1875 pers.HettlRupert pers.KoglerAlois1894 pers.KohrerJohann1895 pers.KriegseisenPeter1894 pers.NeubockAlois1887 pers.PatterAnton1895 pers.PetzlinovskyKarl1894 pers.SteinerKarl1893 pers.TrabyKarl1895 pers.WeberLeopold1895 pers.BrandlFriedrich1897 pers.KolzerJohann1895 pers.ZischeggKarl1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Lendorf</settlement>
+                  <idno n="Lendorf">pers.CernkoJosef1892</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Liezen</settlement>
+                  <idno n="Liezen">pers.ProschLudwig1896</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Marburg</settlement>
+                  <idno n="Marburg">pers.BergerWilhelm1896 pers.BernreiterRudolf1895 pers.BraunitzerAdolf1895 pers.GaudeAlois1894 pers.JobMax1894 pers.JugJohann1881 pers.KaisersbergerFranz1872 pers.KleinschusterWilhelm1880 pers.KoschanLudwig1887 pers.KotzbeckJosef1895 pers.KratochwillKarl1898 pers.KrausReinhold1898 pers.KrischanzOskar1898 pers.KroisFelix1894 pers.KurnikRudolf1898 pers.LangerholzRadoslav1898 pers.LeyrerSilvester1891 pers.LochniggJosef1895 pers.MajalHenrik1892 pers.MallekGeorg1877 pers.MohrJosef1894 pers.MrasRudolf1895 pers.MuggenauerHermann1897 pers.OgrisegEgon1895 pers.PacholeStephan1894 pers.PerschonFranz1882 pers.RojkoHeinrich1879a pers.SaischekFranz1888 pers.SeidlerAdolf1886 pers.SelenkoFranz1898 pers.SkaserMartin1894 pers.SpittauMartin1885 pers.ScheligoEmil1895 pers.SchunkoMatthias1891 pers.StnyPeragrim1895 pers.TercJohann1897 pers.TscheppeRichard1894 pers.UbbisFerdinand1897 pers.WilhelmGeorg1893 pers.WitzlerFranz1879 pers.WodopivecFerdinand1893 pers.WolfAugust1891 pers.ZivkoFranz1895 pers.BracicAdolf1898 pers.FromeyerKarl1894 pers.GandeAlois1894 pers.GsellmannJohann1892 pers.HannTheodor1895 pers.JellitschKarl1884 pers.KaiserbergerFranz1872 pers.KaufchlerLorenz1894 pers.KoroschetzFriedrich1886 pers.KurnigHeinrich1879 pers.MascherTheodor1887 pers.PestevsekPaul1895 pers.SanpilaAlois1895 pers.SchischekJosef1896 pers.SchrimpfKarl1888 pers.TeniJosef1892 pers.VodopivecFerdinand1893 pers.VosnikFranz1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Mistelbach</settlement>
+                  <idno n="Mistelbach">pers.MartinMatthias1884</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Mitteregg Leibnitz</settlement>
+                  <idno n="Mitteregg Leibnitz">pers.FischerGeorg1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Mitterfladnitz</settlement>
+                  <idno n="Mitterfladnitz">pers.SchusterFranz1882</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Murau</settlement>
+                  <idno n="Murau">pers.GeierFriedrich1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Mürzzuschlag</settlement>
+                  <idno n="Mürzzuschlag">pers.ZeilbauerJohann1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Neutersdorf Leibnitz</settlement>
+                  <idno n="Neutersdorf Leibnitz">pers.RathRupert1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Ober Pulska</settlement>
+                  <idno n="Ober Pulska">pers.HermannKarl1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Oberhaag</settlement>
+                  <idno n="Oberhaag">pers.KrobathFranz1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Oberlaaz</settlement>
+                  <idno n="Oberlaaz">pers.HaiblJohann1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Obernau bei Marburg</settlement>
+                  <idno n="Obernau bei Marburg">pers.BracicJohann1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pertlstein</settlement>
+                  <idno n="Pertlstein">pers.LebitschJohann1881</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pichl</settlement>
+                  <idno n="Pichl">pers.KneßBonaventura1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pichlau</settlement>
+                  <idno n="Pichlau">pers.HoferAugust1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pilsendorf</settlement>
+                  <idno n="Pilsendorf">pers.MusterJohann1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Pölz</settlement>
+                  <idno n="Pölz">pers.BierbacherAnton1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Radkersburg</settlement>
+                  <idno n="Radkersburg">pers.FuchsFranz1891 pers.KaufmannAlois1896 pers.MarcsinkoKarl1894 pers.ZweiflerJosef1887 pers.AdanitschAlois1882 pers.PuntigamFriedrich1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Riegersburg Feldbach</settlement>
+                  <idno n="Riegersburg Feldbach">pers.KickenweitzJohann1887</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Rothleiten</settlement>
+                  <idno n="Rothleiten">pers.GrentnerAlex1886</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Rothleiten. Graz</settlement>
+                  <idno n="Rothleiten. Graz">pers.FrietlAnton1888</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Roßwein</settlement>
+                  <idno n="Roßwein">pers.TometzFranz1889</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Ruppersdorf</settlement>
+                  <idno n="Ruppersdorf">pers.HubnerAnton1881</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Schloßberg</settlement>
+                  <idno n="Schloßberg">pers.GrillAlois1898b</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Schloßberg bei Leibnitz</settlement>
+                  <idno n="Schloßberg bei Leibnitz">pers.BrandJulius1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Schwarzau</settlement>
+                  <idno n="Schwarzau">pers.FurbaßAlois1876</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Georgen</settlement>
+                  <idno n="St. Georgen">pers.JudarJohann1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Leonhard</settlement>
+                  <idno n="St. Leonhard">pers.KrizanJosef1876</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Marein b. Graz</settlement>
+                  <idno n="St. Marein b. Graz">pers.SchellaufAlois1884</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Martin</settlement>
+                  <idno n="St. Martin">pers.AeskoBartholomaus1885</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Martin. Marburg</settlement>
+                  <idno n="St. Martin. Marburg">pers.KnezAnton1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>St. Peter b. Marburg</settlement>
+                  <idno n="St. Peter b. Marburg">pers.SchwarzJosef1885</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Stanz Feldbach</settlement>
+                  <idno n="Stanz Feldbach">pers.KnoblochMichael1882</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Stibol bei Graz</settlement>
+                  <idno n="Stibol bei Graz">pers.FreisingerAdolf1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Stopiče</settlement>
+                  <idno n="Stopiče">pers.GolobicAnton1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>StsLorenzsem Marburg</settlement>
+                  <idno n="StsLorenzsem Marburg">pers.PurschlAlbrecht1877</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Suchtall</settlement>
+                  <idno n="Suchtall">pers.GraßmuggFlorian1883</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Tainbach Graz</settlement>
+                  <idno n="Tainbach Graz">pers.KrottmayerFranz1895</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Veneschau</settlement>
+                  <idno n="Veneschau">pers.AmonMatthias1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Voitsberg</settlement>
+                  <idno n="Voitsberg">pers.SchloglAnton1885</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Waldschach</settlement>
+                  <idno n="Waldschach">pers.HirzingerJosef1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Weiz</settlement>
+                  <idno n="Weiz">pers.FraßFranz1894 pers.ZengerlerAdalbert1896 pers.UrscheiMaximilian1890</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wernsdorf</settlement>
+                  <idno n="Wernsdorf">pers.SchafflerJosef1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wieden</settlement>
+                  <idno n="Wieden">pers.GalliAlois1898</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Windisch-Graz</settlement>
+                  <idno n="Windisch-Graz">pers.PenschekRudolf1879</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wintersbach Marburg</settlement>
+                  <idno n="Wintersbach Marburg">pers.KrepekAnton1894</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wittmannsdorf</settlement>
+                  <idno n="Wittmannsdorf">pers.UlzAnton1893</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wolfsberg Leibnitz</settlement>
+                  <idno n="Wolfsberg Leibnitz">pers.EberhartAlois1883</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Zellnitz</settlement>
+                  <idno n="Zellnitz">pers.WerdonigKarl1881</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Zelting</settlement>
+                  <idno n="Zelting">pers.FerschaleggAlois1884</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Zerlach</settlement>
+                  <idno n="Zerlach">pers.SchonbergerJosef1887</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Tirol</country>
+               <idno n="Tirol">pers.KantiolerRudolf1891 pers.PaliagaStephan1887</idno>
+               <place type="settlement">
+                  <settlement>Brixen</settlement>
+                  <idno n="Brixen">pers.KantiolerRudolf1891</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Rovigno</settlement>
+                  <idno n="Rovigno">pers.PaliagaStephan1887</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Türkei</country>
+               <idno n="Türkei">pers.RacicJohann1894</idno>
+               <place type="settlement">
+                  <settlement>Smyrne</settlement>
+                  <idno n="Smyrne">pers.RacicJohann1894</idno>
+               </place>
+            </place>
+            <place type="country">
+               <country>Ungarn</country>
+               <idno n="Ungarn">pers.FandlKarl1897 pers.FlaschJohann1891</idno>
+               <place type="settlement">
+                  <settlement>Königsdorf</settlement>
+                  <idno n="Königsdorf">pers.FandlKarl1897</idno>
+               </place>
+               <place type="settlement">
+                  <settlement>Wolfaw</settlement>
+                  <idno n="Wolfaw">pers.FlaschJohann1891</idno>
+               </place>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

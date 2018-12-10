@@ -1,0 +1,2 @@
+V places.xml prečišči odvečne idno pri parent elementih. 
+Pri tem upoštevaj pravilo: v hiearhiji zadnji identifikator osebe se mora prenesti tudi na parent elemente.

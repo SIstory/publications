@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Krajevni repertorij</title>
+            <title>Koroška 1910: deli današnje Slovenije</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Inštitut za novejšo zgodovino</publisher>
+            <distributor>Raziskovalna infrastruktura slovenskega zgodovinopisja</distributor>
+            <distributor>DARIAH-SI</distributor>
+            <pubPlace>https://github.com/SIstory/Ortsrepertorium</pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                                Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                                Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2018-10-10+02:00"/>
+            <idno type="github" subtype="commit">https://github.com/SIstory/Ortsrepertorium/commit/394d9223f5a3abf9c41822b3e661373bc8ae5059</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <ref target="https://github.com/SIstory/Ortsrepertorium/blob/master/year1910/Carinthia/Carinthia-1910-deu.xml">GitHub</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <desc>Administrativne enote v avstrijski polovici habsburške monarhije</desc>
+               <category xml:id="ad.land">
+                  <catDesc xml:lang="en">Country</catDesc>
+                  <catDesc xml:lang="sl">Dežela</catDesc>
+                  <catDesc xml:lang="de">Land</catDesc>
+                  <category xml:id="ad.stadt">
+                     <catDesc xml:lang="en">Statutory city</catDesc>
+                     <catDesc xml:lang="sl">Mesto z lastnim statutom</catDesc>
+                     <catDesc xml:lang="de">Stadt mit eigenem Statut</catDesc>
+                  </category>
+                  <category xml:id="ad.bezirk">
+                     <catDesc xml:lang="en">Administrative district</catDesc>
+                     <catDesc xml:lang="sl">Politični okraj</catDesc>
+                     <catDesc xml:lang="de">Politischer Bezirk</catDesc>
+                     <category xml:id="ad.gerichtsbezirk">
+                        <catDesc xml:lang="en">Judicial district</catDesc>
+                        <catDesc xml:lang="sl">Sodni okraj</catDesc>
+                        <catDesc xml:lang="de">Gerichtsbezirk</catDesc>
+                        <category xml:id="ad.gemeinde">
+                           <catDesc xml:lang="en">Municipality</catDesc>
+                           <catDesc xml:lang="sl">Občina</catDesc>
+                           <catDesc xml:lang="de">Gemeinde</catDesc>
+                           <category xml:id="ad.ort">
+                              <catDesc xml:lang="en">Place</catDesc>
+                              <catDesc xml:lang="sl">Kraj</catDesc>
+                              <catDesc xml:lang="de">Ort</catDesc>
+                              <category xml:id="ad.teil">
+                                 <catDesc xml:lang="en">Local district</catDesc>
+                                 <catDesc xml:lang="sl">Krajevni del</catDesc>
+                                 <catDesc xml:lang="de">Ortsbestandteil</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place ana="#ad.bezirk" xml:id="c.07">
+               <placeName xml:lang="deu" key="2762315">Völkermarkt</placeName>
+               <placeName xml:lang="slv" key="2762315">Velikovec</placeName>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0701" n="1">
+                  <placeName xml:lang="deu" key="2781703">Bleiburg</placeName>
+                  <placeName xml:lang="slv" key="2781703">Pliberk</placeName>
+                  <place ana="#ad.gemeinde" xml:id="c.070101" n="1">
+                     <placeName xml:lang="deu" key="2781703">Bleiburg</placeName>
+                     <placeName xml:lang="slv" key="2781703">Pliberk</placeName>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070102" n="2">
+                     <placeName xml:lang="deu" key="2779703">Feistritz</placeName>
+                     <placeName xml:lang="slv" key="2779703">Bistrica</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010201" n="1">
+                        <placeName xml:lang="deu" key="3214041">Dolintschitschach</placeName>
+                        <placeName xml:lang="slv" key="3214041">Dolinčiče</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010202" n="2">
+                        <placeName xml:lang="deu" key="2779703">Feistritz</placeName>
+                        <placeName xml:lang="slv" key="2779703">Bistrica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010203" n="3">
+                        <placeName xml:lang="deu" key="2778343">Gonowetz</placeName>
+                        <placeName xml:lang="slv" key="2778343">Gonovece</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010204" n="4">
+                        <placeName xml:lang="deu" key="3214042">Hinterlibitsch</placeName>
+                        <placeName xml:lang="slv" key="3214042">Podlibič</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010205" n="5">
+                        <placeName xml:lang="deu" key="2775879">Hof</placeName>
+                        <placeName xml:lang="slv" key="2775879">Dvor</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010206" n="6">
+                        <placeName xml:lang="deu" key="2772572">Lettenstätten</placeName>
+                        <placeName xml:lang="slv" key="2772572">Letinje</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010207" n="7">
+                        <placeName xml:lang="deu" key="2769139">Penk</placeName>
+                        <placeName xml:lang="slv" key="2769139">Ponikva</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010208" n="8">
+                        <placeName xml:lang="deu" key="2768778">Pirkdorf</placeName>
+                        <placeName xml:lang="slv" key="2768778">Brežka Ves</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010209" n="9">
+                        <placeName xml:lang="deu" key="3214048">Ruttach</placeName>
+                        <placeName xml:lang="slv" key="3214048">Rute</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010210" n="10">
+                        <placeName xml:lang="deu" key="2766504">Sankt Michael</placeName>
+                        <placeName xml:lang="slv" key="2766504">Šmihel</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010211" n="11">
+                        <placeName xml:lang="deu" key="2763419">Traundorf</placeName>
+                        <placeName xml:lang="slv" key="2763419">Strpna Ves</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010212" n="12">
+                        <placeName xml:lang="deu" key="2763296">Tscherberg</placeName>
+                        <placeName xml:lang="slv" key="2763296">Čergoviče</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010213" n="13">
+                        <placeName xml:lang="deu" key="2762738">Unterort</placeName>
+                        <placeName xml:lang="slv" key="2762738">Podkraj</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010214" n="14">
+                        <placeName xml:lang="deu">Winkel</placeName>
+                        <placeName xml:lang="slv">Kot</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070103" n="3">
+                     <placeName xml:lang="deu" key="3189025">Fettengupf</placeName>
+                     <placeName xml:lang="slv" key="3189025">Tolski Vrh</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010301" n="1">
+                        <placeName xml:lang="deu" key="3201940">Dobriach</placeName>
+                        <placeName xml:lang="slv" key="3201940">Dobrije</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701030101">
+                           <placeName xml:lang="deu" key="3201940">Dobriach</placeName>
+                           <placeName xml:lang="slv" key="3201940">Dobrije</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010302" n="2">
+                        <placeName xml:lang="slv" key="8987423">Dobrova</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701030201">
+                           <placeName xml:lang="slv" key="8987423">Dobrova</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010303" n="3">
+                        <placeName xml:lang="deu" key="3189025">Fettengupf</placeName>
+                        <placeName xml:lang="slv" key="3189025">Tolsti Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010304" n="4">
+                        <placeName xml:lang="deu">Gamsenegg</placeName>
+                        <placeName xml:lang="slv">Javornik</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010305" n="5">
+                        <placeName xml:lang="deu" key="3186620">Schöllenberg</placeName>
+                        <placeName xml:lang="slv" key="3186620">Šelenberg</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701030501">
+                           <placeName xml:lang="deu" key="3186620">Schöllenberg</placeName>
+                           <placeName xml:lang="slv" key="3186620">Šelenberg</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010306" n="6">
+                        <placeName xml:lang="deu" key="8986924">Selloutz</placeName>
+                        <placeName xml:lang="slv" key="8986924">Selovec</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010307" n="7">
+                        <placeName xml:lang="deu">Ueberfuhr</placeName>
+                        <placeName xml:lang="slv">Na Brodu</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010308" n="8">
+                        <placeName xml:lang="deu" key="8987434">Unterklanz</placeName>
+                        <placeName xml:lang="slv" key="8987434">Pod Klancem</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070104" n="4">
+                     <placeName xml:lang="deu" key="3191839">Gutenstein</placeName>
+                     <placeName xml:lang="slv" key="3191839">Guštanj</placeName>
+                     <place ana="#ad.ort">
+                        <place ana="#ad.teil" xml:id="c.0701040001">
+                           <placeName xml:lang="deu" key="3191839">Gutenstein</placeName>
+                           <placeName xml:lang="slv" key="3191839">Guštanj</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701040002">
+                           <placeName xml:lang="deu">Streiteben</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701040003">
+                           <placeName xml:lang="deu">Streiteben</placeName>
+                        </place>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070105" n="5">
+                     <placeName xml:lang="deu" key="3197539">Köttelach</placeName>
+                     <placeName xml:lang="slv" key="3197539">Kotlje</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010501" n="1">
+                        <placeName xml:lang="deu" key="3197539">Köttelach</placeName>
+                        <placeName xml:lang="slv" key="3197539">Kotlje</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701050101">
+                           <placeName xml:lang="deu" key="3197539">Köttelach</placeName>
+                           <placeName xml:lang="slv" key="3197539">Kotlje</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701050102">
+                           <placeName xml:lang="deu">Römerquelle</placeName>
+                           <placeName xml:lang="slv">Kisla Voda</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010502" n="2">
+                        <placeName xml:lang="deu" key="3193054">Podgorach</placeName>
+                        <placeName xml:lang="slv" key="3193054">Podgora</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010503" n="3">
+                        <placeName xml:lang="deu" key="8989769">Preschegupf</placeName>
+                        <placeName xml:lang="slv" key="8989769">Prežkov Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010504" n="4">
+                        <placeName xml:lang="deu" key="3203492">Werdiniach</placeName>
+                        <placeName xml:lang="slv" key="3203492">Brdinje</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070106" n="6">
+                     <placeName xml:lang="deu" key="3196611">Leifling</placeName>
+                     <placeName xml:lang="slv" key="3196611">Ljibeliče</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010601" n="1">
+                        <placeName xml:lang="deu" key="2782096">Bach</placeName>
+                        <placeName xml:lang="slv" key="2782096">Potoče</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010602" n="2">
+                        <placeName xml:lang="deu">Berg ob Leifling</placeName>
+                        <placeName xml:lang="slv">Ljibeliška Gora</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010603" n="3">
+                        <placeName xml:lang="deu" key="8988467">Berg ob Tscherberg</placeName>
+                        <placeName xml:lang="slv" key="8988467">Črneška Gora</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010604" n="4">
+                        <placeName xml:lang="deu" key="8987517">Gortschach</placeName>
+                        <placeName xml:lang="slv" key="8987517">Gorče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701060401">
+                           <placeName xml:lang="deu" key="8987517">Gortschach</placeName>
+                           <placeName xml:lang="slv" key="8987517">Gorče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010605" n="5">
+                        <placeName xml:lang="deu" key="2778171">Graditschach</placeName>
+                        <placeName xml:lang="slv" key="2778171">Gradiče</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010606" n="6">
+                        <placeName xml:lang="deu" key="2775326">Illmitzen</placeName>
+                        <placeName xml:lang="slv" key="2775326">Ilmica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010607" n="7">
+                        <placeName xml:lang="deu" key="2770780">Kogelnigberg</placeName>
+                        <placeName xml:lang="slv" key="2770780">Kogelska Gora</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010608" n="8">
+                        <placeName xml:lang="deu" key="3196611">Leifling</placeName>
+                        <placeName xml:lang="slv" key="3196611">Ljibeliče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701060801">
+                           <placeName xml:lang="deu" key="3196611">Leifling</placeName>
+                           <placeName xml:lang="slv" key="3196611">Ljibeliče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010609" n="9">
+                        <placeName xml:lang="deu">Motschula</placeName>
+                        <placeName xml:lang="slv">Močula</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010610" n="10">
+                        <placeName xml:lang="deu" key="2770780">Neuhaus</placeName>
+                        <placeName xml:lang="slv" key="2770780">Suha</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010611" n="11">
+                        <placeName xml:lang="deu">Pudlach</placeName>
+                        <placeName xml:lang="slv">Pudlas</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701061101">
+                           <placeName xml:lang="deu">Pudlach</placeName>
+                           <placeName xml:lang="slv">Pudlas</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010612" n="12">
+                        <placeName xml:lang="deu" key="8987811">Tribei</placeName>
+                        <placeName xml:lang="slv" key="8987811">Tribej</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010613" n="13">
+                        <placeName xml:lang="deu" key="3202442">Tscherberg</placeName>
+                        <placeName xml:lang="slv" key="3202442">Črneče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701061301">
+                           <placeName xml:lang="deu" key="3202442">Tscherberg</placeName>
+                           <placeName xml:lang="slv" key="3202442">Črneče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010614" n="14">
+                        <placeName xml:lang="deu">Wesnitzen</placeName>
+                        <placeName xml:lang="slv">Vesnice</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070107" n="7">
+                     <placeName xml:lang="deu" key="3324613">Loibach</placeName>
+                     <placeName xml:lang="slv" key="3324613">Ljibuče</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010701" n="1">
+                        <placeName xml:lang="deu" key="2780526">Ebersdorf</placeName>
+                        <placeName xml:lang="slv" key="2780526">Derbeša Ves</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701070101">
+                           <placeName xml:lang="deu" key="2780526">Ebersdorf</placeName>
+                           <placeName xml:lang="slv" key="2780526">Derbeša Ves</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701070102">
+                           <placeName xml:lang="deu">Sorgendorf</placeName>
+                           <placeName xml:lang="slv">Pri Štihu</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010702" n="2">
+                        <placeName xml:lang="deu">Grablach</placeName>
+                        <placeName xml:lang="slv">Grablje</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010703" n="3">
+                        <placeName xml:lang="deu" key="3196240">Lamberg</placeName>
+                        <placeName xml:lang="slv" key="3196240">Lom</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010704" n="4">
+                        <placeName xml:lang="deu" key="8987015">Langsteg</placeName>
+                        <placeName xml:lang="slv" key="8987015">Dolgo Brdo</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010705" n="5">
+                        <placeName xml:lang="deu" key="8987444">Lokowitzen</placeName>
+                        <placeName xml:lang="slv" key="8987444">Lokovica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010706" n="6">
+                        <placeName xml:lang="deu" key="2769947">Oberloibach</placeName>
+                        <placeName xml:lang="slv" key="2769947">Zgornje Ljibuče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701070601">
+                           <placeName xml:lang="deu" key="2769947">Oberloibach</placeName>
+                           <placeName xml:lang="slv" key="2769947">Zgornje Ljibuče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010707" n="7">
+                        <placeName xml:lang="deu" key="2766720">Sankt Georgen</placeName>
+                        <placeName xml:lang="slv" key="2766720">Sveti Jurij</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010708" n="8">
+                        <placeName xml:lang="deu" key="2766559">Sankt Margarethen</placeName>
+                        <placeName xml:lang="slv" key="2766559">Šmarjeta</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010709" n="9">
+                        <placeName xml:lang="deu">Schattenberg</placeName>
+                        <placeName xml:lang="slv">Senčni Kraj</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010710" n="10">
+                        <placeName xml:lang="deu" key="2762797">Unterloibach</placeName>
+                        <placeName xml:lang="slv" key="2762797">Spodnje Ljibuče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701071001">
+                           <placeName xml:lang="deu" key="2762797">Unterloibach</placeName>
+                           <placeName xml:lang="slv" key="2762797">Spodnje Ljibuče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010711" n="11">
+                        <placeName xml:lang="deu" key="8988276">Weißenstein</placeName>
+                        <placeName xml:lang="slv" key="8988276">Bivšak</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010712" n="12">
+                        <placeName xml:lang="deu" key="2760849">Woroujach</placeName>
+                        <placeName xml:lang="slv" key="2760849">Borovje</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070108" n="8">
+                     <placeName xml:lang="deu" key="3195202">Mieß</placeName>
+                     <placeName xml:lang="slv" key="3195202">Mižica</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010801" n="1">
+                        <placeName xml:lang="deu">Mießberg diesseits</placeName>
+                        <placeName xml:lang="slv">Takraj Meže</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010802" n="2">
+                        <placeName xml:lang="deu" key="3194105">Mießberg jenseits</placeName>
+                        <placeName xml:lang="slv" key="3194105">Onkraj Meže</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010803" n="3">
+                        <placeName xml:lang="deu" key="3195202">Mießdorf</placeName>
+                        <placeName xml:lang="slv" key="3195202">Mižica</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701080301">
+                           <placeName xml:lang="deu" key="3195202">Mießdorf</placeName>
+                           <placeName xml:lang="slv" key="3195202">Mižica</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010804" n="4">
+                        <placeName xml:lang="deu" key="3193233">Platt</placeName>
+                        <placeName xml:lang="slv" key="3193233">Plat</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010805" n="5">
+                        <placeName xml:lang="deu" key="3192941">Unterpetzen</placeName>
+                        <placeName xml:lang="slv" key="3192941">Pod Peco</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070109" n="9">
+                     <placeName xml:lang="deu" key="2771267">Moos</placeName>
+                     <placeName xml:lang="slv" key="2771267">Blato</placeName>
+                     <place ana="#ad.ort" xml:id="c.07010901" n="1">
+                        <placeName xml:lang="deu" key="2782920">Aich</placeName>
+                        <placeName xml:lang="slv" key="2782920">Dob</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701090101">
+                           <placeName xml:lang="deu" key="2782920">Aich</placeName>
+                           <placeName xml:lang="slv" key="2782920">Dob</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701090102">
+                           <placeName xml:lang="deu" key="2766573">Sankt Lucia</placeName>
+                           <placeName xml:lang="slv" key="2766573">Sveta Lucija</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010902" n="2">
+                        <placeName xml:lang="slv" key="3214045">Dobrova</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010903" n="3">
+                        <placeName xml:lang="deu" key="3214046">Draurain</placeName>
+                        <placeName xml:lang="slv" key="3214046">Na Bregu</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010904" n="4">
+                        <placeName xml:lang="deu" key="2780234">Einersdorf</placeName>
+                        <placeName xml:lang="slv" key="2780234">Lonča Ves</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701090401">
+                           <placeName xml:lang="deu" key="2780234">Einersdorf</placeName>
+                           <placeName xml:lang="slv" key="2780234">Lonča Ves</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010905" n="5">
+                        <placeName xml:lang="deu" key="3214047">Gupf</placeName>
+                        <placeName xml:lang="slv" key="3214047">Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010906" n="6">
+                        <placeName xml:lang="deu" key="2773769">Kömel</placeName>
+                        <placeName xml:lang="slv" key="2773769">Komel</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010907" n="7">
+                        <placeName xml:lang="deu" key="2771267">Moos</placeName>
+                        <placeName xml:lang="slv" key="2771267">Blato</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701090701">
+                           <placeName xml:lang="deu" key="2771267">Mittermoos</placeName>
+                           <placeName xml:lang="slv" key="2771267">Srednje Blato</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701090702">
+                           <placeName xml:lang="deu" key="2769919">Obermoos</placeName>
+                           <placeName xml:lang="slv" key="2769919">Zgornje Blato</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701090703">
+                           <placeName xml:lang="deu" key="2762768">Untermoos</placeName>
+                           <placeName xml:lang="slv" key="2762768">Spodnje Blato</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010908" n="8">
+                        <placeName xml:lang="deu" key="2767563">Replach</placeName>
+                        <placeName xml:lang="slv" key="2767563">Reple</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010909" n="9">
+                        <placeName xml:lang="deu" key="2767384">Rinkenberg</placeName>
+                        <placeName xml:lang="slv" key="2767384">Vogrče</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010910" n="10">
+                        <placeName xml:lang="deu" key="2767383">Rinkolach</placeName>
+                        <placeName xml:lang="slv" key="2767383">Rinkole</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701091001">
+                           <placeName xml:lang="deu" key="2767383">Rinkolach</placeName>
+                           <placeName xml:lang="slv" key="2767383">Rinkole</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010911" n="11">
+                        <placeName xml:lang="deu" key="3214048">Ruttach</placeName>
+                        <placeName xml:lang="slv" key="3214048">Rute</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010912" n="12">
+                        <placeName xml:lang="deu" key="2765982">Schilterndorf</placeName>
+                        <placeName xml:lang="slv" key="2765982">Cirkovče</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701091201">
+                           <placeName xml:lang="deu" key="2765982">Schilterndorf</placeName>
+                           <placeName xml:lang="slv" key="2765982">Cirkovče</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07010913" n="13">
+                        <placeName xml:lang="deu" key="2761388">Wiederndorf</placeName>
+                        <placeName xml:lang="slv" key="2761388">Vidrna Ves</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070110" n="10">
+                     <placeName xml:lang="deu" key="3192484">Prävali</placeName>
+                     <placeName xml:lang="slv" key="3192484">Prevalje</placeName>
+                     <place ana="#ad.ort" xml:id="c.07011001" n="1">
+                        <placeName xml:lang="deu" key="8986878">Aichdorf</placeName>
+                        <placeName xml:lang="slv" key="8986878">Dobja Ves</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701100101">
+                           <placeName xml:lang="deu" key="8986878">Aichdorf</placeName>
+                           <placeName xml:lang="slv" key="8986878">Dobja Ves</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011002" n="2">
+                        <placeName xml:lang="deu" key="3196648">Liescha</placeName>
+                        <placeName xml:lang="slv" key="3196648">Liše</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701100201">
+                           <placeName xml:lang="deu" key="3196648">Liescha</placeName>
+                           <placeName xml:lang="slv" key="3196648">Liše</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011003" n="3">
+                        <placeName xml:lang="deu" key="3194573">Nauerschniggupf</placeName>
+                        <placeName xml:lang="slv" key="3194573">Navrški Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011004" n="4">
+                        <placeName xml:lang="deu">Pfarrdorf</placeName>
+                        <placeName xml:lang="slv">Farska Ves</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701100401">
+                           <placeName xml:lang="deu">Maria am See</placeName>
+                           <placeName xml:lang="slv">Marija na Jezeru</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701100402">
+                           <placeName xml:lang="deu">Pfarrdorf</placeName>
+                           <placeName xml:lang="slv">Farska Ves</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011005" n="5">
+                        <placeName xml:lang="deu" key="3192991">Podkrai</placeName>
+                        <placeName xml:lang="slv" key="3192991">Podkraj</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011006" n="6">
+                        <placeName xml:lang="deu" key="3192826">Pollain</placeName>
+                        <placeName xml:lang="slv" key="3192826">Polana</placeName>
+                        <placeName xml:lang="slv" key="3192826">Poljana</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011007" n="7">
+                        <placeName xml:lang="deu" key="3192484">Prävali</placeName>
+                        <placeName xml:lang="slv" key="3192484">Prevalje</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701100701">
+                           <placeName xml:lang="deu" key="3192484">Prävali</placeName>
+                           <placeName xml:lang="slv" key="3192484">Prevalje</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011008" n="8">
+                        <placeName xml:lang="deu" key="8987507">Sagradi</placeName>
+                        <placeName xml:lang="slv" key="8987507">Zagradi</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011009" n="9">
+                        <placeName xml:lang="deu">Straschischa</placeName>
+                        <placeName xml:lang="slv">Stražiša</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011010" n="10">
+                        <placeName xml:lang="deu" key="3188470">Ursulaberg</placeName>
+                        <placeName xml:lang="slv" key="3188470">Uršelska Gora</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011011" n="11">
+                        <placeName xml:lang="deu" key="3218540">Winkel</placeName>
+                        <placeName xml:lang="slv" key="3218540">Kot</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011012" n="12">
+                        <placeName xml:lang="deu">Woliniach</placeName>
+                        <placeName xml:lang="slv">Volinje</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011013" n="13">
+                        <placeName xml:lang="deu" key="8987439">Wriesenza</placeName>
+                        <placeName xml:lang="slv" key="8987439">Breznica</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070111" n="11">
+                     <placeName xml:lang="deu" key="3191041">Sankt Daniel ob Bleiburg</placeName>
+                     <placeName xml:lang="slv" key="3191041">Sveti Danijel nad Pliberkom</placeName>
+                     <place ana="#ad.ort" xml:id="c.07011101" n="1">
+                        <placeName xml:lang="deu" key="3189551">Dürngupf</placeName>
+                        <placeName xml:lang="slv" key="3189551">Suhi Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011102" n="2">
+                        <placeName xml:lang="deu" key="3186541">Jamnitzen</placeName>
+                        <placeName xml:lang="slv" key="3186541">Jamnica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011103" n="3">
+                        <placeName xml:lang="deu" key="3191041">Sankt Daniel ob Bleiburg</placeName>
+                        <placeName xml:lang="slv" key="3191041">Sveti Danijel nad Pliberkom</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701110301">
+                           <placeName xml:lang="deu" key="3191041">Sankt Daniel ob Bleiburg</placeName>
+                           <placeName xml:lang="slv" key="3191041">Sveti Danijel nad Pliberkom</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011104" n="4">
+                        <placeName xml:lang="deu" key="3189689">Stroina</placeName>
+                        <placeName xml:lang="slv" key="3189689">Strojna</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070112" n="12">
+                     <placeName xml:lang="deu" key="2765548">Schwabegg</placeName>
+                     <placeName xml:lang="slv" key="2765548">Švabek</placeName>
+                     <place ana="#ad.ort" xml:id="c.07011201" n="1">
+                        <placeName xml:lang="deu" key="3214101">Draugegend</placeName>
+                        <placeName xml:lang="slv" key="3214101">Pri Dravi</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701120101">
+                           <placeName xml:lang="deu" key="3214101">Draugegend</placeName>
+                           <placeName xml:lang="slv" key="3214101">Pri Dravi</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011202" n="2">
+                        <placeName xml:lang="deu" key="3214102">Hart</placeName>
+                        <placeName xml:lang="slv" key="3214102">Na Bregu</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011203" n="3">
+                        <placeName xml:lang="deu" key="2776580">Heiligenstadt</placeName>
+                        <placeName xml:lang="slv" key="2776580">Sveto Mesto</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011204" n="4">
+                        <placeName xml:lang="deu" key="2770289">Oberdorf</placeName>
+                        <placeName xml:lang="slv" key="2770289">Gornja Ves</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011205" n="5">
+                        <placeName xml:lang="deu" key="2765548">Schwabegg</placeName>
+                        <placeName xml:lang="slv" key="2765548">Švabek</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011206" n="6">
+                        <placeName xml:lang="deu" key="2763064">Unterdorf</placeName>
+                        <placeName xml:lang="slv" key="2763064">Spodnja Ves</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070113" n="13">
+                     <placeName xml:lang="deu" key="3202459">Schwarzenbach</placeName>
+                     <placeName xml:lang="slv" key="3202459">Črna</placeName>
+                     <place ana="#ad.ort" xml:id="c.07011301" n="1">
+                        <placeName xml:lang="deu" key="3217372">Jaborja</placeName>
+                        <placeName xml:lang="slv" key="3217372">Javorje</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011302" n="2">
+                        <placeName xml:lang="deu" key="3198744">Jasbina</placeName>
+                        <placeName xml:lang="slv" key="3198744">Jazbina</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011303" n="3">
+                        <placeName xml:lang="deu" key="3196114">Luderberg</placeName>
+                        <placeName xml:lang="slv" key="3196114">Luderski Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011304" n="4">
+                        <placeName xml:lang="deu">Pristova</placeName>
+                        <placeName xml:lang="slv">Pristava</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011305" n="5">
+                        <placeName xml:lang="deu" key="3202459">Schwarzenbach</placeName>
+                        <placeName xml:lang="slv" key="3202459">Črna</placeName>
+                        <place ana="#ad.teil" xml:id="c.0701130501">
+                           <placeName xml:lang="deu">Muschenig</placeName>
+                           <placeName xml:lang="slv">Mušnik</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0701130502">
+                           <placeName xml:lang="deu" key="3202459">Schwarzenbach</placeName>
+                           <placeName xml:lang="slv" key="3202459">Črna</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011306" n="6">
+                        <placeName xml:lang="slv" key="3188993">Topla</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07011307" n="7">
+                        <placeName xml:lang="deu" key="3204081">Wistra</placeName>
+                        <placeName xml:lang="slv" key="3204081">Bistra</placeName>
+                     </place>
+                  </place>
+               </place>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0702" n="2">
+                  <placeName xml:lang="deu" key="2780531">Eberndorf</placeName>
+                  <placeName xml:lang="slv" key="2780531">Doberla Ves</placeName>
+               </place>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0703" n="3">
+                  <placeName xml:lang="deu" key="2780196">Eisenkappel</placeName>
+                  <placeName xml:lang="slv" key="2780196">Železna Kapla</placeName>
+                  <place ana="#ad.gemeinde" xml:id="c.070301" n="1">
+                     <placeName xml:lang="deu" key="2780196">Eisenkappel</placeName>
+                     <placeName xml:lang="slv" key="2780196">Železna Kapla</placeName>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070302" n="2">
+                     <placeName xml:lang="deu">Seeland</placeName>
+                     <placeName xml:lang="slv">Jezersko</placeName>
+                     <place ana="#ad.ort" xml:id="c.07030201" n="1">
+                        <placeName xml:lang="deu" key="3186509">Oberseeland</placeName>
+                        <placeName xml:lang="slv" key="3186509">Zgornje Jezersko</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.07030202" n="2">
+                        <placeName xml:lang="deu" key="3190216">Unterseeland</placeName>
+                        <placeName xml:lang="slv" key="3190216">Spodnje Jezersko</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.070303" n="3">
+                     <placeName xml:lang="deu" key="2782044">Vellach</placeName>
+                     <placeName xml:lang="slv" key="2782044">Bela</placeName>
+                  </place>
+               </place>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0704" n="4">
+                  <placeName xml:lang="deu">Völkermarkt</placeName>
+                  <placeName xml:lang="slv">Velikovec</placeName>
+               </place>
+            </place>
+            <place ana="#ad.bezirk" xml:id="c.08">
+               <placeName xml:lang="deu">Wolfsberg</placeName>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0801" n="1">
+                  <placeName xml:lang="deu">Sankt Leonhard</placeName>
+               </place>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0802" n="2">
+                  <placeName xml:lang="deu">Sankt Paul</placeName>
+                  <place ana="#ad.gemeinde" xml:id="c.080201" n="1">
+                     <placeName xml:lang="deu" key="2779901">Ettendorf</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020101" n="1">
+                        <placeName xml:lang="deu" key="2779901">Ettendorf</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802010101">
+                           <placeName xml:lang="deu" key="2779901">Ettendorf</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0802010102">
+                           <placeName xml:lang="deu">Klein Lamprechtsberg</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020102" n="2">
+                        <placeName xml:lang="deu" key="2773367">Krottendorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020103" n="3">
+                        <placeName xml:lang="deu" key="2773078">Lamprechtsberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020104" n="4">
+                        <placeName xml:lang="deu" key="2766558">Sankt Margarethen</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020105" n="5">
+                        <placeName xml:lang="deu" key="2766348">Sankt Vinzenz</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802010501">
+                           <placeName xml:lang="deu" key="2766348">Sankt Vinzenz</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020106" n="6">
+                        <placeName xml:lang="deu" key="2765475">Schwarzenbach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020107" n="7">
+                        <placeName xml:lang="deu" key="2762867">Unterholz</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020108" n="8">
+                        <placeName xml:lang="deu" key="2761706">Weinberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020109" n="9">
+                        <placeName xml:lang="deu" key="2761608">Weißenberg</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080202" n="2">
+                     <placeName xml:lang="deu" key="2778116">Granitzthal</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020201" n="1">
+                        <placeName xml:lang="deu" key="2781030">Deutsch Grutschen</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020202" n="2">
+                        <placeName xml:lang="deu" key="2778344">Gönitz</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020203" n="3">
+                        <placeName xml:lang="deu" key="2778116">Granitzthal Sankt Paul</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020204" n="4">
+                        <placeName xml:lang="deu" key="2778115">Granitzthal-Weißenegg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020205" n="5">
+                        <placeName xml:lang="deu">Kollnitzgreuth</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020206" n="6">
+                        <placeName xml:lang="deu">Langegg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020207" n="7">
+                        <placeName xml:lang="deu" key="2766533">Sankt Martin</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020208" n="8">
+                        <placeName xml:lang="deu" key="2765994">Schildberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020209" n="9">
+                        <placeName xml:lang="deu" key="2761095">Windisch Grutschen</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020210" n="10">
+                        <placeName xml:lang="deu" key="2760629">Zellbach</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080203" n="3">
+                     <placeName xml:lang="deu" key="3194177">Kienberg</placeName>
+                     <placeName xml:lang="slv" key="3194177">Ojstrica</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020301" n="1">
+                        <placeName xml:lang="deu" key="3197439">Gaisberg</placeName>
+                        <placeName xml:lang="slv" key="3197439">Kozji Vrh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020302" n="2">
+                        <placeName xml:lang="deu" key="3200308">Goritzenberg</placeName>
+                        <placeName xml:lang="slv" key="3200308">Gorica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020303" n="3">
+                        <placeName xml:lang="deu" key="8987820">Heiligengeist</placeName>
+                        <placeName xml:lang="slv" key="8987820">Sveti Duh</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020304" n="4">
+                        <placeName xml:lang="deu" key="3194177">Kienberg</placeName>
+                        <placeName xml:lang="slv" key="3194177">Ojstrica</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020305" n="5">
+                        <placeName xml:lang="deu" key="2772259">Lorenzenberg</placeName>
+                        <placeName xml:lang="slv" key="2772259">Sveti Lovrenc</placeName>
+                        <placeName xml:lang="slv" key="2772259">Šent Lorenc</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020306" n="6">
+                        <placeName xml:lang="deu" key="2768155">Rabenstein</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020307" n="7">
+                        <placeName xml:lang="deu" key="3189366">Sankt Sebastian</placeName>
+                        <placeName xml:lang="slv" key="3189366">Sveti Boštjan</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020308" n="8">
+                        <placeName xml:lang="deu" key="3187819">Witsch</placeName>
+                        <placeName xml:lang="slv" key="3187819">Viča</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802030801">
+                           <placeName xml:lang="deu" key="3187819">Witsch</placeName>
+                           <placeName xml:lang="slv" key="3187819">Viča</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020309" n="9">
+                        <placeName xml:lang="deu" key="8988560">Wölk</placeName>
+                        <placeName xml:lang="slv" key="8988560">Velka</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080204" n="4">
+                     <placeName xml:lang="deu" key="2773781">Kollnitz</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020401" n="1">
+                        <placeName xml:lang="deu" key="2779385">Framrach</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802040101">
+                           <placeName xml:lang="deu" key="2779385">Framrach</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020402" n="2">
+                        <placeName xml:lang="deu" key="2775411">Hundsdorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020403" n="3">
+                        <placeName xml:lang="deu">Kampach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020404" n="4">
+                        <placeName xml:lang="deu" key="2766665">Sankt Jakob bei Framrach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020405" n="5">
+                        <placeName xml:lang="deu" key="2766664">Sankt Jakob bei Winkling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020406" n="6">
+                        <placeName xml:lang="deu" key="2764726">Stadling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020407" n="7">
+                        <placeName xml:lang="deu">Winkling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020408" n="8">
+                        <placeName xml:lang="deu" key="2760629">Zellbach</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080205" n="5">
+                     <placeName xml:lang="deu" key="2772821">Lavamünd</placeName>
+                     <placeName xml:lang="slv" key="2772821">Labud</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020501" n="1">
+                        <placeName xml:lang="deu" key="2783044">Achalm</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050101">
+                           <placeName xml:lang="deu" key="2783044">Achalm</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020502" n="2">
+                        <placeName xml:lang="deu" key="2776836">Hart</placeName>
+                        <placeName xml:lang="slv" key="2776836">Hrast</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050201">
+                           <placeName xml:lang="deu" key="2776836">Hart</placeName>
+                           <placeName xml:lang="slv" key="2776836">Hrast</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020503" n="3">
+                        <placeName xml:lang="deu" key="2772821">Lavamünd</placeName>
+                        <placeName xml:lang="slv" key="2772821">Labud</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020504" n="4">
+                        <placeName xml:lang="deu" key="2772135">Magdalensberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020505" n="5">
+                        <placeName xml:lang="deu" key="2768937">Pfarrdorf</placeName>
+                        <placeName xml:lang="slv" key="2768937">Farska Ves</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050501">
+                           <placeName xml:lang="deu" key="2768937">Pfarrdorf</placeName>
+                           <placeName xml:lang="slv" key="2768937">Farska Ves</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020506" n="6">
+                        <placeName xml:lang="deu" key="2768652">Plestätten</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020507" n="7">
+                        <placeName xml:lang="deu" key="2763105">Unterbergen</placeName>
+                        <placeName xml:lang="slv" key="2763105">Podgora</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050701">
+                           <placeName xml:lang="deu" key="2763105">Unterbergen</placeName>
+                           <placeName xml:lang="slv" key="2763105">Podgora</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020508" n="8">
+                        <placeName xml:lang="deu" key="2760815">Wunderstätten</placeName>
+                        <placeName xml:lang="slv" key="2760815">Drumlje</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050801">
+                           <placeName xml:lang="deu" key="2760815">Wunderstätten</placeName>
+                           <placeName xml:lang="slv" key="2760815">Drumlje</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020509" n="9">
+                        <placeName xml:lang="deu">Zeil</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802050901">
+                           <placeName xml:lang="deu">Greuth</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0802050902">
+                           <placeName xml:lang="deu">Zeil</placeName>
+                        </place>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080206" n="6">
+                     <placeName xml:lang="deu" key="2772779">Legerbuch</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020601" n="1">
+                        <placeName xml:lang="deu">Johannesberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020602" n="2">
+                        <placeName xml:lang="deu" key="2772779">Legerbuch</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020603" n="3">
+                        <placeName xml:lang="deu" key="2772250">Loschenthal</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020604" n="4">
+                        <placeName xml:lang="deu">Rabensteiner Greuth</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020605" n="5">
+                        <placeName xml:lang="deu">Unterhaus</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020606" n="6">
+                        <placeName xml:lang="deu">Winternigg</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080207" n="7">
+                     <placeName xml:lang="deu" key="2772418">Lindhof</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020701" n="1">
+                        <placeName xml:lang="deu" key="2782918">Aich</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020702" n="2">
+                        <placeName xml:lang="deu">Dachberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020703" n="3">
+                        <placeName xml:lang="deu" key="2780215">Eisdorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020704" n="4">
+                        <placeName xml:lang="deu" key="2779790">Farrach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020705" n="5">
+                        <placeName xml:lang="deu" key="2772418">Lindhof</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802070501">
+                           <placeName xml:lang="deu" key="2772418">Lindhof</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020706" n="6">
+                        <placeName xml:lang="deu" key="2771648">Messensach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020707" n="7">
+                        <placeName xml:lang="deu" key="2771640">Mettersdorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020708" n="8">
+                        <placeName xml:lang="deu" key="2771404">Mitterpichling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020709" n="9">
+                        <placeName xml:lang="deu" key="2771096">Mühldorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020710" n="10">
+                        <placeName xml:lang="deu" key="2767245">Rojach</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802071001">
+                           <placeName xml:lang="deu" key="2767245">Rojach</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020711" n="11">
+                        <placeName xml:lang="deu">Untereberndorf</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080208" n="8">
+                     <placeName xml:lang="deu" key="2766718">Sankt Georgen</placeName>
+                     <place ana="#ad.ort" xml:id="c.08020801" n="1">
+                        <placeName xml:lang="deu" key="2782793">Allersdorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020802" n="2">
+                        <placeName xml:lang="deu" key="2782546">Andersdorf</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802080201">
+                           <placeName xml:lang="deu" key="2782546">Andersdorf</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020803" n="3">
+                        <placeName xml:lang="deu">Fransdorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020804" n="4">
+                        <placeName xml:lang="deu">Götzendorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020805" n="5">
+                        <placeName xml:lang="deu" key="2777266">Gundisch</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020806" n="6">
+                        <placeName xml:lang="deu">Hart</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020807" n="7">
+                        <placeName xml:lang="deu">Herzogberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020808" n="8">
+                        <placeName xml:lang="deu">Krakaberg</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020809" n="9">
+                        <placeName xml:lang="deu" key="2771824">Matschenbloch</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020810" n="10">
+                        <placeName xml:lang="deu" key="2770581">Niederhof</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020811" n="11">
+                        <placeName xml:lang="deu" key="2769834">Oberpichling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020812" n="12">
+                        <placeName xml:lang="deu">Oberrainz</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020813" n="13">
+                        <placeName xml:lang="deu" key="2769294">Paierdorf</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802081301">
+                           <placeName xml:lang="deu" key="2769294">Paierdorf</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020814" n="14">
+                        <placeName xml:lang="deu" key="2768985">Pfaffendorf</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020815" n="15">
+                        <placeName xml:lang="deu" key="2768517">Pontnig</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020816" n="16">
+                        <placeName xml:lang="deu" key="2768080">Raggane</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020817" n="17">
+                        <placeName xml:lang="deu" key="2768078">Raglach</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020818" n="18">
+                        <placeName xml:lang="deu" key="2766718">Sankt Georgen</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802081801">
+                           <placeName xml:lang="deu" key="2766718">Sankt Georgen</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020819" n="19">
+                        <placeName xml:lang="deu" key="2764500">Steinberg-Oberhaus</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802081901">
+                           <placeName xml:lang="deu" key="2764500">Steinberg-Oberhaus</placeName>
+                        </place>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020820" n="20">
+                        <placeName xml:lang="deu" key="2764498">Steinberg-Unterhaus</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020821" n="21">
+                        <placeName xml:lang="deu" key="2762725">Unterpichling</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08020822" n="22">
+                        <placeName xml:lang="deu">Unterrainz</placeName>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080209" n="9">
+                     <placeName xml:lang="deu" key="2766459">Sankt Paul</placeName>
+                     <place ana="#ad.ort">
+                        <place ana="#ad.teil" xml:id="c.0802090001">
+                           <placeName xml:lang="deu">Rabenhof</placeName>
+                        </place>
+                        <place ana="#ad.teil" xml:id="c.0802090002">
+                           <placeName xml:lang="deu" key="2766459">Sankt Paul</placeName>
+                        </place>
+                     </place>
+                  </place>
+                  <place ana="#ad.gemeinde" xml:id="c.080210" n="10">
+                     <placeName xml:lang="deu" key="3201253">Unterdrauburg</placeName>
+                     <placeName xml:lang="slv" key="3201253">Spodnji Dravograd</placeName>
+                     <place ana="#ad.ort" xml:id="c.08021001" n="1">
+                        <placeName xml:lang="deu">Schloßberg</placeName>
+                        <placeName xml:lang="slv">Stari Grad</placeName>
+                     </place>
+                     <place ana="#ad.ort" xml:id="c.08021002" n="2">
+                        <placeName xml:lang="deu" key="3201253">Unterdrauburg</placeName>
+                        <placeName xml:lang="slv" key="3201253">Spodnji Dravograd</placeName>
+                        <place ana="#ad.teil" xml:id="c.0802100201">
+                           <placeName xml:lang="deu" key="3201253">Unterdrauburg</placeName>
+                           <placeName xml:lang="slv" key="3201253">Spodnji Dravograd</placeName>
+                        </place>
+                     </place>
+                  </place>
+               </place>
+               <place ana="#ad.gerichtsbezirk" xml:id="c.0803" n="3">
+                  <placeName xml:lang="deu">Wolfsberg</placeName>
+               </place>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
