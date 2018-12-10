@@ -56,11 +56,14 @@
          <sourceDesc xml:id="SourceSIstory........" default="true">
             <biblStruct xml:id="COBISS.258331392">
                <monogr>
-                  <title>Judovska skupnost v Sloveniji na predvečer holokavsta</title>
                   <author>
                      <forename>Andrej</forename>
                      <surname>Pančur</surname>
                   </author>
+                  <title>Judovska skupnost v Sloveniji na predvečer holokavsta</title>
+                  <idno type="ISBN">978-961-6845-01-4</idno>
+                  <idno type="cobiss">258331392</idno>
+                  <idno type="URI">http://sistory.si/SISTORY:ID:30170</idno>
                   <imprint>
                      <date>2011</date>
                      <pubPlace>Celje</pubPlace>
@@ -68,9 +71,6 @@
                      <publisher>Zgodovinsko društvo, Celje</publisher>
                   </imprint>
                </monogr>
-               <idno type="ISBN">978-961-6845-01-4</idno>
-               <idno type="cobiss">258331392</idno>
-               <idno type="URI">http://sistory.si/SISTORY:ID:30170</idno>
             </biblStruct>
          </sourceDesc>
          <sourceDesc xml:id="SourceBornDigital">
@@ -14474,13 +14474,13 @@
                      <monogr>
                         <title>Bevölkerung und Viehstand von Steiermark nach der Zählung vom 31.
                            October 1857</title>
+                        <idno type="cobiss">56557825</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K. k. Ministerium des Innern</publisher>
                            <date>1859</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">56557825</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Kaiserliches-1850">
                      <analytic>
@@ -14519,25 +14519,25 @@
                      <monogr>
                         <title>Bevölkerung und Viehstand von Krain nach der Zählung vom 31. December
                            1869</title>
+                        <idno type="WorldCat">557498739</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1871</date>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">557498739</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Bevolkerung_von_Steiermark-1871">
                      <monogr>
                         <title>Bevölkerung und Viehstand von Steiermark nach der Zählung vom 31.
                            December 1869</title>
+                        <idno type="cobiss">41833217</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1871</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">41833217</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Statistisches-1878">
                      <monogr>
@@ -14557,6 +14557,7 @@
                         <title>Die Bevölkerung der im Reichsrathe vertretenen Königreiche und Länder
                            nach Religion, Bildungsgrad, Umgangssprache und nach ihren
                            Gebrechen</title>
+                        <idno type="cobiss">40428032</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
@@ -14568,31 +14569,30 @@
                      <series>
                         <title>Oesterreichische Statistik</title>
                      </series>
-                     <idno type="cobiss">40428032</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Special-1883">
                      <monogr>
                         <title>Special Orts-Repertorium von Steiermark</title>
                         <title>Obširen imenik krajev na Štajerskem</title>
+                        <idno type="sistory">1111</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1883</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1111</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Special-1884">
                      <monogr>
                         <title>Special Orts-Repertorium von Krain</title>
                         <title>Obširen imenik krajev na Kranjskem</title>
+                        <idno type="sistory">830</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1884</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">830</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Reichsgesetzblatt-1890-03-21">
                      <analytic>
@@ -14641,13 +14641,13 @@
                         <title>Specijalni repertorij krajev na Štajerskem</title>
                         <title>na novo predelan po rezultatih popisa ljudstva dne 31. decembra
                            1890</title>
+                        <idno type="sistory">1112</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1893</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1112</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Special-1894">
                      <monogr>
@@ -14655,16 +14655,17 @@
                         <title>Specijalni repertorij krajev na Kranjskem</title>
                         <title>na novo predelan po rezultatih popisa ljudstva dne 31. decembra
                            1890</title>
+                        <idno type="sistory">1108</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1894</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1108</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.--1892">
                      <monogr>
+                        <idno type="cobiss">40428032</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
@@ -14675,11 +14676,11 @@
                      <series>
                         <title>Oesterreichische Statistik</title>
                      </series>
-                     <idno type="cobiss">40428032</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Die-1902">
                      <monogr>
                         <title>Die Summarischen Ergebnisse der Volkszählung</title>
+                        <idno type="cobiss">40428032</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
@@ -14691,57 +14692,56 @@
                      <series>
                         <title>Oesterreichische Statistik</title>
                      </series>
-                     <idno type="cobiss">40428032</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Leksikon-1906">
                      <monogr>
                         <title>Leksikon občin za Kranjsko</title>
                         <title>izdelan po rezultatih popisa ljudstva dne 31. grudna 1900</title>
+                        <idno type="sistory">1109</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1906</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1109</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Specialni-1918">
                      <monogr>
                         <title>Specialni krajevni repertorij za Štajersko</title>
                         <title>izdelan na podlagi podatkov ljudskega štetja z dne 31. decembra
                            1910</title>
+                        <idno type="sistory">1114</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>K.K. statistischen Central-Commission</publisher>
                            <date>1918</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1114</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Spezialortsrepertorium-1919">
                      <monogr>
                         <title>Spezialortsrepertorium von Krain</title>
                         <title>Bearbeitet auf Grund der Ergebnisse der Volkszählung vom 31. Dezember
                            1910</title>
+                        <idno type="sistory">1110</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Statistische Zentralkommission</publisher>
                            <date>1919</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">1110</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Definitivni-1932">
                      <monogr>
                         <title>Definitivni rezultati popisa stanovništva od 31. januarja 1921
                            god.</title>
+                        <idno type="sistory">4758</idno>
                         <imprint>
                            <pubPlace>Sarajevo</pubPlace>
                            <publisher>Opšta državna statistika</publisher>
                            <date>1932</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">4758</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Uradni-1928-10-25">
                      <analytic>
@@ -14750,13 +14750,13 @@
                      </analytic>
                      <monogr>
                         <title>Uradni list ljubljanske in mariborske oblasti</title>
+                        <idno type="sistory">218</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <biblScope unit="issue">100</biblScope>
                            <date when="1928-10-25">25. 10 1928</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">218</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Sluzbeni-1930-02-14">
                      <analytic>
@@ -14764,17 +14764,18 @@
                      </analytic>
                      <monogr>
                         <title>Službeni list Kraljevske banske uprave Dravske banovine</title>
+                        <idno type="sistory">183</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <biblScope unit="issue">31</biblScope>
                            <date when="1930-02-14">14. februar 1930</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">183</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Prisutno_broj_kuca-1938">
                      <monogr>
                         <title>Prisutno stanovništvo, broj kuća i domaćinstva</title>
+                        <idno type="sistory">4759</idno>
                         <imprint>
                            <pubPlace>Beograd</pubPlace>
                            <publisher>Državna štamparija</publisher>
@@ -14786,11 +14787,11 @@
                         <title>Definitivni rezultati popisa stanovništva od 31 marta 1931
                            godine</title>
                      </series>
-                     <idno type="sistory">4759</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Prisutno_po_veroispovesti-1938">
                      <monogr>
                         <title>Prisutno stanovništvo po veroispovesti</title>
+                        <idno type="sistory">4760</idno>
                         <imprint>
                            <pubPlace>Beograd</pubPlace>
                            <publisher>Državna štamparija</publisher>
@@ -14802,11 +14803,11 @@
                         <title>Definitivni rezultati popisa stanovništva od 31 marta 1931
                            godine</title>
                      </series>
-                     <idno type="sistory">4760</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Prisutno-1940">
                      <monogr>
                         <title>Prisutno stanovništvo po glavnom zanimanju</title>
+                        <idno type="sistory">4762</idno>
                         <imprint>
                            <pubPlace>Sarejevo</pubPlace>
                            <publisher>Državna štamparija</publisher>
@@ -14818,7 +14819,6 @@
                         <title>Definitivni rezultati popisa stanovništva od 31 marta 1931
                            godine</title>
                      </series>
-                     <idno type="sistory">4762</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Splosni-1939">
                      <monogr>
@@ -14827,24 +14827,24 @@
                         <title>Upravna, sodna in cerkvena razdelitev ter imenik krajev po stanju 1.
                            julija 1939 z dvema zemljevidoma</title>
                         <title>Priredil Državni statistični urad v Zagrebu</title>
+                        <idno type="sistory">4768</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Kraljevska banska uprava Dravske banovine</publisher>
                            <date>1939</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">4768</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Sluzbeni-1940">
                      <monogr>
                         <title>Službeni list Kraljevske banske uprave Dravske banovine</title>
+                        <idno type="sistory">206</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <biblScope unit="issue">83</biblScope>
                            <date when="1940-10-16">16. 10. 1940</date>
                         </imprint>
                      </monogr>
-                     <idno type="sistory">206</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Die-1943">
                      <monogr>
@@ -14852,13 +14852,13 @@
                            Muttersprache und Konfession nach den unveröffentlichten Angaben der
                            Zählungen von 1931</title>
                         <title>Nur für den Dienstgebrauch</title>
+                        <idno type="cobiss">2730612</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Publikationsstelle Wien</publisher>
                            <date>1943</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2730612</idno>
                   </biblStruct>
                </listBibl>
             </div>
@@ -14868,18 +14868,18 @@
                   <biblStruct xml:id="bibl.-Ustavno-3.">
                      <analytic>
                         <title>Ustavno pismo Avstrijanskiga Cesarstva</title>
+                        <idno type="dLib">URN:NBN:SI:DOC-HW43PA8Q</idno>
                      </analytic>
                      <monogr>
                         <title>Novice</title>
+                        <idno type="cobiss">29753089</idno>
+                        <idno type="ISSN">1318-9816</idno>
                         <imprint>
                            <biblScope unit="vol">6</biblScope>
                            <biblScope unit="issue">18</biblScope>
                            <date when="1848-05-03">3. 5. 1848</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">29753089</idno>
-                     <idno type="dLib">URN:NBN:SI:DOC-HW43PA8Q</idno>
-                     <idno type="ISSN">1318-9816</idno>
                   </biblStruct>
                </listBibl>
             </div>
@@ -14895,15 +14895,15 @@
                         <title xml:lang="deu">Assimilation</title>
                         <title xml:lang="deu">Kontroversen um ein migrationspolitisches
                            Konzept</title>
+                        <idno type="WorldCat">541032178</idno>
+                        <idno type="ISBN">9783837612363</idno>
+                        <idno type="ISBN">3837612368</idno>
                         <imprint>
                            <pubPlace>Bielefeld</pubPlace>
                            <publisher>Transcript Verlag</publisher>
                            <date>2009</date>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">541032178</idno>
-                     <idno type="ISBN">9783837612363</idno>
-                     <idno type="ISBN">3837612368</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.IsmetIsakovic-Pravednici-2009-2010">
                      <analytic>
@@ -14916,6 +14916,7 @@
                      </analytic>
                      <monogr>
                         <title xml:lang="hbs">Preporodov Journal</title>
+                        <idno type="ISSN">1334-5052</idno>
                         <imprint>
                            <publisher>Kulturno društvo Bošnjaka Hrvatske Preporod</publisher>
                            <pubPlace>Zagreb</pubPlace>
@@ -14927,7 +14928,6 @@
                      <ref target="http://issuu.com/mirsad/docs/preporodov_journal__br._116-117/32"
                         >Pridobljeno <date when="2014-02-09">9. 2. 2014</date>
                      </ref>
-                     <idno type="ISSN">1334-5052</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BarkaiAvraham-Judisches-2000">
                      <analytic>
@@ -14948,6 +14948,9 @@
                            <surname>Brenner</surname>
                         </editor>
                         <title level="m" xml:lang="deu">Aufbruch und Zerstörung</title>
+                        <idno type="WorldCat">770659000</idno>
+                        <idno type="ISBN">3406397069</idno>
+                        <idno type="ISBN">9783406397066</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>Verlag C. H. Beck</publisher>
@@ -14960,9 +14963,6 @@
                         <title level="s" xml:lang="deu">Deutsch-jüdische Geschichte in der
                            Neuzeit</title>
                      </series>
-                     <idno type="WorldCat">770659000</idno>
-                     <idno type="ISBN">3406397069</idno>
-                     <idno type="ISBN">9783406397066</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BellerSteven-Wien-1993">
                      <monogr>
@@ -14971,6 +14971,8 @@
                            <surname>Beller</surname>
                         </author>
                         <title xml:lang="deu">Wien und die Juden 1867-1938</title>
+                        <idno type="cobiss">35026432</idno>
+                        <idno type="ISBN">3-205-05542-X</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <pubPlace>Köln</pubPlace>
@@ -14979,8 +14981,6 @@
                            <date>1993</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">35026432</idno>
-                     <idno type="ISBN">3-205-05542-X</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.WolfgangBenz-Holokavst-2000">
                      <monogr>
@@ -14989,14 +14989,14 @@
                            <surname>Benz</surname>
                         </author>
                         <title>Holokavst</title>
+                        <idno type="cobiss">107072000</idno>
+                        <idno type="ISBN">961-90754-2-0</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Inštitut za civilizacijo in kulturo</publisher>
                            <date>2000</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">107072000</idno>
-                     <idno type="ISBN">961-90754-2-0</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BihlWolfdieter-Die-1980">
                      <analytic>
@@ -15016,6 +15016,8 @@
                            <surname>Urbanitsch</surname>
                         </editor>
                         <title level="m" xml:lang="deu">Die Völker des Reiches</title>
+                        <idno type="cobiss">27610625</idno>
+                        <idno type="ISBN">3-7001-0217-8</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Verlag der Österreichischen Akademie der
@@ -15029,8 +15031,6 @@
                      <series>
                         <title level="s" xml:lang="deu">Die Habsburgermonarchie 1848-1918</title>
                      </series>
-                     <idno type="cobiss">27610625</idno>
-                     <idno type="ISBN">3-7001-0217-8</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BrahamRandolph-The-2000">
                      <monogr>
@@ -15041,14 +15041,14 @@
                         </author>
                         <title xml:lang="eng">The Politics of Genocide</title>
                         <title xml:lang="eng">The Holocaust in Hungary</title>
+                        <idno type="cobiss">9192269</idno>
+                        <idno type="ISBN">0-8143-2691-9</idno>
                         <imprint>
                            <pubPlace>Detroit</pubPlace>
                            <publisher>Wayne State University Press</publisher>
                            <date>2000</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">9192269</idno>
-                     <idno type="ISBN">0-8143-2691-9</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BrowningChristopher-The-2004">
                      <monogr>
@@ -15060,14 +15060,14 @@
                         <title xml:lang="eng">The Origins of the Final Solution</title>
                         <title xml:lang="eng">The Evolution of Nazi Jewish policy, September
                            1939—March 1942</title>
+                        <idno type="cobiss">9367629</idno>
+                        <idno type="ISBN">0-8032-1327-1</idno>
                         <imprint>
                            <pubPlace>Lincoln</pubPlace>
                            <publisher>University of Nebraska Press</publisher>
                            <date>2004</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">9367629</idno>
-                     <idno type="ISBN">0-8032-1327-1</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BrubakerRogers-Ethnicity-2004">
                      <analytic>
@@ -15087,6 +15087,9 @@
                      </analytic>
                      <monogr>
                         <title level="j" xml:lang="eng">Theory and Society</title>
+                        <idno type="doi">10.1023/B:RYSO.0000021405.18890.63</idno>
+                        <idno type="ISSN">0304-2421</idno>
+                        <idno type="ISSN">1573-7853</idno>
                         <imprint>
                            <date>2004</date>
                            <biblScope unit="vol">33</biblScope>
@@ -15094,9 +15097,6 @@
                            <biblScope unit="pp">31-64</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="doi">10.1023/B:RYSO.0000021405.18890.63</idno>
-                     <idno type="ISSN">0304-2421</idno>
-                     <idno type="ISSN">1573-7853</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BruggerEveline-Von-2006">
                      <analytic>
@@ -15113,6 +15113,9 @@
                            <surname>Herwig</surname>
                         </editor>
                         <title level="m" xml:lang="deu">Geschichte der Juden in Österreich</title>
+                        <idno type="cobiss">2264948</idno>
+                        <idno type="ISBN">978-3-8000-7159-3</idno>
+                        <idno type="ISBN">3-8000-7159-2</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Ueberreuter</publisher>
@@ -15120,9 +15123,6 @@
                            <biblScope unit="pp">123-227</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2264948</idno>
-                     <idno type="ISBN">978-3-8000-7159-3</idno>
-                     <idno type="ISBN">3-8000-7159-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BrumenBorut-Na-1995">
                      <monogr>
@@ -15132,14 +15132,14 @@
                         </author>
                         <title>Na robu zgodovine in spomina</title>
                         <title>urbana kultura Murske Sobote med letoma 1919 in 1941</title>
+                        <idno type="cobiss">37410817</idno>
+                        <idno type="ISBN">86-7195-173-1</idno>
                         <imprint>
                            <pubPlace>Murska Sobota</pubPlace>
                            <publisher>Pomurska založba</publisher>
                            <date>1995</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">37410817</idno>
-                     <idno type="ISBN">86-7195-173-1</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.BrunnerWalter-Geschichte-2000">
                      <analytic>
@@ -15152,6 +15152,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Časopis za zgodovino in narodopisje</title>
+                        <idno type="cobiss">116874496</idno>
+                        <idno type="ISSN">0590-5966</idno>
+                        <idno type="sistory">8541</idno>
                         <imprint>
                            <date>2000</date>
                            <biblScope unit="vol">71</biblScope>
@@ -15159,9 +15162,6 @@
                            <biblScope unit="pp">71-94</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">116874496</idno>
-                     <idno type="ISSN">0590-5966</idno>
-                     <idno type="sistory">8541</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.CvirnJanez-Razvoj-2006">
                      <monogr>
@@ -15171,15 +15171,15 @@
                         </author>
                         <title>Razvoj ustavnosti in parlamentarizma v Habsburški monarhiji</title>
                         <title>Dunajski državni zbor in Slovenci (1848-1918)</title>
+                        <idno type="cobiss">229253632</idno>
+                        <idno type="ISBN">961-237-167-9</idno>
+                        <idno type="ISBN">978-961-237-167-8 (ISBN 13)</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Filozofska fakulteta, Oddelek za zgodovino</publisher>
                            <date>2006</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">229253632</idno>
-                     <idno type="ISBN">961-237-167-9</idno>
-                     <idno type="ISBN">978-961-237-167-8 (ISBN 13)</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.CernyDragica-Rast-1953">
                      <analytic>
@@ -15191,6 +15191,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Kronika</title>
+                        <idno type="cobiss">1611571</idno>
+                        <idno type="ISSN">0023-4923</idno>
+                        <idno type="dLib">URN:NBN:SI:doc-H70YWNAT</idno>
                         <imprint>
                            <date>1953</date>
                            <biblScope unit="vol">1</biblScope>
@@ -15198,9 +15201,6 @@
                            <biblScope unit="pp">131-137</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1611571</idno>
-                     <idno type="ISSN">0023-4923</idno>
-                     <idno type="dLib">URN:NBN:SI:doc-H70YWNAT</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.DetoniMilica-Mariborski-1997">
                      <analytic>
@@ -15212,14 +15212,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">2000</title>
+                        <idno type="cobiss">5414733</idno>
+                        <idno type="ISSN">0350-8935</idno>
                         <imprint>
                            <date>1997</date>
                            <biblScope unit="issue">96-97</biblScope>
                            <biblScope unit="pp">219-223</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">5414733</idno>
-                     <idno type="ISSN">0350-8935</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.DetoniMilica-Mariborski-1958">
                      <analytic>
@@ -15232,14 +15232,14 @@
                      <monogr>
                         <title level="j">Jevrejski almanah</title>
                         <title level="j">1957-1958</title>
+                        <idno type="cobiss">1074804</idno>
+                        <idno type="ISSN"> 0448-9993</idno>
                         <imprint>
                            <pubPlace>Beograd</pubPlace>
                            <date>1958</date>
                            <biblScope unit="pp">72-74</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1074804</idno>
-                     <idno type="ISSN"> 0448-9993</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.DukovskiDarko-Zidovi-1997">
                      <analytic>
@@ -15251,6 +15251,8 @@
                      </analytic>
                      <monogr>
                         <title level="j">Časopis za suvremenu povijest</title>
+                        <idno type="cobiss">4056066</idno>
+                        <idno type="ISSN">0590-9597</idno>
                         <imprint>
                            <date>1997</date>
                            <biblScope unit="vol">29</biblScope>
@@ -15258,8 +15260,6 @@
                            <biblScope unit="pp">77-95</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">4056066</idno>
-                     <idno type="ISSN">0590-9597</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FajićMeliha-Izumiranje-2010">
                      <analytic>
@@ -15280,6 +15280,8 @@
                            <surname>Balkovec</surname>
                         </editor>
                         <title level="m">Migracije in slovenski prostor od antike do danes</title>
+                        <idno type="cobiss">1883603</idno>
+                        <idno type="ISBN">978-961-6777-05-6</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Zveza zgodovinskih društev Slovenije</publisher>
@@ -15287,8 +15289,6 @@
                            <biblScope unit="pp">674-682</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1883603</idno>
-                     <idno type="ISBN">978-961-6777-05-6</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FeinHelen-Accounting-1979">
                      <monogr>
@@ -15299,15 +15299,15 @@
                         <title>Accounting for Genocide</title>
                         <title>National Responses and the Jewish Victimization during the
                            Holocaust</title>
+                        <idno type="WorldCat">4492539</idno>
+                        <idno type="ISBN">0029102200</idno>
+                        <idno type="ISBN">9780029102206</idno>
                         <imprint>
                            <pubPlace>New York</pubPlace>
                            <publisher>Free Press</publisher>
                            <date>1979</date>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">4492539</idno>
-                     <idno type="ISBN">0029102200</idno>
-                     <idno type="ISBN">9780029102206</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FerencTone-Izbrana-2006">
                      <monogr>
@@ -15318,6 +15318,9 @@
                         <title>Izbrana dela 1</title>
                         <title>Okupacijski sistemi med drugo svetovno vojno</title>
                         <title>Razkosanje in aneksionizem</title>
+                        <idno type="cobiss">230766592</idno>
+                        <idno type="ISBN">961-237-185-7</idno>
+                        <idno type="ISBN">978-961-237-185-2</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Oddelek za zgodovino Filozofske fakultete Univerze v
@@ -15329,9 +15332,6 @@
                      <series>
                         <title>Historia 12</title>
                      </series>
-                     <idno type="cobiss">230766592</idno>
-                     <idno type="ISBN">961-237-185-7</idno>
-                     <idno type="ISBN">978-961-237-185-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FischerRolf-Entwicklungsstufen-1988">
                      <monogr>
@@ -15341,14 +15341,14 @@
                         </author>
                         <title>Entwicklungsstufen des Antisemitismus in Ungarn 1867-193</title>
                         <title>Die Zerstörung der magyarisch-jüdischen Symbiose</title>
+                        <idno type="cobiss">27920</idno>
+                        <idno type="ISBN">3-486-54731-3</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>R. Oldenbourg</publisher>
                            <date>1988</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">27920</idno>
-                     <idno type="ISBN">3-486-54731-3</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FrankelJonathan-Assimilation-2004">
                      <analytic>
@@ -15372,6 +15372,8 @@
                         </editor>
                         <title level="m">Assimilation and Community</title>
                         <title level="m">the Jews in Nineteenth-Century Europe</title>
+                        <idno type="cobiss">9361741</idno>
+                        <idno type="ISBN">0-521-40284-0</idno>
                         <imprint>
                            <pubPlace>Cambridge</pubPlace>
                            <publisher>Cambridge University Press</publisher>
@@ -15379,8 +15381,6 @@
                            <biblScope unit="pp">1-37</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">9361741</idno>
-                     <idno type="ISBN">0-521-40284-0</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FrejdenbergMaren-Again-2000">
                      <analytic>
@@ -15393,6 +15393,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Časopis za zgodovino in narodopisje</title>
+                        <idno type="cobiss">116878848</idno>
+                        <idno type="ISSN">0590-5966</idno>
+                        <idno type="sistory">8543</idno>
                         <imprint>
                            <date>2000</date>
                            <biblScope unit="vol">71</biblScope>
@@ -15400,9 +15403,6 @@
                            <biblScope unit="pp">107-112</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">116878848</idno>
-                     <idno type="ISSN">0590-5966</idno>
-                     <idno type="sistory">8543</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FrejdenbergMaren-Rabbi-1999">
                      <analytic>
@@ -15428,6 +15428,8 @@
                            <surname>Schwarzband</surname>
                         </editor>
                         <title level="m">Jerusalem in Slavic Culture</title>
+                        <idno type="cobiss">12494893</idno>
+                        <idno type="ISBN">961-6182-86-2</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Scientific Research Center of the Slovenian Academy of
@@ -15439,8 +15441,6 @@
                            <biblScope unit="pp">103-115</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">12494893</idno>
-                     <idno type="ISBN">961-6182-86-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FriedlanderSaul-Das-2000">
                      <monogr>
@@ -15450,6 +15450,9 @@
                         </author>
                         <title type="main">Das Dritte Reich und die Juden</title>
                         <title type="sub">Die Jahre der Verfolgung 1933-1939</title>
+                        <idno type="cobiss">2344052</idno>
+                        <idno type="ISBN">3-423-30765-X</idno>
+                        <idno type="ISBN">9783423307659 (ISBN 13)</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>C. H. Beck</publisher>
@@ -15457,9 +15460,6 @@
                            <biblScope unit="issue">1</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2344052</idno>
-                     <idno type="ISBN">3-423-30765-X</idno>
-                     <idno type="ISBN">9783423307659 (ISBN 13)</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FriedlanderSaul-Das-2006">
                      <monogr>
@@ -15469,6 +15469,9 @@
                         </author>
                         <title type="main">Das Dritte Reich und die Juden</title>
                         <title type="sub">Die Jahre der Vernichtung 1939-1945</title>
+                        <idno type="cobiss">412858</idno>
+                        <idno type="ISBN">3-406-54966-7</idno>
+                        <idno type="ISBN">978-3-406-54966-3</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>C. H. Beck</publisher>
@@ -15476,9 +15479,6 @@
                            <biblScope unit="issue">2</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">412858</idno>
-                     <idno type="ISBN">3-406-54966-7</idno>
-                     <idno type="ISBN">978-3-406-54966-3</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.FriedlanderSaul-Den-2007">
                      <monogr>
@@ -15488,15 +15488,15 @@
                         </author>
                         <title>Den Holocaust beschreiben</title>
                         <title>Auf dem Weg zu einer integrierten Geschichte</title>
+                        <idno type="WorldCat">173602051</idno>
+                        <idno type="ISBN">9783835301856</idno>
+                        <idno type="ISBN">3835301853</idno>
                         <imprint>
                            <pubPlace>Weimar</pubPlace>
                            <publisher>Wallstein Verlag</publisher>
                            <date>2007</date>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">173602051</idno>
-                     <idno type="ISBN">9783835301856</idno>
-                     <idno type="ISBN">3835301853</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GabercSlavko-Tiha-2000">
                      <analytic>
@@ -15508,14 +15508,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">Primorska srečanja</title>
+                        <idno type="cobiss">3013047</idno>
+                        <idno type="ISSN">0350-5723</idno>
                         <imprint>
                            <date>2000</date>
                            <biblScope unit="issue">229</biblScope>
                            <biblScope unit="pp">345-349</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">3013047</idno>
-                     <idno type="ISSN">0350-5723</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GasparMirjana-Zidje-1997">
                      <monogr>
@@ -15528,14 +15528,14 @@
                            <surname>Lazar</surname>
                         </author>
                         <title>Židje v Lendavi</title>
+                        <idno type="cobiss">41848065</idno>
+                        <idno type="ISBN">961-90550-0-4</idno>
                         <imprint>
                            <pubPlace>Lendava</pubPlace>
                            <publisher>Lindplast</publisher>
                            <date>1997</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">41848065</idno>
-                     <idno type="ISBN">961-90550-0-4</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GilbertMartin-The-1993">
                      <monogr>
@@ -15544,14 +15544,14 @@
                            <surname>Gilbert</surname>
                         </author>
                         <title>The Dent Atlas of the Holocaust</title>
+                        <idno type="cobiss">45450496</idno>
+                        <idno type="ISBN">0-460-86172-7 (paperback)</idno>
                         <imprint>
                            <pubPlace>London</pubPlace>
                            <publisher>Dent</publisher>
                            <date>1993</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">45450496</idno>
-                     <idno type="ISBN">0-460-86172-7 (paperback)</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GoldsteinIvo-Holokaust-2001">
                      <monogr>
@@ -15560,14 +15560,14 @@
                            <surname>Goldstein</surname>
                         </author>
                         <title>Holokaust u Zagrebu</title>
+                        <idno type="cobiss">1189748</idno>
+                        <idno type="ISBN">953-6045-19-2</idno>
                         <imprint>
                            <pubPlace>Zagreb</pubPlace>
                            <publisher>Novi liber</publisher>
                            <date>2001</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1189748</idno>
-                     <idno type="ISBN">953-6045-19-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GoldsteinIvo-Zidovi-2004">
                      <monogr>
@@ -15576,14 +15576,14 @@
                            <surname>Goldstein</surname>
                         </author>
                         <title>Židovi u Zagrebu 1918-1941</title>
+                        <idno type="cobiss">27244898</idno>
+                        <idno type="ISBN">953-6045-23-0</idno>
                         <imprint>
                            <pubPlace>Zagreb</pubPlace>
                            <publisher>Novi Liber</publisher>
                            <date>2004</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">27244898</idno>
-                     <idno type="ISBN">953-6045-23-0</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.GottasFriedrich-Ungarn-1976">
                      <monogr>
@@ -15593,6 +15593,8 @@
                         </author>
                         <title>Ungarn im Zeitalter des Hochliberalismus</title>
                         <title>Studien zur Tisza-Ära (1875-1890)</title>
+                        <idno type="cobiss">534644</idno>
+                        <idno type="ISBN">3-7001-0166-X</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Verlag der Österreichischen Akademie der
@@ -15600,8 +15602,6 @@
                            <date>1976</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">534644</idno>
-                     <idno type="ISBN">3-7001-0166-X</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.HaasTheodor-Die-1915">
                      <analytic>
@@ -15643,6 +15643,8 @@
                         <title level="m">nacionalsocialistično državnoteroristično in rasistično
                            preganjanje prebivalcev Slovenije in njegove posledice v Titovi
                            Jugoslaviji</title>
+                        <idno type="cobiss">31404589</idno>
+                        <idno type="ISBN">978-3-7086-0245-5</idno>
                         <imprint>
                            <pubPlace>Celovec</pubPlace>
                            <publisher>Mohorjeva</publisher>
@@ -15650,8 +15652,6 @@
                            <biblScope unit="pp">175-190</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">31404589</idno>
-                     <idno type="ISBN">978-3-7086-0245-5</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.HeinemannIsabel-Rasse-2003">
                      <monogr>
@@ -15662,14 +15662,14 @@
                         <title><q>Rasse, Siedlung, deutsches Blut</q></title>
                         <title>Das Rasse- und Siedlungshauptamt der SS und die rassenpolitische
                            Neuordnung Europas</title>
+                        <idno type="ISBN">3835320491</idno>
+                        <idno type="ISBN">9783835320499</idno>
                         <imprint>
                            <pubPlace>Göttingen</pubPlace>
                            <pubPlace>Wallstein Verlag</pubPlace>
                            <date>2003</date>
                         </imprint>
                      </monogr>
-                     <idno type="ISBN">3835320491</idno>
-                     <idno type="ISBN">9783835320499</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.HeinemannIsabel-Die-2004">
                      <analytic>
@@ -15690,14 +15690,14 @@
                            <surname>Seewann</surname>
                         </editor>
                         <title level="m">Südostforschung im Schatten des Dritten Reiches</title>
+                        <idno type="cobiss"> 1748084</idno>
+                        <idno type="ISBN">3486575643</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>R. Oldenbourg</publisher>
                            <date>2004</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss"> 1748084</idno>
-                     <idno type="ISBN">3486575643</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.HudeljaMihaela-Judje-1994">
                      <analytic>
@@ -15709,14 +15709,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">Etnolog</title>
+                        <idno type="cobiss">48712960</idno>
+                        <idno type="ISSN">0354-0316</idno>
                         <imprint>
                            <date>1994</date>
                            <biblScope unit="vol">4</biblScope>
                            <biblScope unit="pp">119-128</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">48712960</idno>
-                     <idno type="ISSN">0354-0316</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.JelincicKlemen-Judje-2009">
                      <monogr>
@@ -15726,14 +15726,14 @@
                            <surname>Boeta</surname>
                         </author>
                         <title>Judje na Slovenskem</title>
+                        <idno type="cobiss">247783168</idno>
+                        <idno type="ISBN">978-3-7086-0507-4</idno>
                         <imprint>
                            <pubPlace>Celovec</pubPlace>
                            <publisher>Mohorjeva</publisher>
                            <date>2009</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">247783168</idno>
-                     <idno type="ISBN">978-3-7086-0507-4</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.JelincicKlemen-Judje-2010">
                      <analytic>
@@ -15746,6 +15746,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Zgodovina v šoli</title>
+                        <idno type="cobiss">1415804</idno>
+                        <idno type="ISSN">1318-1416</idno>
+                        <idno type="sistory">11927</idno>
                         <imprint>
                            <date>2010</date>
                            <biblScope unit="vol">19</biblScope>
@@ -15753,9 +15756,6 @@
                            <biblScope unit="pp">16-27</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1415804</idno>
-                     <idno type="ISSN">1318-1416</idno>
-                     <idno type="sistory">11927</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.JelincicKlemen-Judje_v_srednjem_veku-2009">
                      <monogr>
@@ -15767,14 +15767,14 @@
                         <title>Judje na Slovenskem v srednjem veku</title>
                         <title>Judje na Koroškem, Štajerskem, Goriškem, v Trstu in Istri v srednjem
                            veku do izgona v letih 1496-1515</title>
+                        <idno type="cobiss">247291904</idno>
+                        <idno type="ISBN">978-961-213-189-0</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Slovenska matica</publisher>
                            <date>2009</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">247291904</idno>
-                     <idno type="ISBN">978-961-213-189-0</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.JenkinsRichard-Categorization-2000">
                      <analytic>
@@ -15787,6 +15787,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Current Sociology</title>
+                        <idno type="cobiss">518247449</idno>
+                        <idno type="ISSN">1461-7064</idno>
+                        <idno type="doi">10.1177/0011392100048003003</idno>
                         <imprint>
                            <date>2000</date>
                            <biblScope unit="vol">48</biblScope>
@@ -15794,9 +15797,6 @@
                            <biblScope unit="pp">7–25</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">518247449</idno>
-                     <idno type="ISSN">1461-7064</idno>
-                     <idno type="doi">10.1177/0011392100048003003</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KamusellaTomasz-Language-2001">
                      <analytic>
@@ -15809,6 +15809,8 @@
                      </analytic>
                      <monogr>
                         <title level="j">Nations and Nationalism</title>
+                        <idno type="cobiss">8466765</idno>
+                        <idno type="ISBN">1354-5078</idno>
                         <imprint>
                            <date>2001</date>
                            <biblScope unit="vol">7</biblScope>
@@ -15816,8 +15818,6 @@
                            <biblScope unit="pp">235-52</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">8466765</idno>
-                     <idno type="ISBN">1354-5078</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KannRobert-Geschichte-1977">
                      <monogr>
@@ -15827,6 +15827,8 @@
                            <surname>Kann</surname>
                         </author>
                         <title>Geschichte des Habsburgerreiches 1526-1918</title>
+                        <idno type="cobiss">23440897</idno>
+                        <idno type="ISBN">3-205-07123-9</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <pubPlace>Köln</pubPlace>
@@ -15835,8 +15837,6 @@
                            <date>1977</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">23440897</idno>
-                     <idno type="ISBN">3-205-07123-9</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KerecDarja-Judje-2000">
                      <analytic>
@@ -15848,6 +15848,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Časopis za zgodovino in narodopisje</title>
+                        <idno type="ISSN">0590-5966</idno>
+                        <idno type="cobiss">10596360</idno>
+                        <idno type="sistory">8577</idno>
                         <imprint>
                            <date>2000</date>
                            <biblScope unit="vol">71</biblScope>
@@ -15855,9 +15858,6 @@
                            <biblScope unit="pp">591-613</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="ISSN">0590-5966</idno>
-                     <idno type="cobiss">10596360</idno>
-                     <idno type="sistory">8577</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KerecDarja-Sóbota-2004">
                      <analytic>
@@ -15869,14 +15869,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">Borec</title>
+                        <idno type="cobiss">6324553</idno>
+                        <idno type="ISSN">0006-7725</idno>
                         <imprint>
                            <date>2004</date>
                            <biblScope unit="vol">56</biblScope>
                            <biblScope unit="pp">71-171</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">6324553</idno>
-                     <idno type="ISSN">0006-7725</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KersovanFerid-Spomini-1964">
                      <analytic>
@@ -15890,6 +15890,9 @@
                      </analytic>
                      <monogr>
                         <title level="j">Kronika</title>
+                        <idno type="ISSN">0023-4923</idno>
+                        <idno type="cobiss">1631283</idno>
+                        <idno type="dLib">URN:NBN:SI:doc-8YYLXLKL</idno>
                         <imprint>
                            <date>1964</date>
                            <biblScope unit="vol">12</biblScope>
@@ -15897,9 +15900,6 @@
                            <biblScope unit="pp">169-184</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="ISSN">0023-4923</idno>
-                     <idno type="cobiss">1631283</idno>
-                     <idno type="dLib">URN:NBN:SI:doc-8YYLXLKL</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.-Census-2002">
                      <monogr>
@@ -15915,14 +15915,14 @@
                         <title>Census and Identity</title>
                         <title>The Politics of Race, Ethnicity, and Language in National
                            Censuses</title>
+                        <idno type="cobiss">8817741</idno>
+                        <idno type="ISBN">0521808235</idno>
                         <imprint>
                            <pubPlace>Cambridge</pubPlace>
                            <publisher>Cambridge University Press</publisher>
                            <date>2002</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">8817741</idno>
-                     <idno type="ISBN">0521808235</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KokoljMiroslav-Prekmurje-1981">
                      <analytic>
@@ -15944,6 +15944,7 @@
                         <title level="m">Revolucionarno vrenje v Pomurju v letih 1918-1920</title>
                         <title level="m">zbornik razprav s simpozija v Radencih od 27. do 29. maja
                            1979</title>
+                        <idno type="cobiss">3233587</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Pomurska založba</publisher>
@@ -15951,7 +15952,6 @@
                            <biblScope unit="pp">53-205</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">3233587</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KodricZdenko-Iz-1999-01-13">
                      <analytic>
@@ -15963,12 +15963,12 @@
                      </analytic>
                      <monogr>
                         <title>7 D</title>
+                        <idno type="cobiss">1029380</idno>
+                        <idno type="ISSN">0351-8485</idno>
                         <imprint>
                            <date when="1999-01-13">13. januar 1999</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">1029380</idno>
-                     <idno type="ISSN">0351-8485</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KollmannWolfgang-Bevolkerung-1965">
                      <monogr>
@@ -15977,6 +15977,8 @@
                            <surname>Köllmann</surname>
                         </author>
                         <title>Bevölkerung und Raum in Neuerer und Neuester Zeit</title>
+                        <idno type="cobiss">982644</idno>
+                        <idno type="WorldCat">256556476</idno>
                         <imprint>
                            <pubPlace>Würzburg</pubPlace>
                            <publisher>A.G. Ploetz</publisher>
@@ -15987,8 +15989,6 @@
                      <series>
                         <title level="s">Raum und Bevölkerung in der Weltgeschichte</title>
                      </series>
-                     <idno type="cobiss">982644</idno>
-                     <idno type="WorldCat">256556476</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KolmerGustav-Parlament-1978">
                      <monogr>
@@ -15998,6 +15998,8 @@
                         </author>
                         <title>Parlament und Verfassung in Österreich</title>
                         <title>1885-1891</title>
+                        <idno type="cobiss">20286306</idno>
+                        <idno type="ISBN">3-201-00787-0</idno>
                         <imprint>
                            <pubPlace>Graz</pubPlace>
                            <publisher>Akademische Druck- u. Verlagsanstalt</publisher>
@@ -16005,8 +16007,6 @@
                            <biblScope unit="issue">4</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">20286306</idno>
-                     <idno type="ISBN">3-201-00787-0</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KoralnikI-Untersuchungen-1931">
                      <analytic>
@@ -16049,6 +16049,8 @@
                            <surname>Balkovec</surname>
                         </editor>
                         <title level="m">Migracije in slovenski prostor od antike do danes</title>
+                        <idno type="cobiss">252587520</idno>
+                        <idno type="ISBN">978-961-6777-05-6</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Zveza zgodovinskih društev Slovenije</publisher>
@@ -16056,8 +16058,6 @@
                            <biblScope unit="pp">651-658</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">252587520</idno>
-                     <idno type="ISBN">978-961-6777-05-6</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KuzmicFranc-Naselitev-1993">
                      <analytic>
@@ -16070,14 +16070,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">Evangeličanski koledar</title>
+                        <idno type="cobiss">51711232</idno>
+                        <idno type="ISSN">0421-8124</idno>
                         <imprint>
                            <date>1993</date>
                            <biblScope unit="vol">42</biblScope>
                            <biblScope unit="pp">120-123</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">51711232</idno>
-                     <idno type="ISSN">0421-8124</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KuzmicFranc-Podjetnost-1989">
                      <analytic>
@@ -16089,6 +16089,8 @@
                      </analytic>
                      <monogr>
                         <title level="j">Znamenje</title>
+                        <idno type="cobiss">14509056</idno>
+                        <idno type="ISSN">0351-5664</idno>
                         <imprint>
                            <date>1989</date>
                            <biblScope unit="vol">19</biblScope>
@@ -16096,8 +16098,6 @@
                            <biblScope unit="pp">172-179</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">14509056</idno>
-                     <idno type="ISSN">0351-5664</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KuzmicFranc-Posebnosti-2003">
                      <analytic>
@@ -16111,6 +16111,8 @@
                      <monogr>
                         <title level="m">Sezonstvo in izseljenstvo v panonskem prostoru: sosedstvo
                            Avstrije, Hrvaške, Madžarske in Slovenije</title>
+                        <idno type="cobiss">21260333</idno>
+                        <idno type="ISBN">961-6500-05-8</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Založba ZRC SAZU</publisher>
@@ -16118,8 +16120,6 @@
                            <biblScope unit="pp">137-142</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">21260333</idno>
-                     <idno type="ISBN">961-6500-05-8</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.KuzmicFranc-Pregled-1989">
                      <analytic>
@@ -16132,15 +16132,15 @@
                      </analytic>
                      <monogr>
                         <title level="j">Časopis za zgodovino in narodopisje</title>
+                        <idno type="ISSN">0590-5966</idno>
+                        <idno type="cobiss">16797696</idno>
+                        <idno type="sistory">7918</idno>
                         <imprint>
                            <date>1989</date>
                            <biblScope unit="issue">2</biblScope>
                            <biblScope unit="pp">140-159</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="ISSN">0590-5966</idno>
-                     <idno type="cobiss">16797696</idno>
-                     <idno type="sistory">7918</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.LamprechtGerald-Fremd-2007">
                      <monogr>
@@ -16151,14 +16151,14 @@
                         <title>Fremd in der eigenen Stadt</title>
                         <title>Die moderne jüdische Gemeinde von Graz vor dem Ersten
                            Weltkrieg</title>
+                        <idno type="WorldCat">133046460</idno>
+                        <idno type="ISBN">9783706542029</idno>
                         <imprint>
                            <pubPlace>Innsbruck</pubPlace>
                            <publisher>Studien Verlag</publisher>
                            <date>2007</date>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">133046460</idno>
-                     <idno type="ISBN">9783706542029</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.LichtblauAlbert-Integration-2006">
                      <analytic>
@@ -16176,6 +16176,9 @@
                            <surname>Herwig</surname>
                         </editor>
                         <title level="m">Geschichte der Juden in Österreich</title>
+                        <idno type="cobiss">2264948</idno>
+                        <idno type="ISBN">978-3-8000-7159-3</idno>
+                        <idno type="ISBN">3-8000-7159-2</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Ueberreuter</publisher>
@@ -16183,9 +16186,6 @@
                            <biblScope unit="pp">447-565</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2264948</idno>
-                     <idno type="ISBN">978-3-8000-7159-3</idno>
-                     <idno type="ISBN">3-8000-7159-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.LindChristoph-Juden-2006">
                      <analytic>
@@ -16201,6 +16201,9 @@
                            <surname>Herwig</surname>
                         </editor>
                         <title level="m">Geschichte der Juden in Österreich</title>
+                        <idno type="cobiss">2264948</idno>
+                        <idno type="ISBN">978-3-8000-7159-3</idno>
+                        <idno type="ISBN">3-8000-7159-2</idno>
                         <imprint>
                            <pubPlace>Wien</pubPlace>
                            <publisher>Ueberreuter</publisher>
@@ -16208,9 +16211,6 @@
                            <biblScope unit="pp">339-446</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2264948</idno>
-                     <idno type="ISBN">978-3-8000-7159-3</idno>
-                     <idno type="ISBN">3-8000-7159-2</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.LohrmannKlaus-Die-1992">
                      <analytic>
@@ -16226,13 +16226,13 @@
                            1989</title>
                         <title level="m">Die Auswirkungen der Französischen Revolution auf die
                            Entwicklung des Bürgertums im pannonischen Raum (1789-1830)</title>
+                        <idno type="cobiss">24140</idno>
                         <imprint>
                            <pubPlace>Eisenstadt</pubPlace>
                            <date>1992</date>
                            <biblScope unit="pp">233-238</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">24140</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.LutharOto-Living-2004">
                      <analytic>
@@ -16261,6 +16261,8 @@
                            <surname>Šumi</surname>
                         </editor>
                         <title level="m">Jews and anti-semitism in the Balkans</title>
+                        <idno type="cobiss">22182189</idno>
+                        <idno type="ISBN">961-6500-31-7</idno>
                         <imprint>
                            <pubPlace>Ljubljana</pubPlace>
                            <publisher>Scientific Research Center of the Slovenian Academy of
@@ -16271,8 +16273,6 @@
                            <biblScope unit="pp">29-48</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">22182189</idno>
-                     <idno type="ISBN">961-6500-31-7</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.ManoschekWalter-Serbien-1993">
                      <monogr>
@@ -16285,14 +16285,14 @@
                         </title>
                         <title>Militärische Besatzungspolitik und Judenvernichtung in Serbien
                            1941-42</title>
+                        <idno type="cobiss">40227328</idno>
+                        <idno type="ISBN">3-486-55974-5</idno>
                         <imprint>
                            <pubPlace>München</pubPlace>
                            <publisher>R. Oldenbourg</publisher>
                            <date>1993</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">40227328</idno>
-                     <idno type="ISBN">3-486-55974-5</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MaroltJanez-History-2002">
                      <analytic>
@@ -16304,6 +16304,8 @@
                      </analytic>
                      <monogr>
                         <title level="j">Studia Historica Slovenica</title>
+                        <idno type="cobiss">12285960</idno>
+                        <idno type="ISSN">1580-8122</idno>
                         <imprint>
                            <date>2002</date>
                            <biblScope unit="vol">2</biblScope>
@@ -16311,8 +16313,6 @@
                            <biblScope unit="pp">315-325</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">12285960</idno>
-                     <idno type="ISSN">1580-8122</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.McCaggWilliam-A-1992">
                      <monogr>
@@ -16322,6 +16322,8 @@
                            <surname>McCagg</surname>
                         </author>
                         <title>A History of Habsburg Jews, 1670-1918</title>
+                        <idno type="cobiss">18595682</idno>
+                        <idno type="ISBN">0-253-20649-9</idno>
                         <imprint>
                            <pubPlace>Bloomington</pubPlace>
                            <pubPlace>Indianapolis</pubPlace>
@@ -16329,8 +16331,6 @@
                            <date>1992</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">18595682</idno>
-                     <idno type="ISBN">0-253-20649-9</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MelikVasilij-Rast-1956">
                      <analytic>
@@ -16343,13 +16343,13 @@
                      </analytic>
                      <monogr>
                         <title level="j">Ekonomska revija</title>
+                        <idno type="cobiss">742148</idno>
+                        <idno type="ISSN">0013-3256</idno>
                         <imprint>
                            <date>1956</date>
                            <biblScope unit="pp">193-210</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">742148</idno>
-                     <idno type="ISSN">0013-3256</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MendelsohnEzra-The-1987">
                      <monogr>
@@ -16358,15 +16358,15 @@
                            <surname>Mendelsohn</surname>
                         </author>
                         <title>The Jews of East Central Europe between the World Wars</title>
+                        <idno type="cobiss">9126477</idno>
+                        <idno type="ISBN">0-253-33160-9 (cl.)</idno>
+                        <idno type="ISBN">0-253-20418-6 (pbk.)</idno>
                         <imprint>
                            <pubPlace>Bloomington</pubPlace>
                            <publisher>Indiana University Press</publisher>
                            <date>1987</date>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">9126477</idno>
-                     <idno type="ISBN">0-253-33160-9 (cl.)</idno>
-                     <idno type="ISBN">0-253-20418-6 (pbk.)</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MillerMichael-Zwischen-2009">
                      <analytic>
@@ -16387,6 +16387,8 @@
                         <title level="m">International Historico-Cultural Symposium Mogersdorf, in
                            Balatonszárszó</title>
                         <title level="m">30. Juni bis 3. Juli 2009</title>
+                        <idno type="cobiss">2786676</idno>
+                        <idno type="ISBN">978-963-7188-16-9</idno>
                         <imprint>
                            <pubPlace>Kaposvár</pubPlace>
                            <publisher>Somogy Megyei Közgyűlés</publisher>
@@ -16394,8 +16396,6 @@
                            <biblScope unit="pp">7-12</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="cobiss">2786676</idno>
-                     <idno type="ISBN">978-963-7188-16-9</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MironGuy-Between-2004">
                      <analytic>
@@ -16408,14 +16408,14 @@
                      </analytic>
                      <monogr>
                         <title level="j">Jewish Studies at the Central European University</title>
+                        <idno type="WorldCat">183252307</idno>
+                        <idno type="ISSN">2071-9213</idno>
                         <imprint>
                            <date>2004</date>
                            <biblScope unit="vol">4</biblScope>
                            <biblScope unit="pp">111-138</biblScope>
                         </imprint>
                      </monogr>
-                     <idno type="WorldCat">183252307</idno>
-                     <idno type="ISSN">2071-9213</idno>
                   </biblStruct>
                   <biblStruct xml:id="bibl.MlinaricJoze-Judje-2000">
                      <analytic>

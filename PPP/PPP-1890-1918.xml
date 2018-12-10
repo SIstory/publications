@@ -30,9 +30,9 @@
                      target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
                      Priznanje avtorstva-Nekomercialno-Brez predelav 4.0 Mednarodna licenco</ref>
                </p>
-               <p rend="CIP"><![CDATA[Kataložni zapis o publikaciji (CIP) pripravili v Narodni in univerzitetni knjižnici v Ljubljani<br>
-<a href="http://COBISS.SI" target="_blank">COBISS.SI</a>-ID=<a href="http://cobiss6.izum.si/scripts/cobiss?command=DISPLAY&base=99999&rid=288343040&fmt=13&lani=si" target="_blank">288343040</a><br>
-ISBN 978-961-6386-76-0 (html)<br>]]></p>
+               <p rend="CIP"><![CDATA[Kataložni zapis o publikaciji (CIP) pripravili v Narodni in univerzitetni knjižnici v Ljubljani<br/>
+    <a href="http://COBISS.SI" target="_blank">COBISS.SI</a>-ID=<a href="http://cobiss6.izum.si/scripts/cobiss?command=DISPLAY&amp;base=99999&amp;rid=288343040&amp;fmt=13&amp;lani=si" target="_blank">288343040</a><br/>
+    ISBN 978-961-6386-76-0 (html)<br/>]]></p>
             </availability>
             <idno type="ISBN">
                <idno type="html">ISBN 978-978961-6386-76-0 (html)</idno>
@@ -28012,7 +28012,8 @@ ISBN 978-961-6386-76-0 (html)<br>]]></p>
                         izpolni vse nepretirane, življenske zahteve, ako bi se tudi geopolitični
                         oziri bratili s tujimi interesi, ki nas hočejo kolikor mogoče obrezati.</p>
                      <figure xml:id="PPP-1890-1918-figure-1" xml:base="">
-                        <graphic url="http://www.sistory.si/cdn/publikacije/31001-32000/31109/PPP-DrzavaSHS-Socialisticni-178-Slika1.png"/>
+                        <!--<graphic url="http://www.sistory.si/cdn/publikacije/31001-32000/31109/PPP-DrzavaSHS-Socialisticni-178-Slika1.png"/>-->
+                        <graphic url="Pictures/PPP-DrzavaSHS-Socialisticni-178-Slika1.png"/>
                      </figure>
                      <p xml:id="PPP-1890-1918-p-1514">Važno je pa že danes, da si natančnejše
                         ogledamo tudi geopolitično konstrukcijo naše države, ker nam ona kaže, kako

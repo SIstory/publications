@@ -276,8 +276,10 @@
    
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
       <xsldoc:desc/>
+      <xsldoc:param name="thisLanguage"></xsldoc:param>
    </xsldoc:doc>
    <xsl:template name="divGen-main-content">
+      <xsl:param name="thisLanguage"/>
       <!-- kolofon CIP -->
       <xsl:if test="self::tei:divGen[@type='cip']">
          <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc" mode="kolofon"/>

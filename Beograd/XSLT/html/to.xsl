@@ -53,7 +53,7 @@
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    <!-- ../../../  -->
-   <xsl:param name="path-general">http://www2.sistory.si/</xsl:param>
+   <xsl:param name="path-general">http://www2.sistory.si/publikacije/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
    <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/Beograd/</xsl:param>
@@ -124,19 +124,19 @@
    </xsldoc:doc>
    <xsl:template name="cssHook">
       <xsl:if test="$title-bar-sticky = 'true'">
-         <xsl:value-of select="concat($path-general,'publikacije/themes/css/foundation/6/sistory-sticky_title_bar.css')"/>
+         <xsl:value-of select="concat($path-general,'themes/css/foundation/6/sistory-sticky_title_bar.css')"/>
       </xsl:if>
       <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet" type="text/css" />
-      <link href="{concat($path-general,'publikacije/themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
-      <link href="{concat($path-general,'publikacije/themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
+      <link href="{concat($path-general,'themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
+      <link href="{concat($path-general,'themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
       <!-- dodan imageViewer -->
-      <link href="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.css')}"  rel="stylesheet" type="text/css" />
+      <link href="{concat($path-general,'themes/plugin/ImageViewer/1.1.3/imageviewer.css')}"  rel="stylesheet" type="text/css" />
    </xsl:template>
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
       <xsldoc:desc>[html] Hook where extra Javascript functions can be defined</xsldoc:desc>
    </xsldoc:doc>
    <xsl:template name="javascriptHook">
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/jquery.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/jquery.js')}"></script>
       <!-- za highcharts -->
       <xsl:if test="//tei:figure[@type = 'chart'][tei:graphic[@mimeType = 'application/javascript']]">
          <xsl:variable name="jsfile" select="//tei:figure[@type = 'chart'][tei:graphic[@mimeType = 'application/javascript']][1]/tei:graphic[@mimeType = 'application/javascript']/@url"/>
@@ -146,7 +146,7 @@
       <!-- za back-to-top in highcharts je drugače potrebno dati jquery, vendar sedaj ne rabim dodajati jquery kodo,
          ker je že vsebovana zgoraj -->
       <!-- dodan imageViewer -->
-      <script src="{concat($path-general,'publikacije/themes/plugin/ImageViewer/1.1.3/imageviewer.js')}"></script>
+      <script src="{concat($path-general,'themes/plugin/ImageViewer/1.1.3/imageviewer.js')}"></script>
    </xsl:template>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -216,11 +216,11 @@
             });
           });
       </script>
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/what-input.js')}"></script>
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/vendor/foundation.min.js')}"></script>
-      <script src="{concat($path-general,'publikacije/themes/foundation/6/js/app.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/what-input.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/vendor/foundation.min.js')}"></script>
+      <script src="{concat($path-general,'themes/foundation/6/js/app.js')}"></script>
       <!-- back-to-top -->
-      <script src="{concat($path-general,'publikacije/themes/js/plugin/back-to-top/back-to-top.js')}"></script>
+      <script src="{concat($path-general,'themes/js/plugin/back-to-top/back-to-top.js')}"></script>
    </xsl:template>
    
    

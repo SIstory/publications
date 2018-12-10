@@ -3333,6 +3333,7 @@
                   <forename>Julija</forename>
                   <surname>Moskovič</surname>
                </persName>
+               <sex value="M"/>
                <birth>
                   <date when="1924-12-07"/>
                   <placeName ref="http://www.geonames.org/3196359">Ljubljana</placeName>
