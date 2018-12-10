@@ -33,7 +33,7 @@
                     <name>Andrej Pančur</name>
                     <name>Mojca Šorn</name>
                 </respStmt>
-                <funder>Thee publication of this book was supported by the Slovenian Research
+                <funder>The publication of this book was supported by the Slovenian Research
                     Agency</funder>
             </titleStmt>
             <editionStmt>
@@ -65,6 +65,7 @@
                 </availability>
                 <idno type="ISBN">
                     <idno type="html">ISBN 978-961-6386-70-8 (html)</idno>
+                    <idno type="epub">ISBN 978-961-6386-70-8 (epub)</idno>
                 </idno>
                 <idno type="cobiss">287608320</idno>
                 <idno type="sistory" corresp="#sistory.36073 #cip #titleAuthor #search #bibliogr #persons">36073</idno>
@@ -3093,8 +3094,8 @@
                 </docTitle>
                 <docAuthor>Jurij Perovšek (ed.)</docAuthor>
                 <docAuthor>Bojan Godeša (ed.)</docAuthor>
-                <graphic
-                    url="http://www.sistory.si/publikacije/image/?id=36073&amp;width=350&amp;height=450"/>
+                <!--<graphic
+                    url="http://www.sistory.si/publikacije/image/?id=36073&amp;width=350&amp;height=450"/>-->
                 <docImprint>
                     <pubPlace>Ljubljana</pubPlace>
                     <docDate>2016</docDate>
@@ -12427,12 +12428,12 @@
                             in this article), but especially on my own database about the Jewish
                             population.</note>
                     </head>
-                    <graphic xml:id="Ch10-Chart1" url="Charts/Ch10-Chart1.html"
-                        mimeType="application/javascript"/>
+                    <!--<graphic xml:id="Ch10-Chart1" url="Charts/Ch10-Chart1.html"
+                        mimeType="application/javascript"/>-->
                     <graphic url="Charts/Ch10-Chart1.jpeg" mimeType="image/jpeg"
                         corresp="#Ch10-Chart1"/>
-                    <graphic url="Charts/Ch10-Chart1.svg" mimeType="image/svg+xml"
-                        corresp="#Ch10-Chart1"/>
+                    <!--<graphic url="Charts/Ch10-Chart1.svg" mimeType="image/svg+xml"
+                        corresp="#Ch10-Chart1"/>-->
                 </figure>
                 <p xml:id="p-272">Only a few Jews lived in the territory of the today's Slovenia
                     before World War II. The chart above demonstrates the growing and diminishing
