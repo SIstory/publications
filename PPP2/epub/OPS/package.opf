@@ -1,0 +1,250 @@
+
+<package xmlns="http://www.idpf.org/2007/opf"
+         unique-identifier="pub-id"
+         version="3.0"
+         prefix="rendition: http://www.idpf.org/vocab/rendition#">
+   <metadata xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" id="title">Programi slovenskih političnih strank, organizacij in združenj v letih 1918-1929</dc:title>
+      <meta property="rendition:layout">reflowable</meta>
+      <meta property="rendition:spread">auto</meta>
+      <meta refines="#title" property="title-type">main</meta>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/" id="creator"> Jurij   Perovšek </dc:creator>
+      <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sl</dc:language>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="pub-id">
+                    ISBN 978-961-6386-85-2 (html)
+                    ISBN 978-961-6386-84-5 (epub)
+                </dc:identifier>
+      <meta refines="#pub-id"
+            property="identifier-type"
+            scheme="onix:codelist5">15</meta>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Programi slovenskih političnih strank, organizacij in združenj v letih 1918-1929 /  Jurij   Perovšek </dc:description>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Inštitut za novejšo zgodovino</dc:publisher>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" id="epub-publication">2018-02-01</dc:date>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Creative Commons Attribution</dc:rights>
+      <meta name="cover" content="cover-image"/>
+      <meta property="dcterms:modified">2018-02-05T09:44:40Z</meta>
+   </metadata>
+   <manifest>
+      <item href="naslovnica.jpg"
+            id="cover-image"
+            properties="cover-image"
+            media-type="image/jpeg"/>
+      <item id="css" href="stylesheet.css" media-type="text/css"/>
+      <item id="print.css" href="print.css" media-type="text/css"/>
+      <item href="titlepage.html"
+            id="titlepage"
+            media-type="application/xhtml+xml"/>
+      <item href="titlepageback.html"
+            id="titlepageback"
+            media-type="application/xhtml+xml"/>
+      <item id="toc"
+            properties="nav"
+            href="epubtoc.html"
+            media-type="application/xhtml+xml"/>
+      <item id="start" href="index.html" media-type="application/xhtml+xml"/>
+      <item href="cip.html" id="cip" media-type="application/xhtml+xml"/>
+      <item href="titleType.html"
+            id="titleType"
+            media-type="application/xhtml+xml"/>
+      <item href="preface.html"
+            media-type="application/xhtml+xml"
+            id="section1"/>
+      <item href="part01.html" media-type="application/xhtml+xml" id="section2"/>
+      <item href="doc001.html" media-type="application/xhtml+xml" id="section3"/>
+      <item href="doc002.html" media-type="application/xhtml+xml" id="section5"/>
+      <item href="doc003.html" media-type="application/xhtml+xml" id="section9"/>
+      <item href="doc004.html"
+            media-type="application/xhtml+xml"
+            id="section20"/>
+      <item href="doc005.html"
+            media-type="application/xhtml+xml"
+            id="section26"/>
+      <item href="doc006.html"
+            media-type="application/xhtml+xml"
+            id="section27"/>
+      <item href="part02.html"
+            media-type="application/xhtml+xml"
+            id="section32"/>
+      <item href="doc007.html"
+            media-type="application/xhtml+xml"
+            id="section33"/>
+      <item href="doc008.html"
+            media-type="application/xhtml+xml"
+            id="section41"/>
+      <item href="doc009.html"
+            media-type="application/xhtml+xml"
+            id="section45"/>
+      <item href="doc010.html"
+            media-type="application/xhtml+xml"
+            id="section64"/>
+      <item href="part03.html"
+            media-type="application/xhtml+xml"
+            id="section66"/>
+      <item href="doc011.html"
+            media-type="application/xhtml+xml"
+            id="section67"/>
+      <item href="doc012.html"
+            media-type="application/xhtml+xml"
+            id="section68"/>
+      <item href="doc013.html"
+            media-type="application/xhtml+xml"
+            id="section79"/>
+      <item href="doc014.html"
+            media-type="application/xhtml+xml"
+            id="section83"/>
+      <item href="doc015.html"
+            media-type="application/xhtml+xml"
+            id="section84"/>
+      <item href="doc016.html"
+            media-type="application/xhtml+xml"
+            id="section85"/>
+      <item href="doc017.html"
+            media-type="application/xhtml+xml"
+            id="section91"/>
+      <item href="doc018.html"
+            media-type="application/xhtml+xml"
+            id="section94"/>
+      <item href="doc019.html"
+            media-type="application/xhtml+xml"
+            id="section100"/>
+      <item href="doc020.html"
+            media-type="application/xhtml+xml"
+            id="section105"/>
+      <item href="part04.html"
+            media-type="application/xhtml+xml"
+            id="section106"/>
+      <item href="doc021.html"
+            media-type="application/xhtml+xml"
+            id="section107"/>
+      <item href="doc022.html"
+            media-type="application/xhtml+xml"
+            id="section113"/>
+      <item href="doc023.html"
+            media-type="application/xhtml+xml"
+            id="section114"/>
+      <item href="doc024.html"
+            media-type="application/xhtml+xml"
+            id="section132"/>
+      <item href="doc025.html"
+            media-type="application/xhtml+xml"
+            id="section133"/>
+      <item href="doc026.html"
+            media-type="application/xhtml+xml"
+            id="section145"/>
+      <item href="doc027.html"
+            media-type="application/xhtml+xml"
+            id="section146"/>
+      <item href="part05.html"
+            media-type="application/xhtml+xml"
+            id="section147"/>
+      <item href="doc028.html"
+            media-type="application/xhtml+xml"
+            id="section148"/>
+      <item href="doc029.html"
+            media-type="application/xhtml+xml"
+            id="section152"/>
+      <item href="doc030.html"
+            media-type="application/xhtml+xml"
+            id="section153"/>
+      <item href="doc031.html"
+            media-type="application/xhtml+xml"
+            id="section154"/>
+      <item href="doc032.html"
+            media-type="application/xhtml+xml"
+            id="section155"/>
+      <item href="doc033.html"
+            media-type="application/xhtml+xml"
+            id="section159"/>
+      <item href="doc034.html"
+            media-type="application/xhtml+xml"
+            id="section167"/>
+      <item href="doc035.html"
+            media-type="application/xhtml+xml"
+            id="section170"/>
+      <item href="doc036.html"
+            media-type="application/xhtml+xml"
+            id="section171"/>
+      <item href="doc037.html"
+            media-type="application/xhtml+xml"
+            id="section183"/>
+      <item href="doc038.html"
+            media-type="application/xhtml+xml"
+            id="section184"/>
+      <item href="doc039.html"
+            media-type="application/xhtml+xml"
+            id="section194"/>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="titlepage" linear="yes"/>
+      <itemref idref="start" linear="yes"/>
+      <itemref idref="cip" linear="yes"/>
+      <itemref idref="titleType" linear="yes"/>
+      <itemref idref="section1" linear="yes"/>
+      <itemref idref="section2" linear="yes"/>
+      <itemref idref="section3" linear="yes"/>
+      <itemref idref="section5" linear="yes"/>
+      <itemref idref="section9" linear="yes"/>
+      <itemref idref="section20" linear="yes"/>
+      <itemref idref="section26" linear="yes"/>
+      <itemref idref="section27" linear="yes"/>
+      <itemref idref="section32" linear="yes"/>
+      <itemref idref="section33" linear="yes"/>
+      <itemref idref="section41" linear="yes"/>
+      <itemref idref="section45" linear="yes"/>
+      <itemref idref="section64" linear="yes"/>
+      <itemref idref="section66" linear="yes"/>
+      <itemref idref="section67" linear="yes"/>
+      <itemref idref="section68" linear="yes"/>
+      <itemref idref="section79" linear="yes"/>
+      <itemref idref="section83" linear="yes"/>
+      <itemref idref="section84" linear="yes"/>
+      <itemref idref="section85" linear="yes"/>
+      <itemref idref="section91" linear="yes"/>
+      <itemref idref="section94" linear="yes"/>
+      <itemref idref="section100" linear="yes"/>
+      <itemref idref="section105" linear="yes"/>
+      <itemref idref="section106" linear="yes"/>
+      <itemref idref="section107" linear="yes"/>
+      <itemref idref="section113" linear="yes"/>
+      <itemref idref="section114" linear="yes"/>
+      <itemref idref="section132" linear="yes"/>
+      <itemref idref="section133" linear="yes"/>
+      <itemref idref="section145" linear="yes"/>
+      <itemref idref="section146" linear="yes"/>
+      <itemref idref="section147" linear="yes"/>
+      <itemref idref="section148" linear="yes"/>
+      <itemref idref="section152" linear="yes"/>
+      <itemref idref="section153" linear="yes"/>
+      <itemref idref="section154" linear="yes"/>
+      <itemref idref="section155" linear="yes"/>
+      <itemref idref="section159" linear="yes"/>
+      <itemref idref="section167" linear="yes"/>
+      <itemref idref="section170" linear="yes"/>
+      <itemref idref="section171" linear="yes"/>
+      <itemref idref="section183" linear="yes"/>
+      <itemref idref="section184" linear="yes"/>
+      <itemref idref="section194" linear="yes"/>
+      <itemref idref="titlepageback" linear="yes"/>
+   </spine>
+   <guide>
+      <reference type="text" href="titlepage.html" title="Cover"/>
+      <reference type="text" title="Start" href="index.html"/>
+      <reference type="text" title="Kolofon" href="cip.html"/>
+      <reference type="text" title="Kazalo vsebine" href="titleType.html"/>
+      <reference type="text" href="preface.html" title="Uvodno pojasnilo"/>
+      <reference type="text"
+                 href="part01.html"
+                 title="Marksistični tabor Socialni demokrati / socialisti"/>
+      <reference type="text" href="part02.html" title="Marksistični tabor Komunisti"/>
+      <reference type="text" href="part03.html" title="Liberalni tabor"/>
+      <reference type="text" href="part04.html" title="Katoliški tabor"/>
+      <reference type="text"
+                 href="part05.html"
+                 title="Skupina iz tradicionalnih političnih taborov izdvojenih in drugih političnih strank in združenj"/>
+      <reference href="titlepageback.html" type="text" title="About this book"/>
+   </guide>
+</package>

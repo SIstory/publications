@@ -1,0 +1,1 @@
+<project basedir="." default="dist" name="imagecopy"><target name="dist"><copy toFile="/naslovnica.jpg" file="naslovnica.jpg"/></target></project>
