@@ -1,0 +1,23 @@
+
+/* Siva obroba okoli paragrafa */
+div.paragraph {
+    border: thin solid;
+    border-color: #8a8a8a;
+    padding: 10px;
+}
+
+h3, h4, h5, h6 {
+     text-align: center;
+}
+
+div.paragraph > div:first-child  {
+     text-align: center;
+     margin-top: 0;
+     margin-bottom: .5rem;
+}
+
+div.section > div:first-child  {
+     text-align: center;
+     margin-top: 0;
+     margin-bottom: .5rem;
+}
